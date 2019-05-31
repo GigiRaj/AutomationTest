@@ -16,6 +16,8 @@ public class ItemDetailPage extends BasePageObject{
 	private By AddToCartButtonField = By.id("btn-addtocart");
 	private By cartPriceField = By.xpath("//div[@id='cart-flyout']/div/table/tbody/tr[3]/td[3]/span");
 	private By gotocart = By.xpath("//div[@id='cart-flyout']/a");
+	private By AddToWishlist= By.id("wishlistItem");
+	
 
 	public ItemDetailPage(WebDriver driver) {
 		super(driver);
@@ -61,6 +63,28 @@ public class ItemDetailPage extends BasePageObject{
 		click(AddToCartButtonField);
 	}
 	
+	public void clickAddToWishlistButton(){
+		
+		if(isAttribute()){
+			Select drpAttrib= new Select(find(attribSelectDropdown));
+			Integer size=drpAttrib.getOptions().size();
+			Integer selectIndex=1;
+			for(Integer index = 1; index <= size; index++)
+			{
+				int useattribqty=Integer.parseInt(drpAttrib.getOptions().get(index).getAttribute("data-useattribqty").toString());
+				if(useattribqty != 0){
+					selectIndex = index;
+					break;
+				}
+			}
+			selectIndex++;
+			click(attribSelect);
+			click(By.xpath("//select[@id='attb']/option[" + selectIndex + "]"));
+		}
+		waitForClickabilityOf(AddToWishlist,10);
+		click(AddToWishlist);
+	}
+	
 	public Boolean isAttribute() {
 		int isAttrib = Integer.parseInt(find(isAttributeField).getAttribute("value"));
 		if (isAttrib == 0) {
@@ -72,9 +96,11 @@ public class ItemDetailPage extends BasePageObject{
 	public void waitForCartFlyoutToload() {
 		waitForVisibilityOf(cartPriceField, 30);
 	}
-public void Gotocart()
-{
-	waitForClickabilityOf(gotocart, 30);
-	click(gotocart);
-	}
+	public void Gotocart()
+		{
+		waitForClickabilityOf(gotocart, 30);
+		click(gotocart);
+		}
+
+	
 }

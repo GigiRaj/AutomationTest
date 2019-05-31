@@ -11,8 +11,10 @@ public class HomePage extends BasePageObject {
 		private static final String URL = "https://www.market.unicefusa.org/";
 		private By searchField = By.id("keywordHeader");
 		private By searchClickfield = By.cssSelector("button.btn.btn-primary.keywordButton");
-		
 		private By IGplateField = By.xpath("//div[@class='container page m-nopad']/div[2]/div[2]/div/a");
+		
+		
+		
 
 		public HomePage(WebDriver driver) {
 			super(driver);
