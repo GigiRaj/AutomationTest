@@ -24,144 +24,53 @@ import com.unicef.pages.SignIn;
 
 public class CriticalPathFlow extends BaseTest {
 	@Parameters("browser")
-//	@Test(priority=0)
-//	public void typeandsearch(String keyword) throws Exception {
-//		
-//		
-//		C3category c3 = new C3category(driver);
-//		ItemDetailPage itdetail = new ItemDetailPage(driver);
-//		HomePage homePage = new HomePage(driver);
-//		Cart cat = new Cart(driver);
-//		SignIn sign = new SignIn(driver);
-//		
-//		
-//		homePage.openHomePage();
-//		Reporter.log("Loading Homepage");
-//		//Thread.sleep(60000);
-//		String Key = "Blue";
-//		homePage.typeAndSubmitKeyword(Key);
-//		Reporter.log("Searched for"+ Key);
-//		
-//		c3.waitForC3toLoad();
-//		Reporter.log("Waiting for C3 to load");
-//		int productcount = c3.getproductCount();
-//		Reporter.log("Total Products found"+ productcount);
-//	    String productid = c3.getProductID(3);
-//	    Reporter.log("Clicked on product ID"+ productid);
-//	    c3.clickProductPlateRandom(3);
-//	    
-//		itdetail.waitForItemDetailLoad();
-//		String productdetid= itdetail.getProductID();
-//	    assertEquals(productid, productdetid);
-//		String productPrice = itdetail.getProductPrice();
-//		System.out.println(productPrice);
-//		itdetail.clickAddToCartButton();
-//		Reporter.log("Added product with "+ productid + "to cart");
-//		itdetail.waitForCartFlyoutToload();
-//		Reporter.log("Redirecting to cart page with price" + productPrice);
-//		itdetail.Gotocart();
-//		driver.findElement(By.id("hasdonation")).click();
-//		Reporter.log("Uncheck the donation");
-//		Thread.sleep(10000);
-//		String actualcartprice = cat.getTotalCartPrice();
-//		System.out.println(actualcartprice);
-//		assertEquals(productPrice, "$"+actualcartprice);
-//		
-//		cat.clickcheckout();
-//		
-//		sign.EntersignInDet();
-//	}
-//	
-	
 	@Test(priority=0)
-	public void Wishlisttocart()throws Exception{
+	public void typeandsearch(String keyword) throws Exception {
+		
 		
 		C3category c3 = new C3category(driver);
 		ItemDetailPage itdetail = new ItemDetailPage(driver);
 		HomePage homePage = new HomePage(driver);
 		Cart cat = new Cart(driver);
 		SignIn sign = new SignIn(driver);
-		PersonalWishlist perWish= new PersonalWishlist(driver);	
-		ShippingAddressPage shipAddr= new ShippingAddressPage(driver);
+		
 		
 		homePage.openHomePage();
-		Reporter.log("Loading Home page");
-		String key= "Bags";
-		homePage.typeAndSubmitKeyword(key);
-		Reporter.log("Searching for" + key);
+		Reporter.log("Loading Homepage");
+		//Thread.sleep(60000);
+		String Key = "Blue";
+		homePage.typeAndSubmitKeyword(Key);
+		Reporter.log("Searched for"+ Key);
 		
 		c3.waitForC3toLoad();
-		Reporter.log("Waiting for Category page to Load");
-		String productId= c3.getProductID(5);
-		c3.clickProductPlateRandom(5);
-		Reporter.log("Clicked on Product"+ productId);
-		
+		Reporter.log("Waiting for C3 to load");
+		int productcount = c3.getproductCount();
+		Reporter.log("Total Products found"+ productcount);
+	    String productid = c3.getProductID(3);
+	    Reporter.log("Clicked on product ID"+ productid);
+	    c3.clickProductPlateRandom(3);
+	    
 		itdetail.waitForItemDetailLoad();
-		Reporter.log("Waiting for Item Detail page to Load");
-		String productdetailId= itdetail.getProductID();
-		assertEquals(productdetailId,productId);
-		itdetail.clickAddToWishlistButton();
-		
-		sign.waitForSignIntoload();
-		sign.Login();
-		
-		perWish.switchWindow();
-		
-		perWish.wishlistMenu();
-		 
-		perWish.WishlistAddtoBag(1);
-		
-		Thread.sleep(5000);
+		String productdetid= itdetail.getProductID();
+	    assertEquals(productid, productdetid);
+		String productPrice = itdetail.getProductPrice();
+		System.out.println(productPrice);
+		itdetail.clickAddToCartButton();
+		Reporter.log("Added product with "+ productid + "to cart");
+		itdetail.waitForCartFlyoutToload();
+		Reporter.log("Redirecting to cart page with price" + productPrice);
 		itdetail.Gotocart();
 		driver.findElement(By.id("hasdonation")).click();
 		Reporter.log("Uncheck the donation");
-
-		perWish.scrollToBottom();
-		Thread.sleep(5000);
+		Thread.sleep(10000);
+		String actualcartprice = cat.getTotalCartPrice();
+		System.out.println(actualcartprice);
+		assertEquals(productPrice, "$"+actualcartprice);
+		
 		cat.clickcheckout();
-		System.out.println("checkout the item");
+		
 		sign.EntersignInDet();
-		
-//		shipAddr.sameAddress();
-		shipAddr.newAddress();
-		System.out.println("click on new address");
-		shipAddr.createShipAddress();		
-		shipAddr.continueButton1();
-		System.out.println("success creating shipping address");
-		shipAddr.giftWrapPremium();
-		shipAddr.expressShipping(	);
-		shipAddr.giftCardMsg();
-		shipAddr.bottomContinueBtnShipOptPage();
-		System.out.println("suceess choosing shipping options");
-		
-
-		
-		
-		/* need to write choose wishlist with if condition*/
-		
-
-
 	}
-	
-//	@Test(priority=0)
-//	public void wishlist()throws Exception{
-//		
-//		C3category c3 = new C3category(driver);
-//		ItemDetailPage itdetail = new ItemDetailPage(driver);
-//		HomePage homePage = new HomePage(driver);
-//		Cart cat = new Cart(driver);
-//		SignIn sign = new SignIn(driver);
-//		PersonalWishlist perWish= new PersonalWishlist(driver);
-//		
-//		homePage.openHomePage();
-//		perWish.wishlistMenu();
-//		sign.waitForSignIntoload();
-//		sign.Login();
-//		perWish.clickWishlistProductRandom(1);
-//		
-//	}
-	
-	
 	
 }
 

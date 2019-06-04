@@ -43,10 +43,10 @@ public class ShippingAddressPage extends BasePageObject {
 	private By checkShipAddress= By.id("applyToOrder");
 	private By continueTopButton= By.id("submitReturnLogin");
 	private By continueBottomButton= By.xpath("//*[@id='submitAddress2']");
-	private By freeGiftWrap= By.id("giftwrapselection-10673595-1");
-	private By premiumGiftWrap= By.id("giftwrapselection-10673595-2");
-	private By stdShip= By.id("selectedShipping27-3");
-	private By expressShip= By.id("selectedShipping27-1");
+	private By freeGiftWrap= By.xpath("//*[@id='giftwrapselection-10673611']/p[1]");
+	private By premiumGiftWrap= By.xpath("//*[@id='giftwrapselection-10673617-2']");
+	private By stdShip= By.xpath("//*[@id='shipping']/div[2]/div[3]/div[2]/label[1]");
+	private By expressShip= By.xpath("//*[@id='shipping']/div[2]/div[3]/div[2]/label[2]");
 	private By msgField= By.id("giftmessage");
 	
 	/* wait for shipping address page to load */
@@ -71,12 +71,13 @@ public class ShippingAddressPage extends BasePageObject {
 		waitForClickabilityOf(newAddButton,10);
 		click(newAddButton);		
 	}
-	/* click on continue button create new address section */
+	/* click on top continue button in create new address section */
 	public void continueButton1() throws Exception{
 		waitForClickabilityOf(continueBottomButton,10);
 		click(continueBottomButton);		
 	}
 	
+	/* click on bottom continue button in create new address section */
 	public void continueButton2() throws Exception{
 		waitForClickabilityOf(continueTopButton,10);
 		click(continueTopButton);		
@@ -97,25 +98,29 @@ public class ShippingAddressPage extends BasePageObject {
 	/* click on radio button free gift wrap option */
 	public void giftWrapFree() throws Exception{
 		waitForClickabilityOf(freeGiftWrap,10);
-		click(freeGiftWrap);		
+		click(freeGiftWrap);	
+		System.out.println("radio1");
 	}
 	
 	/* click on radio button premium gift wrap option */
 	public void giftWrapPremium() throws Exception{
-		waitForClickabilityOf(premiumGiftWrap,10);
-		click(premiumGiftWrap);		
+		System.out.println("radio2fgff");
+		click(premiumGiftWrap);	
+		System.out.println("radio2");
 	}
 	
 	/* click on radio button standard ship */
 	public void stdShipping() throws Exception{
 		waitForClickabilityOf(stdShip,10);
-		click(stdShip);		
+		click(stdShip);	
+		System.out.println("radio3");
 	}
 	
 	/* click on radio button Express ship */
 	public void expressShipping() throws Exception{
 		waitForClickabilityOf(expressShip,10);
-		click(expressShip);		
+		click(expressShip);	
+		System.out.println("radio4");
 	}
 	
 	/* type gift card message */
