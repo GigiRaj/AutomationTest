@@ -19,6 +19,7 @@ import com.unicef.pages.Cart;
 import com.unicef.pages.HomePage;
 import com.unicef.pages.ItemDetailPage;
 import com.unicef.pages.PersonalWishlist;
+import com.unicef.pages.ShippingAddressPage;
 import com.unicef.pages.SignIn;
 
 public class CriticalPathFlow extends BaseTest {
@@ -80,8 +81,8 @@ public class CriticalPathFlow extends BaseTest {
 		HomePage homePage = new HomePage(driver);
 		Cart cat = new Cart(driver);
 		SignIn sign = new SignIn(driver);
-		PersonalWishlist perWish= new PersonalWishlist(driver);
-		
+		PersonalWishlist perWish= new PersonalWishlist(driver);	
+		ShippingAddressPage shipAddr= new ShippingAddressPage(driver);
 		
 		homePage.openHomePage();
 		Reporter.log("Loading Home page");
@@ -107,29 +108,38 @@ public class CriticalPathFlow extends BaseTest {
 		perWish.switchWindow();
 		
 		perWish.wishlistMenu();
-		
-		perWish.WishlistAddtoBag(2);
+		 
+		perWish.WishlistAddtoBag(1);
 		
 		Thread.sleep(5000);
 		itdetail.Gotocart();
 		driver.findElement(By.id("hasdonation")).click();
 		Reporter.log("Uncheck the donation");
-		
-//		String actualcartprice = cat.getTotalCartPrice();
-//		System.out.println(actualcartprice);
-//		String productPrice = itdetail.getProductPrice();
-//		assertEquals(productPrice, "$"+actualcartprice);
+
 		perWish.scrollToBottom();
 		Thread.sleep(5000);
 		cat.clickcheckout();
 		System.out.println("checkout the item");
 		sign.EntersignInDet();
 		
+//		shipAddr.sameAddress();
+		shipAddr.newAddress();
+		System.out.println("click on new address");
+		shipAddr.createShipAddress();		
+		shipAddr.continueButton1();
+		System.out.println("success creating shipping address");
+		shipAddr.giftWrapPremium();
+		shipAddr.expressShipping(	);
+		shipAddr.giftCardMsg();
+		shipAddr.bottomContinueBtnShipOptPage();
+		System.out.println("suceess choosing shipping options");
+		
+
+		
 		
 		/* need to write choose wishlist with if condition*/
 		
-//		Reporter.log("Added product with "+ productId + "to cart");
-//		itdetail.GotoWishlist();
+
 
 	}
 	
@@ -150,6 +160,8 @@ public class CriticalPathFlow extends BaseTest {
 //		perWish.clickWishlistProductRandom(1);
 //		
 //	}
+	
+	
 	
 }
 

@@ -97,12 +97,7 @@ public class PersonalWishlist extends BasePageObject {
 	}
 
 	
-	/* scroll to bottom of page */
-	public void scrollToBottom() throws InterruptedException{
-		 Thread.sleep(5000);
-		 JavascriptExecutor js = (JavascriptExecutor) driver;  
-		 js.executeScript("window.scrollBy(0,500)");
-	}
+	
 	
 
 }

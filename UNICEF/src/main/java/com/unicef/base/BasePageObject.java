@@ -18,7 +18,8 @@ import org.openqa.selenium.By;
 	import org.openqa.selenium.support.FindAll;
 	import org.openqa.selenium.support.ui.ExpectedCondition;
 	import org.openqa.selenium.support.ui.ExpectedConditions;
-	import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 	public class BasePageObject {
  
@@ -59,6 +60,13 @@ import org.openqa.selenium.By;
 		protected String getText(By Field) {
 			return driver.findElement(Field).getText();
 		}
+		
+		/* to select element */
+		public void select(By Field, Integer value) {
+			WebElement element=driver.findElement(Field);
+			Select se=new Select(element);
+			se.selectByIndex(value);
+		} 
 
 		/* To find element */
 		public WebElement find(By Field) {
@@ -159,7 +167,19 @@ import org.openqa.selenium.By;
 			driver.manage().timeouts().implicitlyWait(seconds, TimeUnit.SECONDS);
 		}
 		
-
+		/* scroll to bottom of page */
+		public void scrollToBottom() throws InterruptedException{
+			 Thread.sleep(5000);
+			 JavascriptExecutor js = (JavascriptExecutor) driver;  
+			 js.executeScript("window.scrollBy(0,500)");
+		}
+		
+		/* scroll to Top of page */
+		public void scrollToTop() throws InterruptedException{
+			 Thread.sleep(5000);
+			 JavascriptExecutor js = (JavascriptExecutor) driver;  
+			 js.executeScript("window.scrollBy(500,0)");
+		}
 		
 	
 	}
