@@ -28,26 +28,26 @@ public class WishlistCart extends BaseTest {
 	@Parameters("browser")
 	
 	/* test case for choosing products from wish list using index value */
-//	@Test(priority=0)
-//	public void wishlist()throws Exception{
-//		
-//		C3category c3 = new C3category(driver);
-//		ItemDetailPage itdetail = new ItemDetailPage(driver);
-//		HomePage homePage = new HomePage(driver);
-//		Cart cat = new Cart(driver);
-//		SignIn sign = new SignIn(driver);
-//		PersonalWishlist perWish= new PersonalWishlist(driver);
-//		
-//		homePage.openHomePage();
-//		perWish.wishlistMenu();
-//		sign.waitForSignIntoload();
-//		sign.Login();
-//		perWish.clickWishlistProductRandom(1);
-//		
-//	}
+	@Test(priority=0)
+	public void wishlist()throws Exception{
+		
+		C3category c3 = new C3category(driver);
+		ItemDetailPage itdetail = new ItemDetailPage(driver);
+		HomePage homePage = new HomePage(driver);
+		Cart cat = new Cart(driver);
+		SignIn sign = new SignIn(driver);
+		PersonalWishlist perWish= new PersonalWishlist(driver);
+		
+		homePage.openHomePage();
+		perWish.wishlistMenu();
+		sign.waitForSignIntoload();
+		sign.Login();
+		perWish.clickWishlistProductRandom(1);
+		
+	}
 	
 	/* test case for choosing products from wish list and add to cart */	
-	@Test(priority=0)
+	@Test(priority=1)
 	public void Wishlisttocart()throws Exception{
 		
 		C3category c3 = new C3category(driver);
@@ -111,14 +111,26 @@ public class WishlistCart extends BaseTest {
 //		payment.sameShippingAddr();
 		payment.newBillingAddr();
 		payment.bottomContinueButton();
-		
-
-		
-		
 		/* need to write choose wishlist with if condition*/
+	}
+	
+	/* test case for remove an item from wishlist */
+	@Test(priority=2)
+	public void removeWishlist()throws Exception{
 		
-
-
+		C3category c3 = new C3category(driver);
+		ItemDetailPage itdetail = new ItemDetailPage(driver);
+		HomePage homePage = new HomePage(driver);
+		Cart cat = new Cart(driver);
+		SignIn sign = new SignIn(driver);
+		PersonalWishlist perWish= new PersonalWishlist(driver);
+		
+		homePage.openHomePage();
+		perWish.wishlistMenu();
+		sign.waitForSignIntoload();
+		sign.Login();
+		perWish.removeItemWishlist(10);
+		
 	}
 
 }

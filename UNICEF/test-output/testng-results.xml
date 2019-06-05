@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
     <line>
       <![CDATA[Loading Home page]]>
@@ -20,12 +20,32 @@
       <![CDATA[Uncheck the donation]]>
     </line>
   </reporter-output>
-  <suite name="Automation" duration-ms="98770" started-at="2019-06-05T09:59:44Z" finished-at="2019-06-05T10:01:23Z">
+  <suite name="Automation" duration-ms="168491" started-at="2019-06-05T12:40:25Z" finished-at="2019-06-05T12:43:13Z">
     <groups>
     </groups>
-    <test name="Cart-CH" duration-ms="98770" started-at="2019-06-05T09:59:44Z" finished-at="2019-06-05T10:01:23Z">
+    <test name="Cart-CH" duration-ms="168491" started-at="2019-06-05T12:40:25Z" finished-at="2019-06-05T12:43:13Z">
       <class name="testcase.WishlistCart">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.WishlistCart@5dfcfece]" name="setUp" is-config="true" duration-ms="4117" started-at="2019-06-05T15:29:44Z" finished-at="2019-06-05T15:29:48Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.WishlistCart@5dfcfece]" name="setUp" is-config="true" duration-ms="4586" started-at="2019-06-05T18:10:25Z" finished-at="2019-06-05T18:10:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.WishlistCart.wishlist() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="wishlist()[pri:0, instance:testcase.WishlistCart@5dfcfece]" name="wishlist" duration-ms="42991" started-at="2019-06-05T18:10:30Z" finished-at="2019-06-05T18:11:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishlist -->
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.WishlistCart@5dfcfece]" name="setUp" is-config="true" duration-ms="3964" started-at="2019-06-05T18:11:13Z" finished-at="2019-06-05T18:11:17Z">
           <params>
             <param index="0">
               <value>
@@ -41,7 +61,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Wishlisttocart()[pri:0, instance:testcase.WishlistCart@5dfcfece]" name="Wishlisttocart" duration-ms="94634" started-at="2019-06-05T15:29:48Z" finished-at="2019-06-05T15:31:23Z">
+        <test-method status="PASS" signature="Wishlisttocart()[pri:0, instance:testcase.WishlistCart@5dfcfece]" name="Wishlisttocart" duration-ms="90818" started-at="2019-06-05T18:11:17Z" finished-at="2019-06-05T18:12:47Z">
           <reporter-output>
             <line>
               <![CDATA[Loading Home page]]>
@@ -63,6 +83,26 @@
             </line>
           </reporter-output>
         </test-method> <!-- Wishlisttocart -->
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.WishlistCart@5dfcfece]" name="setUp" is-config="true" duration-ms="3667" started-at="2019-06-05T18:12:47Z" finished-at="2019-06-05T18:12:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.WishlistCart.removeWishlist() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="removeWishlist()[pri:0, instance:testcase.WishlistCart@5dfcfece]" name="removeWishlist" duration-ms="22444" started-at="2019-06-05T18:12:51Z" finished-at="2019-06-05T18:13:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeWishlist -->
       </class> <!-- testcase.WishlistCart -->
     </test> <!-- Cart-CH -->
   </suite> <!-- Automation -->
