@@ -18,6 +18,7 @@ import com.unicef.pages.C3category;
 import com.unicef.pages.Cart;
 import com.unicef.pages.HomePage;
 import com.unicef.pages.ItemDetailPage;
+import com.unicef.pages.PaymentPage;
 import com.unicef.pages.PersonalWishlist;
 import com.unicef.pages.ShippingAddressPage;
 import com.unicef.pages.SignIn;
@@ -56,6 +57,7 @@ public class WishlistCart extends BaseTest {
 		SignIn sign = new SignIn(driver);
 		PersonalWishlist perWish= new PersonalWishlist(driver);	
 		ShippingAddressPage shipAddr= new ShippingAddressPage(driver);
+		PaymentPage payment=new PaymentPage(driver);
 		
 		homePage.openHomePage();
 		Reporter.log("Loading Home page");
@@ -103,6 +105,12 @@ public class WishlistCart extends BaseTest {
 		System.out.println("success creating shipping address");
 		shipAddr.topContinueBtnShipOptPage();		
 		System.out.println("go to payment options");
+		payment.applyPromoCode("QWERTY");
+		payment.chooseDonation(5);
+		payment.cardPayment();
+//		payment.sameShippingAddr();
+		payment.newBillingAddr();
+		payment.bottomContinueButton();
 		
 
 		

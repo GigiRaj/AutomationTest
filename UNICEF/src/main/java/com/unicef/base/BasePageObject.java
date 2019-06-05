@@ -61,11 +61,18 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 			return driver.findElement(Field).getText();
 		}
 		
-		/* to select element */
+		/* to select element by using index */
 		public void select(By Field, Integer value) {
 			WebElement element=driver.findElement(Field);
 			Select se=new Select(element);
 			se.selectByIndex(value);
+		} 
+		
+		/* to select element by using text or value */
+		public void selectText(By Field, String value) {
+			WebElement element=driver.findElement(Field);
+			Select se=new Select(element);
+			se.selectByVisibleText(value);
 		} 
 
 		/* To find element */

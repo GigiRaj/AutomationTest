@@ -8,7 +8,6 @@
       <class name="testcase.WishlistCart">
         <methods>
           <include name="Wishlisttocart"/>
-          <include name="wishlist"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- testcase.WishlistCart -->

@@ -20,12 +20,12 @@
       <![CDATA[Uncheck the donation]]>
     </line>
   </reporter-output>
-  <suite name="Automation" duration-ms="82487" started-at="2019-06-04T13:30:40Z" finished-at="2019-06-04T13:32:02Z">
+  <suite name="Automation" duration-ms="98770" started-at="2019-06-05T09:59:44Z" finished-at="2019-06-05T10:01:23Z">
     <groups>
     </groups>
-    <test name="Cart-CH" duration-ms="82487" started-at="2019-06-04T13:30:40Z" finished-at="2019-06-04T13:32:02Z">
+    <test name="Cart-CH" duration-ms="98770" started-at="2019-06-05T09:59:44Z" finished-at="2019-06-05T10:01:23Z">
       <class name="testcase.WishlistCart">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.WishlistCart@5dfcfece]" name="setUp" is-config="true" duration-ms="4482" started-at="2019-06-04T19:00:40Z" finished-at="2019-06-04T19:00:44Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.WishlistCart@5dfcfece]" name="setUp" is-config="true" duration-ms="4117" started-at="2019-06-05T15:29:44Z" finished-at="2019-06-05T15:29:48Z">
           <params>
             <param index="0">
               <value>
@@ -41,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Wishlisttocart()[pri:0, instance:testcase.WishlistCart@5dfcfece]" name="Wishlisttocart" duration-ms="77984" started-at="2019-06-04T19:00:44Z" finished-at="2019-06-04T19:02:02Z">
+        <test-method status="PASS" signature="Wishlisttocart()[pri:0, instance:testcase.WishlistCart@5dfcfece]" name="Wishlisttocart" duration-ms="94634" started-at="2019-06-05T15:29:48Z" finished-at="2019-06-05T15:31:23Z">
           <reporter-output>
             <line>
               <![CDATA[Loading Home page]]>

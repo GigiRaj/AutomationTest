@@ -47,13 +47,13 @@ public class PersonalWishlist extends BasePageObject {
 		return getFieldCount(productPlate);
 	}
 	
-	/* click on OK button */
+	/* click on OK button in Wishlist Pop up*/
 	public void wishlistOk() throws Exception{
 		click(Okbutton);
 		
 	}
 	
-	/* click on each wishlist item */
+	/* click on each wishlist item in wishlist page */
 	
 	public ItemDetailPage clickWishlistProductRandom(Integer randomeWishlistProductNumber) throws Exception {
 		 By currentproductPlateField = By.xpath("//*[@id='shop']/div[2]/div[2]/div[" + randomeWishlistProductNumber + "]");
@@ -96,7 +96,14 @@ public class PersonalWishlist extends BasePageObject {
 		Thread.sleep(5000);
 	}
 
-	
+	/* to remove an item from wishlist page */
+	public void removeItemWishlist(Integer randomnumber)throws Exception{
+		
+		By removeItem = By.xpath("//*[@id='shop']/div[2]/div[2]/div["+randomnumber+"]/div[1]/div[1]/div[2]/div[1]/div/a[1]");
+		click(removeItem);
+		System.out.println("item removed from wishlist");
+		
+	}
 	
 	
 
