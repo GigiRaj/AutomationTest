@@ -28,24 +28,24 @@ public class WishlistCart extends BaseTest {
 	@Parameters("browser")
 	
 	/* test case for choosing products from wish list using index value */
-	@Test(priority=0)
-	public void wishlist()throws Exception{
-		
-		C3category c3 = new C3category(driver);
-		ItemDetailPage itdetail = new ItemDetailPage(driver);
-		HomePage homePage = new HomePage(driver);
-		Cart cat = new Cart(driver);
-		SignIn sign = new SignIn(driver);
-		PersonalWishlist perWish= new PersonalWishlist(driver);
-		
-		homePage.openHomePage();
-		perWish.wishlistMenu();
-		sign.waitForSignIntoload();
-		sign.Login();
-		perWish.clickWishlistProductRandom(1);
-		
-	}
-	
+//	@Test(priority=0)
+//	public void wishlist()throws Exception{
+//		
+//		C3category c3 = new C3category(driver);
+//		ItemDetailPage itdetail = new ItemDetailPage(driver);
+//		HomePage homePage = new HomePage(driver);
+//		Cart cat = new Cart(driver);
+//		SignIn sign = new SignIn(driver);
+//		PersonalWishlist perWish= new PersonalWishlist(driver);
+//		
+//		homePage.openHomePage();
+//		perWish.wishlistMenu();
+//		sign.waitForSignIntoload();
+//		sign.Login();
+//		perWish.clickWishlistProductRandom(1);
+//		
+//	}
+//	
 	/* test case for choosing products from wish list and add to cart */	
 	@Test(priority=1)
 	public void Wishlisttocart()throws Exception{
@@ -79,8 +79,8 @@ public class WishlistCart extends BaseTest {
 		
 		sign.waitForSignIntoload();
 		sign.Login();
-		
-		perWish.switchWindow();
+		perWish.chooseWishlist(1);
+//		perWish.switchWindow();
 		
 		perWish.wishlistMenu();
 		 
@@ -115,22 +115,121 @@ public class WishlistCart extends BaseTest {
 	}
 	
 	/* test case for remove an item from wishlist */
-	@Test(priority=2)
-	public void removeWishlist()throws Exception{
-		
-		C3category c3 = new C3category(driver);
-		ItemDetailPage itdetail = new ItemDetailPage(driver);
-		HomePage homePage = new HomePage(driver);
-		Cart cat = new Cart(driver);
-		SignIn sign = new SignIn(driver);
-		PersonalWishlist perWish= new PersonalWishlist(driver);
-		
-		homePage.openHomePage();
-		perWish.wishlistMenu();
-		sign.waitForSignIntoload();
-		sign.Login();
-		perWish.removeItemWishlist(10);
-		
-	}
+//	@Test(priority=0)
+//	public void removeWishlist()throws Exception{
+//		
+//		C3category c3 = new C3category(driver);
+//		ItemDetailPage itdetail = new ItemDetailPage(driver);
+//		HomePage homePage = new HomePage(driver);
+//		Cart cat = new Cart(driver);
+//		SignIn sign = new SignIn(driver);
+//		PersonalWishlist perWish= new PersonalWishlist(driver);
+//		
+//		homePage.openHomePage();
+//		perWish.wishlistMenu();
+//		sign.waitForSignIntoload();
+//		sign.Login();
+//		perWish.removeItemWishlist(10);
+//		
+//		
+//	}
+	
+	/* test case for view product details from wishlist */
+	
+//	@Test(priority=0)
+//	public void viewProductWishlist()throws Exception{
+//		
+//		C3category c3 = new C3category(driver);
+//		ItemDetailPage itdetail = new ItemDetailPage(driver);
+//		HomePage homePage = new HomePage(driver);
+//		Cart cat = new Cart(driver);
+//		SignIn sign = new SignIn(driver);
+//		PersonalWishlist perWish= new PersonalWishlist(driver);
+//		
+//		homePage.openHomePage();
+//		perWish.wishlistMenu();
+//		sign.waitForSignIntoload();
+//		sign.Login();
+//		perWish.viewItemWishlist(5);
+//		
+//	}
+	
+	/* test case for share and copy personal wishlist link */
+//	@Test(priority=0)
+//	public void shareWishlist()throws Exception{
+//		
+//		C3category c3 = new C3category(driver);
+//		ItemDetailPage itdetail = new ItemDetailPage(driver);
+//		HomePage homePage = new HomePage(driver);
+//		Cart cat = new Cart(driver);
+//		SignIn sign = new SignIn(driver);
+//		PersonalWishlist perWish= new PersonalWishlist(driver);
+//		
+//		homePage.openHomePage();
+//		perWish.wishlistMenu();
+//		sign.waitForSignIntoload();
+//		sign.Login();
+//		perWish.shareCopyWishlist();
+//		
+//	}
+	
+	/* test case for share  personal wishlist link via facebook */
+//	@Test(priority=0)
+//	public void fbShareWishlist()throws Exception{
+//		
+//		C3category c3 = new C3category(driver);
+//		ItemDetailPage itdetail = new ItemDetailPage(driver);
+//		HomePage homePage = new HomePage(driver);
+//		Cart cat = new Cart(driver);
+//		SignIn sign = new SignIn(driver);
+//		PersonalWishlist perWish= new PersonalWishlist(driver);
+//		
+//		homePage.openHomePage();
+//		perWish.wishlistMenu();
+//		sign.waitForSignIntoload();
+//		sign.Login();
+//		perWish.shareFbWishlist();
+//		
+//	}
+	
+	/* test case for share  personal wishlist link via facebook */
+//	@Test(priority=0)
+//	public void twitterShareWishlist()throws Exception{
+//		
+//		C3category c3 = new C3category(driver);
+//		ItemDetailPage itdetail = new ItemDetailPage(driver);
+//		HomePage homePage = new HomePage(driver);
+//		Cart cat = new Cart(driver);
+//		SignIn sign = new SignIn(driver);
+//		PersonalWishlist perWish= new PersonalWishlist(driver);
+//		
+//		homePage.openHomePage();
+//		perWish.wishlistMenu();
+//		sign.waitForSignIntoload();
+//		sign.Login();
+//		perWish.shareTwitterWishlist();
+//		
+//	}
+//	
+	/* test case for create new wishlist */
+//	@Test(priority=0)
+//	public void createWishlist()throws Exception{
+//		
+//		
+//		C3category c3 = new C3category(driver);
+//		ItemDetailPage itdetail = new ItemDetailPage(driver);
+//		HomePage homePage = new HomePage(driver);
+//		Cart cat = new Cart(driver);
+//		SignIn sign = new SignIn(driver);
+//		PersonalWishlist perWish= new PersonalWishlist(driver);
+//		
+//		homePage.openHomePage();
+//		perWish.wishlistMenu();
+//		sign.waitForSignIntoload();
+//		sign.Login();
+//		perWish.createNewWishlist("wishlist2");
+//		
+//	}
+	 
 
 }
