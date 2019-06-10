@@ -42,15 +42,18 @@ public class PersonalWishlist extends BasePageObject {
 	private By addressLine1=By.id("addressLine1");
 	private By addressLine2= By.id("addressLine2");
 	private By city= By.id("city");
-	private By country= By.id("country");
-	private By state= By.id("state");
+	private By country= By.xpath("//*[@id='wishlistaddressbookcreate']/div[1]/div[7]/div/div/button");
+	private By countryUSA= By.xpath("//*[@id='wishlistaddressbookcreate']/div[1]/div[7]/div/div/ul/div[2]/li[2]");
+	private By state= By.xpath("//*[@id='usStateList']/button");
+	private By stateCalifornia= By.xpath("//*[@id='usStateList']/ul/div[2]/li[9]");
 	private By zipCode= By.id("zipCode");
 	private By phoneNumber= By.id("phoneNumber");
-	private By check1= By.id("isResidential");
-	private By check2= By.id("defaultBillingAddress");
-	private By check3= By.id("defaultShippingAddress");
-	private By continueButton= By.className("btn-primary");
+	private By check1= By.xpath("//*[@id='wishlistaddressbookcreate']/div[2]/div/label[1]");
+	private By check2= By.xpath("//*[@id='wishlistaddressbookcreate']/div[2]/div/label[2]");
+	private By check3= By.xpath("//*[@id='wishlistaddressbookcreate']/div[2]/div/label[3]");
+	private By continueButton= By.xpath("//*[@id='wishlistaddressbookcreate']/div[3]/div[1]/button");
 	private By cancelButton2= By.className("btn-light");
+	private By saveChangesButton= By.xpath("//*[@id='shop']/div[2]/div[3]/div/form/div[4]/div[1]/button");
 	
 	/* Open wishlist page given link*/
 	public void openWishlistpageURL( String Wishlistlink ) {
@@ -245,16 +248,24 @@ public class PersonalWishlist extends BasePageObject {
 		type(addressLine1,"test address 1");
 		type(addressLine2,"test address 2");
 		type(city,"california");
-		select(country,1);
-		selectText(state,"California");
+		click(country);
+		click(countryUSA);
+		System.out.println("dsgfydysgfyugdsuygf");
+		click(state);
 		scrollToBottom();
+		click(stateCalifornia);
+		System.out.println("states");
 		type(zipCode,"56876567");
 		type(phoneNumber,"457876869866");
 		click(check1);
 		click(check2);
 		click(check3);
-		
-		/*need to complete code in progress*/
+		scrollToBottom();
+		click(continueButton);
+		scrollToTop();
+		scrollToTop();
+		click(saveChangesButton);
+	
 	}
 
 }

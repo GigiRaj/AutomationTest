@@ -68,7 +68,7 @@ public class PaymentPage extends BasePageObject {
 		select(expireYear,8);
 		type(cvcCode, "1234");
 		click(checkDebit);
-		click(checkSaveforLater);
+//		click(checkSaveforLater);
 	}
 	
 	/* using same shipping address as billing address */

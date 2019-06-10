@@ -46,76 +46,202 @@ public class WishlistCart extends BaseTest {
 //		
 //	}
 //	
-	/* test case for choosing products from wish list and add to cart */	
-	@Test(priority=1)
-	public void Wishlisttocart()throws Exception{
-		
-		C3category c3 = new C3category(driver);
-		ItemDetailPage itdetail = new ItemDetailPage(driver);
-		HomePage homePage = new HomePage(driver);
-		Cart cat = new Cart(driver);
-		SignIn sign = new SignIn(driver);
-		PersonalWishlist perWish= new PersonalWishlist(driver);	
-		ShippingAddressPage shipAddr= new ShippingAddressPage(driver);
-		PaymentPage payment=new PaymentPage(driver);
-		
-		homePage.openHomePage();
-		Reporter.log("Loading Home page");
-		String key= "Bags";
-		homePage.typeAndSubmitKeyword(key);
-		Reporter.log("Searching for" + key);
-		
-		c3.waitForC3toLoad();
-		Reporter.log("Waiting for Category page to Load");
-		String productId= c3.getProductID(5);
-		c3.clickProductPlateRandom(5);
-		Reporter.log("Clicked on Product"+ productId);
-		
-		itdetail.waitForItemDetailLoad();
-		Reporter.log("Waiting for Item Detail page to Load");
-		String productdetailId= itdetail.getProductID();
-		assertEquals(productdetailId,productId);
-		itdetail.clickAddToWishlistButton();
-		
-		sign.waitForSignIntoload();
-		sign.Login();
-		perWish.chooseWishlist(1);
-//		perWish.switchWindow();
-		
-		perWish.wishlistMenu();
-		 
-		perWish.WishlistAddtoBag(1);
-		
-		Thread.sleep(5000);
-		itdetail.Gotocart();
-		driver.findElement(By.id("hasdonation")).click();
-		Reporter.log("Uncheck the donation");
-
-		perWish.scrollToBottom();
-		Thread.sleep(5000);
-		cat.clickcheckout();
-		System.out.println("checkout the item");
-		sign.EntersignInDet();
-		
-//		shipAddr.sameAddress();
-		shipAddr.newAddress();
-		System.out.println("click on new address");
-		shipAddr.createShipAddress();		
-		shipAddr.continueButton1();
-		System.out.println("success creating shipping address");
-		shipAddr.topContinueBtnShipOptPage();		
-		System.out.println("go to payment options");
-		payment.applyPromoCode("QWERTY");
-		payment.chooseDonation(5);
-		payment.cardPayment();
+//	/* test case for choosing products from wish list and add to cart using Guest checkout */	
+//	@Test(priority=1)
+//	public void WishlisttocartUsingGuest()throws Exception{
+//		
+//		C3category c3 = new C3category(driver);
+//		ItemDetailPage itdetail = new ItemDetailPage(driver);
+//		HomePage homePage = new HomePage(driver);
+//		Cart cat = new Cart(driver);
+//		SignIn sign = new SignIn(driver);
+//		PersonalWishlist perWish= new PersonalWishlist(driver);	
+//		ShippingAddressPage shipAddr= new ShippingAddressPage(driver);
+//		PaymentPage payment=new PaymentPage(driver);
+//		
+//		homePage.openHomePage();
+//		Reporter.log("Loading Home page");
+//		String key= "Bags";
+//		homePage.typeAndSubmitKeyword(key);
+//		Reporter.log("Searching for" + key);
+//		
+//		c3.waitForC3toLoad();
+//		Reporter.log("Waiting for Category page to Load");
+//		String productId= c3.getProductID(5);
+//		c3.clickProductPlateRandom(5);
+//		Reporter.log("Clicked on Product"+ productId);
+//		
+//		itdetail.waitForItemDetailLoad();
+//		Reporter.log("Waiting for Item Detail page to Load");
+//		String productdetailId= itdetail.getProductID();
+//		assertEquals(productdetailId,productId);
+//		itdetail.clickAddToWishlistButton();
+//		
+//		sign.waitForSignIntoload();
+//		sign.Login();
+//		perWish.chooseWishlist(1);
+////		perWish.switchWindow();
+//		
+//		perWish.wishlistMenu();
+//		 
+//		perWish.WishlistAddtoBag(1);
+//		
+//		Thread.sleep(5000);
+//		itdetail.Gotocart();
+//		driver.findElement(By.id("hasdonation")).click();
+//		Reporter.log("Uncheck the donation");
+//
+//		perWish.scrollToBottom();
+//		Thread.sleep(5000);
+//		cat.clickcheckout();
+//		System.out.println("checkout the item");
+//		sign.guestChekOut();	
+//		shipAddr.continueButton1();
+//		System.out.println("success creating shipping address");
+//		shipAddr.topContinueBtnShipOptPage();		
+//		System.out.println("go to payment options");
+//		payment.applyPromoCode("QWERTY");
+//		payment.chooseDonation(5);
+//		payment.cardPayment();
 //		payment.sameShippingAddr();
-		payment.newBillingAddr();
-		payment.bottomContinueButton();
-		/* need to write choose wishlist with if condition*/
-	}
+//		payment.bottomContinueButton();
+//
+//	}
 	
-	/* test case for remove an item from wishlist */
-//	@Test(priority=0)
+	
+	/* test case for choosing products from wish list and add to cart using express checkout using same shipping address */	
+//	@Test(priority=2)
+//	public void WishlisttocartUsingExpress()throws Exception{
+//		
+//		C3category c3 = new C3category(driver);
+//		ItemDetailPage itdetail = new ItemDetailPage(driver);
+//		HomePage homePage = new HomePage(driver);
+//		Cart cat = new Cart(driver);
+//		SignIn sign = new SignIn(driver);
+//		PersonalWishlist perWish= new PersonalWishlist(driver);	
+//		ShippingAddressPage shipAddr= new ShippingAddressPage(driver);
+//		PaymentPage payment=new PaymentPage(driver);
+//		
+//		homePage.openHomePage();
+//		Reporter.log("Loading Home page");
+//		String key= "Bags";
+//		homePage.typeAndSubmitKeyword(key);
+//		Reporter.log("Searching for" + key);
+//		
+//		c3.waitForC3toLoad();
+//		Reporter.log("Waiting for Category page to Load");
+//		String productId= c3.getProductID(5);
+//		c3.clickProductPlateRandom(5);
+//		Reporter.log("Clicked on Product"+ productId);
+//		
+//		itdetail.waitForItemDetailLoad();
+//		Reporter.log("Waiting for Item Detail page to Load");
+//		String productdetailId= itdetail.getProductID();
+//		assertEquals(productdetailId,productId);
+//		itdetail.clickAddToWishlistButton();
+//		
+//		sign.waitForSignIntoload();
+//		sign.Login();
+//		perWish.chooseWishlist(1);
+////		perWish.switchWindow();
+//		
+//		perWish.wishlistMenu();
+//		 
+//		perWish.WishlistAddtoBag(1);
+//		
+//		Thread.sleep(5000);
+//		itdetail.Gotocart();
+//		driver.findElement(By.id("hasdonation")).click();
+//		Reporter.log("Uncheck the donation");
+//
+//		perWish.scrollToBottom();
+//		Thread.sleep(5000);
+//		cat.clickcheckout();
+//		System.out.println("checkout the item");
+//		sign.EntersignInDet();
+//		shipAddr.sameAddress(2);
+//		System.out.println("use same shipping address");	
+//		shipAddr.topContinueBtnShipOptPage();		
+//		System.out.println("go to payment options");
+//		payment.applyPromoCode("QWERTY");
+//		payment.chooseDonation(5);
+//		payment.cardPayment();
+//		payment.sameShippingAddr();
+//		payment.bottomContinueButton();
+//		
+//	}
+	
+	/* test case for choosing products from wish list and add to cart using create or edit shipping address */	
+//	@Test(priority=3)
+//	public void WishlisttocartDiffShipAddress()throws Exception{
+//		
+//		C3category c3 = new C3category(driver);
+//		ItemDetailPage itdetail = new ItemDetailPage(driver);
+//		HomePage homePage = new HomePage(driver);
+//		Cart cat = new Cart(driver);
+//		SignIn sign = new SignIn(driver);
+//		PersonalWishlist perWish= new PersonalWishlist(driver);	
+//		ShippingAddressPage shipAddr= new ShippingAddressPage(driver);
+//		PaymentPage payment=new PaymentPage(driver);
+//		
+//		homePage.openHomePage();
+//		Reporter.log("Loading Home page");
+//		String key= "Bags";
+//		homePage.typeAndSubmitKeyword(key);
+//		Reporter.log("Searching for" + key);
+//		
+//		c3.waitForC3toLoad();
+//		Reporter.log("Waiting for Category page to Load");
+//		String productId= c3.getProductID(5);
+//		c3.clickProductPlateRandom(5);
+//		Reporter.log("Clicked on Product"+ productId);
+//		
+//		itdetail.waitForItemDetailLoad();
+//		Reporter.log("Waiting for Item Detail page to Load");
+//		String productdetailId= itdetail.getProductID();
+//		assertEquals(productdetailId,productId);
+//		itdetail.clickAddToWishlistButton();
+//		
+//		sign.waitForSignIntoload();
+//		sign.Login();
+//		perWish.chooseWishlist(1);
+////		perWish.switchWindow();
+//		
+//		perWish.wishlistMenu();
+//		 
+//		perWish.WishlistAddtoBag(1);
+//		
+//		Thread.sleep(5000);
+//		itdetail.Gotocart();
+//		driver.findElement(By.id("hasdonation")).click();
+//		Reporter.log("Uncheck the donation");
+//
+//		perWish.scrollToBottom();
+//		Thread.sleep(5000);
+//		cat.clickcheckout();
+//		System.out.println("checkout the item");
+//		sign.EntersignInDet();
+//		
+//		
+//
+//		shipAddr.newAddress();
+//		System.out.println("click on new address");
+//		shipAddr.createShipAddress();		
+//		shipAddr.continueButton1();
+//		System.out.println("success creating shipping address");
+//		shipAddr.topContinueBtnShipOptPage();		
+//		System.out.println("go to payment options");
+//		payment.applyPromoCode("QWERTY");
+//		payment.chooseDonation(5);
+//		payment.cardPayment();
+//		payment.newBillingAddr();
+//		payment.bottomContinueButton();
+//
+//	}
+//	
+//	
+//	/* test case for remove an item from wishlist */
+//	@Test(priority=4)
 //	public void removeWishlist()throws Exception{
 //		
 //		C3category c3 = new C3category(driver);
@@ -133,10 +259,10 @@ public class WishlistCart extends BaseTest {
 //		
 //		
 //	}
-	
-	/* test case for view product details from wishlist */
-	
-//	@Test(priority=0)
+//	
+//	/* test case for view product details from wishlist */
+//	
+//	@Test(priority=5)
 //	public void viewProductWishlist()throws Exception{
 //		
 //		C3category c3 = new C3category(driver);
@@ -153,9 +279,9 @@ public class WishlistCart extends BaseTest {
 //		perWish.viewItemWishlist(5);
 //		
 //	}
-	
-	/* test case for share and copy personal wishlist link */
-//	@Test(priority=0)
+//	
+//	/* test case for share and copy personal wishlist link */
+//	@Test(priority=6)
 //	public void shareWishlist()throws Exception{
 //		
 //		C3category c3 = new C3category(driver);
@@ -172,9 +298,9 @@ public class WishlistCart extends BaseTest {
 //		perWish.shareCopyWishlist();
 //		
 //	}
-	
-	/* test case for share  personal wishlist link via facebook */
-//	@Test(priority=0)
+//	
+//	/* test case for share  personal wishlist link via facebook */
+//	@Test(priority=7)
 //	public void fbShareWishlist()throws Exception{
 //		
 //		C3category c3 = new C3category(driver);
@@ -191,9 +317,9 @@ public class WishlistCart extends BaseTest {
 //		perWish.shareFbWishlist();
 //		
 //	}
-	
-	/* test case for share  personal wishlist link via facebook */
-//	@Test(priority=0)
+//	
+//	/* test case for share  personal wishlist link via facebook */
+//	@Test(priority=8)
 //	public void twitterShareWishlist()throws Exception{
 //		
 //		C3category c3 = new C3category(driver);
@@ -210,26 +336,27 @@ public class WishlistCart extends BaseTest {
 //		perWish.shareTwitterWishlist();
 //		
 //	}
-//	
-	/* test case for create new wishlist */
-//	@Test(priority=0)
-//	public void createWishlist()throws Exception{
-//		
-//		
-//		C3category c3 = new C3category(driver);
-//		ItemDetailPage itdetail = new ItemDetailPage(driver);
-//		HomePage homePage = new HomePage(driver);
-//		Cart cat = new Cart(driver);
-//		SignIn sign = new SignIn(driver);
-//		PersonalWishlist perWish= new PersonalWishlist(driver);
-//		
-//		homePage.openHomePage();
-//		perWish.wishlistMenu();
-//		sign.waitForSignIntoload();
-//		sign.Login();
-//		perWish.createNewWishlist("wishlist2");
-//		
-//	}
+////	
+//	/* test case for create new wishlist */
+	@Test(priority=9)
+	public void createWishlist()throws Exception{
+		
+		
+		C3category c3 = new C3category(driver);
+		ItemDetailPage itdetail = new ItemDetailPage(driver);
+		HomePage homePage = new HomePage(driver);
+		Cart cat = new Cart(driver);
+		SignIn sign = new SignIn(driver);
+		PersonalWishlist perWish= new PersonalWishlist(driver);
+		
+		homePage.openHomePage();
+		perWish.wishlistMenu();
+		sign.waitForSignIntoload();
+		sign.Login();
+		perWish.createNewWishlist("wishlist2");
+		
+	}
 	 
+	
 
 }

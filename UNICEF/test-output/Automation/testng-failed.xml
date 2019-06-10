@@ -7,7 +7,7 @@
     <classes>
       <class name="testcase.WishlistCart">
         <methods>
-          <include name="Wishlisttocart"/>
+          <include name="createWishlist"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- testcase.WishlistCart -->

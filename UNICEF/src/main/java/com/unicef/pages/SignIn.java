@@ -11,6 +11,7 @@ public class SignIn extends BasePageObject{
 	private static final By loginname = By.id("user_email");
 	private static final By loginpassword = By.id("user_password");
 	private static final By loginbutton = By.className("btn-info");
+	private static By checkoutButton= By.id("submitGuestLogin");
 	
 	public SignIn(WebDriver driver) {
 		super(driver);
@@ -40,6 +41,16 @@ public class SignIn extends BasePageObject{
 		click(loginbutton);
 		waitForJavascripttoLoad();
 		
+	}
+	
+	public void guestChekOut() throws Exception{
 		
+		waitForVisibilityOf(checkoutButton,10);
+		click(checkoutButton);
+		ShippingAddressPage shipAddr= new ShippingAddressPage(driver);
+		By emailAddress= By.id("email");
+		waitForVisibilityOf(emailAddress,10);
+		type(emailAddress,"gigi@gmail.com");
+		shipAddr.createShipAddress();
 	}
 }

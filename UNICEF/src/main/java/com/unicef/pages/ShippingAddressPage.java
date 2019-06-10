@@ -22,7 +22,7 @@ public class ShippingAddressPage extends BasePageObject {
 		// TODO Auto-generated constructor stub
 	}
 	
-	private By sameAddButton= By.id("useAddr-199011");
+	
 	private By editAddButton= By.className("btn-small");
 	private By newAddButton= By.className("btn-top");
 	private By conitnueShippingOptionButton1= By.className("btn-top");
@@ -55,7 +55,9 @@ public class ShippingAddressPage extends BasePageObject {
 	}
 	
 	/* click on same addrees button */
-	public void sameAddress() throws Exception{
+	public void sameAddress(Integer randomnumber) throws Exception{
+		
+		By sameAddButton= By.xpath("//*[@id='addressBook']/div/div["+randomnumber+"]/form/p[1]");
 		waitForClickabilityOf(sameAddButton,10);
 		click(sameAddButton);
 	}
@@ -138,6 +140,7 @@ public class ShippingAddressPage extends BasePageObject {
 		type(addressLine2,"test address line 2");
 		type(city,"california");
 		select(country,1);
+		select(state,5); 
 //		WebElement element=driver.findElement(country);
 //		Select se=new Select(element);
 //		
@@ -151,7 +154,7 @@ public class ShippingAddressPage extends BasePageObject {
 //				System.out.println("testtstydhs");
 //				System.out.println(allOptions.get(i).getText());				
 //				scrollToBottom();
-				select(state,5); 
+				
 //			}
 //			else if(i==0||i==2){
 //				
@@ -166,7 +169,7 @@ public class ShippingAddressPage extends BasePageObject {
 		type(phoneNo,"5548669584");
 		click(checkPhone);
 		type(companyName,"test company");
-		click(makeDefaultAddress);
+//		click(makeDefaultAddress);
 //		click(checkShipAddress);
 		System.out.println("click continue button");
 	}
