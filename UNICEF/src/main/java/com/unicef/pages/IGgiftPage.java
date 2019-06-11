@@ -32,10 +32,12 @@ public class IGgiftPage extends BasePageObject {
 	private By yesSureButton= By.xpath("//*[@id='novicamodal']/div/div/div/div/div[3]/div[1]/a");
 	private By editImageButton= By.xpath("//*[@id='card-recipient']/div[1]/div/div[2]/a");
 	private By receipientName= By.id("recipientname");
+	private By receipientEmail= By.id("recipientemail");
 	private By greetMessage= By.id("messagegreeting");
 	private By messageDetail= By.id("messagebody");
 	private By senderName= By.id("messagesignoff");
-	private By saveContinueButton= By.xpath("//*[@id='carddetail-recipient']/div[5]/div/a");
+	private By saveContinueButton1= By.xpath("//*[@id='carddetail-recipient']/div[5]/div/a");
+	private By saveContinueButton2= By.xpath("//*[@id='carddelivery-address']/div[7]/div/button");
 	private By addtoMyBagWithCardButton= By.xpath("//*[@id='carddetail']/div/div/div[2]/div/div[2]/div[2]/a");
 	private By editCardButton= By.xpath("//*[@id='carddetail']/div/div/div[2]/div/div[2]/div[1]/button");
 	
@@ -146,8 +148,21 @@ public class IGgiftPage extends BasePageObject {
 		type(greetMessage,"Test greet message");
 		type(messageDetail,"detailed test message");
 		type(senderName,"jiji");
-		click(saveContinueButton);
+		click(saveContinueButton1);
 	}
+	
+	/* details related with sending information using e-greeting card */
+	public void sendDetails() throws Exception{
+		
+		waitForVisibilityOf(receipientName, 10);
+		type(receipientName,"test user");
+		type(receipientEmail,"testuser@gmail.com");
+		click(saveContinueButton2);
+		
+	}
+	
+	
+	
 	
 	/* to click on Add to my bag button in create card section */
 	public void addtoMyBagWithCard() throws Exception{
