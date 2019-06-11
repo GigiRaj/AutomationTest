@@ -12,12 +12,40 @@ public class SignIn extends BasePageObject{
 	private static final By loginpassword = By.id("user_password");
 	private static final By loginbutton = By.className("btn-info");
 	private static By checkoutButton= By.id("submitGuestLogin");
-	
+	private static By loginButton= By.id("myaccount-header");
+	private static By forgetButton= By.xpath("//*[@id='shop']/div[2]/div/div[1]/div/form/div[4]/div/div/div[2]/a");
+	private static By forgetPopup= By.xpath("//*[@id='novicamodal']/div/div/div");
+	private static By forgetEmail= By.xpath("//*[@id='email']");
+	private static By forgetContinue= By.xpath("//*[@id='novicamodal']/div/div/div/div[2]/form/div[2]/div/button[1]");
+	private static By SignupButton= By.xpath("//*[@id='shop']/div[2]/div/div[2]/div/div/div[2]/div/a");
+	private static By firstName= By.id("user_firstname");
+	private static By lastName= By.id("user_lastname");
+	private static By emailAddress= By.id("user_email");
+	private static By emailVerify= By.id("user_email_verify");
+	private static By signupPassword= By.id("user_password");
+	private static By verifyPassword= By.id("user_password_verify");
+	private static By createAccountButton= By.xpath("//*[@id='shop']/div[2]/div/div[1]/div/form/div[8]/div/button");
+			
 	public SignIn(WebDriver driver) {
 		super(driver);
 	}
 	public void waitForSignIntoload() throws Exception {
 		waitForJavascripttoLoad();
+	}
+	
+	public void headerLoginButton() throws Exception{
+		
+		waitForClickabilityOf(loginButton,10);
+		click(loginButton);
+		
+	}
+	
+	
+	public void forgetPasswordButton() throws Exception{
+		
+		waitForClickabilityOf(forgetButton,10);
+		click(forgetButton);
+		
 	}
 	
 	public void EntersignInDet() throws Exception {
@@ -43,6 +71,16 @@ public class SignIn extends BasePageObject{
 		
 	}
 	
+	public void passwordForget() throws Exception{
+		
+		forgetPasswordButton();
+//		waitForVisibilityOf(forgetPopup,10);
+		Thread.sleep(5000);
+		type(forgetEmail,"jijitest.sprcn@gmail.com");
+		System.out.println("test");
+		click(forgetContinue);	
+	}
+	
 	public void guestChekOut() throws Exception{
 		
 		waitForVisibilityOf(checkoutButton,10);
@@ -52,5 +90,20 @@ public class SignIn extends BasePageObject{
 		waitForVisibilityOf(emailAddress,10);
 		type(emailAddress,"gigi@gmail.com");
 		shipAddr.createShipAddress();
+	}
+	
+	public void signup() throws Exception{
+		
+		waitForClickabilityOf(SignupButton,10);
+		click(SignupButton);
+		waitForJavascripttoLoad();
+		type(firstName,"gigi");
+		type(lastName,"test");
+		type(emailAddress,"test1@gmail.com");
+		type(emailVerify,"test1@gmail.com");
+		scrollToBottom();
+		type(signupPassword,"123456789");
+		type(verifyPassword,"123456789");	
+		click(createAccountButton);	
 	}
 }

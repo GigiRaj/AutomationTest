@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Automation" duration-ms="63479" started-at="2019-06-10T12:09:43Z" finished-at="2019-06-10T12:10:47Z">
+  <suite name="Automation" duration-ms="77588" started-at="2019-06-11T13:07:30Z" finished-at="2019-06-11T13:08:47Z">
     <groups>
     </groups>
-    <test name="Cart-CH" duration-ms="63479" started-at="2019-06-10T12:09:43Z" finished-at="2019-06-10T12:10:47Z">
-      <class name="testcase.WishlistCart">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.WishlistCart@5dfcfece]" name="setUp" is-config="true" duration-ms="4345" started-at="2019-06-10T17:39:43Z" finished-at="2019-06-10T17:39:48Z">
+    <test name="Cart-CH" duration-ms="77588" started-at="2019-06-11T13:07:30Z" finished-at="2019-06-11T13:08:47Z">
+      <class name="testcase.InspiredGifts">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.InspiredGifts@5dfcfece]" name="setUp" is-config="true" duration-ms="4373" started-at="2019-06-11T18:37:30Z" finished-at="2019-06-11T18:37:34Z">
           <params>
             <param index="0">
               <value>
@@ -16,18 +16,18 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void testcase.WishlistCart.createWishlist() throws java.lang.Exception]]>
+                <![CDATA[public void testcase.InspiredGifts.IGchooseProduct() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createWishlist()[pri:0, instance:testcase.WishlistCart@5dfcfece]" name="createWishlist" duration-ms="59118" started-at="2019-06-10T17:39:48Z" finished-at="2019-06-10T17:40:47Z">
+        <test-method status="PASS" signature="IGchooseProduct()[pri:0, instance:testcase.InspiredGifts@5dfcfece]" name="IGchooseProduct" duration-ms="73197" started-at="2019-06-11T18:37:34Z" finished-at="2019-06-11T18:38:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createWishlist -->
-      </class> <!-- testcase.WishlistCart -->
+        </test-method> <!-- IGchooseProduct -->
+      </class> <!-- testcase.InspiredGifts -->
     </test> <!-- Cart-CH -->
   </suite> <!-- Automation -->
 </testng-results>

@@ -24,7 +24,7 @@ public class ItemDetailPage extends BasePageObject{
 		// TODO Auto-generated constructor stub
 	}
 	
-	public void openDetailpage() {
+	public void openDetailpage() { 
 		getPage(URL);
 	}
 	

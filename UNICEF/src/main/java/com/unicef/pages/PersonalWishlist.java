@@ -265,7 +265,6 @@ public class PersonalWishlist extends BasePageObject {
 		scrollToTop();
 		scrollToTop();
 		click(saveChangesButton);
-	
 	}
 
 }

@@ -5,12 +5,12 @@
   <test name="Cart-CH(failed)">
     <parameter name="browser" value="1"/>
     <classes>
-      <class name="testcase.WishlistCart">
+      <class name="testcase.InspiredGifts">
         <methods>
-          <include name="createWishlist"/>
+          <include name="IGchooseProduct"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- testcase.WishlistCart -->
+      </class> <!-- testcase.InspiredGifts -->
     </classes>
   </test> <!-- Cart-CH(failed) -->
 </suite> <!-- Failed suite [Automation] -->
