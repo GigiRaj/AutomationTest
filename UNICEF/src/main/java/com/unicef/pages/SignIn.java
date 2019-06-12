@@ -40,6 +40,13 @@ public class SignIn extends BasePageObject{
 		
 	}
 	
+	/* to click guest checkout button */
+	public void checkoutguest()throws Exception{
+		waitForClickabilityOf(checkoutButton,10);
+		click(checkoutButton);
+		
+	}
+	
 	
 	public void forgetPasswordButton() throws Exception{
 		

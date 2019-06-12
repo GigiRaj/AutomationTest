@@ -40,6 +40,8 @@ public class IGgiftPage extends BasePageObject {
 	private By saveContinueButton2= By.xpath("//*[@id='carddelivery-address']/div[7]/div/button");
 	private By addtoMyBagWithCardButton= By.xpath("//*[@id='carddetail']/div/div/div[2]/div/div[2]/div[2]/a");
 	private By editCardButton= By.xpath("//*[@id='carddetail']/div/div/div[2]/div/div[2]/div[1]/button");
+	private By editEmailButton= By.xpath("//*[@id='delivery']/div/div/div[2]/div/div/div[1]/div[2]/button");
+	private By continueToBagButton= By.xpath("//*[@id='delivery']/div/div/div[2]/div/div/div[2]/div[2]/a");
 	
 	
 
@@ -161,8 +163,22 @@ public class IGgiftPage extends BasePageObject {
 		
 	}
 	
+	/* to edit delivery email address by clicking edit button */
+	public void editDeliverEmail() throws Exception{
+		
+		waitForVisibilityOf(editEmailButton, 10);
+		click(editEmailButton);
+		sendDetails();
+		
+	}
 	
-	
+	/* to click on continue button in delivery address page */
+	public void continueToBag() throws Exception{
+		
+		waitForVisibilityOf(continueToBagButton, 10);
+		click(continueToBagButton);
+		
+	}
 	
 	/* to click on Add to my bag button in create card section */
 	public void addtoMyBagWithCard() throws Exception{

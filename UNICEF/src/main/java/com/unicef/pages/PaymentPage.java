@@ -41,6 +41,9 @@ public class PaymentPage extends BasePageObject {
 	private By continuepaymentbottombutton2= By.className("btn-bottom");
 	private By placeOrderTopButton1= By.className("btn-top");
 	private By placeOrderBottomButton2= By.className("btn-bottom");
+	private By IGgiftGuestEmail = By.id("guestEmail");
+	private By IGgiftGuestFirstName= By.id("guestFirstName");
+	private By IGgiftGuestLastName= By.id("guestLastName");
 	
 	/* wait for Payment page to load */
 	public void waitForPaymentPagetoLoad() throws Exception {
@@ -101,6 +104,15 @@ public class PaymentPage extends BasePageObject {
 	public void bottomContinueButton() throws Exception{
 		waitForClickabilityOf(continuepaymentbottombutton2,10);
 		click(continuepaymentbottombutton2);		
+	}
+	
+	/* to give payment details related with IG gifts */
+	public void IGgiftPaymentInfo()throws Exception{
+		
+		type(IGgiftGuestEmail,"guesttest1@gmail.com");
+		type(IGgiftGuestFirstName,"test1");
+		type(IGgiftGuestLastName,"test2");
+		scrollToBottom();
 	}
 	
 }
