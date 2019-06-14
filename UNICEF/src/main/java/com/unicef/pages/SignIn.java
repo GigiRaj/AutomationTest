@@ -1,4 +1,6 @@
 package com.unicef.pages;
+import java.util.UUID;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
@@ -15,7 +17,7 @@ public class SignIn extends BasePageObject{
 	private static By loginButton= By.id("myaccount-header");
 	private static By forgetButton= By.xpath("//*[@id='shop']/div[2]/div/div[1]/div/form/div[4]/div/div/div[2]/a");
 	private static By forgetPopup= By.xpath("//*[@id='novicamodal']/div/div/div");
-	private static By forgetEmail= By.xpath("//*[@id='email']");
+	private static By forgetEmail= By.xpath("//*[@id='novicamodal']/div/div/div/div[2]/form/div/div[2]/div/input");
 	private static By forgetContinue= By.xpath("//*[@id='novicamodal']/div/div/div/div[2]/form/div[2]/div/button[1]");
 	private static By SignupButton= By.xpath("//*[@id='shop']/div[2]/div/div[2]/div/div/div[2]/div/a");
 	private static By firstName= By.id("user_firstname");
@@ -25,6 +27,7 @@ public class SignIn extends BasePageObject{
 	private static By signupPassword= By.id("user_password");
 	private static By verifyPassword= By.id("user_password_verify");
 	private static By createAccountButton= By.xpath("//*[@id='shop']/div[2]/div/div[1]/div/form/div[8]/div/button");
+	private static By okButton= By.xpath("//*[@id='novicamodal']/div/div/div/div/button");
 			
 	public SignIn(WebDriver driver) {
 		super(driver);
@@ -84,8 +87,9 @@ public class SignIn extends BasePageObject{
 //		waitForVisibilityOf(forgetPopup,10);
 		Thread.sleep(5000);
 		type(forgetEmail,"jijitest.sprcn@gmail.com");
-		System.out.println("test");
 		click(forgetContinue);	
+		Thread.sleep(5000);
+		click(okButton);
 	}
 	
 	public void guestChekOut() throws Exception{
@@ -101,13 +105,16 @@ public class SignIn extends BasePageObject{
 	
 	public void signup() throws Exception{
 		
+		
+		String emailRandom= getRandomString();
+		String email="test" +emailRandom + "@gmail.com";
 		waitForClickabilityOf(SignupButton,10);
 		click(SignupButton);
 		waitForJavascripttoLoad();
 		type(firstName,"gigi");
-		type(lastName,"test");
-		type(emailAddress,"test1@gmail.com");
-		type(emailVerify,"test1@gmail.com");
+		type(lastName,"test"+emailRandom);
+		type(emailAddress,email);
+		type(emailVerify,email);
 		scrollToBottom();
 		type(signupPassword,"123456789");
 		type(verifyPassword,"123456789");	

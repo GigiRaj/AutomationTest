@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Automation" duration-ms="79534" started-at="2019-06-12T13:26:25Z" finished-at="2019-06-12T13:27:44Z">
+  <suite name="Automation" duration-ms="45017" started-at="2019-06-14T06:45:23Z" finished-at="2019-06-14T06:46:08Z">
     <groups>
     </groups>
-    <test name="Cart-CH" duration-ms="79534" started-at="2019-06-12T13:26:25Z" finished-at="2019-06-12T13:27:44Z">
-      <class name="testcase.InspiredGifts">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.InspiredGifts@5dfcfece]" name="setUp" is-config="true" duration-ms="4056" started-at="2019-06-12T18:56:25Z" finished-at="2019-06-12T18:56:29Z">
+    <test name="Cart-CH" duration-ms="45017" started-at="2019-06-14T06:45:23Z" finished-at="2019-06-14T06:46:08Z">
+      <class name="testcase.SignUpLogin">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.SignUpLogin@5dfcfece]" name="setUp" is-config="true" duration-ms="4310" started-at="2019-06-14T12:15:23Z" finished-at="2019-06-14T12:15:28Z">
           <params>
             <param index="0">
               <value>
@@ -16,18 +16,18 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void testcase.InspiredGifts.expressCheckOutIGgift() throws java.lang.Exception]]>
+                <![CDATA[public void testcase.SignUpLogin.forgetPassword() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="expressCheckOutIGgift()[pri:0, instance:testcase.InspiredGifts@5dfcfece]" name="expressCheckOutIGgift" duration-ms="75466" started-at="2019-06-12T18:56:29Z" finished-at="2019-06-12T18:57:44Z">
+        <test-method status="PASS" signature="forgetPassword()[pri:0, instance:testcase.SignUpLogin@5dfcfece]" name="forgetPassword" duration-ms="40696" started-at="2019-06-14T12:15:28Z" finished-at="2019-06-14T12:16:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- expressCheckOutIGgift -->
-      </class> <!-- testcase.InspiredGifts -->
+        </test-method> <!-- forgetPassword -->
+      </class> <!-- testcase.SignUpLogin -->
     </test> <!-- Cart-CH -->
   </suite> <!-- Automation -->
 </testng-results>

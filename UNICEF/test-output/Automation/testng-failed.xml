@@ -5,12 +5,15 @@
   <test name="Cart-CH(failed)">
     <parameter name="browser" value="1"/>
     <classes>
-      <class name="testcase.InspiredGifts">
+      <class name="testcase.SignUpLogin">
         <methods>
-          <include name="checkOutIGgift"/>
+          <include name="tearDown"/>
+          <include name="endTest"/>
           <include name="setUp"/>
+          <include name="userSignup"/>
+          <include name="forgetPassword"/>
         </methods>
-      </class> <!-- testcase.InspiredGifts -->
+      </class> <!-- testcase.SignUpLogin -->
     </classes>
   </test> <!-- Cart-CH(failed) -->
 </suite> <!-- Failed suite [Automation] -->

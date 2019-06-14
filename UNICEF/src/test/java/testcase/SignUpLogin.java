@@ -24,32 +24,27 @@ public class SignUpLogin extends BaseTest {
 	@Parameters("browser")
 	
 	/* test case for login into UNICEF US */
-	@Test(priority=0)
-	public void LoginUnicefUS()throws Exception{
-		
-		C3category c3 = new C3category(driver);
-		ItemDetailPage itdetail = new ItemDetailPage(driver);
-		HomePage homePage = new HomePage(driver);
-		Cart cat = new Cart(driver);
-		SignIn sign = new SignIn(driver);
-		PersonalWishlist perWish= new PersonalWishlist(driver);
-		
-		homePage.openHomePage();
-		sign.headerLoginButton();
-		sign.Login();
-	}
-	
+//	@Test(priority=0)
+//	public void LoginUnicefUS()throws Exception{
+//		
+
+//		HomePage homePage = new HomePage(driver);
+//		SignIn sign = new SignIn(driver);
+
+//		
+//		homePage.openHomePage();
+//		sign.headerLoginButton();
+//		sign.Login();
+//	}
+//	
 	/* test case for Forget password functionality during sign in */
 	
 	@Test(priority=1)
 	public void forgetPassword()throws Exception{
 		
-		C3category c3 = new C3category(driver);
-		ItemDetailPage itdetail = new ItemDetailPage(driver);
+		
 		HomePage homePage = new HomePage(driver);
-		Cart cat = new Cart(driver);
 		SignIn sign = new SignIn(driver);
-		PersonalWishlist perWish= new PersonalWishlist(driver);
 		
 		homePage.openHomePage();
 		sign.headerLoginButton();
@@ -57,19 +52,16 @@ public class SignUpLogin extends BaseTest {
 	}
 	
 	/* test case for signup */
-	@Test(priority=2)
-	public void userSignup()throws Exception{
-		
-		C3category c3 = new C3category(driver);
-		ItemDetailPage itdetail = new ItemDetailPage(driver);
-		HomePage homePage = new HomePage(driver);
-		Cart cat = new Cart(driver);
-		SignIn sign = new SignIn(driver);
-		PersonalWishlist perWish= new PersonalWishlist(driver);
-		
-		homePage.openHomePage();
-		sign.headerLoginButton();
-		sign.signup();
-	}
+//	@Test(priority=2)
+//	public void userSignup()throws Exception{
+//		
+//		HomePage homePage = new HomePage(driver);
+//		SignIn sign = new SignIn(driver);
+
+//		
+//		homePage.openHomePage();
+//		sign.headerLoginButton();
+//		sign.signup();
+//	}
 
 }

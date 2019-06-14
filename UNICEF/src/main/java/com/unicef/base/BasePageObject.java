@@ -2,6 +2,7 @@ package com.unicef.base;
 
 
 	import java.util.Iterator;
+import java.util.Random;
 import java.util.Set;
 	import java.util.concurrent.TimeUnit;
 
@@ -187,6 +188,21 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 			 JavascriptExecutor js = (JavascriptExecutor) driver;  
 			 js.executeScript("window.scrollBy(500,0)");
 		}
+		
+		/* to generate random string */
+
+		protected String getRandomString() {
+        String RANDOMCHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+        StringBuilder random = new StringBuilder();
+        Random rnd = new Random();
+        while (random.length() < 18) { // length of the random string.
+            int index = (int) (rnd.nextFloat() * RANDOMCHARS.length());
+            random.append(RANDOMCHARS.charAt(index));
+        }
+        String randomStr = random.toString();
+        return randomStr;
+
+    }
 		
 	
 	}
