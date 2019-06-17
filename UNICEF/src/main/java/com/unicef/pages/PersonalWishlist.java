@@ -7,6 +7,7 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import com.unicef.base.BasePageObject;
 
@@ -54,6 +55,8 @@ public class PersonalWishlist extends BasePageObject {
 	private By continueButton= By.xpath("//*[@id='wishlistaddressbookcreate']/div[3]/div[1]/button");
 	private By cancelButton2= By.className("btn-light");
 	private By saveChangesButton= By.xpath("//*[@id='shop']/div[2]/div[3]/div/form/div[4]/div[1]/button");
+	private By headerAccountButton= By.id("myaccount-header");
+	
 	
 	/* Open wishlist page given link*/
 	public void openWishlistpageURL( String Wishlistlink ) {
@@ -82,6 +85,12 @@ public class PersonalWishlist extends BasePageObject {
 	/* click on OK button in Wishlist Pop up*/
 	public void wishlistOk() throws Exception{
 		click(Okbutton);
+		
+	}
+	
+	/* click on Account Button on Header */
+	public void accountMenu() throws Exception{
+		click(headerAccountButton);
 		
 	}
 	
@@ -265,6 +274,22 @@ public class PersonalWishlist extends BasePageObject {
 		scrollToTop();
 		scrollToTop();
 		click(saveChangesButton);
+	}
+	
+	/* to delete address from address book */
+	public void removeAddress(Integer randomnumber)throws Exception{
+		
+		accountMenu();
+		scrollToBottom();
+		WebElement hoverAddressMenu= driver.findElement(By.className("settings"));
+		WebElement addressBook= driver.findElement(By.xpath("//*[@id='shop']/div[2]/div[2]/div[7]/div/span/div/ul/li[2]"));
+		HoverAndClick(driver,hoverAddressMenu,addressBook);
+		By delete = By.xpath("//*[@id='shop']/div[3]/div[2]/div["+randomnumber+"]/p/a[2]");
+		click(delete);
+		Thread.sleep(3000);
+		click(By.xpath("//*[@id='novicamodal']/div/div/div/div[2]/div/div/a"));	
+		Thread.sleep(3000);
+		click(By.xpath("//*[@id='novicamodal']/div/div/div/div/button"));
 	}
 
 }

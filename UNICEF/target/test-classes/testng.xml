@@ -3,7 +3,7 @@
 <test name="Cart-CH">
 <parameter name="browser" value="1"/>
 <classes>
-<class name="testcase.SignUpLogin"/>
+<class name="testcase.Wishlist"/>
 </classes>
 </test>
 </suite>

@@ -24,19 +24,19 @@ public class SignUpLogin extends BaseTest {
 	@Parameters("browser")
 	
 	/* test case for login into UNICEF US */
-//	@Test(priority=0)
-//	public void LoginUnicefUS()throws Exception{
-//		
+	@Test(priority=0)
+	public void LoginUnicefUS()throws Exception{
+		
 
-//		HomePage homePage = new HomePage(driver);
-//		SignIn sign = new SignIn(driver);
+		HomePage homePage = new HomePage(driver);
+		SignIn sign = new SignIn(driver);
 
-//		
-//		homePage.openHomePage();
-//		sign.headerLoginButton();
-//		sign.Login();
-//	}
-//	
+		
+		homePage.openHomePage();
+		sign.headerLoginButton();
+		sign.Login();
+	}
+	
 	/* test case for Forget password functionality during sign in */
 	
 	@Test(priority=1)

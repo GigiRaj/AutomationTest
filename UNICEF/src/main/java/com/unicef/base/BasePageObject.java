@@ -204,5 +204,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
     }
 		
+		public void HoverAndClick(WebDriver driver,WebElement elementToHover,WebElement elementToClick) 
+		{
+			Actions action = new Actions(driver);
+			action.moveToElement(elementToHover).click(elementToClick).build().perform();
+}
+		
 	
 	}
