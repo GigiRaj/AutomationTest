@@ -3,7 +3,9 @@
 <test name="Cart-CH">
 <parameter name="browser" value="1"/>
 <classes>
-<class name="testcase.Wishlist"/>
+
+<class name="testcase.Homepage"/>
+
 </classes>
 </test>
 </suite>

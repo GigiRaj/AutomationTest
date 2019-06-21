@@ -21,7 +21,7 @@ public class IGgiftPage extends BasePageObject {
 	}
 	
 	
-	private By IGheaderMenu= By.id("inspired-gifts");
+	
 	private By IGAddToCartButtonField= By.id("btn-addtocart");
 	private By createCardButton= By.xpath("//*[@id='gifts-completeoptions']/div[1]/a");
 	private By printedCardButton= By.id("print-card");
@@ -45,15 +45,7 @@ public class IGgiftPage extends BasePageObject {
 	
 	
 
-	/* to click inspired gifts in Header menu */
-	public void clickIGHeaderMenu()throws Exception{
-		
-		click(IGheaderMenu);
-		waitForJavascripttoLoad();
-		scrollToBottom();
-		
-		
-	}
+
 	
 	/* to click on choose IG according to index from the list */
 	public void chooseIGItems(Integer randomIGItemNumber) throws Exception{

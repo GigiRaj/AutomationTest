@@ -31,7 +31,7 @@ public class InspiredGifts extends BaseTest {
 		IGgiftPage IG=new IGgiftPage(driver);
 		
 		homePage.openHomePage();
-		IG.clickIGHeaderMenu();
+		homePage.clickIGHeaderMenu();
 		IG.chooseIGItems(5); // choose education related IG gifts	 
 		IG.clickIGProductPlateRandom(1);
 		IG.addIGtocart();
@@ -52,7 +52,7 @@ public class InspiredGifts extends BaseTest {
 		IGgiftPage IG=new IGgiftPage(driver);
 		
 		homePage.openHomePage();
-		IG.clickIGHeaderMenu();
+		homePage.clickIGHeaderMenu();
 		IG.chooseIGItems(5); // choose education related IG gifts	 
 		IG.clickIGProductPlateRandom(1);
 		IG.addIGtocart();
@@ -75,7 +75,7 @@ public class InspiredGifts extends BaseTest {
 		IGgiftPage IG=new IGgiftPage(driver);
 		
 		homePage.openHomePage();
-		IG.clickIGHeaderMenu();
+		homePage.clickIGHeaderMenu();
 		IG.chooseIGItems(5); // choose education related IG gifts	 
 		IG.clickIGProductPlateRandom(1);
 		IG.addIGtocart();
@@ -99,7 +99,7 @@ public class InspiredGifts extends BaseTest {
 		IGgiftPage IG=new IGgiftPage(driver);
 		
 		homePage.openHomePage();
-		IG.clickIGHeaderMenu();
+		homePage.clickIGHeaderMenu();
 		IG.chooseIGItems(5); // choose education related IG gifts	 
 		IG.clickIGProductPlateRandom(1);
 		IG.addIGtocart();
@@ -120,7 +120,7 @@ public class InspiredGifts extends BaseTest {
 		PaymentPage payment=new PaymentPage(driver);
 		
 		homePage.openHomePage();
-		IG.clickIGHeaderMenu();
+		homePage.clickIGHeaderMenu();
 		IG.chooseIGItems(5); // choose education related IG gifts	 
 		IG.clickIGProductPlateRandom(1);
 		IG.addIGtocart();
@@ -160,7 +160,7 @@ public class InspiredGifts extends BaseTest {
 		PaymentPage payment=new PaymentPage(driver);
 		
 		homePage.openHomePage();
-		IG.clickIGHeaderMenu();
+		homePage.clickIGHeaderMenu();
 		IG.chooseIGItems(5); // choose education related IG gifts	 
 		IG.clickIGProductPlateRandom(1);
 		IG.addIGtocart();

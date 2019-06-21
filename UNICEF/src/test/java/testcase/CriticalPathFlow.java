@@ -18,12 +18,16 @@ import com.unicef.pages.C3category;
 import com.unicef.pages.Cart;
 import com.unicef.pages.HomePage;
 import com.unicef.pages.ItemDetailPage;
+import com.unicef.pages.PaymentPage;
 import com.unicef.pages.PersonalWishlist;
 import com.unicef.pages.ShippingAddressPage;
 import com.unicef.pages.SignIn;
 
 public class CriticalPathFlow extends BaseTest {
 	@Parameters("browser")
+	
+	
+	/* test case for critical path flow */
 	@Test(priority=0)
 	public void typeandsearch(String keyword) throws Exception {
 		
@@ -33,6 +37,8 @@ public class CriticalPathFlow extends BaseTest {
 		HomePage homePage = new HomePage(driver);
 		Cart cat = new Cart(driver);
 		SignIn sign = new SignIn(driver);
+		ShippingAddressPage shipAddr= new ShippingAddressPage(driver);
+		PaymentPage payment=new PaymentPage(driver);
 		
 		
 		homePage.openHomePage();
@@ -68,9 +74,21 @@ public class CriticalPathFlow extends BaseTest {
 		assertEquals(productPrice, "$"+actualcartprice);
 		
 		cat.clickcheckout();
-		
 		sign.EntersignInDet();
+		shipAddr.sameAddress(1);
+		System.out.println("use same shipping address");	
+		shipAddr.topContinueBtnShipOptPage();		
+		System.out.println("go to payment options");
+		payment.applyPromoCode("QWERTY");
+		payment.chooseDonation(5);
+		payment.cardPayment();
+		payment.sameShippingAddr();
+		payment.bottomContinueButton();
 	}
+	
+	
+	
+	
 	
 }
 

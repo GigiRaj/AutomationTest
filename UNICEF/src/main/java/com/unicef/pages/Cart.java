@@ -20,6 +20,7 @@ public class Cart extends BasePageObject{
 	public void waitForCarttoload() throws Exception {
 	waitForJavascripttoLoad();
 	}
+	
 	/* Open C3 page */
 	public void openCartpage() throws Exception {
 		getPage(URL);

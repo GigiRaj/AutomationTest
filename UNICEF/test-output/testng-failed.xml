@@ -5,15 +5,14 @@
   <test name="Cart-CH(failed)">
     <parameter name="browser" value="1"/>
     <classes>
-      <class name="testcase.Wishlist">
+      <class name="testcase.Homepage">
         <methods>
-          <include name="WishlisttocartUsingExpress"/>
+          <include name="searchProduct"/>
           <include name="tearDown"/>
           <include name="endTest"/>
           <include name="setUp"/>
-          <include name="WishlisttocartDiffShipAddress"/>
         </methods>
-      </class> <!-- testcase.Wishlist -->
+      </class> <!-- testcase.Homepage -->
     </classes>
   </test> <!-- Cart-CH(failed) -->
 </suite> <!-- Failed suite [Automation] -->
