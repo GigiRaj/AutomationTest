@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="browser" value="1"/>
+  <test name="Cart-CH(failed)">
+    <parameter name="browser" value="1"/>
+    <classes>
+      <class name="testcases.CrticalPathFlow">
+        <methods>
+          <include name="setUp"/>
+          <include name="typeandsearch" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.CrticalPathFlow -->
+    </classes>
+  </test> <!-- Cart-CH(failed) -->
+</suite> <!-- Failed suite [Suite] -->
