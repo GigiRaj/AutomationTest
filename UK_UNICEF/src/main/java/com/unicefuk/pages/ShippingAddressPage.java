@@ -44,6 +44,7 @@ public class ShippingAddressPage extends BasePageObject {
 		type(firstNameTextField,"jiji");
 		type(surNameTextField,"test");
 		type(phoneTextField,"12345678912");
+		scrollToBottom();
 		select(countrySelectField,1);
 		type(postCodeTextField,"9028");
 		click(lookUpAddressButton);
@@ -64,7 +65,7 @@ public class ShippingAddressPage extends BasePageObject {
 		type(firstNameTextField,"jiji");
 		type(surNameTextField,"test");
 		type(phoneTextField,"12345678912");
-		select(countrySelectField,1);
+//		select(countrySelectField,1);
 		scrollToBottom();
 		click(manualAddressLinkButton);
 		type(houseNameTextField,"test house name");

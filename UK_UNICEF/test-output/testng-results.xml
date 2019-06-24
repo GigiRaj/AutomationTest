@@ -8,12 +8,12 @@
       <![CDATA[Added product with 31829to cart]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="77906" started-at="2019-06-21T11:48:04Z" finished-at="2019-06-21T11:49:22Z">
+  <suite name="Suite" duration-ms="242967" started-at="2019-06-24T12:09:06Z" finished-at="2019-06-24T12:13:08Z">
     <groups>
     </groups>
-    <test name="Cart-CH" duration-ms="77906" started-at="2019-06-21T11:48:04Z" finished-at="2019-06-21T11:49:22Z">
+    <test name="Cart-CH" duration-ms="242967" started-at="2019-06-24T12:09:06Z" finished-at="2019-06-24T12:13:08Z">
       <class name="testcases.CrticalPathFlow">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.CrticalPathFlow@56f4468b]" name="setUp" is-config="true" duration-ms="4137" started-at="2019-06-21T17:18:04Z" finished-at="2019-06-21T17:18:09Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.CrticalPathFlow@56f4468b]" name="setUp" is-config="true" duration-ms="3932" started-at="2019-06-24T17:39:06Z" finished-at="2019-06-24T17:39:09Z">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="typeandsearch(java.lang.String)[pri:0, instance:testcases.CrticalPathFlow@56f4468b]" name="typeandsearch" duration-ms="73751" started-at="2019-06-21T17:18:09Z" finished-at="2019-06-21T17:19:22Z">
+        <test-method status="PASS" signature="typeandsearch(java.lang.String)[pri:0, instance:testcases.CrticalPathFlow@56f4468b]" name="typeandsearch" duration-ms="239020" started-at="2019-06-24T17:39:09Z" finished-at="2019-06-24T17:43:08Z">
           <params>
             <param index="0">
               <value>

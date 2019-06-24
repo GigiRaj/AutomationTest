@@ -21,6 +21,7 @@ import com.unicefuk.base.BasePageObject;
 import com.unicefuk.base.BaseTest;
 import com.unicefuk.pages.HomePage;
 import com.unicefuk.pages.ItemDetailPage;
+import com.unicefuk.pages.PaymentPage;
 
 
 public class CrticalPathFlow extends BaseTest{
@@ -35,6 +36,8 @@ public class CrticalPathFlow extends BaseTest{
 		Cart cat = new Cart(driver);
 		SignIn sign = new SignIn(driver);
 		ShippingAddressPage shipAddr= new ShippingAddressPage(driver);
+		PaymentPage pay= new PaymentPage(driver);
+		
 		
 		
 		homePage.openHomePage();
@@ -69,8 +72,14 @@ public class CrticalPathFlow extends BaseTest{
 	    shipAddr.waitForShippingPageToload();
 	    shipAddr.manualAddress();
 	    shipAddr.dispatchShipping();
+	    pay.chooseDonation(3);
+	    pay.applyPromoCode("saduysg");
+	    pay.billingAddress();
+
 	    
-		
+//	    pay.sameShippAddress();
+	    pay.cardPayment();
+	    pay.saveAndContinue();
 	}
 
 }
