@@ -5,12 +5,12 @@
   <test name="Cart-CH(failed)">
     <parameter name="browser" value="1"/>
     <classes>
-      <class name="testcases.CrticalPathFlow">
+      <class name="testcases.SignInSignUp">
         <methods>
+          <include name="LoginUnicefUS"/>
           <include name="setUp"/>
-          <include name="typeandsearch" invocation-numbers="0"/>
         </methods>
-      </class> <!-- testcases.CrticalPathFlow -->
+      </class> <!-- testcases.SignInSignUp -->
     </classes>
   </test> <!-- Cart-CH(failed) -->
 </suite> <!-- Failed suite [Suite] -->

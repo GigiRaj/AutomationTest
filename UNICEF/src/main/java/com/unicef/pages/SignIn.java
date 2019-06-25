@@ -106,13 +106,13 @@ public class SignIn extends BasePageObject{
 	public void signup() throws Exception{
 		
 		
-		String emailRandom= getRandomString();
-		String email="test" +emailRandom + "@gmail.com";
+		String random= getRandomString();
+		String email="test" +random + "@gmail.com";
 		waitForClickabilityOf(SignupButton,10);
 		click(SignupButton);
 		waitForJavascripttoLoad();
 		type(firstName,"gigi");
-		type(lastName,"test"+emailRandom);
+		type(lastName,"test"+random);
 		type(emailAddress,email);
 		type(emailVerify,email);
 		scrollToBottom();
