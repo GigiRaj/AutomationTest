@@ -52,16 +52,15 @@ public class SignUpLogin extends BaseTest {
 	}
 	
 	/* test case for signup */
-//	@Test(priority=2)
-//	public void userSignup()throws Exception{
-//		
-//		HomePage homePage = new HomePage(driver);
-//		SignIn sign = new SignIn(driver);
+	@Test(priority=2)
+	public void userSignup()throws Exception{
+		
+		HomePage homePage = new HomePage(driver);
+		SignIn sign = new SignIn(driver);
 
-//		
-//		homePage.openHomePage();
-//		sign.headerLoginButton();
-//		sign.signup();
-//	}
+		homePage.openHomePage();
+		sign.headerLoginButton();
+		sign.signup();
+	}
 
 }

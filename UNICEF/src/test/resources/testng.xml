@@ -5,6 +5,10 @@
 <classes>
 
 <class name="testcase.Homepage"/>
+<class name="testcase.SignUpLogin"/>
+<class name="testcase.CriticalPathFlow"/>
+<class name="testcase.Wishlist"/>
+<class name="testcase.InspiredGifts"/>
 
 </classes>
 </test>

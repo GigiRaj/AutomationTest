@@ -18,7 +18,7 @@ public class Homepage extends BaseTest {
 
 	/* test case for all the header menus working or not */
 	@Test(priority=1)
-	public void wishlistProduct()throws Exception{
+	public void headerMenu()throws Exception{
 		
 		
 		HomePage homePage = new HomePage(driver);
@@ -48,9 +48,10 @@ public class Homepage extends BaseTest {
 		
 		HomePage homePage = new HomePage(driver);
 		
+		homePage.openHomePage();
 		String Key = "chains";
 		homePage.typeAndSubmitKeyword(Key);
-		Reporter.log("Searched for"+ Key);
+				
 	}
 	
 
