@@ -65,5 +65,8 @@ public class HomePage extends BasePageObject{
 		// TODO Auto-generated method stub
 		return null;
 	}
+	
+	
+	/* to click inspired gifts */
 
 }

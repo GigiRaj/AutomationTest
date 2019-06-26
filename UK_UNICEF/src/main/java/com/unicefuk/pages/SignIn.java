@@ -2,6 +2,7 @@ package com.unicefuk.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import com.unicefuk.base.BasePageObject;
 
@@ -12,13 +13,11 @@ public class SignIn extends BasePageObject {
 	private static By expressChekoutButton= By.id("submitReturnLogin");
 	private static By forgotPasswordButton= By.xpath("//*[@id='loginreturn']/div[3]/div/a");
 	private static By guestCheckoutButton= By.className("btn-warning");
-	private static By headerSignInButton= By.id("//*[@id='account-menu']/div/a[1]");
-	private static By headerRegisterButton= By.id("//*[@id='account-menu']/div/a[2]");
 	private static By signInLinkButton= By.xpath("//*[@id='shop']/div[1]/div/div[1]/div/div[2]/form/div/div[2]/div/div/div[3]/a");
 	private static By emailAddress= By.id("user_email");
 	private static By passwordField= By.id("user_password");
-	private static By signInButton= By.xpath("//*[@id='shop']/div[1]/div/div[1]/div/div[2]/div/div[2]/div/form/div[4]/div/button");
-	private static By signInForgotPasswordButton = By.xpath("//*[@id='shop']/div[1]/div/div[1]/div/div[2]/div/div[2]/div/form/div[3]/div[2]/a");
+	private static By signInButton= By.xpath("//*[@class='main-page']/div/div/div[2]/div/div[2]/div/form/div[4]/div/button");
+	private static By signInForgotPasswordButton = By.xpath("//*[@class='main-page']/div/div/div[2]/div/div[2]/div/form/div[3]/div[2]/a");
 	private static By firstNameTextField= By.id("user_firstname");
 	private static By lastNameTextField= By.id("user_lastname");
 	private static By emaillTextField= By.id("user_email");
@@ -37,8 +36,17 @@ public class SignIn extends BasePageObject {
 	
 	/* to click on header sign in button */
 	public void clickSignin() throws Exception{
-		waitForClickabilityOf(headerSignInButton,10);
-		click(headerSignInButton);
+		Thread.sleep(3000);
+		WebElement headerSignInButton= driver.findElement(By.xpath("//*[@id='cart-account-flyout']/li[2]/div/a[1]"));
+		HoverAndClick(driver,headerSignInButton,headerSignInButton);
+		
+	}
+	
+	/* to click on header Register button */
+	public void clickRegister() throws Exception{
+		Thread.sleep(3000);
+		WebElement headerRegisterButton= driver.findElement(By.xpath("//*[@id='cart-account-flyout']/li[2]/div/a[2]"));
+		HoverAndClick(driver,headerRegisterButton,headerRegisterButton);
 		
 	}
 	
@@ -90,6 +98,7 @@ public class SignIn extends BasePageObject {
 	 /* to click on forgot password and reset password*/
 		public void resetPassword() throws Exception{
 			
+			Thread.sleep(3000);
 			waitForClickabilityOf(signInForgotPasswordButton,10);
 			click(signInForgotPasswordButton);
 			Thread.sleep(3000);
@@ -97,6 +106,7 @@ public class SignIn extends BasePageObject {
 			type(forgotPasswordEmail,"jijitest.sprcn@gmail.com");
 			By forgotPasswordContinueButton= By.xpath("//*[@id='forgotpassword']/div/div[2]/div[1]/button");
 			click(forgotPasswordContinueButton);
+			
 		}
 		
 		/* to create a new account as new user */
@@ -117,6 +127,7 @@ public class SignIn extends BasePageObject {
 			click(lookUpAddressButton);
 			scrollToBottom();
 			click(createAccountButton);
+			scrollToTop();
 			
 		}
 

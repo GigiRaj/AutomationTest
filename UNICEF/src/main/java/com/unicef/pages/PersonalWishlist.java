@@ -98,10 +98,8 @@ public class PersonalWishlist extends BasePageObject {
 	
 	public ItemDetailPage clickWishlistProductRandom(Integer randomeWishlistProductNumber) throws Exception {
 		 By currentproductPlateField = By.xpath("//*[@id='shop']/div[2]/div[2]/div[" + randomeWishlistProductNumber + "]");
-		 System.out.println("test3");
 		 Thread.sleep(5000);
 		click(currentproductPlateField);
-		System.out.println("test4");
 		return new ItemDetailPage(driver);
 	}
 	

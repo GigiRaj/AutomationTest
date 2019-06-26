@@ -23,37 +23,36 @@ public class SignInSignUp extends BaseTest {
 		homePage.openHomePage();
 		homePage.clickAcceptCookie();
 		sign.clickSignin();
-		System.out.println("testjdhfkjh");
 		sign.directLogin();
 	}
 
 	/* test case for Forget password functionality during sign in */
 
-//	@Test(priority=1)
-//	public void forgetPassword()throws Exception{
-//	
-//	
-//	HomePage homePage = new HomePage(driver);
-//	SignIn sign = new SignIn(driver);
-//	
-//	homePage.openHomePage();
-//	sign.clickSignin();
-//	sign.SigninLink();
-//	sign.resetPassword();
-//	}
-//	
-//	/* test case for create new account */
-//	@Test(priority=2)
-//	public void signup() throws Exception{
-//		
-//		HomePage homePage = new HomePage(driver);
-//		SignIn sign = new SignIn(driver);
-//		
-//		homePage.openHomePage();
-//		sign.clickSignin();
-//		sign.newUsersignIn();
-//		
-//	}
+	@Test(priority=1)
+	public void forgetPassword()throws Exception{
+	
+	
+	HomePage homePage = new HomePage(driver);
+	SignIn sign = new SignIn(driver);
+	
+	homePage.openHomePage();
+	homePage.clickAcceptCookie();
+	sign.clickSignin();
+	sign.resetPassword();
+	}
+
+	/* test case for create new account */
+	@Test(priority=2)
+	public void signup() throws Exception{
+		
+		HomePage homePage = new HomePage(driver);
+		SignIn sign = new SignIn(driver);
+		
+		homePage.openHomePage();
+		sign.clickRegister();
+		sign.newUsersignIn();
+		
+	}
 	
 
 }

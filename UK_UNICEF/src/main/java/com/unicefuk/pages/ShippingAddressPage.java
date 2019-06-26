@@ -85,5 +85,22 @@ public class ShippingAddressPage extends BasePageObject {
 		waitForClickabilityOf(dispatchSaveAndContinue,10);
 		click(dispatchSaveAndContinue);	
 	}
+	
+	/* click on same addrees button */
+	public void sameAddress(Integer randomnumber) throws Exception{
+		
+		By sameAddButton= By.xpath("//*[@id='addressBook']/div["+randomnumber+"]/form/button");
+		waitForClickabilityOf(sameAddButton,10);
+		click(sameAddButton);
+	}
+	
+	/* to create new address */
+	public void createAddress() throws Exception{
+		
+		By createAddressButton=By.xpath("//*[@id='shippingAddressForm']/div[2]/div[2]/a");
+		click(createAddressButton);
+		Thread.sleep(5000);
+		addLookUpAddress();
+	}
 
 }
