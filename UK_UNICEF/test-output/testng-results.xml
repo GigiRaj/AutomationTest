@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="30691" started-at="2019-06-26T12:29:52Z" finished-at="2019-06-26T12:30:23Z">
+  <suite name="Suite" duration-ms="107172" started-at="2019-06-27T12:32:25Z" finished-at="2019-06-27T12:34:12Z">
     <groups>
     </groups>
-    <test name="Cart-CH" duration-ms="30691" started-at="2019-06-26T12:29:52Z" finished-at="2019-06-26T12:30:23Z">
+    <test name="Cart-CH" duration-ms="107172" started-at="2019-06-27T12:32:25Z" finished-at="2019-06-27T12:34:12Z">
       <class name="testcases.InspiredGifts">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.InspiredGifts@56f4468b]" name="setUp" is-config="true" duration-ms="4153" started-at="2019-06-26T17:59:52Z" finished-at="2019-06-26T17:59:56Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.InspiredGifts@56f4468b]" name="setUp" is-config="true" duration-ms="3964" started-at="2019-06-27T18:02:25Z" finished-at="2019-06-27T18:02:29Z">
           <params>
             <param index="0">
               <value>
@@ -16,17 +16,17 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void testcases.InspiredGifts.IGcreateCardPrintedCard() throws java.lang.Exception]]>
+                <![CDATA[public void testcases.InspiredGifts.RemoveIGGift() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="IGcreateCardPrintedCard()[pri:0, instance:testcases.InspiredGifts@56f4468b]" name="IGcreateCardPrintedCard" duration-ms="26521" started-at="2019-06-26T17:59:56Z" finished-at="2019-06-26T18:00:23Z">
+        <test-method status="PASS" signature="RemoveIGGift()[pri:0, instance:testcases.InspiredGifts@56f4468b]" name="RemoveIGGift" duration-ms="103196" started-at="2019-06-27T18:02:29Z" finished-at="2019-06-27T18:04:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- IGcreateCardPrintedCard -->
+        </test-method> <!-- RemoveIGGift -->
       </class> <!-- testcases.InspiredGifts -->
     </test> <!-- Cart-CH -->
   </suite> <!-- Suite -->
