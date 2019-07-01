@@ -4,6 +4,10 @@
  <test name="Cart-CH">
  <parameter name="browser" value="1"/>
  <classes>
+
+ <class name="testcases.CrticalPathFlow"/>
+  <class name="testcases.SignInSignUp"/>
+ <class name="testcases.Wishlist"/>
  <class name="testcases.InspiredGifts"/>
  </classes>
   </test> <!-- Test -->

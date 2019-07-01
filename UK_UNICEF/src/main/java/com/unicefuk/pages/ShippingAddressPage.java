@@ -2,6 +2,7 @@ package com.unicefuk.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import com.unicefuk.base.BasePageObject;
 
@@ -61,6 +62,7 @@ public class ShippingAddressPage extends BasePageObject {
 	
 	public void manualAddress() throws Exception{
 		
+		Thread.sleep(3000);
 		select(chooseTitleDropDownField,2);
 		type(firstNameTextField,"jiji");
 		type(surNameTextField,"test");
@@ -101,6 +103,31 @@ public class ShippingAddressPage extends BasePageObject {
 		click(createAddressButton);
 		Thread.sleep(5000);
 		addLookUpAddress();
+	}
+	
+	/* click on Address book header menu*/
+	public void addressBookMenu() throws Exception{
+	
+		
+		WebElement yourAccountButton= driver.findElement(By.id("account-menu"));
+		WebElement gotoAddressButton= driver.findElement(By.xpath("//*[@id='cart-account-flyout']/li[2]/div/ul/li/ul/li[5]/a"));
+		HoverAndClick(driver,yourAccountButton,gotoAddressButton);
+		System.out.println("go to address book page");
+	}
+	
+	/*to remove address from address book */
+	public void RemoveAddressBook(Integer randomnumber) throws Exception{
+		
+		Thread.sleep(3000);
+		By removeAddressButton=By.xpath("//*[@id='shop']/div[1]/div/div[1]/div[2]/div/div[1]/div["+randomnumber+"]/a[2]");
+		click(removeAddressButton);
+		Thread.sleep(3000);
+		By yesdeleteButton= By.xpath("//*[@id='novicamodal']/div/div/div/div[2]/div/div[1]/a");
+		click(yesdeleteButton);
+		Thread.sleep(3000);
+		By okDeleteButton= By.xpath("//*[@id='novicamodal']/div/div/div/div/button");
+		click(okDeleteButton);
+		
 	}
 
 }

@@ -19,7 +19,7 @@ public class InspiredGifts extends BaseTest {
 @Parameters("browser")
 	
 	/* test case for create card for IG gift using Printed Card */	
-	@Test(priority=0)
+	@Test(priority=0)   
 	public void IGcreateCardPrintedCard()throws Exception{
 		
 		
