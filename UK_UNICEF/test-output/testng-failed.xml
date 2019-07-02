@@ -9,9 +9,7 @@
         <methods>
           <include name="removeAddress"/>
           <include name="setUp"/>
-          <include name="endTest"/>
           <include name="typeandsearch" invocation-numbers="0"/>
-          <include name="tearDown"/>
         </methods>
       </class> <!-- testcases.CrticalPathFlow -->
     </classes>

@@ -6,15 +6,15 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
-	import org.openqa.selenium.Cookie;
-	import org.openqa.selenium.JavascriptExecutor;
-	import org.openqa.selenium.StaleElementReferenceException;
-	import org.openqa.selenium.WebDriver;
-	import org.openqa.selenium.WebElement;
-	import org.openqa.selenium.interactions.Actions;
-	import org.openqa.selenium.support.FindAll;
-	import org.openqa.selenium.support.ui.ExpectedCondition;
-	import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.Cookie;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.StaleElementReferenceException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindAll;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -199,12 +199,21 @@ public class BasePageObject {
     String randomStr = random.toString();
     return randomStr;
 
-}
-	
+	}
+	/* to click on Mouse hover */
 	public void HoverAndClick(WebDriver driver,WebElement elementToHover,WebElement elementToClick) 
 	{
 		Actions action = new Actions(driver);
 		action.moveToElement(elementToHover).click(elementToClick).build().perform();
-}
+	}
+	
+	/* to get random integer value */
+	
+	public void randInt(int min, int max) {
+		
+		 Random rand = new Random();
+		 int randomNum = rand.nextInt((max - min) + 1) + min;
+		 System.out.println(randomNum);
+	}
 
 }

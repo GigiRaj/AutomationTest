@@ -1,14 +1,17 @@
 package com.unicefuk.pages;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 import com.unicefuk.pages.ItemDetailPage;
 import com.unicefuk.base.BasePageObject;
 
 public class C3category extends BasePageObject {
 	
-	private static final By productPlate = By.xpath("//div[@id='product-list']/div/div[1]/a");
+	private static final By productPlate = By.xpath("//*[@id='shop']/div[1]/div/div[1]/div[1]/div[1]");
 
 	public C3category(WebDriver driver) {
 		super(driver);
@@ -44,6 +47,15 @@ public class C3category extends BasePageObject {
 		 By currentproductPlateField = By.xpath("//div[@id='product-list']/div/div["+randomeProductPlateNumber+"]/a");
 		click(currentproductPlateField);
 		return new ItemDetailPage(driver);
+	}
+	
+	/* to get total product count */
+	
+	public void totlaProduct() throws Exception{
+		
+		List<WebElement> products = driver.findElements(By.xpath(""));	
+		Integer value= products.size();
+		System.out.println(value);
 	}
 
 }

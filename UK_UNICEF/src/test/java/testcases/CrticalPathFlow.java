@@ -99,6 +99,25 @@ public class CrticalPathFlow extends BaseTest{
 		shipAddr.RemoveAddressBook(1);
 		
 	}
+//	
+//	@Test(priority=0)
+//	public void randomNumber() throws Exception {
+//		
+//		HomePage homePage = new HomePage(driver);
+//		C3category c3 = new C3category(driver);
+//		
+//		homePage.openHomePage();	
+//		String Key = "rings";
+//		homePage.typeAndSubmitKeyword(Key);
+//		c3.waitForC3toLoad();
+////		int productcount = c3.getproductCount();
+////		System.out.println(productcount);
+////		String productid = c3.getProductID(1);
+////		System.out.println(productid);
+//		c3.totlaProduct();
+//
+//		
+//	}
 
 
 }

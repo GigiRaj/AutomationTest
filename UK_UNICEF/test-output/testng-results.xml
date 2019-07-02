@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="11" passed="11">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
     <line>
       <![CDATA[Searched forrings]]>
@@ -8,111 +8,12 @@
       <![CDATA[Added product with 31829to cart]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="927023" started-at="2019-07-01T12:03:08Z" finished-at="2019-07-01T12:18:35Z">
+  <suite name="Suite" duration-ms="244826" started-at="2019-07-02T10:00:10Z" finished-at="2019-07-02T10:04:14Z">
     <groups>
     </groups>
-    <test name="Cart-CH" duration-ms="927023" started-at="2019-07-01T12:03:08Z" finished-at="2019-07-01T12:18:35Z">
-      <class name="testcases.SignInSignUp">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.SignInSignUp@7c16905e]" name="setUp" is-config="true" duration-ms="3510" started-at="2019-07-01T17:45:21Z" finished-at="2019-07-01T17:45:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testcases.SignInSignUp.LoginUnicefUS() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LoginUnicefUS()[pri:0, instance:testcases.SignInSignUp@7c16905e]" name="LoginUnicefUS" duration-ms="71690" started-at="2019-07-01T17:45:25Z" finished-at="2019-07-01T17:46:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginUnicefUS -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.SignInSignUp@7c16905e]" name="tearDown" is-config="true" duration-ms="695" started-at="2019-07-01T17:46:36Z" finished-at="2019-07-01T17:46:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=LoginUnicefUS status=SUCCESS method=SignInSignUp.LoginUnicefUS()[pri:0, instance:testcases.SignInSignUp@7c16905e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.SignInSignUp@7c16905e]" name="setUp" is-config="true" duration-ms="3447" started-at="2019-07-01T17:46:37Z" finished-at="2019-07-01T17:46:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testcases.SignInSignUp.forgetPassword() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="forgetPassword()[pri:0, instance:testcases.SignInSignUp@7c16905e]" name="forgetPassword" duration-ms="64770" started-at="2019-07-01T17:46:40Z" finished-at="2019-07-01T17:47:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgetPassword -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.SignInSignUp@7c16905e]" name="tearDown" is-config="true" duration-ms="693" started-at="2019-07-01T17:47:45Z" finished-at="2019-07-01T17:47:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=forgetPassword status=SUCCESS method=SignInSignUp.forgetPassword()[pri:0, instance:testcases.SignInSignUp@7c16905e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.SignInSignUp@7c16905e]" name="setUp" is-config="true" duration-ms="3648" started-at="2019-07-01T17:47:46Z" finished-at="2019-07-01T17:47:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testcases.SignInSignUp.signup() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="signup()[pri:0, instance:testcases.SignInSignUp@7c16905e]" name="signup" duration-ms="44991" started-at="2019-07-01T17:47:50Z" finished-at="2019-07-01T17:48:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signup -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.SignInSignUp@7c16905e]" name="tearDown" is-config="true" duration-ms="688" started-at="2019-07-01T17:48:34Z" finished-at="2019-07-01T17:48:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=signup status=SUCCESS method=SignInSignUp.signup()[pri:0, instance:testcases.SignInSignUp@7c16905e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:testcases.SignInSignUp@7c16905e]" name="endTest" is-config="true" duration-ms="1" started-at="2019-07-01T17:48:35Z" finished-at="2019-07-01T17:48:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-      </class> <!-- testcases.SignInSignUp -->
+    <test name="Cart-CH" duration-ms="244826" started-at="2019-07-02T10:00:10Z" finished-at="2019-07-02T10:04:14Z">
       <class name="testcases.CrticalPathFlow">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.CrticalPathFlow@1753acfe]" name="setUp" is-config="true" duration-ms="4092" started-at="2019-07-01T17:33:08Z" finished-at="2019-07-01T17:33:12Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.CrticalPathFlow@56f4468b]" name="setUp" is-config="true" duration-ms="4174" started-at="2019-07-02T15:30:10Z" finished-at="2019-07-02T15:30:14Z">
           <params>
             <param index="0">
               <value>
@@ -128,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="typeandsearch(java.lang.String)[pri:0, instance:testcases.CrticalPathFlow@1753acfe]" name="typeandsearch" duration-ms="143208" started-at="2019-07-01T17:33:12Z" finished-at="2019-07-01T17:35:35Z">
+        <test-method status="PASS" signature="typeandsearch(java.lang.String)[pri:0, instance:testcases.CrticalPathFlow@56f4468b]" name="typeandsearch" duration-ms="178321" started-at="2019-07-02T15:30:14Z" finished-at="2019-07-02T15:33:12Z">
           <params>
             <param index="0">
               <value>
@@ -145,18 +46,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- typeandsearch -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.CrticalPathFlow@1753acfe]" name="tearDown" is-config="true" duration-ms="689" started-at="2019-07-01T17:35:35Z" finished-at="2019-07-01T17:35:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=typeandsearch status=SUCCESS method=CrticalPathFlow.typeandsearch(java.lang.String)[pri:0, instance:testcases.CrticalPathFlow@1753acfe] output=Searched forrings]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.CrticalPathFlow@1753acfe]" name="setUp" is-config="true" duration-ms="3443" started-at="2019-07-01T17:37:08Z" finished-at="2019-07-01T17:37:11Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.CrticalPathFlow@56f4468b]" name="setUp" is-config="true" duration-ms="3451" started-at="2019-07-02T15:33:12Z" finished-at="2019-07-02T15:33:16Z">
           <params>
             <param index="0">
               <value>
@@ -172,218 +62,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="removeAddress()[pri:0, instance:testcases.CrticalPathFlow@1753acfe]" name="removeAddress" duration-ms="59012" started-at="2019-07-01T17:37:11Z" finished-at="2019-07-01T17:38:10Z">
+        <test-method status="PASS" signature="removeAddress()[pri:0, instance:testcases.CrticalPathFlow@56f4468b]" name="removeAddress" duration-ms="58864" started-at="2019-07-02T15:33:16Z" finished-at="2019-07-02T15:34:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeAddress -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.CrticalPathFlow@1753acfe]" name="tearDown" is-config="true" duration-ms="697" started-at="2019-07-01T17:38:10Z" finished-at="2019-07-01T17:38:11Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=removeAddress status=SUCCESS method=CrticalPathFlow.removeAddress()[pri:0, instance:testcases.CrticalPathFlow@1753acfe] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:testcases.CrticalPathFlow@1753acfe]" name="endTest" is-config="true" duration-ms="1" started-at="2019-07-01T17:38:11Z" finished-at="2019-07-01T17:38:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
       </class> <!-- testcases.CrticalPathFlow -->
-      <class name="testcases.InspiredGifts">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="setUp" is-config="true" duration-ms="3555" started-at="2019-07-01T17:35:36Z" finished-at="2019-07-01T17:35:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testcases.InspiredGifts.IGcreateCardPrintedCard() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="IGcreateCardPrintedCard()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="IGcreateCardPrintedCard" duration-ms="87324" started-at="2019-07-01T17:35:40Z" finished-at="2019-07-01T17:37:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- IGcreateCardPrintedCard -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="tearDown" is-config="true" duration-ms="791" started-at="2019-07-01T17:37:07Z" finished-at="2019-07-01T17:37:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=IGcreateCardPrintedCard status=SUCCESS method=InspiredGifts.IGcreateCardPrintedCard()[pri:0, instance:testcases.InspiredGifts@548a9f61] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="setUp" is-config="true" duration-ms="3462" started-at="2019-07-01T17:38:11Z" finished-at="2019-07-01T17:38:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testcases.InspiredGifts.IGcreatePrintedAtHomeCard() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="IGcreatePrintedAtHomeCard()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="IGcreatePrintedAtHomeCard" duration-ms="67475" started-at="2019-07-01T17:38:14Z" finished-at="2019-07-01T17:39:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- IGcreatePrintedAtHomeCard -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="tearDown" is-config="true" duration-ms="764" started-at="2019-07-01T17:39:22Z" finished-at="2019-07-01T17:39:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=IGcreatePrintedAtHomeCard status=SUCCESS method=InspiredGifts.IGcreatePrintedAtHomeCard()[pri:0, instance:testcases.InspiredGifts@548a9f61] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="setUp" is-config="true" duration-ms="3617" started-at="2019-07-01T17:39:23Z" finished-at="2019-07-01T17:39:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testcases.InspiredGifts.IGcreateEGreetingCard() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="IGcreateEGreetingCard()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="IGcreateEGreetingCard" duration-ms="84916" started-at="2019-07-01T17:39:26Z" finished-at="2019-07-01T17:40:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- IGcreateEGreetingCard -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="tearDown" is-config="true" duration-ms="658" started-at="2019-07-01T17:40:51Z" finished-at="2019-07-01T17:40:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=IGcreateEGreetingCard status=SUCCESS method=InspiredGifts.IGcreateEGreetingCard()[pri:0, instance:testcases.InspiredGifts@548a9f61] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="setUp" is-config="true" duration-ms="4272" started-at="2019-07-01T17:40:52Z" finished-at="2019-07-01T17:40:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testcases.InspiredGifts.IGcreateCardNoCard() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="IGcreateCardNoCard()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="IGcreateCardNoCard" duration-ms="42578" started-at="2019-07-01T17:40:56Z" finished-at="2019-07-01T17:41:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- IGcreateCardNoCard -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="tearDown" is-config="true" duration-ms="655" started-at="2019-07-01T17:41:39Z" finished-at="2019-07-01T17:41:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=IGcreateCardNoCard status=SUCCESS method=InspiredGifts.IGcreateCardNoCard()[pri:0, instance:testcases.InspiredGifts@548a9f61] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="setUp" is-config="true" duration-ms="3494" started-at="2019-07-01T17:41:39Z" finished-at="2019-07-01T17:41:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testcases.InspiredGifts.RemoveIGGift() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="RemoveIGGift()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="RemoveIGGift" duration-ms="69289" started-at="2019-07-01T17:41:43Z" finished-at="2019-07-01T17:42:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RemoveIGGift -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="tearDown" is-config="true" duration-ms="666" started-at="2019-07-01T17:42:52Z" finished-at="2019-07-01T17:42:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=RemoveIGGift status=SUCCESS method=InspiredGifts.RemoveIGGift()[pri:0, instance:testcases.InspiredGifts@548a9f61] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="setUp" is-config="true" duration-ms="3378" started-at="2019-07-01T17:42:53Z" finished-at="2019-07-01T17:42:56Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testcases.InspiredGifts.checkOutIGGift() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="checkOutIGGift()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="checkOutIGGift" duration-ms="144094" started-at="2019-07-01T17:42:56Z" finished-at="2019-07-01T17:45:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkOutIGGift -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="tearDown" is-config="true" duration-ms="722" started-at="2019-07-01T17:45:20Z" finished-at="2019-07-01T17:45:21Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=checkOutIGGift status=SUCCESS method=InspiredGifts.checkOutIGGift()[pri:0, instance:testcases.InspiredGifts@548a9f61] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="endTest" is-config="true" duration-ms="1" started-at="2019-07-01T17:45:21Z" finished-at="2019-07-01T17:45:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-      </class> <!-- testcases.InspiredGifts -->
     </test> <!-- Cart-CH -->
   </suite> <!-- Suite -->
 </testng-results>
