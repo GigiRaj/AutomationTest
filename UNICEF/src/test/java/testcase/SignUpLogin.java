@@ -50,7 +50,7 @@ public class SignUpLogin extends BaseTest {
 		sign.headerLoginButton();
 		sign.passwordForget();
 	}
-	
+	 
 	/* test case for signup */
 	@Test(priority=2)
 	public void userSignup()throws Exception{

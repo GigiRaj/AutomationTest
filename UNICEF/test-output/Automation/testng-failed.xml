@@ -5,12 +5,42 @@
   <test name="Cart-CH(failed)">
     <parameter name="browser" value="1"/>
     <classes>
+      <class name="testcase.SignUpLogin">
+        <methods>
+          <include name="tearDown"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcase.SignUpLogin -->
       <class name="testcase.CriticalPathFlow">
         <methods>
-          <include name="typeandsearch" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="endTest"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- testcase.CriticalPathFlow -->
+      <class name="testcase.Homepage">
+        <methods>
+          <include name="tearDown"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcase.Homepage -->
+      <class name="testcase.Wishlist">
+        <methods>
+          <include name="tearDown"/>
+          <include name="viewProductWishlist"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcase.Wishlist -->
+      <class name="testcase.InspiredGifts">
+        <methods>
+          <include name="tearDown"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcase.InspiredGifts -->
     </classes>
   </test> <!-- Cart-CH(failed) -->
 </suite> <!-- Failed suite [Automation] -->

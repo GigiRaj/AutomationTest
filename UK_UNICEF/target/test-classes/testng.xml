@@ -5,7 +5,9 @@
  <parameter name="browser" value="1"/>
  <classes>
 
- <class name="testcases.CrticalPathFlow"/>
+
+   <class name="testcases.Wishlist"/>
+   
 
  </classes>
   </test> <!-- Test -->

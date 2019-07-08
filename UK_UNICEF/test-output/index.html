@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,12 +101,17 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.CrticalPathFlow" hash-for-method="removeAddress">removeAddress</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.Wishlist" hash-for-method="WishlisttocartCheckOut">WishlisttocartCheckOut</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.CrticalPathFlow" hash-for-method="typeandsearch(1)">typeandsearch(1)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.Wishlist" hash-for-method="WishlisttocartUsingGuest">WishlisttocartUsingGuest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testcases.Wishlist" hash-for-method="wishlistProduct">wishlistProduct</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -124,22 +129,28 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testcases.CrticalPathFlow</span>
+              <span class="class-name">testcases.Wishlist</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="removeAddress">
-                  </a> <!-- removeAddress -->
-                  <span class="method-name">removeAddress</span>
+                  <a name="WishlisttocartCheckOut">
+                  </a> <!-- WishlisttocartCheckOut -->
+                  <span class="method-name">WishlisttocartCheckOut</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="typeandsearch(1)">
-                  </a> <!-- typeandsearch(1) -->
-                  <span class="method-name">typeandsearch</span>
-                  <span class="parameters">(1)</span>
+                  <a name="WishlisttocartUsingGuest">
+                  </a> <!-- WishlisttocartUsingGuest -->
+                  <span class="method-name">WishlisttocartUsingGuest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="wishlistProduct">
+                  </a> <!-- wishlistProduct -->
+                  <span class="method-name">wishlistProduct</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -157,7 +168,7 @@
   &lt;test name=&quot;Cart-CH&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;1&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testcases.CrticalPathFlow&quot;/&gt;
+      &lt;class name=&quot;testcases.Wishlist&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Cart-CH --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -197,20 +208,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'typeandsearch')
-data.setCell(0, 2, 'testcases.CrticalPathFlow')
-data.setCell(0, 3, 178321);
+data.setCell(0, 1, 'WishlisttocartUsingGuest')
+data.setCell(0, 2, 'testcases.Wishlist')
+data.setCell(0, 3, 167322);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'removeAddress')
-data.setCell(1, 2, 'testcases.CrticalPathFlow')
-data.setCell(1, 3, 58864);
+data.setCell(1, 1, 'WishlisttocartCheckOut')
+data.setCell(1, 2, 'testcases.Wishlist')
+data.setCell(1, 3, 133424);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'wishlistProduct')
+data.setCell(2, 2, 'testcases.Wishlist')
+data.setCell(2, 3, 51532);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -222,10 +237,15 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">typeandsearch(1)</span>
+              <span class="reporter-method-name">WishlisttocartCheckOut</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Searched forrings</span>
-                <span class="reporter-method-output">Added product with 31829to cart</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">WishlisttocartUsingGuest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Searched forrings</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -243,23 +263,47 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testcases.CrticalPathFlow</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testcases.Wishlist</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(1, public void testcases.CrticalPathFlow.typeandsearch(java.lang.String) throws java.lang.Exception)</span>
+                <span class="method-name">setUp(1, public void testcases.Wishlist.wishlistProduct() throws java.lang.Exception)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">typeandsearch(1)</span>
-                <span class="method-start">4174 ms</span>
+                <span class="method-name">wishlistProduct</span>
+                <span class="method-start">4213 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=wishlistProduct status=SUCCESS method=Wishlist.wishlistProduct()[pri:0, instance:te...)</span>
+                <span class="method-start">55746 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(1, public void testcases.CrticalPathFlow.removeAddress() throws java.lang.Exception)</span>
-                <span class="method-start">182497 ms</span>
+                <span class="method-name">setUp(1, public void testcases.Wishlist.WishlisttocartCheckOut() throws java.lang.Exception)</span>
+                <span class="method-start">56485 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">removeAddress</span>
-                <span class="method-start">185948 ms</span>
+                <span class="method-name">WishlisttocartCheckOut</span>
+                <span class="method-start">60010 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=WishlisttocartCheckOut status=SUCCESS method=Wishlist.WishlisttocartCheckOut()[pri:...)</span>
+                <span class="method-start">193436 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(1, public void testcases.Wishlist.WishlisttocartUsingGuest() throws java.lang.Exception)</span>
+                <span class="method-start">194113 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">WishlisttocartUsingGuest</span>
+                <span class="method-start">197740 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=WishlisttocartUsingGuest status=SUCCESS method=Wishlist.WishlisttocartUsingGuest()[...)</span>
+                <span class="method-start">365064 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">365750 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

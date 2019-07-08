@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
     <line>
       <![CDATA[Searched forrings]]>
     </line>
     <line>
-      <![CDATA[Added product with 31829to cart]]>
+      <![CDATA[Searched forrings]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="244826" started-at="2019-07-02T10:00:10Z" finished-at="2019-07-02T10:04:14Z">
+  <suite name="Suite" duration-ms="365768" started-at="2019-07-08T08:52:09Z" finished-at="2019-07-08T08:58:14Z">
     <groups>
     </groups>
-    <test name="Cart-CH" duration-ms="244826" started-at="2019-07-02T10:00:10Z" finished-at="2019-07-02T10:04:14Z">
-      <class name="testcases.CrticalPathFlow">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.CrticalPathFlow@56f4468b]" name="setUp" is-config="true" duration-ms="4174" started-at="2019-07-02T15:30:10Z" finished-at="2019-07-02T15:30:14Z">
+    <test name="Cart-CH" duration-ms="365768" started-at="2019-07-08T08:52:09Z" finished-at="2019-07-08T08:58:14Z">
+      <class name="testcases.Wishlist">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.Wishlist@100fc185]" name="setUp" is-config="true" duration-ms="4213" started-at="2019-07-08T14:22:09Z" finished-at="2019-07-08T14:22:13Z">
           <params>
             <param index="0">
               <value>
@@ -22,31 +22,63 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void testcases.CrticalPathFlow.typeandsearch(java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void testcases.Wishlist.wishlistProduct() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="typeandsearch(java.lang.String)[pri:0, instance:testcases.CrticalPathFlow@56f4468b]" name="typeandsearch" duration-ms="178321" started-at="2019-07-02T15:30:14Z" finished-at="2019-07-02T15:33:12Z">
+        <test-method status="PASS" signature="wishlistProduct()[pri:0, instance:testcases.Wishlist@100fc185]" name="wishlistProduct" duration-ms="51532" started-at="2019-07-08T14:22:13Z" finished-at="2019-07-08T14:23:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishlistProduct -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.Wishlist@100fc185]" name="tearDown" is-config="true" duration-ms="739" started-at="2019-07-08T14:23:04Z" finished-at="2019-07-08T14:23:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=wishlistProduct status=SUCCESS method=Wishlist.wishlistProduct()[pri:0, instance:testcases.Wishlist@100fc185] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.Wishlist@100fc185]" name="setUp" is-config="true" duration-ms="3525" started-at="2019-07-08T14:23:05Z" finished-at="2019-07-08T14:23:09Z">
           <params>
             <param index="0">
               <value>
                 <![CDATA[1]]>
               </value>
             </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.Wishlist.WishlisttocartCheckOut() throws java.lang.Exception]]>
+              </value>
+            </param>
           </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="WishlisttocartCheckOut()[pri:0, instance:testcases.Wishlist@100fc185]" name="WishlisttocartCheckOut" duration-ms="133424" started-at="2019-07-08T14:23:09Z" finished-at="2019-07-08T14:25:22Z">
           <reporter-output>
             <line>
               <![CDATA[Searched forrings]]>
             </line>
-            <line>
-              <![CDATA[Added product with 31829to cart]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- typeandsearch -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.CrticalPathFlow@56f4468b]" name="setUp" is-config="true" duration-ms="3451" started-at="2019-07-02T15:33:12Z" finished-at="2019-07-02T15:33:16Z">
+        </test-method> <!-- WishlisttocartCheckOut -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.Wishlist@100fc185]" name="tearDown" is-config="true" duration-ms="676" started-at="2019-07-08T14:25:22Z" finished-at="2019-07-08T14:25:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WishlisttocartCheckOut status=SUCCESS method=Wishlist.WishlisttocartCheckOut()[pri:0, instance:testcases.Wishlist@100fc185] output=Searched forrings]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.Wishlist@100fc185]" name="setUp" is-config="true" duration-ms="3627" started-at="2019-07-08T14:25:23Z" finished-at="2019-07-08T14:25:26Z">
           <params>
             <param index="0">
               <value>
@@ -55,18 +87,36 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void testcases.CrticalPathFlow.removeAddress() throws java.lang.Exception]]>
+                <![CDATA[public void testcases.Wishlist.WishlisttocartUsingGuest() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="removeAddress()[pri:0, instance:testcases.CrticalPathFlow@56f4468b]" name="removeAddress" duration-ms="58864" started-at="2019-07-02T15:33:16Z" finished-at="2019-07-02T15:34:14Z">
+        <test-method status="PASS" signature="WishlisttocartUsingGuest()[pri:0, instance:testcases.Wishlist@100fc185]" name="WishlisttocartUsingGuest" duration-ms="167322" started-at="2019-07-08T14:25:26Z" finished-at="2019-07-08T14:28:14Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Searched forrings]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- WishlisttocartUsingGuest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.Wishlist@100fc185]" name="tearDown" is-config="true" duration-ms="686" started-at="2019-07-08T14:28:14Z" finished-at="2019-07-08T14:28:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WishlisttocartUsingGuest status=SUCCESS method=Wishlist.WishlisttocartUsingGuest()[pri:0, instance:testcases.Wishlist@100fc185] output=Searched forrings]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- removeAddress -->
-      </class> <!-- testcases.CrticalPathFlow -->
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testcases.Wishlist@100fc185]" name="endTest" is-config="true" duration-ms="0" started-at="2019-07-08T14:28:14Z" finished-at="2019-07-08T14:28:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- testcases.Wishlist -->
     </test> <!-- Cart-CH -->
   </suite> <!-- Suite -->
 </testng-results>
