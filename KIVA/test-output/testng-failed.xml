@@ -7,8 +7,6 @@
     <classes>
       <class name="testcases.CrticalPathFlow">
         <methods>
-          <include name="tearDown"/>
-          <include name="endTest"/>
           <include name="setUp"/>
           <include name="typeandsearch" invocation-numbers="0"/>
         </methods>

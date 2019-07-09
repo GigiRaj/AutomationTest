@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[Searched forrings]]>
+    </line>
+    <line>
+      <![CDATA[Added product with K22307to cart]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="19253" started-at="2019-07-09T05:28:39Z" finished-at="2019-07-09T05:28:59Z">
+  <suite name="Suite" duration-ms="157199" started-at="2019-07-09T12:47:53Z" finished-at="2019-07-09T12:50:30Z">
     <groups>
     </groups>
-    <test name="Cart-CH" duration-ms="19253" started-at="2019-07-09T05:28:39Z" finished-at="2019-07-09T05:28:59Z">
+    <test name="Cart-CH" duration-ms="157199" started-at="2019-07-09T12:47:53Z" finished-at="2019-07-09T12:50:30Z">
       <class name="testcases.CrticalPathFlow">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.CrticalPathFlow@51efea79]" name="setUp" is-config="true" duration-ms="4222" started-at="2019-07-09T10:58:39Z" finished-at="2019-07-09T10:58:44Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.CrticalPathFlow@2ef5e5e3]" name="setUp" is-config="true" duration-ms="4025" started-at="2019-07-09T18:17:53Z" finished-at="2019-07-09T18:17:57Z">
           <params>
             <param index="0">
               <value>
@@ -23,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="typeandsearch(java.lang.String)[pri:0, instance:testcases.CrticalPathFlow@51efea79]" name="typeandsearch" duration-ms="14324" started-at="2019-07-09T10:58:44Z" finished-at="2019-07-09T10:58:58Z">
+        <test-method status="PASS" signature="typeandsearch(java.lang.String)[pri:0, instance:testcases.CrticalPathFlow@2ef5e5e3]" name="typeandsearch" duration-ms="153155" started-at="2019-07-09T18:17:57Z" finished-at="2019-07-09T18:20:30Z">
           <params>
             <param index="0">
               <value>
@@ -32,23 +38,14 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Searched forrings]]>
+            </line>
+            <line>
+              <![CDATA[Added product with K22307to cart]]>
+            </line>
           </reporter-output>
         </test-method> <!-- typeandsearch -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.CrticalPathFlow@51efea79]" name="tearDown" is-config="true" duration-ms="687" started-at="2019-07-09T10:58:58Z" finished-at="2019-07-09T10:58:59Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=typeandsearch status=SUCCESS method=CrticalPathFlow.typeandsearch(java.lang.String)[pri:0, instance:testcases.CrticalPathFlow@51efea79] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:testcases.CrticalPathFlow@51efea79]" name="endTest" is-config="true" duration-ms="0" started-at="2019-07-09T10:58:59Z" finished-at="2019-07-09T10:58:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
       </class> <!-- testcases.CrticalPathFlow -->
     </test> <!-- Cart-CH -->
   </suite> <!-- Suite -->

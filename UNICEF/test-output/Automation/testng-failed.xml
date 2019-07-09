@@ -16,6 +16,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="endTest"/>
+          <include name="typeandsearch" invocation-numbers="0"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- testcase.CriticalPathFlow -->
@@ -29,7 +30,6 @@
       <class name="testcase.Wishlist">
         <methods>
           <include name="tearDown"/>
-          <include name="viewProductWishlist"/>
           <include name="endTest"/>
           <include name="setUp"/>
         </methods>

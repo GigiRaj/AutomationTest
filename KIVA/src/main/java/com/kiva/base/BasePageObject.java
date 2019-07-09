@@ -8,6 +8,7 @@ import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -213,6 +214,15 @@ public class BasePageObject {
 		 Random rand = new Random();
 		 int randomNum = rand.nextInt((max - min) + 1) + min;
 		 System.out.println(randomNum);
+	}
+	
+	/* to press the enter key */
+	
+	public void pressEnterKey(By Field) throws Exception{
+		
+		WebElement textbox = driver.findElement(Field);
+		textbox.sendKeys(Keys.ENTER);
+		
 	}
 
 }

@@ -31,24 +31,204 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Cart-CH</td><td class="numi">3</td><td class="numi">3</td><td class="numi">0</td><td class="numi">0</td><td class="numi">365.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Cart-CH</td><td class="numi">10</td><td class="numi">10</td><td class="numi">0</td><td class="numi_attn">4</td><td class="numi">1,199.9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Cart-CH &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">testcases.InspiredGifts</td><td><a href="#m1"><b>IGcreateCardPrintedCard</b>  </a></td><td class="numi">1</td><td>1562657213943</td><td class="numi">29518</td></tr>
+<tr class="failedeven"><td rowspan="1">testcases.SignInSignUp</td><td><a href="#m2"><b>LoginUnicefUS</b>  </a></td><td class="numi">1</td><td>1562656687166</td><td class="numi">40188</td></tr>
+<tr class="failedodd"><td rowspan="2">testcases.Wishlist</td><td><a href="#m3"><b>WishlisttocartCheckOut</b>  </a></td><td class="numi">1</td><td>1562657005092</td><td class="numi">102441</td></tr><tr class="failedodd"><td><a href="#m4"><b>WishlisttocartUsingGuest</b>  </a></td><td class="numi">1</td><td>1562657111968</td><td class="numi">97631</td></tr>
 <tr><th colspan="4">Cart-CH &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="3">testcases.Wishlist</td><td><a href="#m1"><b>WishlisttocartCheckOut</b>  </a></td><td class="numi">1</td><td>1562575989179</td><td class="numi">133424</td></tr><tr class="passedodd"><td><a href="#m2"><b>WishlisttocartUsingGuest</b>  </a></td><td class="numi">1</td><td>1562576126909</td><td class="numi">167322</td></tr><tr class="passedodd"><td><a href="#m3"><b>wishlistProduct</b>  </a></td><td class="numi">1</td><td>1562575933382</td><td class="numi">51532</td></tr>
+<tr class="passedodd"><td rowspan="5">testcases.InspiredGifts</td><td><a href="#m5"><b>IGcreateCardNoCard</b>  </a></td><td class="numi">1</td><td>1562657388176</td><td class="numi">37693</td></tr><tr class="passedodd"><td><a href="#m6"><b>IGcreateEGreetingCard</b>  </a></td><td class="numi">1</td><td>1562657320569</td><td class="numi">63199</td></tr><tr class="passedodd"><td><a href="#m7"><b>IGcreatePrintedAtHomeCard</b>  </a></td><td class="numi">1</td><td>1562657247758</td><td class="numi">68491</td></tr><tr class="passedodd"><td><a href="#m8"><b>RemoveIGGift</b>  </a></td><td class="numi">1</td><td>1562657430064</td><td class="numi">68435</td></tr><tr class="passedodd"><td><a href="#m9"><b>checkOutIGGift</b>  </a></td><td class="numi">1</td><td>1562657502583</td><td class="numi">141288</td></tr>
+<tr class="passedeven"><td rowspan="1">testcases.SignInSignUp</td><td><a href="#m10"><b>forgetPassword</b>  </a></td><td class="numi">1</td><td>1562656731544</td><td class="numi">31150</td></tr>
+<tr class="passedodd"><td rowspan="1">testcases.CrticalPathFlow</td><td><a href="#m11"><b>removeAddress</b>  </a></td><td class="numi">1</td><td>1562656626180</td><td class="numi">56324</td></tr>
+<tr class="passedeven"><td rowspan="1">testcases.SignInSignUp</td><td><a href="#m12"><b>signup</b>  </a></td><td class="numi">1</td><td>1562656766888</td><td class="numi">38783</td></tr>
+<tr class="passedodd"><td rowspan="1">testcases.CrticalPathFlow</td><td><a href="#m13"><b>typeandsearch</b>  </a></td><td class="numi">1</td><td>1562656448825</td><td class="numi">172917</td></tr>
+<tr class="passedeven"><td rowspan="1">testcases.Wishlist</td><td><a href="#m14"><b>wishlistProduct</b>  </a></td><td class="numi">1</td><td>1562656810289</td><td class="numi">190416</td></tr>
 </table>
 <h1>Cart-CH</h1>
-<h2 id="m1">testcases.Wishlist:WishlisttocartCheckOut</h2>
+<h2 id="m1">testcases.InspiredGifts:IGcreateCardPrintedCard</h2>
 <div style="padding-left:3em">
-Searched forrings<br/>
+<p>unknown error: Element &lt;button id=&quot;btn-addtocart&quot; type=&quot;submit&quot; class=&quot;btn btn-warning add-to-cart&quot;&gt;...&lt;/button&gt; is not clickable at point (1025, 391). Other element would receive the click: &lt;img src=&quot;//images1.novica.net/pictures/10/p201042_1.jpg&quot; class=&quot;mainmenu-featuredimage&quot; border=&quot;0&quot; alt=&quot;Jewellery&quot;&gt;
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-NBJ195T&apos;, ip: &apos;192.168.1.82&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\Gigi\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62089}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 24f81a2a5c3f8ae5962687f292dc994e</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+<br/>at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+<br/>at com.unicefuk.base.BasePageObject.click(BasePageObject.java:49)
+<br/>at com.unicefuk.pages.IGgiftPage.IGAddtoCart(IGgiftPage.java:63)
+<br/>at testcases.InspiredGifts.IGcreateCardPrintedCard(InspiredGifts.java:39)
+<br/>25 lines not shown
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">testcases.Wishlist:wishlistProduct</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m3">testcases.Wishlist:WishlisttocartUsingGuest</h2>
+<h2 id="m2">testcases.SignInSignUp:LoginUnicefUS</h2>
 <div style="padding-left:3em">
-Searched forrings<br/>
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;class name&quot;,&quot;selector&quot;:&quot;topMessageBarAction&quot;}
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-NBJ195T&apos;, ip: &apos;192.168.1.82&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\Gigi\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60679}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 1758cb87f462fc649105b9bab80ebd86
+*** Element info: {Using=class name, value=topMessageBarAction}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
+<br/>at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at com.unicefuk.base.BasePageObject.click(BasePageObject.java:49)
+<br/>at com.unicefuk.pages.HomePage.clickAcceptCookie(HomePage.java:23)
+<br/>at testcases.SignInSignUp.LoginUnicefUS(SignInSignUp.java:24)
+<br/>25 lines not shown
 </div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">testcases.Wishlist:WishlisttocartCheckOut</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+Searched forrings<br/>
+<h3>Failure</h3>
+<p>Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id=&apos;addressBook&apos;]/div[1]/form/button (tried for 10 second(s) with 500 milliseconds interval)</p>
+org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+<br/>at com.unicefuk.base.BasePageObject.waitFor(BasePageObject.java:167)
+<br/>at com.unicefuk.base.BasePageObject.waitForClickabilityOf(BasePageObject.java:153)
+<br/>at com.unicefuk.pages.ShippingAddressPage.sameAddress(ShippingAddressPage.java:95)
+<br/>at testcases.Wishlist.WishlisttocartCheckOut(Wishlist.java:87)
+<br/>25 lines not shown
+<p>Caused by no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;addressBook&apos;]/div[1]/form/button&quot;}
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-NBJ195T&apos;, ip: &apos;192.168.1.82&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\Gigi\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61516}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 7d7f2602b7e47ab6d7652d5f1c85efe7
+*** Element info: {Using=xpath, value=//*[@id=&apos;addressBook&apos;]/div[1]/form/button}</p>
+sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+<br/>at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+<br/>at com.unicefuk.base.BasePageObject.waitFor(BasePageObject.java:167)
+<br/>at com.unicefuk.base.BasePageObject.waitForClickabilityOf(BasePageObject.java:153)
+<br/>at com.unicefuk.pages.ShippingAddressPage.sameAddress(ShippingAddressPage.java:95)
+<br/>at testcases.Wishlist.WishlisttocartCheckOut(Wishlist.java:87)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">testcases.Wishlist:WishlisttocartUsingGuest</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+Searched forrings<br/>
+<h3>Failure</h3>
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;shippingAddressForm&apos;]/div[2]/div[2]/a&quot;}
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-NBJ195T&apos;, ip: &apos;192.168.1.82&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\Gigi\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61802}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 51220cd4a96dd7977e23db784ce9bf63
+*** Element info: {Using=xpath, value=//*[@id=&apos;shippingAddressForm&apos;]/div[2]/div[2]/a}</p>
+sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at com.unicefuk.base.BasePageObject.click(BasePageObject.java:49)
+<br/>at com.unicefuk.pages.ShippingAddressPage.createAddress(ShippingAddressPage.java:103)
+<br/>at testcases.Wishlist.WishlisttocartUsingGuest(Wishlist.java:142)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">testcases.InspiredGifts:RemoveIGGift</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">testcases.InspiredGifts:IGcreatePrintedAtHomeCard</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">testcases.InspiredGifts:IGcreateCardNoCard</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">testcases.SignInSignUp:forgetPassword</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">testcases.CrticalPathFlow:typeandsearch</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>1</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+Searched forrings<br/>
+Added product with 31829to cart<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">testcases.InspiredGifts:checkOutIGGift</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">testcases.Wishlist:wishlistProduct</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">testcases.InspiredGifts:IGcreateEGreetingCard</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">testcases.CrticalPathFlow:removeAddress</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">testcases.SignInSignUp:signup</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>
