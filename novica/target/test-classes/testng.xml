@@ -1,0 +1,8 @@
+<suite name="novica">
+<test name="Cart-CH">
+<parameter name="browser" value="1"/>
+<classes>
+<class name="testcase.CriticalPathFlow"/>
+
+</classes>
+</test></suite>
