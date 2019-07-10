@@ -4,6 +4,8 @@ import java.util.Random;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.kiva.base.BasePageObject;
 import org.openqa.selenium.Keys;
@@ -45,6 +47,7 @@ public class HomePage extends BasePageObject {
 	/* Type and submit search keyword */
 	public   void typeAndSubmitKeyword(String keyword) throws Exception {
 		
+		explicitWait(searchField);
 		type(searchField,keyword);
 		pressEnterKey(searchField);		
 	}
@@ -54,12 +57,15 @@ public class HomePage extends BasePageObject {
 	waitForJavascripttoLoad();
 	}
 	
+	
+	
 	/* to change shipping address to US */
 	public void shipToUs() throws Exception{
 		
 		click(shipToHeaderButton);
-		Thread.sleep(10000);		
-		By shiptotheUSIcon= By.xpath("//*[@id='shippingCountries']/div/div[2]/div[2]/a[1]/i");
+//		Thread.sleep(10000);
+		 By shiptotheUSIcon= By.xpath("//*[@id='shippingCountries']/div/div[2]/div[2]/a[1]/i");
+		 explicitWait(shiptotheUSIcon);
 		click(shiptotheUSIcon);
 		Thread.sleep(10000);
 		

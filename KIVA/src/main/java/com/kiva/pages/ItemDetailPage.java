@@ -36,7 +36,7 @@ public class ItemDetailPage extends BasePageObject{
 		return originalPrice;
 	}
 	
-	public void clickAddToCartButton() {
+	public void clickAddToCartButton() throws Exception {
 		if (isAttribute()) {
 			Select drpAttrib = new Select(find(attribSelectDropdown));
 			Integer size = drpAttrib.getOptions().size();
@@ -52,6 +52,7 @@ public class ItemDetailPage extends BasePageObject{
 			click(attribSelect);
 			click(By.xpath("//select[@id='attb']/option[" + selectIndex + "]"));
 		}
+		explicitWait(AddToCartButtonField);
 		waitForClickabilityOf(AddToCartButtonField, 10);
 		click(AddToCartButtonField);
 	}
@@ -65,12 +66,11 @@ public class ItemDetailPage extends BasePageObject{
 	}
 	
 
-	public void Gotocart()
+	public void Gotocart() throws Exception
 	{
+	explicitWait(gotocart);
 	waitForClickabilityOf(gotocart, 30);
 	click(gotocart);
 	}
 	
-	
-
 }

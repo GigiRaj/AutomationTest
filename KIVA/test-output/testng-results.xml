@@ -5,15 +5,15 @@
       <![CDATA[Searched forrings]]>
     </line>
     <line>
-      <![CDATA[Added product with K22307to cart]]>
+      <![CDATA[Added product with K11196to cart]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="157199" started-at="2019-07-09T12:47:53Z" finished-at="2019-07-09T12:50:30Z">
+  <suite name="Suite" duration-ms="105638" started-at="2019-07-10T12:06:16Z" finished-at="2019-07-10T12:08:02Z">
     <groups>
     </groups>
-    <test name="Cart-CH" duration-ms="157199" started-at="2019-07-09T12:47:53Z" finished-at="2019-07-09T12:50:30Z">
+    <test name="Cart-CH" duration-ms="105638" started-at="2019-07-10T12:06:16Z" finished-at="2019-07-10T12:08:02Z">
       <class name="testcases.CrticalPathFlow">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.CrticalPathFlow@2ef5e5e3]" name="setUp" is-config="true" duration-ms="4025" started-at="2019-07-09T18:17:53Z" finished-at="2019-07-09T18:17:57Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.CrticalPathFlow@2ef5e5e3]" name="setUp" is-config="true" duration-ms="3998" started-at="2019-07-10T17:36:16Z" finished-at="2019-07-10T17:36:20Z">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="typeandsearch(java.lang.String)[pri:0, instance:testcases.CrticalPathFlow@2ef5e5e3]" name="typeandsearch" duration-ms="153155" started-at="2019-07-09T18:17:57Z" finished-at="2019-07-09T18:20:30Z">
+        <test-method status="PASS" signature="typeandsearch(java.lang.String)[pri:0, instance:testcases.CrticalPathFlow@2ef5e5e3]" name="typeandsearch" duration-ms="101621" started-at="2019-07-10T17:36:20Z" finished-at="2019-07-10T17:38:02Z">
           <params>
             <param index="0">
               <value>
@@ -42,7 +42,7 @@
               <![CDATA[Searched forrings]]>
             </line>
             <line>
-              <![CDATA[Added product with K22307to cart]]>
+              <![CDATA[Added product with K11196to cart]]>
             </line>
           </reporter-output>
         </test-method> <!-- typeandsearch -->

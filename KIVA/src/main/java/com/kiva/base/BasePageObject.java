@@ -224,5 +224,13 @@ public class BasePageObject {
 		textbox.sendKeys(Keys.ENTER);
 		
 	}
+	
+	/* to wait for particular element- explicit wait */
+	
+	public void explicitWait(By Field)throws Exception{
+		
+		 WebDriverWait wait = new WebDriverWait(driver,30);
+		 wait.until(ExpectedConditions.visibilityOfElementLocated(Field));
+	}
 
 }
