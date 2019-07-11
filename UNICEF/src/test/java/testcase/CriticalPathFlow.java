@@ -12,6 +12,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.testng.log4testng.Logger;
 
+import com.unicef.base.WebPageUtility;
 import com.unicef.base.BasePageObject;
 import com.unicef.base.BaseTest;
 import com.unicef.pages.C3category;
@@ -33,6 +34,7 @@ public class CriticalPathFlow extends BaseTest {
 		
 		
 		C3category c3 = new C3category(driver);
+		WebPageUtility wpu = new WebPageUtility();
 		ItemDetailPage itdetail = new ItemDetailPage(driver);
 		HomePage homePage = new HomePage(driver);
 		Cart cat = new Cart(driver);
@@ -52,12 +54,19 @@ public class CriticalPathFlow extends BaseTest {
 		Reporter.log("Waiting for C3 to load");
 		int productcount = c3.getproductCount();
 		Reporter.log("Total Products found"+ productcount);
-	    String productid = c3.getProductID(3);
+		System.out.println("Total Products found "+ productcount);
+		int gennum = wpu.getRandomNumberInts(1, productcount);
+		System.out.println(gennum);
+		
+	    String productid = c3.getProductID(gennum);
 	    Reporter.log("Clicked on product ID"+ productid);
-	    c3.clickProductPlateRandom(3);
+	    System.out.println("Clicked on product ID"+ productid);
+	    c3.clickProductPlateRandom(gennum);
 	    
 		itdetail.waitForItemDetailLoad();
 		String productdetid= itdetail.getProductID();
+		System.out.println(productid);
+		System.out.println(productdetid);
 	    assertEquals(productid, productdetid);
 		String productPrice = itdetail.getProductPrice();
 		System.out.println(productPrice);

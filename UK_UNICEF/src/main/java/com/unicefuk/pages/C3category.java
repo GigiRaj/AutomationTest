@@ -11,7 +11,7 @@ import com.unicefuk.base.BasePageObject;
 
 public class C3category extends BasePageObject {
 	
-	private static final By productPlate = By.xpath("//*[@id='shop']/div[1]/div/div[1]/div[1]/div[1]");
+	private static final By productPlate = By.xpath("//*[@id='product-list']/div/div");
 
 	public C3category(WebDriver driver) {
 		super(driver);

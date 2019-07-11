@@ -16,7 +16,6 @@
         <methods>
           <include name="tearDown"/>
           <include name="endTest"/>
-          <include name="typeandsearch" invocation-numbers="0"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- testcase.CriticalPathFlow -->
@@ -27,20 +26,22 @@
           <include name="setUp"/>
         </methods>
       </class> <!-- testcase.Homepage -->
-      <class name="testcase.Wishlist">
-        <methods>
-          <include name="tearDown"/>
-          <include name="endTest"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- testcase.Wishlist -->
       <class name="testcase.InspiredGifts">
         <methods>
           <include name="tearDown"/>
           <include name="endTest"/>
           <include name="setUp"/>
+          <include name="IGcreateCardNoCard"/>
         </methods>
       </class> <!-- testcase.InspiredGifts -->
+      <class name="testcase.Wishlist">
+        <methods>
+          <include name="tearDown"/>
+          <include name="viewProductWishlist"/>
+          <include name="endTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcase.Wishlist -->
     </classes>
   </test> <!-- Cart-CH(failed) -->
 </suite> <!-- Failed suite [Automation] -->

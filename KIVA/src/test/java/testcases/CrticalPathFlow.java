@@ -19,6 +19,7 @@ import com.kiva.pages.DeliveryAddressPage;
 import com.kiva.pages.HomePage;
 import com.kiva.pages.ItemDetailPage;
 import com.kiva.pages.PaymentPage;
+import com.kiva.base.WebPageUtility;
 
 public class CrticalPathFlow extends BaseTest {
 	
@@ -27,6 +28,7 @@ public class CrticalPathFlow extends BaseTest {
 	public void typeandsearch(String keyword) throws Exception {
 		
 		HomePage homePage = new HomePage(driver);
+		WebPageUtility wpu = new WebPageUtility();
 		CategoryPage cat= new CategoryPage(driver);
 		ItemDetailPage item= new ItemDetailPage(driver);
 		CartPage cart = new CartPage(driver);
@@ -41,8 +43,16 @@ public class CrticalPathFlow extends BaseTest {
 		Reporter.log("Searched for"+ Key);
 		
 		cat.waitForCategorytoLoad();
-		String productid = cat.getProductID(1);
-		cat.clickProductPlateRandom(1);
+		int productcount = cat.getproductCount();
+		Reporter.log("Total Products found "+ productcount);
+		System.out.println("Total Products found "+ productcount);
+		int gennum = wpu.getRandomNumberInts(1, productcount);
+		System.out.println(gennum);
+		
+		String productid = cat.getProductID(gennum);
+		Reporter.log("Clicked on product ID"+ productid); 
+		System.out.println("Clicked on product ID"+ productid);
+		cat.clickProductPlateRandom(gennum);
 		item.waitForItemDetailLoad();
 //		String productPrice = item.getProductPrice();
 //		System.out.println(productPrice);

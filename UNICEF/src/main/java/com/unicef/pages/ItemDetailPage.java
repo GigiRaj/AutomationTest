@@ -9,7 +9,7 @@ import com.unicef.base.BasePageObject;
 public class ItemDetailPage extends BasePageObject{
 	private String URL = "https://www.market.unicefusa.org/itemdetail/?pid=U486415";
 	private By productIDField = By.xpath("//div[@id='productpic-box']/div/div[2]/div[1]/img");
-	private By originalPriceField = By.xpath("//div[@id='itempricing']/p/span[2]");
+	private By originalPriceField = By.xpath("//*[@id='itempricing']/p/span");
 	private By isAttributeField = By.xpath("//form[@name='addtocart']/input[@name='AttribYes']");
 	private By attribSelectDropdown = By.xpath("//select[@id='attb']");
 	private By attribSelect = By.xpath("//div[@id='attributeoptions']");

@@ -1,25 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="4" total="14" passed="10">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
     <line>
-      <![CDATA[Searched forrings]]>
+      <![CDATA[Total Products found 25]]>
     </line>
     <line>
-      <![CDATA[Added product with 31829to cart]]>
+      <![CDATA[Searched forBracelets]]>
     </line>
     <line>
-      <![CDATA[Searched forrings]]>
+      <![CDATA[Waiting for Category page to Load]]>
     </line>
     <line>
-      <![CDATA[Searched forrings]]>
+      <![CDATA[Total Products found 84]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on product ID39978]]>
+    </line>
+    <line>
+      <![CDATA[Total Products found 26]]>
+    </line>
+    <line>
+      <![CDATA[add item to bag from wishlist page]]>
+    </line>
+    <line>
+      <![CDATA[Searched forBracelets]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for Category page to Load]]>
+    </line>
+    <line>
+      <![CDATA[Total Products found 84]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on product ID34669]]>
+    </line>
+    <line>
+      <![CDATA[Total Products found 27]]>
+    </line>
+    <line>
+      <![CDATA[add item to bag from wishlist page]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="1199930" started-at="2019-07-09T07:14:04Z" finished-at="2019-07-09T07:34:04Z">
+  <suite name="Suite" duration-ms="388775" started-at="2019-07-11T11:54:14Z" finished-at="2019-07-11T12:00:43Z">
     <groups>
     </groups>
-    <test name="Cart-CH" duration-ms="1199930" started-at="2019-07-09T07:14:04Z" finished-at="2019-07-09T07:34:04Z">
+    <test name="Cart-CH" duration-ms="388775" started-at="2019-07-11T11:54:14Z" finished-at="2019-07-11T12:00:43Z">
       <class name="testcases.Wishlist">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.Wishlist@6d00a15d]" name="setUp" is-config="true" duration-ms="3932" started-at="2019-07-09T12:50:06Z" finished-at="2019-07-09T12:50:10Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.Wishlist@100fc185]" name="setUp" is-config="true" duration-ms="4671" started-at="2019-07-11T17:24:14Z" finished-at="2019-07-11T17:24:19Z">
           <params>
             <param index="0">
               <value>
@@ -35,22 +62,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="wishlistProduct()[pri:0, instance:testcases.Wishlist@6d00a15d]" name="wishlistProduct" duration-ms="190416" started-at="2019-07-09T12:50:10Z" finished-at="2019-07-09T12:53:20Z">
+        <test-method status="PASS" signature="wishlistProduct()[pri:0, instance:testcases.Wishlist@100fc185]" name="wishlistProduct" duration-ms="45888" started-at="2019-07-11T17:24:19Z" finished-at="2019-07-11T17:25:05Z">
           <reporter-output>
+            <line>
+              <![CDATA[Total Products found 25]]>
+            </line>
           </reporter-output>
         </test-method> <!-- wishlistProduct -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.Wishlist@6d00a15d]" name="tearDown" is-config="true" duration-ms="672" started-at="2019-07-09T12:53:20Z" finished-at="2019-07-09T12:53:21Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.Wishlist@100fc185]" name="tearDown" is-config="true" duration-ms="675" started-at="2019-07-11T17:25:05Z" finished-at="2019-07-11T17:25:05Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=wishlistProduct status=SUCCESS method=Wishlist.wishlistProduct()[pri:0, instance:testcases.Wishlist@6d00a15d] output={null}]]]>
+                <![CDATA[[TestResult name=wishlistProduct status=SUCCESS method=Wishlist.wishlistProduct()[pri:0, instance:testcases.Wishlist@100fc185] output=Total Products found 25]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.Wishlist@6d00a15d]" name="setUp" is-config="true" duration-ms="3711" started-at="2019-07-09T12:53:21Z" finished-at="2019-07-09T12:53:25Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.Wishlist@100fc185]" name="setUp" is-config="true" duration-ms="3465" started-at="2019-07-11T17:25:05Z" finished-at="2019-07-11T17:25:09Z">
           <params>
             <param index="0">
               <value>
@@ -66,96 +96,40 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="WishlisttocartCheckOut()[pri:0, instance:testcases.Wishlist@6d00a15d]" name="WishlisttocartCheckOut" duration-ms="102441" started-at="2019-07-09T12:53:25Z" finished-at="2019-07-09T12:55:07Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id='addressBook']/div[1]/form/button (tried for 10 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id='addressBook']/div[1]/form/button (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.unicefuk.base.BasePageObject.waitFor(BasePageObject.java:167)
-	at com.unicefuk.base.BasePageObject.waitForClickabilityOf(BasePageObject.java:153)
-	at com.unicefuk.pages.ShippingAddressPage.sameAddress(ShippingAddressPage.java:95)
-	at testcases.Wishlist.WishlisttocartCheckOut(Wishlist.java:87)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='addressBook']/div[1]/form/button"}
-  (Session info: chrome=75.0.3770.100)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\Gigi\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61516}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
-Session ID: 7d7f2602b7e47ab6d7652d5f1c85efe7
-*** Element info: {Using=xpath, value=//*[@id='addressBook']/div[1]/form/button}
-	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 28 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="WishlisttocartCheckOut()[pri:0, instance:testcases.Wishlist@100fc185]" name="WishlisttocartCheckOut" duration-ms="158694" started-at="2019-07-11T17:25:09Z" finished-at="2019-07-11T17:27:48Z">
           <reporter-output>
             <line>
-              <![CDATA[Searched forrings]]>
+              <![CDATA[Searched forBracelets]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for Category page to Load]]>
+            </line>
+            <line>
+              <![CDATA[Total Products found 84]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on product ID39978]]>
+            </line>
+            <line>
+              <![CDATA[Total Products found 26]]>
+            </line>
+            <line>
+              <![CDATA[add item to bag from wishlist page]]>
             </line>
           </reporter-output>
         </test-method> <!-- WishlisttocartCheckOut -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.Wishlist@6d00a15d]" name="tearDown" is-config="true" duration-ms="856" started-at="2019-07-09T12:55:07Z" finished-at="2019-07-09T12:55:08Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.Wishlist@100fc185]" name="tearDown" is-config="true" duration-ms="688" started-at="2019-07-11T17:27:48Z" finished-at="2019-07-11T17:27:48Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=WishlisttocartCheckOut status=FAILURE method=Wishlist.WishlisttocartCheckOut()[pri:0, instance:testcases.Wishlist@6d00a15d] output=Searched forrings]]]>
+                <![CDATA[[TestResult name=WishlisttocartCheckOut status=SUCCESS method=Wishlist.WishlisttocartCheckOut()[pri:0, instance:testcases.Wishlist@100fc185] output=Searched forBracelets]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.Wishlist@6d00a15d]" name="setUp" is-config="true" duration-ms="3577" started-at="2019-07-09T12:55:08Z" finished-at="2019-07-09T12:55:11Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.Wishlist@100fc185]" name="setUp" is-config="true" duration-ms="3650" started-at="2019-07-11T17:27:48Z" finished-at="2019-07-11T17:27:52Z">
           <params>
             <param index="0">
               <value>
@@ -171,610 +145,44 @@ Session ID: 7d7f2602b7e47ab6d7652d5f1c85efe7
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="WishlisttocartUsingGuest()[pri:0, instance:testcases.Wishlist@6d00a15d]" name="WishlisttocartUsingGuest" duration-ms="97631" started-at="2019-07-09T12:55:11Z" finished-at="2019-07-09T12:56:49Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='shippingAddressForm']/div[2]/div[2]/a"}
-  (Session info: chrome=75.0.3770.100)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\Gigi\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61802}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
-Session ID: 51220cd4a96dd7977e23db784ce9bf63
-*** Element info: {Using=xpath, value=//*[@id='shippingAddressForm']/div[2]/div[2]/a}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='shippingAddressForm']/div[2]/div[2]/a"}
-  (Session info: chrome=75.0.3770.100)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\Gigi\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61802}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
-Session ID: 51220cd4a96dd7977e23db784ce9bf63
-*** Element info: {Using=xpath, value=//*[@id='shippingAddressForm']/div[2]/div[2]/a}
-	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.unicefuk.base.BasePageObject.click(BasePageObject.java:49)
-	at com.unicefuk.pages.ShippingAddressPage.createAddress(ShippingAddressPage.java:103)
-	at testcases.Wishlist.WishlisttocartUsingGuest(Wishlist.java:142)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method status="PASS" signature="WishlisttocartUsingGuest()[pri:0, instance:testcases.Wishlist@100fc185]" name="WishlisttocartUsingGuest" duration-ms="170366" started-at="2019-07-11T17:27:52Z" finished-at="2019-07-11T17:30:42Z">
           <reporter-output>
             <line>
-              <![CDATA[Searched forrings]]>
+              <![CDATA[Searched forBracelets]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for Category page to Load]]>
+            </line>
+            <line>
+              <![CDATA[Total Products found 84]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on product ID34669]]>
+            </line>
+            <line>
+              <![CDATA[Total Products found 27]]>
+            </line>
+            <line>
+              <![CDATA[add item to bag from wishlist page]]>
             </line>
           </reporter-output>
         </test-method> <!-- WishlisttocartUsingGuest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.Wishlist@6d00a15d]" name="tearDown" is-config="true" duration-ms="755" started-at="2019-07-09T12:56:49Z" finished-at="2019-07-09T12:56:50Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.Wishlist@100fc185]" name="tearDown" is-config="true" duration-ms="661" started-at="2019-07-11T17:30:42Z" finished-at="2019-07-11T17:30:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=WishlisttocartUsingGuest status=FAILURE method=Wishlist.WishlisttocartUsingGuest()[pri:0, instance:testcases.Wishlist@6d00a15d] output=Searched forrings]]]>
+                <![CDATA[[TestResult name=WishlisttocartUsingGuest status=SUCCESS method=Wishlist.WishlisttocartUsingGuest()[pri:0, instance:testcases.Wishlist@100fc185] output=Searched forBracelets]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:testcases.Wishlist@6d00a15d]" name="endTest" is-config="true" duration-ms="1" started-at="2019-07-09T12:56:50Z" finished-at="2019-07-09T12:56:50Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testcases.Wishlist@100fc185]" name="endTest" is-config="true" duration-ms="0" started-at="2019-07-11T17:30:43Z" finished-at="2019-07-11T17:30:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
       </class> <!-- testcases.Wishlist -->
-      <class name="testcases.SignInSignUp">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.SignInSignUp@7c16905e]" name="setUp" is-config="true" duration-ms="3970" started-at="2019-07-09T12:48:03Z" finished-at="2019-07-09T12:48:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testcases.SignInSignUp.LoginUnicefUS() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="LoginUnicefUS()[pri:0, instance:testcases.SignInSignUp@7c16905e]" name="LoginUnicefUS" duration-ms="40188" started-at="2019-07-09T12:48:07Z" finished-at="2019-07-09T12:48:47Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"class name","selector":"topMessageBarAction"}
-  (Session info: chrome=75.0.3770.100)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\Gigi\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60679}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
-Session ID: 1758cb87f462fc649105b9bab80ebd86
-*** Element info: {Using=class name, value=topMessageBarAction}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"class name","selector":"topMessageBarAction"}
-  (Session info: chrome=75.0.3770.100)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\Gigi\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60679}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
-Session ID: 1758cb87f462fc649105b9bab80ebd86
-*** Element info: {Using=class name, value=topMessageBarAction}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)
-	at org.openqa.selenium.By$ByClassName.findElement(By.java:389)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.unicefuk.base.BasePageObject.click(BasePageObject.java:49)
-	at com.unicefuk.pages.HomePage.clickAcceptCookie(HomePage.java:23)
-	at testcases.SignInSignUp.LoginUnicefUS(SignInSignUp.java:24)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginUnicefUS -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.SignInSignUp@7c16905e]" name="tearDown" is-config="true" duration-ms="641" started-at="2019-07-09T12:48:47Z" finished-at="2019-07-09T12:48:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=LoginUnicefUS status=FAILURE method=SignInSignUp.LoginUnicefUS()[pri:0, instance:testcases.SignInSignUp@7c16905e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.SignInSignUp@7c16905e]" name="setUp" is-config="true" duration-ms="3545" started-at="2019-07-09T12:48:47Z" finished-at="2019-07-09T12:48:51Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testcases.SignInSignUp.forgetPassword() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="forgetPassword()[pri:0, instance:testcases.SignInSignUp@7c16905e]" name="forgetPassword" duration-ms="31150" started-at="2019-07-09T12:48:51Z" finished-at="2019-07-09T12:49:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgetPassword -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.SignInSignUp@7c16905e]" name="tearDown" is-config="true" duration-ms="652" started-at="2019-07-09T12:49:22Z" finished-at="2019-07-09T12:49:23Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=forgetPassword status=SUCCESS method=SignInSignUp.forgetPassword()[pri:0, instance:testcases.SignInSignUp@7c16905e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.SignInSignUp@7c16905e]" name="setUp" is-config="true" duration-ms="3539" started-at="2019-07-09T12:49:23Z" finished-at="2019-07-09T12:49:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testcases.SignInSignUp.signup() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="signup()[pri:0, instance:testcases.SignInSignUp@7c16905e]" name="signup" duration-ms="38783" started-at="2019-07-09T12:49:26Z" finished-at="2019-07-09T12:50:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signup -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.SignInSignUp@7c16905e]" name="tearDown" is-config="true" duration-ms="685" started-at="2019-07-09T12:50:05Z" finished-at="2019-07-09T12:50:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=signup status=SUCCESS method=SignInSignUp.signup()[pri:0, instance:testcases.SignInSignUp@7c16905e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:testcases.SignInSignUp@7c16905e]" name="endTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:50:06Z" finished-at="2019-07-09T12:50:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-      </class> <!-- testcases.SignInSignUp -->
-      <class name="testcases.CrticalPathFlow">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.CrticalPathFlow@1753acfe]" name="setUp" is-config="true" duration-ms="4185" started-at="2019-07-09T12:44:04Z" finished-at="2019-07-09T12:44:08Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testcases.CrticalPathFlow.typeandsearch(java.lang.String) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="typeandsearch(java.lang.String)[pri:0, instance:testcases.CrticalPathFlow@1753acfe]" name="typeandsearch" duration-ms="172917" started-at="2019-07-09T12:44:08Z" finished-at="2019-07-09T12:47:01Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Searched forrings]]>
-            </line>
-            <line>
-              <![CDATA[Added product with 31829to cart]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- typeandsearch -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.CrticalPathFlow@1753acfe]" name="tearDown" is-config="true" duration-ms="717" started-at="2019-07-09T12:47:01Z" finished-at="2019-07-09T12:47:02Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=typeandsearch status=SUCCESS method=CrticalPathFlow.typeandsearch(java.lang.String)[pri:0, instance:testcases.CrticalPathFlow@1753acfe] output=Searched forrings]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.CrticalPathFlow@1753acfe]" name="setUp" is-config="true" duration-ms="3719" started-at="2019-07-09T12:47:02Z" finished-at="2019-07-09T12:47:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testcases.CrticalPathFlow.removeAddress() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="removeAddress()[pri:0, instance:testcases.CrticalPathFlow@1753acfe]" name="removeAddress" duration-ms="56324" started-at="2019-07-09T12:47:06Z" finished-at="2019-07-09T12:48:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- removeAddress -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.CrticalPathFlow@1753acfe]" name="tearDown" is-config="true" duration-ms="690" started-at="2019-07-09T12:48:02Z" finished-at="2019-07-09T12:48:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=removeAddress status=SUCCESS method=CrticalPathFlow.removeAddress()[pri:0, instance:testcases.CrticalPathFlow@1753acfe] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:testcases.CrticalPathFlow@1753acfe]" name="endTest" is-config="true" duration-ms="0" started-at="2019-07-09T12:48:03Z" finished-at="2019-07-09T12:48:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-      </class> <!-- testcases.CrticalPathFlow -->
-      <class name="testcases.InspiredGifts">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="setUp" is-config="true" duration-ms="3584" started-at="2019-07-09T12:56:50Z" finished-at="2019-07-09T12:56:53Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testcases.InspiredGifts.IGcreateCardPrintedCard() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="IGcreateCardPrintedCard()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="IGcreateCardPrintedCard" duration-ms="29518" started-at="2019-07-09T12:56:53Z" finished-at="2019-07-09T12:57:23Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: Element <button id="btn-addtocart" type="submit" class="btn btn-warning add-to-cart">...</button> is not clickable at point (1025, 391). Other element would receive the click: <img src="//images1.novica.net/pictures/10/p201042_1.jpg" class="mainmenu-featuredimage" border="0" alt="Jewellery">
-  (Session info: chrome=75.0.3770.100)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\Gigi\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62089}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
-Session ID: 24f81a2a5c3f8ae5962687f292dc994e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <button id="btn-addtocart" type="submit" class="btn btn-warning add-to-cart">...</button> is not clickable at point (1025, 391). Other element would receive the click: <img src="//images1.novica.net/pictures/10/p201042_1.jpg" class="mainmenu-featuredimage" border="0" alt="Jewellery">
-  (Session info: chrome=75.0.3770.100)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\Gigi\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62089}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
-Session ID: 24f81a2a5c3f8ae5962687f292dc994e
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at com.unicefuk.base.BasePageObject.click(BasePageObject.java:49)
-	at com.unicefuk.pages.IGgiftPage.IGAddtoCart(IGgiftPage.java:63)
-	at testcases.InspiredGifts.IGcreateCardPrintedCard(InspiredGifts.java:39)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- IGcreateCardPrintedCard -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="tearDown" is-config="true" duration-ms="770" started-at="2019-07-09T12:57:23Z" finished-at="2019-07-09T12:57:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=IGcreateCardPrintedCard status=FAILURE method=InspiredGifts.IGcreateCardPrintedCard()[pri:0, instance:testcases.InspiredGifts@548a9f61] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="setUp" is-config="true" duration-ms="3525" started-at="2019-07-09T12:57:24Z" finished-at="2019-07-09T12:57:27Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testcases.InspiredGifts.IGcreatePrintedAtHomeCard() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="IGcreatePrintedAtHomeCard()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="IGcreatePrintedAtHomeCard" duration-ms="68491" started-at="2019-07-09T12:57:27Z" finished-at="2019-07-09T12:58:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- IGcreatePrintedAtHomeCard -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="tearDown" is-config="true" duration-ms="649" started-at="2019-07-09T12:58:36Z" finished-at="2019-07-09T12:58:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=IGcreatePrintedAtHomeCard status=SUCCESS method=InspiredGifts.IGcreatePrintedAtHomeCard()[pri:0, instance:testcases.InspiredGifts@548a9f61] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="setUp" is-config="true" duration-ms="3669" started-at="2019-07-09T12:58:36Z" finished-at="2019-07-09T12:58:40Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testcases.InspiredGifts.IGcreateEGreetingCard() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="IGcreateEGreetingCard()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="IGcreateEGreetingCard" duration-ms="63199" started-at="2019-07-09T12:58:40Z" finished-at="2019-07-09T12:59:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- IGcreateEGreetingCard -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="tearDown" is-config="true" duration-ms="829" started-at="2019-07-09T12:59:43Z" finished-at="2019-07-09T12:59:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=IGcreateEGreetingCard status=SUCCESS method=InspiredGifts.IGcreateEGreetingCard()[pri:0, instance:testcases.InspiredGifts@548a9f61] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="setUp" is-config="true" duration-ms="3577" started-at="2019-07-09T12:59:44Z" finished-at="2019-07-09T12:59:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testcases.InspiredGifts.IGcreateCardNoCard() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="IGcreateCardNoCard()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="IGcreateCardNoCard" duration-ms="37693" started-at="2019-07-09T12:59:48Z" finished-at="2019-07-09T13:00:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- IGcreateCardNoCard -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="tearDown" is-config="true" duration-ms="638" started-at="2019-07-09T13:00:25Z" finished-at="2019-07-09T13:00:26Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=IGcreateCardNoCard status=SUCCESS method=InspiredGifts.IGcreateCardNoCard()[pri:0, instance:testcases.InspiredGifts@548a9f61] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="setUp" is-config="true" duration-ms="3556" started-at="2019-07-09T13:00:26Z" finished-at="2019-07-09T13:00:30Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testcases.InspiredGifts.RemoveIGGift() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="RemoveIGGift()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="RemoveIGGift" duration-ms="68435" started-at="2019-07-09T13:00:30Z" finished-at="2019-07-09T13:01:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- RemoveIGGift -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="tearDown" is-config="true" duration-ms="630" started-at="2019-07-09T13:01:38Z" finished-at="2019-07-09T13:01:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=RemoveIGGift status=SUCCESS method=InspiredGifts.RemoveIGGift()[pri:0, instance:testcases.InspiredGifts@548a9f61] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="setUp" is-config="true" duration-ms="3453" started-at="2019-07-09T13:01:39Z" finished-at="2019-07-09T13:01:42Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testcases.InspiredGifts.checkOutIGGift() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="checkOutIGGift()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="checkOutIGGift" duration-ms="141288" started-at="2019-07-09T13:01:42Z" finished-at="2019-07-09T13:04:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkOutIGGift -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="tearDown" is-config="true" duration-ms="684" started-at="2019-07-09T13:04:03Z" finished-at="2019-07-09T13:04:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=checkOutIGGift status=SUCCESS method=InspiredGifts.checkOutIGGift()[pri:0, instance:testcases.InspiredGifts@548a9f61] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="endTest" is-config="true" duration-ms="0" started-at="2019-07-09T13:04:04Z" finished-at="2019-07-09T13:04:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-      </class> <!-- testcases.InspiredGifts -->
     </test> <!-- Cart-CH -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -7,7 +7,7 @@ import com.unicef.base.BasePageObject;
 
 public class C3category extends BasePageObject {
 	
-	private static final By productPlate = By.xpath("//div[@id='product-list']/div/div/p[1]/a[1]");
+	private static final By productPlate = By.xpath("//*[@id='product-list']/div");
 
 	public C3category(WebDriver driver) {
 		super(driver);

@@ -19,6 +19,7 @@ import com.unicefuk.pages.SignIn;
 import com.unicefuk.pages.ShippingAddressPage;
 import com.unicefuk.base.BasePageObject;
 import com.unicefuk.base.BaseTest;
+import com.unicefuk.base.WebPageUtility;
 import com.unicefuk.pages.HomePage;
 import com.unicefuk.pages.ItemDetailPage;
 import com.unicefuk.pages.PaymentPage;
@@ -31,6 +32,7 @@ public class CrticalPathFlow extends BaseTest{
 	public void typeandsearch(String keyword) throws Exception {
 		
 		HomePage homePage = new HomePage(driver);
+		WebPageUtility wpu= new WebPageUtility();
 		C3category c3 = new C3category(driver);
 		ItemDetailPage itdetail = new ItemDetailPage(driver);
 		Cart cat = new Cart(driver);
@@ -47,12 +49,17 @@ public class CrticalPathFlow extends BaseTest{
 		Reporter.log("Searched for"+ Key);
 		
 		c3.waitForC3toLoad();
-//		Reporter.log("Waiting for C3 to load");
-//		int productcount = c3.getproductCount();
-//		Reporter.log("Total Products found"+ productcount);
-	    String productid = c3.getProductID(1);
-//	    Reporter.log("Clicked on product ID"+ productid);
-	    c3.clickProductPlateRandom(1);
+		Reporter.log("Waiting for C3 to load");
+		int productcount = c3.getproductCount();
+		Reporter.log("Total Products found"+ productcount);
+		System.out.println("Total Products found "+ productcount);
+		int gennum = wpu.getRandomNumberInts(1, productcount);
+		System.out.println(gennum);
+		
+	    String productid = c3.getProductID(gennum);
+	    Reporter.log("Clicked on product ID"+ productid);
+	    System.out.println("Clicked on product ID"+ productid);
+	    c3.clickProductPlateRandom(gennum);
 	    
 	    itdetail.waitForItemDetailLoad();
 		String productPrice = itdetail.getProductPrice();
@@ -99,25 +106,7 @@ public class CrticalPathFlow extends BaseTest{
 		shipAddr.RemoveAddressBook(1);
 		
 	}
-//	
-//	@Test(priority=0)
-//	public void randomNumber() throws Exception {
-//		
-//		HomePage homePage = new HomePage(driver);
-//		C3category c3 = new C3category(driver);
-//		
-//		homePage.openHomePage();	
-//		String Key = "rings";
-//		homePage.typeAndSubmitKeyword(Key);
-//		c3.waitForC3toLoad();
-////		int productcount = c3.getproductCount();
-////		System.out.println(productcount);
-////		String productid = c3.getProductID(1);
-////		System.out.println(productid);
-//		c3.totlaProduct();
-//
-//		
-//	}
+
 
 
 }

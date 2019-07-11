@@ -14,29 +14,6 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- testcases.Wishlist -->
-      <class name="testcases.InspiredGifts">
-        <methods>
-          <include name="IGcreateCardPrintedCard"/>
-          <include name="setUp"/>
-          <include name="endTest"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- testcases.InspiredGifts -->
-      <class name="testcases.SignInSignUp">
-        <methods>
-          <include name="LoginUnicefUS"/>
-          <include name="setUp"/>
-          <include name="endTest"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- testcases.SignInSignUp -->
-      <class name="testcases.CrticalPathFlow">
-        <methods>
-          <include name="setUp"/>
-          <include name="endTest"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- testcases.CrticalPathFlow -->
     </classes>
   </test> <!-- Cart-CH(failed) -->
 </suite> <!-- Failed suite [Suite] -->

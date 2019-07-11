@@ -15,6 +15,7 @@ import com.unicefuk.pages.SignIn;
 import com.unicefuk.pages.PaymentPage;
 import com.unicefuk.pages.ShippingAddressPage;
 import com.unicefuk.base.BaseTest;
+import com.unicefuk.base.WebPageUtility;
 
 public class Wishlist extends BaseTest {
 	
@@ -29,6 +30,7 @@ public class Wishlist extends BaseTest {
 		Cart cat = new Cart(driver);
 		SignIn sign = new SignIn(driver);
 		PersonalWishlist perWish= new PersonalWishlist(driver);
+		WebPageUtility wpu= new WebPageUtility();
 		
 		homePage.openHomePage();
 		homePage.clickAcceptCookie();
@@ -36,7 +38,12 @@ public class Wishlist extends BaseTest {
 		sign.directLogin();
 		perWish.wishlistMenu();
 		sign.waitForSignIntoload();
-		perWish.clickWishlistProductRandom(1);
+		int productcount = perWish.getproductCount();
+		Reporter.log("Total Products found "+ productcount);
+		System.out.println("Total Products found "+ productcount);
+		int gennum = wpu.getRandomNumberInts(1, productcount);
+		System.out.println(gennum);
+		perWish.clickWishlistProductRandom(gennum);
 		
 	} 
 	
@@ -52,17 +59,28 @@ public class Wishlist extends BaseTest {
 		ShippingAddressPage shipAddr= new ShippingAddressPage(driver);
 		PaymentPage pay= new PaymentPage(driver);
 		PersonalWishlist perWish= new PersonalWishlist(driver);	
+		WebPageUtility wpu= new WebPageUtility();
 		
 		
 		homePage.openHomePage();
 		homePage.clickAcceptCookie();
-		String Key = "rings";
+		String Key = "Bracelets";
 		homePage.typeAndSubmitKeyword(Key);
 		Reporter.log("Searched for"+ Key);
 		
 		c3.waitForC3toLoad();
-	    String productid = c3.getProductID(4);
-	    c3.clickProductPlateRandom(4);
+		Reporter.log("Waiting for Category page to Load");
+		int productcount = c3.getproductCount();
+		Reporter.log("Total Products found "+ productcount);
+		System.out.println("Total Products found "+ productcount);
+		int gennum = wpu.getRandomNumberInts(1, productcount);
+		System.out.println(gennum);
+		
+		
+	   String productid = c3.getProductID(gennum);
+	   Reporter.log("Clicked on product ID"+ productid); 
+	   System.out.println("Clicked on product ID"+ productid);
+	    c3.clickProductPlateRandom(gennum);
 	    
 	    itdetail.waitForItemDetailLoad();
 		String productPrice = itdetail.getProductPrice();
@@ -75,10 +93,14 @@ public class Wishlist extends BaseTest {
 		perWish.clickOk();
 		Thread.sleep(3000);
 		perWish.wishlistMenu(); 
-		System.out.println("go to Wishlist page");
-		Thread.sleep(3000);
-		perWish.WishlistAddtoBag(1);	
-		System.out.println("click on first item in wishlist");
+		perWish.waitForWishlisttoLoad();
+		int productcount1 = perWish.getproductCount();
+		Reporter.log("Total Products found "+ productcount1);
+		System.out.println("Total Products found "+ productcount1);
+		int gennum1 = wpu.getRandomNumberInts(1, productcount1);
+		System.out.println(gennum1);
+		perWish.WishlistAddtoBag(gennum1);
+		Reporter.log("add item to bag from wishlist page");
 		Thread.sleep(5000);
 		itdetail.Gotocart();
 
@@ -107,17 +129,28 @@ public class Wishlist extends BaseTest {
 		ShippingAddressPage shipAddr= new ShippingAddressPage(driver);
 		PaymentPage pay= new PaymentPage(driver);
 		PersonalWishlist perWish= new PersonalWishlist(driver);	
+		WebPageUtility wpu= new WebPageUtility();
 		
 		
 		homePage.openHomePage();
 		homePage.clickAcceptCookie();
-		String Key = "rings";
+		String Key = "Bracelets";
 		homePage.typeAndSubmitKeyword(Key);
 		Reporter.log("Searched for"+ Key);
 		
 		c3.waitForC3toLoad();
-	    String productid = c3.getProductID(4);
-	    c3.clickProductPlateRandom(4);
+		Reporter.log("Waiting for Category page to Load");
+		int productcount = c3.getproductCount();
+		Reporter.log("Total Products found "+ productcount);
+		System.out.println("Total Products found "+ productcount);
+		int gennum = wpu.getRandomNumberInts(1, productcount);
+		System.out.println(gennum);
+		
+		
+	   String productid = c3.getProductID(gennum);
+	   Reporter.log("Clicked on product ID"+ productid); 
+	   System.out.println("Clicked on product ID"+ productid);
+	    c3.clickProductPlateRandom(gennum);
 	    
 	    itdetail.waitForItemDetailLoad();
 		String productPrice = itdetail.getProductPrice();
@@ -130,10 +163,14 @@ public class Wishlist extends BaseTest {
 		perWish.clickOk();
 		Thread.sleep(3000);
 		perWish.wishlistMenu(); 
-		System.out.println("go to Wishlist page");
-		Thread.sleep(3000);
-		perWish.WishlistAddtoBag(1);	
-		System.out.println("click on first item in wishlist");
+		perWish.waitForWishlisttoLoad();
+		int productcount1 = perWish.getproductCount();
+		Reporter.log("Total Products found "+ productcount1);
+		System.out.println("Total Products found "+ productcount1);
+		int gennum1 = wpu.getRandomNumberInts(1, productcount1);
+		System.out.println(gennum1);
+		perWish.WishlistAddtoBag(gennum1);
+		Reporter.log("add item to bag from wishlist page");
 		Thread.sleep(5000);
 		itdetail.Gotocart();
 

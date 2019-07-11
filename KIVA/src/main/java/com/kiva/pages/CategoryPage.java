@@ -12,7 +12,7 @@ public class CategoryPage extends BasePageObject {
 		super(driver);
 		}
 	
-	private static final By productPlate = By.xpath("//*[@id='product-list']/div/div[1]/a[1]");
+	private static final By productPlate = By.xpath("//*[@id='product-list']/div/div");
 	
 	
 	/* wait for category page to load */

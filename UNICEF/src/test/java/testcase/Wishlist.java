@@ -14,6 +14,7 @@ import org.testng.log4testng.Logger;
 
 import com.unicef.base.BasePageObject;
 import com.unicef.base.BaseTest;
+import com.unicef.base.WebPageUtility;
 import com.unicef.pages.C3category;
 import com.unicef.pages.Cart;
 import com.unicef.pages.HomePage;
@@ -53,6 +54,7 @@ public class Wishlist extends BaseTest {
 		C3category c3 = new C3category(driver);
 		ItemDetailPage itdetail = new ItemDetailPage(driver);
 		HomePage homePage = new HomePage(driver);
+		WebPageUtility wpu = new WebPageUtility();
 		Cart cat = new Cart(driver);
 		SignIn sign = new SignIn(driver);
 		PersonalWishlist perWish= new PersonalWishlist(driver);	
@@ -60,21 +62,32 @@ public class Wishlist extends BaseTest {
 		PaymentPage payment=new PaymentPage(driver);
 		
 		homePage.openHomePage();
-		Reporter.log("Loading Home page");
-		String key= "Bags";
-		homePage.typeAndSubmitKeyword(key);
-		Reporter.log("Searching for" + key);
+		Reporter.log("Loading Homepage");
+		//Thread.sleep(60000);
+		String Key = "Blue";
+		homePage.typeAndSubmitKeyword(Key);
+		Reporter.log("Searched for"+ Key);
 		
 		c3.waitForC3toLoad();
-		Reporter.log("Waiting for Category page to Load");
-		String productId= c3.getProductID(5);
-		c3.clickProductPlateRandom(5);
-		Reporter.log("Clicked on Product"+ productId);
+		Reporter.log("Waiting for C3 to load");
+		int productcount = c3.getproductCount();
+		Reporter.log("Total Products found"+ productcount);
+		System.out.println("Total Products found "+ productcount);
+		int gennum = wpu.getRandomNumberInts(1, productcount);
+		System.out.println(gennum);
 		
+	    String productid = c3.getProductID(gennum);
+	    Reporter.log("Clicked on product ID"+ productid);
+	    System.out.println("Clicked on product ID"+ productid);
+	    c3.clickProductPlateRandom(gennum);
+	    
 		itdetail.waitForItemDetailLoad();
-		Reporter.log("Waiting for Item Detail page to Load");
-		String productdetailId= itdetail.getProductID();
-		assertEquals(productdetailId,productId);
+		String productdetid= itdetail.getProductID();
+		System.out.println(productid);
+		System.out.println(productdetid);
+	    assertEquals(productid, productdetid);
+		String productPrice = itdetail.getProductPrice();
+		System.out.println(productPrice);
 		itdetail.clickAddToWishlistButton();
 		
 		sign.waitForSignIntoload();
@@ -115,6 +128,7 @@ public class Wishlist extends BaseTest {
 		C3category c3 = new C3category(driver);
 		ItemDetailPage itdetail = new ItemDetailPage(driver);
 		HomePage homePage = new HomePage(driver);
+		WebPageUtility wpu = new WebPageUtility();
 		Cart cat = new Cart(driver);
 		SignIn sign = new SignIn(driver);
 		PersonalWishlist perWish= new PersonalWishlist(driver);	
@@ -122,21 +136,32 @@ public class Wishlist extends BaseTest {
 		PaymentPage payment=new PaymentPage(driver);
 		
 		homePage.openHomePage();
-		Reporter.log("Loading Home page");
-		String key= "Bags";
-		homePage.typeAndSubmitKeyword(key);
-		Reporter.log("Searching for" + key);
+		Reporter.log("Loading Homepage");
+		//Thread.sleep(60000);
+		String Key = "Blue";
+		homePage.typeAndSubmitKeyword(Key);
+		Reporter.log("Searched for"+ Key);
 		
 		c3.waitForC3toLoad();
-		Reporter.log("Waiting for Category page to Load");
-		String productId= c3.getProductID(5);
-		c3.clickProductPlateRandom(5);
-		Reporter.log("Clicked on Product"+ productId);
+		Reporter.log("Waiting for C3 to load");
+		int productcount = c3.getproductCount();
+		Reporter.log("Total Products found"+ productcount);
+		System.out.println("Total Products found "+ productcount);
+		int gennum = wpu.getRandomNumberInts(1, productcount);
+		System.out.println(gennum);
 		
+	    String productid = c3.getProductID(gennum);
+	    Reporter.log("Clicked on product ID"+ productid);
+	    System.out.println("Clicked on product ID"+ productid);
+	    c3.clickProductPlateRandom(gennum);
+	    
 		itdetail.waitForItemDetailLoad();
-		Reporter.log("Waiting for Item Detail page to Load");
-		String productdetailId= itdetail.getProductID();
-		assertEquals(productdetailId,productId);
+		String productdetid= itdetail.getProductID();
+		System.out.println(productid);
+		System.out.println(productdetid);
+	    assertEquals(productid, productdetid);
+		String productPrice = itdetail.getProductPrice();
+		System.out.println(productPrice);
 		itdetail.clickAddToWishlistButton();
 		
 		sign.waitForSignIntoload();
@@ -187,6 +212,7 @@ public class Wishlist extends BaseTest {
 		C3category c3 = new C3category(driver);
 		ItemDetailPage itdetail = new ItemDetailPage(driver);
 		HomePage homePage = new HomePage(driver);
+		WebPageUtility wpu = new WebPageUtility();
 		Cart cat = new Cart(driver);
 		SignIn sign = new SignIn(driver);
 		PersonalWishlist perWish= new PersonalWishlist(driver);	
@@ -194,21 +220,32 @@ public class Wishlist extends BaseTest {
 		PaymentPage payment=new PaymentPage(driver);
 		
 		homePage.openHomePage();
-		Reporter.log("Loading Home page");
-		String key= "Bags";
-		homePage.typeAndSubmitKeyword(key);
-		Reporter.log("Searching for" + key);
+		Reporter.log("Loading Homepage");
+		//Thread.sleep(60000);
+		String Key = "Blue";
+		homePage.typeAndSubmitKeyword(Key);
+		Reporter.log("Searched for"+ Key);
 		
 		c3.waitForC3toLoad();
-		Reporter.log("Waiting for Category page to Load");
-		String productId= c3.getProductID(5);
-		c3.clickProductPlateRandom(5);
-		Reporter.log("Clicked on Product"+ productId);
+		Reporter.log("Waiting for C3 to load");
+		int productcount = c3.getproductCount();
+		Reporter.log("Total Products found"+ productcount);
+		System.out.println("Total Products found "+ productcount);
+		int gennum = wpu.getRandomNumberInts(1, productcount);
+		System.out.println(gennum);
 		
+	    String productid = c3.getProductID(gennum);
+	    Reporter.log("Clicked on product ID"+ productid);
+	    System.out.println("Clicked on product ID"+ productid);
+	    c3.clickProductPlateRandom(gennum);
+	    
 		itdetail.waitForItemDetailLoad();
-		Reporter.log("Waiting for Item Detail page to Load");
-		String productdetailId= itdetail.getProductID();
-		assertEquals(productdetailId,productId);
+		String productdetid= itdetail.getProductID();
+		System.out.println(productid);
+		System.out.println(productdetid);
+	    assertEquals(productid, productdetid);
+		String productPrice = itdetail.getProductPrice();
+		System.out.println(productPrice);
 		itdetail.clickAddToWishlistButton();
 		
 		sign.waitForSignIntoload();

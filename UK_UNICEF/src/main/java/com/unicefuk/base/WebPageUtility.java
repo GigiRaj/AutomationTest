@@ -42,10 +42,9 @@ public class WebPageUtility {
 				return cwd;
 	}
 
-	/* Generate a random number given limit */
-	public int generateRandomNumber(Integer low, Integer high) {
-		Random r = new Random();
-		return r.nextInt(high - low) + low;
-	}
+	 public int getRandomNumberInts(int min, int max){
+		    Random random = new Random();
+		    return random.ints(min,(max+1)).findFirst().getAsInt();
+		}
 
 }

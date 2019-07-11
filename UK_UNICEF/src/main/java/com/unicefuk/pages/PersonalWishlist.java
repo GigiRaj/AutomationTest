@@ -14,7 +14,18 @@ public class PersonalWishlist extends BasePageObject {
 		// TODO Auto-generated constructor stub
 	}
 	
+	private static final By productPlate = By.xpath("//*[@id='shop']/div[1]/div/div[1]/div[2]/div/div[2]/div");
 	
+	
+	/* Get product count */
+	public int getproductCount() {
+		return getFieldCount(productPlate);
+	}
+	
+	public void waitForWishlisttoLoad()throws Exception{
+		
+		waitForJavascripttoLoad();
+	}
 	
 	/* Open wishlist page given link*/
 	public void openWishlistpageURL( String Wishlistlink ) {

@@ -229,7 +229,7 @@ public class BasePageObject {
 	
 	public void explicitWait(By Field)throws Exception{
 		
-		 WebDriverWait wait = new WebDriverWait(driver,30);
+		 WebDriverWait wait = new WebDriverWait(driver,60);
 		 wait.until(ExpectedConditions.visibilityOfElementLocated(Field));
 	}
 

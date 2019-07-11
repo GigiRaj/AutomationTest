@@ -5,15 +5,21 @@
       <![CDATA[Searched forrings]]>
     </line>
     <line>
-      <![CDATA[Added product with K11196to cart]]>
+      <![CDATA[Total Products found 84]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on product IDK23161]]>
+    </line>
+    <line>
+      <![CDATA[Added product with K23161to cart]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="105638" started-at="2019-07-10T12:06:16Z" finished-at="2019-07-10T12:08:02Z">
+  <suite name="Suite" duration-ms="132421" started-at="2019-07-11T06:28:14Z" finished-at="2019-07-11T06:30:26Z">
     <groups>
     </groups>
-    <test name="Cart-CH" duration-ms="105638" started-at="2019-07-10T12:06:16Z" finished-at="2019-07-10T12:08:02Z">
+    <test name="Cart-CH" duration-ms="132421" started-at="2019-07-11T06:28:14Z" finished-at="2019-07-11T06:30:26Z">
       <class name="testcases.CrticalPathFlow">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.CrticalPathFlow@2ef5e5e3]" name="setUp" is-config="true" duration-ms="3998" started-at="2019-07-10T17:36:16Z" finished-at="2019-07-10T17:36:20Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.CrticalPathFlow@2ef5e5e3]" name="setUp" is-config="true" duration-ms="4103" started-at="2019-07-11T11:58:14Z" finished-at="2019-07-11T11:58:18Z">
           <params>
             <param index="0">
               <value>
@@ -29,7 +35,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="typeandsearch(java.lang.String)[pri:0, instance:testcases.CrticalPathFlow@2ef5e5e3]" name="typeandsearch" duration-ms="101621" started-at="2019-07-10T17:36:20Z" finished-at="2019-07-10T17:38:02Z">
+        <test-method status="PASS" signature="typeandsearch(java.lang.String)[pri:0, instance:testcases.CrticalPathFlow@2ef5e5e3]" name="typeandsearch" duration-ms="128302" started-at="2019-07-11T11:58:18Z" finished-at="2019-07-11T12:00:26Z">
           <params>
             <param index="0">
               <value>
@@ -42,7 +48,13 @@
               <![CDATA[Searched forrings]]>
             </line>
             <line>
-              <![CDATA[Added product with K11196to cart]]>
+              <![CDATA[Total Products found 84]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on product IDK23161]]>
+            </line>
+            <line>
+              <![CDATA[Added product with K23161to cart]]>
             </line>
           </reporter-output>
         </test-method> <!-- typeandsearch -->
