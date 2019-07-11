@@ -5,29 +5,12 @@
   <test name="Cart-CH(failed)">
     <parameter name="browser" value="1"/>
     <classes>
-      <class name="testcase.CriticalPathFlow">
+      <class name="testcase.WholeSale">
         <methods>
           <include name="setUp"/>
-          <include name="endTest"/>
-          <include name="tearDown"/>
-          <include name="crticalPathSameAddress"/>
+          <include name="crticalPathFlowUsingNewAddress" invocation-numbers="0"/>
         </methods>
-      </class> <!-- testcase.CriticalPathFlow -->
-      <class name="testcase.Wishlist">
-        <methods>
-          <include name="WishlisttocartUsingExpress"/>
-          <include name="setUp"/>
-          <include name="endTest"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- testcase.Wishlist -->
-      <class name="testcase.SignUpLogin">
-        <methods>
-          <include name="setUp"/>
-          <include name="endTest"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- testcase.SignUpLogin -->
+      </class> <!-- testcase.WholeSale -->
     </classes>
   </test> <!-- Cart-CH(failed) -->
 </suite> <!-- Failed suite [novica] -->

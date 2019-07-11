@@ -3,10 +3,8 @@
 <parameter name="browser" value="1"/>
 <classes>
 
-<class name="testcase.SignUpLogin"/>
-<class name="testcase.CriticalPathFlow"/>
-<class name="testcase.Wishlist"/>
-<class name="testcase.AddressBook"/>
+
+<class name="testcase.WholeSale"/>
 
 </classes>
 </test></suite>

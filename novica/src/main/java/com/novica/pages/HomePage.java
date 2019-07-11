@@ -62,5 +62,19 @@ public class HomePage extends BasePageObject {
 			click(AccountMenu);
 		}
 		
+		/* to click on whole sale footer menu */
+		public void clickWholeSaleMenu() throws Exception{
+			
+			scrollToBottom();
+			scrollToBottom();
+			scrollToBottom();
+			scrollToBottom();
+			By wholeSaleButton= By.xpath("//*[@id='footer-links']/div/div[1]/ul/li[3]/a");
+			explicitWait(wholeSaleButton);
+			click(wholeSaleButton);
+		}
+		
+		
+		
 		
 	}

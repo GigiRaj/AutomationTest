@@ -10,8 +10,9 @@ public class SignIn extends BasePageObject{
 	private static final By password = By.id("password");
 	private static final By signin = By.id("submitReturnLogin");
 	private static final By loginname = By.id("user_email");
-	private static final By loginpassword = By.id("user_password");
+	private static final By loginpassword = By.id("user_password"); 
 	private static final By loginbutton = By.xpath("//*[@id='main-page']/div/div/div[1]/div[1]/div/form/div[5]/div/button");
+	private By wholeSaleLoginButton= By.xpath("//*[@id='main-page']/div/div/div/div[1]/div/form/div[4]/div/button");
 	private By SignupButton= By.xpath("//*[@id='main-page']/div/div/div[1]/div[2]/div/div/div[1]/div/a");
 	private By firstName= By.id("user_firstname");
 	private By lastName= By.id("user_lastname");
@@ -101,6 +102,26 @@ public class SignIn extends BasePageObject{
 		click(okButton);
 	}
 	
+	/* to click on whole sale login button */
+	public void clickWholeSaleLogin() throws Exception{
+		
+		By wholeSaleLoginButton= By.xpath("//*[@id='topbanner-text']/div[4]/div/a");
+		explicitWait(wholeSaleLoginButton);
+		click(wholeSaleLoginButton);
+	}
+	
+	/* whole sale login credentials */
+	public void WholeSaleLogin()throws Exception{
+		
+		waitForVisibilityOf(loginname, 10);
+		find(loginname).clear();
+		find(loginpassword).clear();
+		type(loginname, "jlee@novica.com");
+		type(loginpassword, "c8noma");
+		click(wholeSaleLoginButton);
+		waitForJavascripttoLoad();
+			
+	}
 
 	
 }
