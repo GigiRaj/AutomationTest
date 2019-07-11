@@ -8,6 +8,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.novica.base.BaseTest;
+import com.novica.base.WebPageUtility;
 import com.novica.pages.C3category;
 import com.novica.pages.Cart;
 import com.novica.pages.HomePage;
@@ -29,6 +30,7 @@ public class Wishlist extends BaseTest {
 		HomePage homePage = new HomePage(driver);
 		SignIn sign = new SignIn(driver);
 		PersonalWishlist perWish= new PersonalWishlist(driver);
+		WebPageUtility wpu = new WebPageUtility();
 		
 		homePage.openHomePage();
 		Reporter.log("Redirecting to home page");
@@ -38,9 +40,16 @@ public class Wishlist extends BaseTest {
 		Reporter.log("Redirecting to sig in page");
 		sign.Login();
 		Reporter.log("log in as user by providing email and password");
-		perWish.clickWishlistProductRandom(3);
-		Reporter.log("click on 3rd product in the wishlist itemlist");
+		perWish.waitForWishlisttoLoad();
+		int productcount = perWish.getproductCount();
+		Reporter.log("Total Products found "+ productcount);
+		System.out.println("Total Products found "+ productcount);
+		int gennum = wpu.getRandomNumberInts(1, productcount);
+		System.out.println(gennum);
+		perWish.clickWishlistProductRandom(gennum);
+		Reporter.log("click on random product in the wishlist itemlist");
 	}
+	
 	
 	/* test case for choosing products from wish list and add to cart using and checkout using same shipping address */	
 	@Test(priority=1)
@@ -54,6 +63,7 @@ public class Wishlist extends BaseTest {
 		PersonalWishlist perWish= new PersonalWishlist(driver);	
 		ShippingAddressPage shipAddr= new ShippingAddressPage(driver);
 		PaymentPage payment=new PaymentPage(driver);
+		WebPageUtility wpu = new WebPageUtility();
 		
 		homePage.openHomePage();
 		Reporter.log("Redirecting to home page");
@@ -63,14 +73,22 @@ public class Wishlist extends BaseTest {
 		
 		c3.waitForC3toLoad();
 		Reporter.log("Waiting for Category page to Load");
-		String productId= c3.getProductID(5);
-		c3.clickProductPlateRandom(5);
-		Reporter.log("Clicked on Product"+ productId);
+		int productcount = c3.getproductCount();
+		Reporter.log("Total Products found "+ productcount);
+		System.out.println("Total Products found "+ productcount);
+		int gennum = wpu.getRandomNumberInts(1, productcount);
+		System.out.println(gennum);
+		
+		
+	   String productid = c3.getProductID(gennum);
+	   Reporter.log("Clicked on product ID"+ productid); 
+	   System.out.println("Clicked on product ID"+ productid);
+	   c3.clickProductPlateRandom(gennum);
 		
 		itdetail.waitForItemDetailLoad();
 		Reporter.log("Waiting for Item Detail page to Load");
 		String productdetailId= itdetail.getProductID();
-		assertEquals(productdetailId,productId);
+		assertEquals(productdetailId,productid);
 		itdetail.clickAddToWishlistButton();
 		Reporter.log("add product to wishlist");
 		
@@ -83,7 +101,13 @@ public class Wishlist extends BaseTest {
 		Thread.sleep(3000);
 		perWish.wishlistMenu();	
 		Reporter.log("click on wishlist button on header");
-		perWish.WishlistAddtoBag(3);
+		perWish.waitForWishlisttoLoad();
+		int productcount1 = perWish.getproductCount();
+		Reporter.log("Total Products found "+ productcount1);
+		System.out.println("Total Products found "+ productcount1);
+		int gennum1 = wpu.getRandomNumberInts(1, productcount1);
+		System.out.println(gennum1);
+		perWish.WishlistAddtoBag(gennum1);
 		Reporter.log("add item to bag from wishlist page");
 		Thread.sleep(5000);
 		itdetail.Gotocart();

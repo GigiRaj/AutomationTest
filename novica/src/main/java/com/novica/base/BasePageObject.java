@@ -203,7 +203,15 @@ public class BasePageObject {
 	{
 		Actions action = new Actions(driver);
 		action.moveToElement(elementToHover).click(elementToClick).build().perform();
-}
+	}
+	
+/* to wait for particular element- explicit wait */
+	
+	public void explicitWait(By Field)throws Exception{
+		
+		 WebDriverWait wait = new WebDriverWait(driver,60);
+		 wait.until(ExpectedConditions.visibilityOfElementLocated(Field));
+	}
 	
 
 }

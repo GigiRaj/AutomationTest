@@ -8,10 +8,26 @@
       <class name="testcase.CriticalPathFlow">
         <methods>
           <include name="setUp"/>
-          <include name="crticalPathFlowUsingSameAddress"/>
-          <include name="crticalPathFlowUsingNewAddress" invocation-numbers="0"/>
+          <include name="endTest"/>
+          <include name="tearDown"/>
+          <include name="crticalPathSameAddress"/>
         </methods>
       </class> <!-- testcase.CriticalPathFlow -->
+      <class name="testcase.Wishlist">
+        <methods>
+          <include name="WishlisttocartUsingExpress"/>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcase.Wishlist -->
+      <class name="testcase.SignUpLogin">
+        <methods>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcase.SignUpLogin -->
     </classes>
   </test> <!-- Cart-CH(failed) -->
 </suite> <!-- Failed suite [novica] -->

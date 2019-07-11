@@ -18,7 +18,7 @@ public class PersonalWishlist extends BasePageObject {
 		// TODO Auto-generated constructor stub
 	}
 	
-	private static final By productPlate = By.xpath("//*[@id='shop']/div[2]/div[2]");
+	private static final By productPlate = By.xpath("//*[@id='main-page']/div/div[2]/div");
 	private static final By Okbutton = By.xpath("//*[@class='modal-content']/div/div/button");
 	private static final By addThisItemButton= By.xpath("//*[@class='modal-content']/div/div[2]/form/div[3]/div/button[1]"); 
 	private By gotowishlist= By.id("globalnav-lists");

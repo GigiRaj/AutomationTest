@@ -36,15 +36,15 @@ public class BaseTest {
 
 	}
 
-//	@AfterMethod
-//	protected void tearDown(ITestResult result) throws Exception {
-//
-//		driver.quit();
-//	}
-//
-//	@AfterClass(alwaysRun = true)
-//	public void endTest() {
-//		Reporter.getOutput();
-//	}
+	@AfterMethod
+	protected void tearDown(ITestResult result) throws Exception {
+
+		driver.quit();
+	}
+
+	@AfterClass(alwaysRun = true)
+	public void endTest() {
+		Reporter.getOutput();
+	}
 	
 }
