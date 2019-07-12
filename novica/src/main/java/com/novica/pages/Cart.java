@@ -3,8 +3,10 @@ package com.novica.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Reporter;
 
 import com.novica.base.BasePageObject;
+import com.novica.base.WebPageUtility;
 
 public class Cart extends BasePageObject{
 	private static final String URL = "";
@@ -44,6 +46,65 @@ public class Cart extends BasePageObject{
 		Thread.sleep(5000);
 		click(firstRemoveItemClickField);
 	}
+	
+	/* to click keep shopping button */
+	
+	public void clickKeepShopping() throws Exception{
+		
+		int cartTotal=0;
+		while(cartTotal <= 250)
+		{
+			
+			String actualcartprice = getTotalCartPrice();
+			System.out.println(actualcartprice);
+			double cartPrize= Double.parseDouble(actualcartprice);
+			System.out.println(cartPrize);
+			cartTotal = (int)cartPrize;
+			System.out.println(cartTotal);
+			By keepShoppingButton= By.xpath("//*[@id='cart-main-content']/div[2]/div[2]/div[2]/a");
+			By continueShoppingButton= By.xpath("//*[@id='keepshopping']");
+			if(driver.findElements(keepShoppingButton).size() != 0)
+			{
+				click(keepShoppingButton);
+			}
+			else
+			{
+				click(continueShoppingButton);
+			}
+			
+			C3category c3 = new C3category(driver);
+			HomePage homePage = new HomePage(driver);
+			ItemDetailPage itdetail = new ItemDetailPage(driver);
+			WebPageUtility wpu = new WebPageUtility();
+			
+			String Key = "bracelets";
+			homePage.typeAndSubmitKeyword(Key);
+			Reporter.log("Searched for"+ Key);
+			c3.waitForC3toLoad();
+			Reporter.log("Waiting for C3 to load");
+			int productcount = c3.getproductCount();
+			Reporter.log("Total Products found "+ productcount);
+			System.out.println("Total Products found "+ productcount);
+			int gennum = wpu.getRandomNumberInts(1, productcount);
+			System.out.println(gennum);
+			
+			
+		   String productid = c3.getProductID(gennum);
+		   Reporter.log("Clicked on product ID"+ productid); 
+		   System.out.println("Clicked on product ID"+ productid);
+		   c3.clickProductPlateRandom(gennum);
+		    
+			itdetail.waitForItemDetailLoad();
+			itdetail.clickAddToCartButton();
+			Reporter.log("Added product with "+ productid + "to cart");
+			
+			itdetail.Gotocart();
+			
+		}
+		clickcheckout();
+		
+		}
+	
 
 
 }

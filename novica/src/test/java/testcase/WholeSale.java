@@ -38,7 +38,7 @@ public class WholeSale extends BaseTest{
 		homePage.clickWholeSaleMenu();
 		sign.clickWholeSaleLogin();
 		sign.WholeSaleLogin();
-		String Key = "Oil Paintings";
+		String Key = "rings";
 		homePage.typeAndSubmitKeyword(Key);
 		Reporter.log("Searched for"+ Key);
 		c3.waitForC3toLoad();
@@ -71,15 +71,19 @@ public class WholeSale extends BaseTest{
 //		Reporter.log("to get the actual cart price");
 //		System.out.println(actualcartprice);
 //		assertEquals(productPrice, actualcartprice);
-		cat.clickcheckout();
+		
+		
+//		cat.clickcheckout();
+		cat.clickKeepShopping();
+		System.out.println("keepshopping");
 		Reporter.log("check put the product");
 		sign.EntersignInDet();
 		Reporter.log("Login as a user");
 		ship.addShippingAddress();
 		Reporter.log("Input new shipping address");
 		ship.continueButton1();
-		ship.topContinueBtnShipOptPage();
-		Reporter.log("Redirecting to home page");
+		ship.bottomContinueBtnShipOptPage();
+		Reporter.log("Redirecting to payment page");
 		payment.applyPromoCode("PROMOCODE15");
 		Reporter.log("Apply promocode");
 		payment.chooseDonation(5);

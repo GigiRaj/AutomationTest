@@ -86,7 +86,7 @@ public class CriticalPathFlow extends BaseTest {
 		Reporter.log("Input new shipping address");
 		ship.continueButton1();
 		ship.topContinueBtnShipOptPage();
-		Reporter.log("Redirecting to home page");
+		Reporter.log("Redirecting to payment page");
 		payment.applyPromoCode("PROMOCODE15");
 		Reporter.log("Apply promocode");
 		payment.chooseDonation(5);

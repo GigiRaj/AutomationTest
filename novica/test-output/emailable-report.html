@@ -31,12 +31,12 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Cart-CH</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">124.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Cart-CH</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">622.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">Cart-CH &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="1">testcase.WholeSale</td><td><a href="#m1"><b>crticalPathFlowUsingNewAddress</b>  </a></td><td class="numi">1</td><td>1562851537874</td><td class="numi">120438</td></tr>
+<tr><th colspan="4">Cart-CH &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">testcase.WholeSale</td><td><a href="#m1"><b>crticalPathFlowUsingNewAddress</b>  </a></td><td class="numi">1</td><td>1562936844456</td><td class="numi">618468</td></tr>
 </table>
 <h1>Cart-CH</h1>
 <h2 id="m1">testcase.WholeSale:crticalPathFlowUsingNewAddress</h2>
@@ -45,50 +45,80 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <tr class="param stripe"><td>1</td>
 </tr>
 <tr><td style="padding-left:3em" colspan="1">
-<h3>Test Messages</h3>
 Loading Homepage<br/>
-Searched forOil Paintings<br/>
+Searched forrings<br/>
 Waiting for C3 to load<br/>
 Total Products found 84<br/>
-Clicked on product ID165292<br/>
-Added product with 165292to cart<br/>
-<h3>Failure</h3>
-<p>chrome not reachable
-  (Session info: chrome=75.0.3770.100)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-NBJ195T&apos;, ip: &apos;192.168.1.82&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\Gigi\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60114}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
-Session ID: 9ac4aec0245ca49b9f3ea4781510c758
-*** Element info: {Using=xpath, value=//div[@id=&apos;cart-flyout&apos;]/a}</p>
-sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
-<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-<br/>at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-<br/>at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-<br/>at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
-<br/>at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
-<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-<br/>at com.novica.base.BasePageObject.waitFor(BasePageObject.java:164)
-<br/>at com.novica.base.BasePageObject.waitForClickabilityOf(BasePageObject.java:150)
-<br/>at com.novica.pages.ItemDetailPage.Gotocart(ItemDetailPage.java:106)
-<br/>at testcase.WholeSale.crticalPathFlowUsingNewAddress(WholeSale.java:67)
-<br/>25 lines not shown
+Clicked on product ID346439<br/>
+Added product with 346439to cart<br/>
+Searched forbracelets<br/>
+Waiting for C3 to load<br/>
+Total Products found 84<br/>
+Clicked on product ID219186<br/>
+Added product with 219186to cart<br/>
+Searched forbracelets<br/>
+Waiting for C3 to load<br/>
+Total Products found 84<br/>
+Clicked on product ID198637<br/>
+Added product with 198637to cart<br/>
+Searched forbracelets<br/>
+Waiting for C3 to load<br/>
+Total Products found 84<br/>
+Clicked on product ID187304<br/>
+Added product with 187304to cart<br/>
+Searched forbracelets<br/>
+Waiting for C3 to load<br/>
+Total Products found 84<br/>
+Clicked on product ID225933<br/>
+Added product with 225933to cart<br/>
+Searched forbracelets<br/>
+Waiting for C3 to load<br/>
+Total Products found 84<br/>
+Clicked on product ID192555<br/>
+Added product with 192555to cart<br/>
+Searched forbracelets<br/>
+Waiting for C3 to load<br/>
+Total Products found 84<br/>
+Clicked on product ID208430<br/>
+Added product with 208430to cart<br/>
+Searched forbracelets<br/>
+Waiting for C3 to load<br/>
+Total Products found 84<br/>
+Clicked on product ID198635<br/>
+Added product with 198635to cart<br/>
+Searched forbracelets<br/>
+Waiting for C3 to load<br/>
+Total Products found 84<br/>
+Clicked on product ID208456<br/>
+Added product with 208456to cart<br/>
+Searched forbracelets<br/>
+Waiting for C3 to load<br/>
+Total Products found 84<br/>
+Clicked on product ID208453<br/>
+Added product with 208453to cart<br/>
+Searched forbracelets<br/>
+Waiting for C3 to load<br/>
+Total Products found 84<br/>
+Clicked on product ID198635<br/>
+Added product with 198635to cart<br/>
+Searched forbracelets<br/>
+Waiting for C3 to load<br/>
+Total Products found 84<br/>
+Clicked on product ID211142<br/>
+Added product with 211142to cart<br/>
+Searched forbracelets<br/>
+Waiting for C3 to load<br/>
+Total Products found 84<br/>
+Clicked on product ID332400<br/>
+Added product with 332400to cart<br/>
+check put the product<br/>
+Login as a user<br/>
+Input new shipping address<br/>
+Redirecting to payment page<br/>
+Apply promocode<br/>
+choose donation<br/>
+Give card details<br/>
+Redirection to confirmation page<br/>
 </td></tr>
 </table>
 <p class="totop"><a href="#summary">back to summary</a></p>
