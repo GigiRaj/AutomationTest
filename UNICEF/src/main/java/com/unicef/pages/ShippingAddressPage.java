@@ -49,6 +49,7 @@ public class ShippingAddressPage extends BasePageObject {
 	private By expressShip= By.xpath("//*[@id='shipping']/div[2]/div[3]/div[2]/label[2]");
 	private By msgField= By.id("giftmessage");
 	
+	
 	/* wait for shipping address page to load */
 	public void waitForWishlisttoLoad() throws Exception {
 		waitForJavascripttoLoad();

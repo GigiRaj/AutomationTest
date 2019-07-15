@@ -317,7 +317,7 @@ public class Wishlist extends BaseTest {
 		perWish.wishlistMenu();
 		sign.waitForSignIntoload();
 		sign.Login();
-		perWish.viewItemWishlist(5);
+		perWish.viewItemWishlist(11);
 		
 	} 
 	

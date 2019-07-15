@@ -148,7 +148,9 @@ public class PersonalWishlist extends BasePageObject {
 		driver.switchTo().window(subWindowHandler); // switch to popup window
 		Thread.sleep(5000);
 		By wishlist = By.xpath("//*[@class='modal-content']/div/div[2]/form/div[2]/div/label["+randomnumber+"]/span/span[2]");
-		click(wishlist);	
+		click(wishlist);
+		Thread.sleep(3000);
+		scrollToBottom();
 		click(addThisItemButton);
 		System.out.println("Clicked on add button in pop up");
 		Thread.sleep(5000);
@@ -180,8 +182,17 @@ public class PersonalWishlist extends BasePageObject {
 	public void viewItemWishlist(Integer randomnumber)throws Exception{
 		
 		By viewItem = By.xpath("//*[@id='shop']/div[2]/div[2]/div["+randomnumber+"]/div/div/div[2]/div/div/a[2]");
-		click(viewItem);
-		System.out.println("view item detail from wishlist");
+		By placeBackOrderButton= By.xpath("//*[@id='shop']/div[2]/div[2]/div["+randomnumber+"]/div[2]/div[2]/div/button");
+		if(driver.findElements(placeBackOrderButton).size()==0)
+		{
+			click(viewItem);
+			System.out.println("view item detail from wishlist");
+			
+		}
+		else
+		{
+			System.out.println("there is no details to show");
+		}
 		
 	}
 	

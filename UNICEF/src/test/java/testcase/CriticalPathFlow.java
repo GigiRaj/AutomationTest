@@ -84,19 +84,17 @@ public class CriticalPathFlow extends BaseTest {
 		
 		cat.clickcheckout();
 		sign.EntersignInDet();
-		shipAddr.sameAddress(1);
-		System.out.println("use same shipping address");	
-		shipAddr.topContinueBtnShipOptPage();		
+		shipAddr.createShipAddress();
+		System.out.println("create new shipping address");	
+		shipAddr.bottomContinueBtnShipOptPage();	
 		System.out.println("go to payment options");
+		shipAddr.topContinueBtnShipOptPage();
 		payment.applyPromoCode("QWERTY");
 		payment.chooseDonation(5);
 		payment.cardPayment();
 		payment.sameShippingAddr();
 		payment.bottomContinueButton();
 	}
-	
-	
-	
 	
 	
 }
