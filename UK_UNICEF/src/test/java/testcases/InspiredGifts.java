@@ -191,5 +191,23 @@ public class InspiredGifts extends BaseTest {
 		IGBag.clickRemoveOkButton();
 	}
 	
+	/* test case for remove address from address book */
+	@Test(priority=1)
+	public void removeAddress() throws Exception {
+		
+		HomePage homePage = new HomePage(driver);
+		SignIn sign = new SignIn(driver);
+		ShippingAddressPage shipAddr= new ShippingAddressPage(driver);
+		
+		homePage.openHomePage();
+		homePage.clickAcceptCookie();
+		sign.clickSignin();
+		sign.directLogin();
+		shipAddr.addressBookMenu();
+		shipAddr.RemoveAddressBook(2);
+		shipAddr.RemoveAddressBook(1);
+		
+	}
+	
 
 }

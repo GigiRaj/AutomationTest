@@ -1,5 +1,6 @@
 package testcase;
 
+import org.testng.Reporter;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -31,12 +32,19 @@ public class InspiredGifts extends BaseTest {
 		IGgiftPage IG=new IGgiftPage(driver);
 		
 		homePage.openHomePage();
+		Reporter.log("Redirecting to home page <br>");
 		homePage.clickIGHeaderMenu();
-		IG.chooseIGItems(5); // choose education related IG gifts	 
+		Reporter.log("clicked on IG header menu <br>");
+		IG.chooseIGItems(5); // choose education related IG gifts	
+		Reporter.log("Select Education related IG gifts <br>");
 		IG.clickIGProductPlateRandom(1);
+		Reporter.log("Clicked first product in the list <br>");
 		IG.addIGtocart();
+		Reporter.log("added product to the cart <br>");
 		IG.createCard();
+		Reporter.log("created the card for product <br>");
 		IG.printedCard();
+		Reporter.log("selected printed card <br>");
 		
 	}
 	
@@ -52,15 +60,25 @@ public class InspiredGifts extends BaseTest {
 		IGgiftPage IG=new IGgiftPage(driver);
 		
 		homePage.openHomePage();
+		Reporter.log("Redirecting to home page <br>");
 		homePage.clickIGHeaderMenu();
+		Reporter.log("clicked on IG header menu <br>");
 		IG.chooseIGItems(5); // choose education related IG gifts	 
+		Reporter.log("Select Education related IG gifts <br>");
 		IG.clickIGProductPlateRandom(1);
+		Reporter.log("Clicked first product in the list <br>");
 		IG.addIGtocart();
+		Reporter.log("added product to the cart <br>");
 		IG.createCard();
+		Reporter.log("created the card for product <br>");
 		IG.printatHomeCard();
+		Reporter.log("selected printed card <br>");
 		IG.selectImage(1);
+		Reporter.log("selected first image fr card <br>");
 		IG.cardMessage();
+		Reporter.log("entered the card message <br>");
 		IG.addtoMyBagWithCard();
+		Reporter.log("added card to Bag <br>");
 		
 	} 
 	
@@ -75,16 +93,27 @@ public class InspiredGifts extends BaseTest {
 		IGgiftPage IG=new IGgiftPage(driver);
 		
 		homePage.openHomePage();
+		Reporter.log("Redirecting to home page <br>");
 		homePage.clickIGHeaderMenu();
+		Reporter.log("clicked on IG header menu <br>");
 		IG.chooseIGItems(5); // choose education related IG gifts	 
+		Reporter.log("Select Education related IG gifts <br>");
 		IG.clickIGProductPlateRandom(1);
+		Reporter.log("Clicked first product in the list <br>");
 		IG.addIGtocart();
+		Reporter.log("added product to the cart <br>");
 		IG.createCard();
+		Reporter.log("created the card for product <br>");
 		IG.EgreetingCard();
+		Reporter.log("selected Egreeting card <br>");
 		IG.selectImage(1);
+		Reporter.log("selected first image fr card <br>");
 		IG.cardMessage();
+		Reporter.log("entered the card message <br>");
 		IG.sendDetails();
+		Reporter.log("entered sender details <br>");
 		IG.continueToBag();
+		Reporter.log("added card to Bag <br>");
 	} 
 	
 	/* test case for create card for IG gift using No Card */
@@ -99,12 +128,19 @@ public class InspiredGifts extends BaseTest {
 		IGgiftPage IG=new IGgiftPage(driver);
 		
 		homePage.openHomePage();
+		Reporter.log("Redirecting to home page <br>");
 		homePage.clickIGHeaderMenu();
+		Reporter.log("clicked on IG header menu <br>");
 		IG.chooseIGItems(5); // choose education related IG gifts	 
+		Reporter.log("Select Education related IG gifts <br>");
 		IG.clickIGProductPlateRandom(1);
+		Reporter.log("Clicked first product in the list <br>");
 		IG.addIGtocart();
+		Reporter.log("added product to the cart <br>");
 		IG.createCard();
+		Reporter.log("created the card for product <br>");
 		IG.noCard();
+		Reporter.log("selected No card option <br>");
 	} 
 	
 	/* test case for check out IG Gift  using Guest checkout */
@@ -120,30 +156,44 @@ public class InspiredGifts extends BaseTest {
 		PaymentPage payment=new PaymentPage(driver);
 		
 		homePage.openHomePage();
+		Reporter.log("Redirecting to home page <br>");
 		homePage.clickIGHeaderMenu();
-		IG.chooseIGItems(5); // choose education related IG gifts	 
+		Reporter.log("clicked on IG header menu <br>");
+		IG.chooseIGItems(5); // choose education related IG gifts
+		Reporter.log("Select Education related IG gifts <br>");
 		IG.clickIGProductPlateRandom(1);
+		Reporter.log("Clicked first product in the list <br>");
 		IG.addIGtocart();
+		Reporter.log("added product to the cart <br>");
 		IG.createCard();
+		Reporter.log("created the card for product <br>");
 		IG.EgreetingCard();
+		Reporter.log("selected Egreeting card <br>");
 		IG.selectImage(1);
+		Reporter.log("selected first image fr card <br>");
 		IG.cardMessage();
+		Reporter.log("entered the card message <br>");
 		IG.sendDetails();
-		System.out.println("testfddfdsf");
+		Reporter.log("entered sender details <br>");
 		IG.continueToBag();
-		System.out.println("test");
+		Reporter.log("added card to Bag <br>");
 		Thread.sleep(5000);
-		System.out.println("dsfdsfdsf");
 		IGShip.topCheckOut();
-		System.out.println("checkout the item");
-		sign.checkoutguest();		
-		System.out.println("go to payment options");
+		Reporter.log("checkout the item <br>");
+		sign.checkoutguest();
+		Reporter.log("check out as guest credentials <br>");
 		payment.IGgiftPaymentInfo();
+		Reporter.log("go to payment options <br>");
 		payment.applyPromoCode("QWERTY");
+		Reporter.log("go to payment options <br>");
 		payment.chooseDonation(5);
+		Reporter.log("choose payment <br>");
 		payment.cardPayment();
+		Reporter.log("give details of card payment <br>");
 		payment.newBillingAddr();
+		Reporter.log("give billing address <br>");
 		payment.bottomContinueButton();
+		Reporter.log("click on continue button ");
 	
 	}
 	
@@ -160,13 +210,21 @@ public class InspiredGifts extends BaseTest {
 		PaymentPage payment=new PaymentPage(driver);
 		
 		homePage.openHomePage();
+		Reporter.log("Redirecting to home page <br>");
 		homePage.clickIGHeaderMenu();
+		Reporter.log("clicked on IG header menu <br>");
 		IG.chooseIGItems(5); // choose education related IG gifts	 
+		Reporter.log("Select Education related IG gifts <br>");
 		IG.clickIGProductPlateRandom(1);
+		Reporter.log("Clicked first product in the list <br>");
 		IG.addIGtocart();
+		Reporter.log("added product to the cart <br>");
 		IG.createCard();
+		Reporter.log("created the card for product <br>");
 		IG.EgreetingCard();
+		Reporter.log("selected Egreeting card <br>");
 		IG.selectImage(1);
+		Reporter.log("selected first image fr card <br>");
 		IG.cardMessage();
 		IG.sendDetails();
 		System.out.println("testfddfdsf");
@@ -184,6 +242,26 @@ public class InspiredGifts extends BaseTest {
 		payment.newBillingAddr();
 		payment.bottomContinueButton();
 	
+	}
+	
+	/* test case for remove address from address book */
+	@Test(priority=10)
+	public void removeAddressFromAddressBook()throws Exception{
+		
+		
+		C3category c3 = new C3category(driver);
+		ItemDetailPage itdetail = new ItemDetailPage(driver);
+		HomePage homePage = new HomePage(driver);
+		Cart cat = new Cart(driver);
+		SignIn sign = new SignIn(driver);
+		PersonalWishlist perWish= new PersonalWishlist(driver);
+		
+		homePage.openHomePage();
+		sign.headerLoginButton();
+		sign.Login();
+		perWish.removeAddress(1);
+	
+		
 	}
 
 }

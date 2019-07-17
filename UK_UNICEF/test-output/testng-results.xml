@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="2" total="3" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Total Products found 25]]>
+      <![CDATA[Total Products found 33]]>
     </line>
     <line>
       <![CDATA[Searched forBracelets]]>
@@ -14,10 +14,10 @@
       <![CDATA[Total Products found 84]]>
     </line>
     <line>
-      <![CDATA[Clicked on product ID39978]]>
+      <![CDATA[Clicked on product ID50097]]>
     </line>
     <line>
-      <![CDATA[Total Products found 26]]>
+      <![CDATA[Total Products found 34]]>
     </line>
     <line>
       <![CDATA[add item to bag from wishlist page]]>
@@ -32,21 +32,21 @@
       <![CDATA[Total Products found 84]]>
     </line>
     <line>
-      <![CDATA[Clicked on product ID34669]]>
+      <![CDATA[Clicked on product ID41984]]>
     </line>
     <line>
-      <![CDATA[Total Products found 27]]>
+      <![CDATA[Total Products found 35]]>
     </line>
     <line>
       <![CDATA[add item to bag from wishlist page]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="388775" started-at="2019-07-11T11:54:14Z" finished-at="2019-07-11T12:00:43Z">
+  <suite name="Suite" duration-ms="270777" started-at="2019-07-16T11:13:18Z" finished-at="2019-07-16T11:17:49Z">
     <groups>
     </groups>
-    <test name="Cart-CH" duration-ms="388775" started-at="2019-07-11T11:54:14Z" finished-at="2019-07-11T12:00:43Z">
+    <test name="Cart-CH" duration-ms="270777" started-at="2019-07-16T11:13:18Z" finished-at="2019-07-16T11:17:49Z">
       <class name="testcases.Wishlist">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.Wishlist@100fc185]" name="setUp" is-config="true" duration-ms="4671" started-at="2019-07-11T17:24:14Z" finished-at="2019-07-11T17:24:19Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.Wishlist@56f4468b]" name="setUp" is-config="true" duration-ms="4712" started-at="2019-07-16T16:43:18Z" finished-at="2019-07-16T16:43:23Z">
           <params>
             <param index="0">
               <value>
@@ -62,74 +62,14 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="wishlistProduct()[pri:0, instance:testcases.Wishlist@100fc185]" name="wishlistProduct" duration-ms="45888" started-at="2019-07-11T17:24:19Z" finished-at="2019-07-11T17:25:05Z">
+        <test-method status="PASS" signature="wishlistProduct()[pri:0, instance:testcases.Wishlist@56f4468b]" name="wishlistProduct" duration-ms="54014" started-at="2019-07-16T16:43:23Z" finished-at="2019-07-16T16:44:17Z">
           <reporter-output>
             <line>
-              <![CDATA[Total Products found 25]]>
+              <![CDATA[Total Products found 33]]>
             </line>
           </reporter-output>
         </test-method> <!-- wishlistProduct -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.Wishlist@100fc185]" name="tearDown" is-config="true" duration-ms="675" started-at="2019-07-11T17:25:05Z" finished-at="2019-07-11T17:25:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=wishlistProduct status=SUCCESS method=Wishlist.wishlistProduct()[pri:0, instance:testcases.Wishlist@100fc185] output=Total Products found 25]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.Wishlist@100fc185]" name="setUp" is-config="true" duration-ms="3465" started-at="2019-07-11T17:25:05Z" finished-at="2019-07-11T17:25:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testcases.Wishlist.WishlisttocartCheckOut() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="WishlisttocartCheckOut()[pri:0, instance:testcases.Wishlist@100fc185]" name="WishlisttocartCheckOut" duration-ms="158694" started-at="2019-07-11T17:25:09Z" finished-at="2019-07-11T17:27:48Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Searched forBracelets]]>
-            </line>
-            <line>
-              <![CDATA[Waiting for Category page to Load]]>
-            </line>
-            <line>
-              <![CDATA[Total Products found 84]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on product ID39978]]>
-            </line>
-            <line>
-              <![CDATA[Total Products found 26]]>
-            </line>
-            <line>
-              <![CDATA[add item to bag from wishlist page]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- WishlisttocartCheckOut -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.Wishlist@100fc185]" name="tearDown" is-config="true" duration-ms="688" started-at="2019-07-11T17:27:48Z" finished-at="2019-07-11T17:27:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=WishlisttocartCheckOut status=SUCCESS method=Wishlist.WishlisttocartCheckOut()[pri:0, instance:testcases.Wishlist@100fc185] output=Searched forBracelets]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.Wishlist@100fc185]" name="setUp" is-config="true" duration-ms="3650" started-at="2019-07-11T17:27:48Z" finished-at="2019-07-11T17:27:52Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.Wishlist@56f4468b]" name="setUp" is-config="true" duration-ms="5366" started-at="2019-07-16T16:44:17Z" finished-at="2019-07-16T16:44:22Z">
           <params>
             <param index="0">
               <value>
@@ -145,7 +85,79 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="WishlisttocartUsingGuest()[pri:0, instance:testcases.Wishlist@100fc185]" name="WishlisttocartUsingGuest" duration-ms="170366" started-at="2019-07-11T17:27:52Z" finished-at="2019-07-11T17:30:42Z">
+        <test-method status="FAIL" signature="WishlisttocartUsingGuest()[pri:0, instance:testcases.Wishlist@56f4468b]" name="WishlisttocartUsingGuest" duration-ms="97792" started-at="2019-07-16T16:44:22Z" finished-at="2019-07-16T16:46:00Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='shippingAddressForm']/div[2]/div[2]/a"}
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\Gigi\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60146}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 792c0fd55a068dd9f2d57fb31a7fb00f
+*** Element info: {Using=xpath, value=//*[@id='shippingAddressForm']/div[2]/div[2]/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='shippingAddressForm']/div[2]/div[2]/a"}
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\Gigi\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60146}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 792c0fd55a068dd9f2d57fb31a7fb00f
+*** Element info: {Using=xpath, value=//*[@id='shippingAddressForm']/div[2]/div[2]/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.unicefuk.base.BasePageObject.click(BasePageObject.java:49)
+	at com.unicefuk.pages.ShippingAddressPage.createAddress(ShippingAddressPage.java:103)
+	at testcases.Wishlist.WishlisttocartUsingGuest(Wishlist.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
             <line>
               <![CDATA[Searched forBracelets]]>
@@ -157,31 +169,125 @@
               <![CDATA[Total Products found 84]]>
             </line>
             <line>
-              <![CDATA[Clicked on product ID34669]]>
+              <![CDATA[Clicked on product ID50097]]>
             </line>
             <line>
-              <![CDATA[Total Products found 27]]>
+              <![CDATA[Total Products found 34]]>
             </line>
             <line>
               <![CDATA[add item to bag from wishlist page]]>
             </line>
           </reporter-output>
         </test-method> <!-- WishlisttocartUsingGuest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.Wishlist@100fc185]" name="tearDown" is-config="true" duration-ms="661" started-at="2019-07-11T17:30:42Z" finished-at="2019-07-11T17:30:43Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.Wishlist@56f4468b]" name="setUp" is-config="true" duration-ms="3430" started-at="2019-07-16T16:46:00Z" finished-at="2019-07-16T16:46:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=WishlisttocartUsingGuest status=SUCCESS method=Wishlist.WishlisttocartUsingGuest()[pri:0, instance:testcases.Wishlist@100fc185] output=Searched forBracelets]]]>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcases.Wishlist.WishlisttocartCheckOut() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:testcases.Wishlist@100fc185]" name="endTest" is-config="true" duration-ms="0" started-at="2019-07-11T17:30:43Z" finished-at="2019-07-11T17:30:43Z">
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="WishlisttocartCheckOut()[pri:0, instance:testcases.Wishlist@56f4468b]" name="WishlisttocartCheckOut" duration-ms="105442" started-at="2019-07-16T16:46:04Z" finished-at="2019-07-16T16:47:49Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id='addressBook']/div[1]/form/button (tried for 10 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id='addressBook']/div[1]/form/button (tried for 10 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.unicefuk.base.BasePageObject.waitFor(BasePageObject.java:167)
+	at com.unicefuk.base.BasePageObject.waitForClickabilityOf(BasePageObject.java:153)
+	at com.unicefuk.pages.ShippingAddressPage.sameAddress(ShippingAddressPage.java:95)
+	at testcases.Wishlist.WishlisttocartCheckOut(Wishlist.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='addressBook']/div[1]/form/button"}
+  (Session info: chrome=75.0.3770.100)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\Gigi\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60366}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
+Session ID: 201e87726cbdb3fda159fe35ca77a47d
+*** Element info: {Using=xpath, value=//*[@id='addressBook']/div[1]/form/button}
+	at sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 28 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
+            <line>
+              <![CDATA[Searched forBracelets]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for Category page to Load]]>
+            </line>
+            <line>
+              <![CDATA[Total Products found 84]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on product ID41984]]>
+            </line>
+            <line>
+              <![CDATA[Total Products found 35]]>
+            </line>
+            <line>
+              <![CDATA[add item to bag from wishlist page]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- endTest -->
+        </test-method> <!-- WishlisttocartCheckOut -->
       </class> <!-- testcases.Wishlist -->
     </test> <!-- Cart-CH -->
   </suite> <!-- Suite -->

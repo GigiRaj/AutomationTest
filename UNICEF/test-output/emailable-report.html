@@ -31,101 +31,43 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Cart-CH</td><td class="numi">23</td><td class="numi">23</td><td class="numi">0</td><td class="numi">0</td><td class="numi">1,536.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Cart-CH</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">98.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
 <tr><th colspan="4">Cart-CH &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="3">testcase.SignUpLogin</td><td><a href="#m1"><b>LoginUnicefUS</b>  </a></td><td class="numi">1</td><td>1563195237000</td><td class="numi">25081</td></tr><tr class="passedodd"><td><a href="#m2"><b>forgetPassword</b>  </a></td><td class="numi">1</td><td>1563195266613</td><td class="numi">31667</td></tr><tr class="passedodd"><td><a href="#m3"><b>userSignup</b>  </a></td><td class="numi">1</td><td>1563195302389</td><td class="numi">34017</td></tr>
-<tr class="passedeven"><td rowspan="2">testcase.Homepage</td><td><a href="#m4"><b>searchProduct</b>  </a></td><td class="numi">1</td><td>1563195340752</td><td class="numi">27128</td></tr><tr class="passedeven"><td><a href="#m5"><b>headerMenu</b>  </a></td><td class="numi">1</td><td>1563195372105</td><td class="numi">80506</td></tr>
-<tr class="passedodd"><td rowspan="1">testcase.CriticalPathFlow</td><td><a href="#m6"><b>typeandsearch</b>  </a></td><td class="numi">1</td><td>1563195457225</td><td class="numi">85076</td></tr>
-<tr class="passedeven"><td rowspan="11">testcase.Wishlist</td><td><a href="#m7"><b>wishlistProduct</b>  </a></td><td class="numi">1</td><td>1563195546398</td><td class="numi">33281</td></tr><tr class="passedeven"><td><a href="#m8"><b>WishlisttocartUsingGuest</b>  </a></td><td class="numi">1</td><td>1563195583846</td><td class="numi">132385</td></tr><tr class="passedeven"><td><a href="#m9"><b>WishlisttocartDiffShipAddress</b>  </a></td><td class="numi">1</td><td>1563195720447</td><td class="numi">120106</td></tr><tr class="passedeven"><td><a href="#m10"><b>WishlisttocartUsingExpress</b>  </a></td><td class="numi">1</td><td>1563195844716</td><td class="numi">121438</td></tr><tr class="passedeven"><td><a href="#m11"><b>removeWishlist</b>  </a></td><td class="numi">1</td><td>1563195970528</td><td class="numi">31522</td></tr><tr class="passedeven"><td><a href="#m12"><b>viewProductWishlist</b>  </a></td><td class="numi">1</td><td>1563196006161</td><td class="numi">27169</td></tr><tr class="passedeven"><td><a href="#m13"><b>shareWishlist</b>  </a></td><td class="numi">1</td><td>1563196037588</td><td class="numi">31195</td></tr><tr class="passedeven"><td><a href="#m14"><b>fbShareWishlist</b>  </a></td><td class="numi">1</td><td>1563196072969</td><td class="numi">32436</td></tr><tr class="passedeven"><td><a href="#m15"><b>twitterShareWishlist</b>  </a></td><td class="numi">1</td><td>1563196108881</td><td class="numi">33469</td></tr><tr class="passedeven"><td><a href="#m16"><b>createWishlist</b>  </a></td><td class="numi">1</td><td>1563196146122</td><td class="numi">77907</td></tr><tr class="passedeven"><td><a href="#m17"><b>removeAddressFromAddressBook</b>  </a></td><td class="numi">1</td><td>1563196228297</td><td class="numi">64086</td></tr>
-<tr class="passedodd"><td rowspan="6">testcase.InspiredGifts</td><td><a href="#m18"><b>IGcreateCardPrintedCard</b>  </a></td><td class="numi">1</td><td>1563196296592</td><td class="numi">57501</td></tr><tr class="passedodd"><td><a href="#m19"><b>IGcreateCardPrintAtHomeCard</b>  </a></td><td class="numi">1</td><td>1563196358317</td><td class="numi">70059</td></tr><tr class="passedodd"><td><a href="#m20"><b>IGcreateCardEGreeting</b>  </a></td><td class="numi">1</td><td>1563196432750</td><td class="numi">66384</td></tr><tr class="passedodd"><td><a href="#m21"><b>IGcreateCardNoCard</b>  </a></td><td class="numi">1</td><td>1563196503602</td><td class="numi">62529</td></tr><tr class="passedodd"><td><a href="#m22"><b>guestCheckOutIGgift</b>  </a></td><td class="numi">1</td><td>1563196570311</td><td class="numi">97982</td></tr><tr class="passedodd"><td><a href="#m23"><b>expressCheckOutIGgift</b>  </a></td><td class="numi">1</td><td>1563196672516</td><td class="numi">95837</td></tr>
+<tr class="passedodd"><td rowspan="1">testcase.CriticalPathFlow</td><td><a href="#m1"><b>typeandsearch</b>  </a></td><td class="numi">1</td><td>1563348582439</td><td class="numi">94085</td></tr>
 </table>
 <h1>Cart-CH</h1>
-<h2 id="m1">testcase.Wishlist:createWishlist</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">testcase.InspiredGifts:IGcreateCardNoCard</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m3">testcase.Wishlist:WishlisttocartDiffShipAddress</h2>
-<div style="padding-left:3em">
-Loading Homepage<br/>
-Searched forBlue<br/>
-Waiting for C3 to load<br/>
-Total Products found85<br/>
-Clicked on product ID27384<br/>
-Uncheck the donation<br/>
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m4">testcase.CriticalPathFlow:typeandsearch</h2>
+<h2 id="m1">testcase.CriticalPathFlow:typeandsearch</h2>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr class="param"><th>Parameter #1</th></tr>
 <tr class="param stripe"><td>1</td>
 </tr>
 <tr><td style="padding-left:3em" colspan="1">
-Loading Homepage<br/>
-Searched forBlue<br/>
-Waiting for C3 to load<br/>
-Total Products found85<br/>
-Clicked on product ID27384<br/>
-Added product with 27384to cart<br/>
-Redirecting to cart page with price$114.99<br/>
-Uncheck the donation<br/>
+Loading Homepage <br><br/>
+Searched forBlue<br><br/>
+Waiting for C3 to load <br><br/>
+Total Products found85<br><br/>
+Clicked on product ID23149<br><br/>
+waiting item detail page to load <br><br/>
+checked productid and product detail page id are same <br><br/>
+get the product prize$19.99<br><br/>
+Added product with 23149to cart <br><br/>
+Redirecting to cart page with price$19.99<br><br/>
+redirecting to cart page <br><br/>
+Uncheck the donation <br><br/>
+check product prize and actual cart prize are same <br><br/>
+clicked on checkout button <br><br/>
+enter user details <br><br/>
+create a new shipping address <br><br/>
+go to payment options <br><br/>
+apply promocode <br><br/>
+add donation <br><br/>
+give card details for payment <br><br/>
+select same shipping address as billing address <br><br/>
+redirecting to confirmation page <br><br/>
 </td></tr>
 </table>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m5">testcase.InspiredGifts:guestCheckOutIGgift</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m6">testcase.Wishlist:shareWishlist</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m7">testcase.Wishlist:fbShareWishlist</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m8">testcase.Homepage:headerMenu</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m9">testcase.Wishlist:viewProductWishlist</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m10">testcase.SignUpLogin:userSignup</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m11">testcase.Wishlist:removeWishlist</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m12">testcase.InspiredGifts:IGcreateCardPrintAtHomeCard</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m13">testcase.SignUpLogin:forgetPassword</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m14">testcase.Wishlist:removeAddressFromAddressBook</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m15">testcase.SignUpLogin:LoginUnicefUS</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m16">testcase.Wishlist:twitterShareWishlist</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m17">testcase.Wishlist:wishlistProduct</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m18">testcase.Wishlist:WishlisttocartUsingExpress</h2>
-<div style="padding-left:3em">
-Loading Homepage<br/>
-Searched forBlue<br/>
-Waiting for C3 to load<br/>
-Total Products found85<br/>
-Clicked on product ID162243<br/>
-Uncheck the donation<br/>
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m19">testcase.InspiredGifts:expressCheckOutIGgift</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m20">testcase.InspiredGifts:IGcreateCardEGreeting</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m21">testcase.Homepage:searchProduct</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m22">testcase.Wishlist:WishlisttocartUsingGuest</h2>
-<div style="padding-left:3em">
-Loading Homepage<br/>
-Searched forBlue<br/>
-Waiting for C3 to load<br/>
-Total Products found85<br/>
-Clicked on product ID486466<br/>
-Uncheck the donation<br/>
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m23">testcase.InspiredGifts:IGcreateCardPrintedCard</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

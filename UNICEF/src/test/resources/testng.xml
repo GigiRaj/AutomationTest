@@ -3,11 +3,9 @@
 <test name="Cart-CH">
 <parameter name="browser" value="1"/>
 <classes>
-<class name="testcase.SignUpLogin"/>
-<class name="testcase.Homepage"/>
+
 <class name="testcase.CriticalPathFlow"/>
-<class name="testcase.Wishlist"/>
-<class name="testcase.InspiredGifts"/>
+
 
 
 </classes>

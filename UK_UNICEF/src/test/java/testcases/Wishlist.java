@@ -48,7 +48,7 @@ public class Wishlist extends BaseTest {
 	} 
 	
 	/* test case for choosing products from wish list and add to cart and checkout the item */	
-	@Test(priority=1)
+	@Test(priority=2)
 	public void WishlisttocartCheckOut()throws Exception{
 		
 		HomePage homePage = new HomePage(driver);
@@ -118,7 +118,7 @@ public class Wishlist extends BaseTest {
 	}
 	
 	/* test case for choosing products from wish list and add to cart using create or edit shipping address */	
-	@Test(priority=2)
+	@Test(priority=1)
 	public void WishlisttocartUsingGuest()throws Exception{
 		
 		HomePage homePage = new HomePage(driver);

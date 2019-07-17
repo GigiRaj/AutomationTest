@@ -52,13 +52,11 @@ public class CrticalPathFlow extends BaseTest{
 		Reporter.log("Waiting for C3 to load");
 		int productcount = c3.getproductCount();
 		Reporter.log("Total Products found"+ productcount);
-		System.out.println("Total Products found "+ productcount);
 		int gennum = wpu.getRandomNumberInts(1, productcount);
 		System.out.println(gennum);
 		
 	    String productid = c3.getProductID(gennum);
 	    Reporter.log("Clicked on product ID"+ productid);
-	    System.out.println("Clicked on product ID"+ productid);
 	    c3.clickProductPlateRandom(gennum);
 	    
 	    itdetail.waitForItemDetailLoad();
@@ -67,17 +65,22 @@ public class CrticalPathFlow extends BaseTest{
 		itdetail.clickAddToCartButton();
 		Reporter.log("Added product with "+ productid + "to cart");
 		Thread.sleep(10000);
-		System.out.println("added product to bag");		
+		Reporter.log("added product to bag");		
 		itdetail.Gotocart();
 		Thread.sleep(10000);
 		String actualcartprice = cat.getTotalCartPrice();
 		System.out.println(actualcartprice);
 		assertEquals(productPrice, actualcartprice);
+		Reporter.log("checked product price and actual price are equal");
 		
 		cat.clickcheckout();
+		Reporter.log("clicked on checkout button");
 	    sign.EntersignInDet();
+	    Reporter.log("give username and password");
 	    shipAddr.waitForShippingPageToload();
+	    Reporter.log("lading shipping page");
 	    shipAddr.manualAddress();
+	    Reporter.log("give manual address");
 	    shipAddr.dispatchShipping();
 	    pay.chooseDonation(3);
 	    pay.applyPromoCode("saduysg");

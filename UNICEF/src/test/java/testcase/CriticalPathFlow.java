@@ -44,56 +44,65 @@ public class CriticalPathFlow extends BaseTest {
 		
 		
 		homePage.openHomePage();
-		Reporter.log("Loading Homepage");
+		Reporter.log("Loading Homepage <br>");
 		//Thread.sleep(60000);
 		String Key = "Blue";
 		homePage.typeAndSubmitKeyword(Key);
-		Reporter.log("Searched for"+ Key);
+		Reporter.log("Searched for"+ Key + "<br>");
 		
 		c3.waitForC3toLoad();
-		Reporter.log("Waiting for C3 to load");
+		Reporter.log("Waiting for C3 to load <br>");
 		int productcount = c3.getproductCount();
-		Reporter.log("Total Products found"+ productcount);
-		System.out.println("Total Products found "+ productcount);
+		Reporter.log("Total Products found"+ productcount + "<br>");
 		int gennum = wpu.getRandomNumberInts(1, productcount);
 		System.out.println(gennum);
 		
 	    String productid = c3.getProductID(gennum);
-	    Reporter.log("Clicked on product ID"+ productid);
-	    System.out.println("Clicked on product ID"+ productid);
+	    Reporter.log("Clicked on product ID"+ productid + "<br>");
 	    c3.clickProductPlateRandom(gennum);
 	    
 		itdetail.waitForItemDetailLoad();
+		Reporter.log("waiting item detail page to load <br>");
 		String productdetid= itdetail.getProductID();
 		System.out.println(productid);
 		System.out.println(productdetid);
 	    assertEquals(productid, productdetid);
+	    Reporter.log("checked productid and product detail page id are same <br>");
 		String productPrice = itdetail.getProductPrice();
 		System.out.println(productPrice);
+		Reporter.log("get the product prize"+ productPrice + "<br>");
 		itdetail.clickAddToCartButton();
-		Reporter.log("Added product with "+ productid + "to cart");
-		itdetail.waitForCartFlyoutToload();
-		Reporter.log("Redirecting to cart page with price" + productPrice);
+		Reporter.log("Added product with "+ productid + "to cart <br>");
+		Thread.sleep(10000);
+		Reporter.log("Redirecting to cart page with price" + productPrice + "<br>");
 		itdetail.Gotocart();
+		Reporter.log("redirecting to cart page <br>");
 		driver.findElement(By.id("hasdonation")).click();
-		Reporter.log("Uncheck the donation");
+		Reporter.log("Uncheck the donation <br>");
 		Thread.sleep(10000);
 		String actualcartprice = cat.getTotalCartPrice();
 		System.out.println(actualcartprice);
 		assertEquals(productPrice, "$"+actualcartprice);
-		
+		Reporter.log("check product prize and actual cart prize are same <br>");
 		cat.clickcheckout();
+		Reporter.log("clicked on checkout button <br>");
 		sign.EntersignInDet();
+		Reporter.log("enter user details <br>");
 		shipAddr.createShipAddress();
-		System.out.println("create new shipping address");	
+		Reporter.log("create a new shipping address <br>");
 		shipAddr.bottomContinueBtnShipOptPage();	
-		System.out.println("go to payment options");
+		Reporter.log("go to payment options <br>");
 		shipAddr.topContinueBtnShipOptPage();
 		payment.applyPromoCode("QWERTY");
+		Reporter.log("apply promocode <br>");
 		payment.chooseDonation(5);
+		Reporter.log("add donation <br>");
 		payment.cardPayment();
+		Reporter.log("give card details for payment <br>");
 		payment.sameShippingAddr();
+		Reporter.log("select same shipping address as billing address <br>");
 		payment.bottomContinueButton();
+		Reporter.log("redirecting to confirmation page <br>");
 	}
 	
 	

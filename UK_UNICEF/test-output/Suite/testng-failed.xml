@@ -10,8 +10,6 @@
           <include name="WishlisttocartUsingGuest"/>
           <include name="WishlisttocartCheckOut"/>
           <include name="setUp"/>
-          <include name="endTest"/>
-          <include name="tearDown"/>
         </methods>
       </class> <!-- testcases.Wishlist -->
     </classes>
