@@ -235,33 +235,15 @@ public class InspiredGifts extends BaseTest {
 		IGShip.topCheckOut();
 		System.out.println("checkout the item");
 		sign.EntersignInDet();		
-		System.out.println("go to payment options");
-		payment.applyPromoCode("QWERTY");
-		payment.chooseDonation(5);
-		payment.cardPayment();
-		payment.newBillingAddr();
-		payment.bottomContinueButton();
+		payment.paymentPageFunctionalities();
+//		System.out.println("go to payment options");
+//		payment.applyPromoCode("QWERTY");
+//		payment.chooseDonation(5);
+//		payment.cardPayment();
+//		payment.newBillingAddr();
+//		payment.bottomContinueButton();
 	
 	}
 	
-	/* test case for remove address from address book */
-	@Test(priority=10)
-	public void removeAddressFromAddressBook()throws Exception{
-		
-		
-		C3category c3 = new C3category(driver);
-		ItemDetailPage itdetail = new ItemDetailPage(driver);
-		HomePage homePage = new HomePage(driver);
-		Cart cat = new Cart(driver);
-		SignIn sign = new SignIn(driver);
-		PersonalWishlist perWish= new PersonalWishlist(driver);
-		
-		homePage.openHomePage();
-		sign.headerLoginButton();
-		sign.Login();
-		perWish.removeAddress(1);
-	
-		
-	}
 
 }

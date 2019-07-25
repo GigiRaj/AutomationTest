@@ -22,7 +22,7 @@ public class ShippingAddressPage extends BasePageObject {
 		// TODO Auto-generated constructor stub
 	}
 	
-	PaymentPage payment=new PaymentPage(driver);
+	
 	
 	private By editAddButton= By.className("btn-small");
 	private By newAddButton= By.className("btn-top");
@@ -152,57 +152,33 @@ public class ShippingAddressPage extends BasePageObject {
 		System.out.println("click continue button");
 	}
 	
-	public void testConditions() throws Exception{
-		
-		By paymentButton= By.xpath("//*[@id='progress-payment']/a[1]");
-		if(driver.findElements(paymentButton).size()!=0)
-		{
-			System.out.println("test");
-			payment.applyPromoCode("QWERTY");
-			payment.chooseDonation(5);
-			payment.cardPayment();
-			payment.newBillingAddr();
-			payment.bottomContinueButton();
-			
-		}
-		
-		else
-		{
-			
-			
-			System.out.println("no payment page");
-			testshipaddress();
-		}
-			
-	}
+
 	
-	public void testshipaddress() throws Exception{
+	public void shippingAddressPageFunctionalities() throws Exception{
 		
-		
+		PaymentPage payment=new PaymentPage(driver);
 		By recipientFirstName= By.id("firstName"); 
 		
 		if(driver.findElements(recipientFirstName).size() == 0){
 			
-			System.out.println("no");
+			
 			sameAddress(1);
 			payment.bottomContinueButton();
-			System.out.println("rrr");
 			Thread.sleep(5000);
-			testConditions();
-			System.out.println("yyy");
+			payment.paymentPageFunctionalities();
+			
 		
 		}
 		
 		else
 		{
-			System.out.println("yes");
+			
 			createShipAddress();
 			continueButton1();
 			payment.bottomContinueButton();
-			System.out.println("rrr");
 			Thread.sleep(5000);
-			testConditions();
-			System.out.println("yyy");
+			payment.paymentPageFunctionalities();
+			
 		}
 	}
 	

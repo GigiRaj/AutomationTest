@@ -115,21 +115,7 @@ public class Wishlist extends BaseTest {
 		cat.clickcheckout();
 		Reporter.log("check out the product");
 		sign.EntersignInDet();
-		Reporter.log("enter user sign in details");
-		shipAddr.addShippingAddress();
-		Reporter.log("Input new shipping address");
-		shipAddr.continueButton1();
-		shipAddr.topContinueBtnShipOptPage();
-		Reporter.log("Redirecting to payment page");
-		Thread.sleep(3000);
-		payment.applyPromoCode("PROMOCODE15");
-		Reporter.log("apply promocode");
-		payment.chooseDonation(5);
-		Reporter.log("choose donation");
-		payment.cardPayment();
-		Reporter.log("make payment using card");
-		payment.clickContinueButton();
-		Reporter.log("redirecting to confirmation page");
+		payment.paymentPageFunctionalities();
 
 	} 
 	

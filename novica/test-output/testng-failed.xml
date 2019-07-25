@@ -28,8 +28,8 @@
       </class> <!-- testcase.SignUpLogin -->
       <class name="testcase.Wishlist">
         <methods>
-          <include name="WishlisttocartUsingExpress"/>
           <include name="setUp"/>
+          <include name="removeWishlist"/>
           <include name="endTest"/>
           <include name="tearDown"/>
         </methods>

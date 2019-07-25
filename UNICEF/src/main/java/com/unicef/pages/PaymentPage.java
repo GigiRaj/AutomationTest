@@ -17,6 +17,8 @@ public class PaymentPage extends BasePageObject {
 		// TODO Auto-generated constructor stub
 	}
 	
+	
+	
 	private By promoCode= By.id("promocode");
 	private By promocodeApplyButton= By.className("btn-code");
 	private By donateSelectBox= By.id("contributionAmount");
@@ -114,5 +116,28 @@ public class PaymentPage extends BasePageObject {
 		type(IGgiftGuestLastName,"test2");
 		scrollToBottom();
 	}
-	
+		
+	public void paymentPageFunctionalities() throws Exception{
+		ShippingAddressPage shipAddr= new ShippingAddressPage(driver);
+		By paymentButton= By.xpath("//*[@id='progress-payment']/a[1]");
+		if(driver.findElements(paymentButton).size()!=0)
+		{
+			
+			applyPromoCode("QWERTY");
+			chooseDonation(5);
+			cardPayment();
+			newBillingAddr();
+			bottomContinueButton();
+			
+		}
+		
+		else
+		{
+			
+			
+			System.out.println("no payment page");
+			shipAddr.shippingAddressPageFunctionalities();
+		}
+			
+	}
 }

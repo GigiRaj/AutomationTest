@@ -72,20 +72,7 @@ public class AddressBook  extends BaseTest {
 		cat.clickcheckout();
 		Reporter.log("check out the product");
 		sign.EntersignInDet();
-		Reporter.log("give the user sign in details");
-		payment.clickShippingTab();
-		Reporter.log("redirecting to shipping page");
-		payment.clickSameAddess();
-		Reporter.log("use same shipping address");
-		Thread.sleep(3000);
-		payment.applyPromoCode("PROMOCODE15");
-		Reporter.log("Apply promocode");
-		payment.chooseDonation(5);
-		Reporter.log("choose donation");
-		payment.cardPayment();
-		Reporter.log("give details for card payment");
-		payment.clickContinueButton();
-		Reporter.log("redirecting to confirmation page");
+		payment.paymentPageFunctionalities();
 	}
 	
 	/* to remove address from address book*/

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="11" passed="10">
+<testng-results skipped="0" failed="1" total="10" passed="9">
   <reporter-output>
     <line>
       <![CDATA[Redirecting to home page]]>
@@ -41,16 +41,16 @@
       <![CDATA[Total Products found 84]]>
     </line>
     <line>
-      <![CDATA[Clicked on product ID229928]]>
+      <![CDATA[Clicked on product ID272474]]>
     </line>
     <line>
       <![CDATA[to get the product prize]]>
     </line>
     <line>
-      <![CDATA[Added product with 229928to cart]]>
+      <![CDATA[Added product with 272474to cart]]>
     </line>
     <line>
-      <![CDATA[Redirecting to cart page with price27.99]]>
+      <![CDATA[Redirecting to cart page with price289.99]]>
     </line>
     <line>
       <![CDATA[to get the actual cart price]]>
@@ -60,24 +60,6 @@
     </line>
     <line>
       <![CDATA[Login as a user]]>
-    </line>
-    <line>
-      <![CDATA[Input new shipping address]]>
-    </line>
-    <line>
-      <![CDATA[Redirecting to payment page]]>
-    </line>
-    <line>
-      <![CDATA[Apply promocode]]>
-    </line>
-    <line>
-      <![CDATA[choose donation]]>
-    </line>
-    <line>
-      <![CDATA[Give card details]]>
-    </line>
-    <line>
-      <![CDATA[Redirection to confirmation page]]>
     </line>
     <line>
       <![CDATA[Loading Homepage]]>
@@ -92,43 +74,22 @@
       <![CDATA[Total Products found 84]]>
     </line>
     <line>
-      <![CDATA[Clicked on product ID125294]]>
+      <![CDATA[Clicked on product ID221903]]>
     </line>
     <line>
       <![CDATA[Get the product price]]>
     </line>
     <line>
-      <![CDATA[Added product with 125294to cart]]>
+      <![CDATA[Added product with 221903to cart]]>
     </line>
     <line>
-      <![CDATA[Redirecting to cart page with price49.99]]>
+      <![CDATA[Redirecting to cart page with price79.99]]>
     </line>
     <line>
       <![CDATA[to get the actual cart price]]>
     </line>
     <line>
       <![CDATA[check out the product]]>
-    </line>
-    <line>
-      <![CDATA[give the user sign in details]]>
-    </line>
-    <line>
-      <![CDATA[redirecting to shipping page]]>
-    </line>
-    <line>
-      <![CDATA[use same shipping address]]>
-    </line>
-    <line>
-      <![CDATA[Apply promocode]]>
-    </line>
-    <line>
-      <![CDATA[choose donation]]>
-    </line>
-    <line>
-      <![CDATA[give details for card payment]]>
-    </line>
-    <line>
-      <![CDATA[redirecting to confirmation page]]>
     </line>
     <line>
       <![CDATA[Redirecting to sig in page]]>
@@ -167,7 +128,7 @@
       <![CDATA[Total Products found 84]]>
     </line>
     <line>
-      <![CDATA[Clicked on product ID181420]]>
+      <![CDATA[Clicked on product ID226282]]>
     </line>
     <line>
       <![CDATA[Waiting for Item Detail page to Load]]>
@@ -200,12 +161,6 @@
       <![CDATA[check out the product]]>
     </line>
     <line>
-      <![CDATA[enter user sign in details]]>
-    </line>
-    <line>
-      <![CDATA[Input new shipping address]]>
-    </line>
-    <line>
       <![CDATA[Redirecting to home page]]>
     </line>
     <line>
@@ -213,12 +168,6 @@
     </line>
     <line>
       <![CDATA[Redirecting to sig in page]]>
-    </line>
-    <line>
-      <![CDATA[log in as user by providing email and password]]>
-    </line>
-    <line>
-      <![CDATA[remove 2nd product from the wishlist page]]>
     </line>
     <line>
       <![CDATA[Loading Homepage]]>
@@ -233,25 +182,10 @@
       <![CDATA[Total Products found 84]]>
     </line>
     <line>
-      <![CDATA[Clicked on product ID304897]]>
+      <![CDATA[Clicked on product ID295964]]>
     </line>
     <line>
-      <![CDATA[Added product with 304897to cart]]>
-    </line>
-    <line>
-      <![CDATA[Searched foroil paintings]]>
-    </line>
-    <line>
-      <![CDATA[Waiting for C3 to load]]>
-    </line>
-    <line>
-      <![CDATA[Total Products found 84]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on product ID173025]]>
-    </line>
-    <line>
-      <![CDATA[Added product with 173025to cart]]>
+      <![CDATA[Added product with 295964to cart]]>
     </line>
     <line>
       <![CDATA[Searched foroil paintings]]>
@@ -263,10 +197,40 @@
       <![CDATA[Total Products found 84]]>
     </line>
     <line>
-      <![CDATA[Clicked on product ID178114]]>
+      <![CDATA[Clicked on product ID167216]]>
     </line>
     <line>
-      <![CDATA[Added product with 178114to cart]]>
+      <![CDATA[Added product with 167216to cart]]>
+    </line>
+    <line>
+      <![CDATA[Searched foroil paintings]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for C3 to load]]>
+    </line>
+    <line>
+      <![CDATA[Total Products found 84]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on product ID144818]]>
+    </line>
+    <line>
+      <![CDATA[Added product with 144818to cart]]>
+    </line>
+    <line>
+      <![CDATA[Searched foroil paintings]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for C3 to load]]>
+    </line>
+    <line>
+      <![CDATA[Total Products found 84]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on product ID254666]]>
+    </line>
+    <line>
+      <![CDATA[Added product with 254666to cart]]>
     </line>
     <line>
       <![CDATA[check put the product]]>
@@ -274,34 +238,13 @@
     <line>
       <![CDATA[Login as a user]]>
     </line>
-    <line>
-      <![CDATA[Redirecting to payment page]]>
-    </line>
-    <line>
-      <![CDATA[Apply promocode]]>
-    </line>
-    <line>
-      <![CDATA[choose donation]]>
-    </line>
-    <line>
-      <![CDATA[Give card details]]>
-    </line>
-    <line>
-      <![CDATA[Redirection to confirmation page]]>
-    </line>
-    <line>
-      <![CDATA[Redirecting to sig in page]]>
-    </line>
-    <line>
-      <![CDATA[log in as user by providing email and password]]>
-    </line>
   </reporter-output>
-  <suite name="novica" duration-ms="1201593" started-at="2019-07-24T06:54:59Z" finished-at="2019-07-24T07:15:00Z">
+  <suite name="novica" duration-ms="1057806" started-at="2019-07-25T11:47:18Z" finished-at="2019-07-25T12:04:55Z">
     <groups>
     </groups>
-    <test name="Cart-CH" duration-ms="1201593" started-at="2019-07-24T06:54:59Z" finished-at="2019-07-24T07:15:00Z">
+    <test name="Cart-CH" duration-ms="1057806" started-at="2019-07-25T11:47:18Z" finished-at="2019-07-25T12:04:55Z">
       <class name="testcase.Wishlist">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.Wishlist@20e2cbe0]" name="setUp" is-config="true" duration-ms="3645" started-at="2019-07-24T12:33:52Z" finished-at="2019-07-24T12:33:55Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.Wishlist@20e2cbe0]" name="setUp" is-config="true" duration-ms="3469" started-at="2019-07-25T17:25:18Z" finished-at="2019-07-25T17:25:21Z">
           <params>
             <param index="0">
               <value>
@@ -317,7 +260,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="wishlistProduct()[pri:0, instance:testcase.Wishlist@20e2cbe0]" name="wishlistProduct" duration-ms="78165" started-at="2019-07-24T12:33:55Z" finished-at="2019-07-24T12:35:14Z">
+        <test-method status="PASS" signature="wishlistProduct()[pri:0, instance:testcase.Wishlist@20e2cbe0]" name="wishlistProduct" duration-ms="75347" started-at="2019-07-25T17:25:21Z" finished-at="2019-07-25T17:26:37Z">
           <reporter-output>
             <line>
               <![CDATA[Redirecting to home page]]>
@@ -339,7 +282,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- wishlistProduct -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.Wishlist@20e2cbe0]" name="tearDown" is-config="true" duration-ms="660" started-at="2019-07-24T12:35:14Z" finished-at="2019-07-24T12:35:14Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.Wishlist@20e2cbe0]" name="tearDown" is-config="true" duration-ms="672" started-at="2019-07-25T17:26:37Z" finished-at="2019-07-25T17:26:37Z">
           <params>
             <param index="0">
               <value>
@@ -350,7 +293,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.Wishlist@20e2cbe0]" name="setUp" is-config="true" duration-ms="3485" started-at="2019-07-24T12:35:14Z" finished-at="2019-07-24T12:35:18Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.Wishlist@20e2cbe0]" name="setUp" is-config="true" duration-ms="3799" started-at="2019-07-25T17:26:37Z" finished-at="2019-07-25T17:26:41Z">
           <params>
             <param index="0">
               <value>
@@ -366,78 +309,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="WishlisttocartUsingExpress()[pri:0, instance:testcase.Wishlist@20e2cbe0]" name="WishlisttocartUsingExpress" duration-ms="176189" started-at="2019-07-24T12:35:18Z" finished-at="2019-07-24T12:38:14Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for element to be clickable: By.id: submitShippingOptions1 (tried for 10 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.id: submitShippingOptions1 (tried for 10 second(s) with 500 milliseconds interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at com.novica.base.BasePageObject.waitFor(BasePageObject.java:164)
-	at com.novica.base.BasePageObject.waitForClickabilityOf(BasePageObject.java:150)
-	at com.novica.pages.ShippingAddressPage.topContinueBtnShipOptPage(ShippingAddressPage.java:88)
-	at testcase.Wishlist.WishlisttocartUsingExpress(Wishlist.java:122)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"submitShippingOptions1"}
-  (Session info: chrome=75.0.3770.142)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\Gigi\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64787}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.142, webStorageEnabled: true}
-Session ID: 01ee4be7149cf421082b4940746e4cff
-*** Element info: {Using=id, value=submitShippingOptions1}
-	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-	at org.openqa.selenium.By$ById.findElement(By.java:188)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
-	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-	... 28 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="WishlisttocartUsingExpress()[pri:0, instance:testcase.Wishlist@20e2cbe0]" name="WishlisttocartUsingExpress" duration-ms="177910" started-at="2019-07-25T17:26:41Z" finished-at="2019-07-25T17:29:39Z">
           <reporter-output>
             <line>
               <![CDATA[Redirecting to home page]]>
@@ -452,7 +324,7 @@ Session ID: 01ee4be7149cf421082b4940746e4cff
               <![CDATA[Total Products found 84]]>
             </line>
             <line>
-              <![CDATA[Clicked on product ID181420]]>
+              <![CDATA[Clicked on product ID226282]]>
             </line>
             <line>
               <![CDATA[Waiting for Item Detail page to Load]]>
@@ -484,26 +356,20 @@ Session ID: 01ee4be7149cf421082b4940746e4cff
             <line>
               <![CDATA[check out the product]]>
             </line>
-            <line>
-              <![CDATA[enter user sign in details]]>
-            </line>
-            <line>
-              <![CDATA[Input new shipping address]]>
-            </line>
           </reporter-output>
         </test-method> <!-- WishlisttocartUsingExpress -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.Wishlist@20e2cbe0]" name="tearDown" is-config="true" duration-ms="689" started-at="2019-07-24T12:38:14Z" finished-at="2019-07-24T12:38:15Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.Wishlist@20e2cbe0]" name="tearDown" is-config="true" duration-ms="691" started-at="2019-07-25T17:29:39Z" finished-at="2019-07-25T17:29:40Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=WishlisttocartUsingExpress status=FAILURE method=Wishlist.WishlisttocartUsingExpress()[pri:0, instance:testcase.Wishlist@20e2cbe0] output=Redirecting to home page]]]>
+                <![CDATA[[TestResult name=WishlisttocartUsingExpress status=SUCCESS method=Wishlist.WishlisttocartUsingExpress()[pri:0, instance:testcase.Wishlist@20e2cbe0] output=Redirecting to home page]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.Wishlist@20e2cbe0]" name="setUp" is-config="true" duration-ms="3447" started-at="2019-07-24T12:38:15Z" finished-at="2019-07-24T12:38:18Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.Wishlist@20e2cbe0]" name="setUp" is-config="true" duration-ms="3456" started-at="2019-07-25T17:29:40Z" finished-at="2019-07-25T17:29:43Z">
           <params>
             <param index="0">
               <value>
@@ -519,7 +385,73 @@ Session ID: 01ee4be7149cf421082b4940746e4cff
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="removeWishlist()[pri:0, instance:testcase.Wishlist@20e2cbe0]" name="removeWishlist" duration-ms="69299" started-at="2019-07-24T12:38:18Z" finished-at="2019-07-24T12:39:27Z">
+        <test-method status="FAIL" signature="removeWishlist()[pri:0, instance:testcase.Wishlist@20e2cbe0]" name="removeWishlist" duration-ms="43505" started-at="2019-07-25T17:29:43Z" finished-at="2019-07-25T17:30:27Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: Element <button type="submit" class="btn btn-block btn-primary" tabindex="4">...</button> is not clickable at point (463, 568). Other element would receive the click: <div id="mt-ltbx-content" style="width: 900px; height: 600px; overflow: hidden;">...</div>
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\Gigi\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52917}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.142, webStorageEnabled: true}
+Session ID: a032c2aa4141be2e94876af8a9a94599]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: Element <button type="submit" class="btn btn-block btn-primary" tabindex="4">...</button> is not clickable at point (463, 568). Other element would receive the click: <div id="mt-ltbx-content" style="width: 900px; height: 600px; overflow: hidden;">...</div>
+  (Session info: chrome=75.0.3770.142)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\Gigi\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52917}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.142, webStorageEnabled: true}
+Session ID: a032c2aa4141be2e94876af8a9a94599
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.novica.base.BasePageObject.click(BasePageObject.java:44)
+	at com.novica.pages.SignIn.Login(SignIn.java:55)
+	at testcase.Wishlist.removeWishlist(Wishlist.java:139)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
             <line>
               <![CDATA[Redirecting to home page]]>
@@ -530,32 +462,26 @@ Session ID: 01ee4be7149cf421082b4940746e4cff
             <line>
               <![CDATA[Redirecting to sig in page]]>
             </line>
-            <line>
-              <![CDATA[log in as user by providing email and password]]>
-            </line>
-            <line>
-              <![CDATA[remove 2nd product from the wishlist page]]>
-            </line>
           </reporter-output>
         </test-method> <!-- removeWishlist -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.Wishlist@20e2cbe0]" name="tearDown" is-config="true" duration-ms="661" started-at="2019-07-24T12:39:27Z" finished-at="2019-07-24T12:39:28Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.Wishlist@20e2cbe0]" name="tearDown" is-config="true" duration-ms="650" started-at="2019-07-25T17:30:27Z" finished-at="2019-07-25T17:30:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=removeWishlist status=SUCCESS method=Wishlist.removeWishlist()[pri:0, instance:testcase.Wishlist@20e2cbe0] output=Redirecting to home page]]]>
+                <![CDATA[[TestResult name=removeWishlist status=FAILURE method=Wishlist.removeWishlist()[pri:0, instance:testcase.Wishlist@20e2cbe0] output=Redirecting to home page]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:testcase.Wishlist@20e2cbe0]" name="endTest" is-config="true" duration-ms="1" started-at="2019-07-24T12:39:28Z" finished-at="2019-07-24T12:39:28Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testcase.Wishlist@20e2cbe0]" name="endTest" is-config="true" duration-ms="1" started-at="2019-07-25T17:30:27Z" finished-at="2019-07-25T17:30:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
       </class> <!-- testcase.Wishlist -->
       <class name="testcase.AddressBook">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.AddressBook@7c16905e]" name="setUp" is-config="true" duration-ms="3579" started-at="2019-07-24T12:30:26Z" finished-at="2019-07-24T12:30:30Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.AddressBook@7c16905e]" name="setUp" is-config="true" duration-ms="3611" started-at="2019-07-25T17:22:13Z" finished-at="2019-07-25T17:22:16Z">
           <params>
             <param index="0">
               <value>
@@ -571,7 +497,7 @@ Session ID: 01ee4be7149cf421082b4940746e4cff
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="crticalPathSameAddress(java.lang.String)[pri:0, instance:testcase.AddressBook@7c16905e]" name="crticalPathSameAddress" duration-ms="123980" started-at="2019-07-24T12:30:30Z" finished-at="2019-07-24T12:32:34Z">
+        <test-method status="PASS" signature="crticalPathSameAddress(java.lang.String)[pri:0, instance:testcase.AddressBook@7c16905e]" name="crticalPathSameAddress" duration-ms="108608" started-at="2019-07-25T17:22:16Z" finished-at="2019-07-25T17:24:05Z">
           <params>
             <param index="0">
               <value>
@@ -593,16 +519,16 @@ Session ID: 01ee4be7149cf421082b4940746e4cff
               <![CDATA[Total Products found 84]]>
             </line>
             <line>
-              <![CDATA[Clicked on product ID125294]]>
+              <![CDATA[Clicked on product ID221903]]>
             </line>
             <line>
               <![CDATA[Get the product price]]>
             </line>
             <line>
-              <![CDATA[Added product with 125294to cart]]>
+              <![CDATA[Added product with 221903to cart]]>
             </line>
             <line>
-              <![CDATA[Redirecting to cart page with price49.99]]>
+              <![CDATA[Redirecting to cart page with price79.99]]>
             </line>
             <line>
               <![CDATA[to get the actual cart price]]>
@@ -610,30 +536,9 @@ Session ID: 01ee4be7149cf421082b4940746e4cff
             <line>
               <![CDATA[check out the product]]>
             </line>
-            <line>
-              <![CDATA[give the user sign in details]]>
-            </line>
-            <line>
-              <![CDATA[redirecting to shipping page]]>
-            </line>
-            <line>
-              <![CDATA[use same shipping address]]>
-            </line>
-            <line>
-              <![CDATA[Apply promocode]]>
-            </line>
-            <line>
-              <![CDATA[choose donation]]>
-            </line>
-            <line>
-              <![CDATA[give details for card payment]]>
-            </line>
-            <line>
-              <![CDATA[redirecting to confirmation page]]>
-            </line>
           </reporter-output>
         </test-method> <!-- crticalPathSameAddress -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.AddressBook@7c16905e]" name="tearDown" is-config="true" duration-ms="668" started-at="2019-07-24T12:32:34Z" finished-at="2019-07-24T12:32:34Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.AddressBook@7c16905e]" name="tearDown" is-config="true" duration-ms="707" started-at="2019-07-25T17:24:05Z" finished-at="2019-07-25T17:24:06Z">
           <params>
             <param index="0">
               <value>
@@ -644,7 +549,7 @@ Session ID: 01ee4be7149cf421082b4940746e4cff
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.AddressBook@7c16905e]" name="setUp" is-config="true" duration-ms="3648" started-at="2019-07-24T12:32:34Z" finished-at="2019-07-24T12:32:38Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.AddressBook@7c16905e]" name="setUp" is-config="true" duration-ms="3565" started-at="2019-07-25T17:24:06Z" finished-at="2019-07-25T17:24:09Z">
           <params>
             <param index="0">
               <value>
@@ -660,7 +565,7 @@ Session ID: 01ee4be7149cf421082b4940746e4cff
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="removeAddress1()[pri:0, instance:testcase.AddressBook@7c16905e]" name="removeAddress1" duration-ms="73314" started-at="2019-07-24T12:32:38Z" finished-at="2019-07-24T12:33:51Z">
+        <test-method status="PASS" signature="removeAddress1()[pri:0, instance:testcase.AddressBook@7c16905e]" name="removeAddress1" duration-ms="67868" started-at="2019-07-25T17:24:09Z" finished-at="2019-07-25T17:25:17Z">
           <reporter-output>
             <line>
               <![CDATA[Redirecting to sig in page]]>
@@ -670,7 +575,7 @@ Session ID: 01ee4be7149cf421082b4940746e4cff
             </line>
           </reporter-output>
         </test-method> <!-- removeAddress1 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.AddressBook@7c16905e]" name="tearDown" is-config="true" duration-ms="675" started-at="2019-07-24T12:33:51Z" finished-at="2019-07-24T12:33:52Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.AddressBook@7c16905e]" name="tearDown" is-config="true" duration-ms="679" started-at="2019-07-25T17:25:17Z" finished-at="2019-07-25T17:25:18Z">
           <params>
             <param index="0">
               <value>
@@ -681,13 +586,13 @@ Session ID: 01ee4be7149cf421082b4940746e4cff
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:testcase.AddressBook@7c16905e]" name="endTest" is-config="true" duration-ms="1" started-at="2019-07-24T12:33:52Z" finished-at="2019-07-24T12:33:52Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testcase.AddressBook@7c16905e]" name="endTest" is-config="true" duration-ms="1" started-at="2019-07-25T17:25:18Z" finished-at="2019-07-25T17:25:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
       </class> <!-- testcase.AddressBook -->
       <class name="testcase.WholeSale">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.WholeSale@68be2bc2]" name="setUp" is-config="true" duration-ms="3484" started-at="2019-07-24T12:39:28Z" finished-at="2019-07-24T12:39:32Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.WholeSale@68be2bc2]" name="setUp" is-config="true" duration-ms="3548" started-at="2019-07-25T17:30:27Z" finished-at="2019-07-25T17:30:31Z">
           <params>
             <param index="0">
               <value>
@@ -703,7 +608,7 @@ Session ID: 01ee4be7149cf421082b4940746e4cff
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="crticalPathFlowUsingNewAddress(java.lang.String)[pri:0, instance:testcase.WholeSale@68be2bc2]" name="crticalPathFlowUsingNewAddress" duration-ms="254172" started-at="2019-07-24T12:39:32Z" finished-at="2019-07-24T12:43:46Z">
+        <test-method status="PASS" signature="crticalPathFlowUsingNewAddress(java.lang.String)[pri:0, instance:testcase.WholeSale@68be2bc2]" name="crticalPathFlowUsingNewAddress" duration-ms="263738" started-at="2019-07-25T17:30:31Z" finished-at="2019-07-25T17:34:55Z">
           <params>
             <param index="0">
               <value>
@@ -725,25 +630,10 @@ Session ID: 01ee4be7149cf421082b4940746e4cff
               <![CDATA[Total Products found 84]]>
             </line>
             <line>
-              <![CDATA[Clicked on product ID304897]]>
+              <![CDATA[Clicked on product ID295964]]>
             </line>
             <line>
-              <![CDATA[Added product with 304897to cart]]>
-            </line>
-            <line>
-              <![CDATA[Searched foroil paintings]]>
-            </line>
-            <line>
-              <![CDATA[Waiting for C3 to load]]>
-            </line>
-            <line>
-              <![CDATA[Total Products found 84]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on product ID173025]]>
-            </line>
-            <line>
-              <![CDATA[Added product with 173025to cart]]>
+              <![CDATA[Added product with 295964to cart]]>
             </line>
             <line>
               <![CDATA[Searched foroil paintings]]>
@@ -755,10 +645,40 @@ Session ID: 01ee4be7149cf421082b4940746e4cff
               <![CDATA[Total Products found 84]]>
             </line>
             <line>
-              <![CDATA[Clicked on product ID178114]]>
+              <![CDATA[Clicked on product ID167216]]>
             </line>
             <line>
-              <![CDATA[Added product with 178114to cart]]>
+              <![CDATA[Added product with 167216to cart]]>
+            </line>
+            <line>
+              <![CDATA[Searched foroil paintings]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for C3 to load]]>
+            </line>
+            <line>
+              <![CDATA[Total Products found 84]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on product ID144818]]>
+            </line>
+            <line>
+              <![CDATA[Added product with 144818to cart]]>
+            </line>
+            <line>
+              <![CDATA[Searched foroil paintings]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for C3 to load]]>
+            </line>
+            <line>
+              <![CDATA[Total Products found 84]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on product ID254666]]>
+            </line>
+            <line>
+              <![CDATA[Added product with 254666to cart]]>
             </line>
             <line>
               <![CDATA[check put the product]]>
@@ -766,24 +686,9 @@ Session ID: 01ee4be7149cf421082b4940746e4cff
             <line>
               <![CDATA[Login as a user]]>
             </line>
-            <line>
-              <![CDATA[Redirecting to payment page]]>
-            </line>
-            <line>
-              <![CDATA[Apply promocode]]>
-            </line>
-            <line>
-              <![CDATA[choose donation]]>
-            </line>
-            <line>
-              <![CDATA[Give card details]]>
-            </line>
-            <line>
-              <![CDATA[Redirection to confirmation page]]>
-            </line>
           </reporter-output>
         </test-method> <!-- crticalPathFlowUsingNewAddress -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.WholeSale@68be2bc2]" name="tearDown" is-config="true" duration-ms="702" started-at="2019-07-24T12:43:46Z" finished-at="2019-07-24T12:43:46Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.WholeSale@68be2bc2]" name="tearDown" is-config="true" duration-ms="746" started-at="2019-07-25T17:34:55Z" finished-at="2019-07-25T17:34:55Z">
           <params>
             <param index="0">
               <value>
@@ -794,50 +699,13 @@ Session ID: 01ee4be7149cf421082b4940746e4cff
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.WholeSale@68be2bc2]" name="setUp" is-config="true" duration-ms="3517" started-at="2019-07-24T12:43:46Z" finished-at="2019-07-24T12:43:50Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testcase.WholeSale.removeAddress2() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="removeAddress2()[pri:0, instance:testcase.WholeSale@68be2bc2]" name="removeAddress2" duration-ms="69466" started-at="2019-07-24T12:43:50Z" finished-at="2019-07-24T12:44:59Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Redirecting to sig in page]]>
-            </line>
-            <line>
-              <![CDATA[log in as user by providing email and password]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- removeAddress2 -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.WholeSale@68be2bc2]" name="tearDown" is-config="true" duration-ms="688" started-at="2019-07-24T12:44:59Z" finished-at="2019-07-24T12:45:00Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=removeAddress2 status=SUCCESS method=WholeSale.removeAddress2()[pri:0, instance:testcase.WholeSale@68be2bc2] output=Redirecting to sig in page]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:testcase.WholeSale@68be2bc2]" name="endTest" is-config="true" duration-ms="0" started-at="2019-07-24T12:45:00Z" finished-at="2019-07-24T12:45:00Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testcase.WholeSale@68be2bc2]" name="endTest" is-config="true" duration-ms="1" started-at="2019-07-25T17:34:55Z" finished-at="2019-07-25T17:34:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
       </class> <!-- testcase.WholeSale -->
       <class name="testcase.CriticalPathFlow">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.CriticalPathFlow@5034c75a]" name="setUp" is-config="true" duration-ms="3588" started-at="2019-07-24T12:28:14Z" finished-at="2019-07-24T12:28:18Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.CriticalPathFlow@5034c75a]" name="setUp" is-config="true" duration-ms="3432" started-at="2019-07-25T17:20:23Z" finished-at="2019-07-25T17:20:27Z">
           <params>
             <param index="0">
               <value>
@@ -853,7 +721,7 @@ Session ID: 01ee4be7149cf421082b4940746e4cff
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="crticalPathFlowUsingNewAddress(java.lang.String)[pri:0, instance:testcase.CriticalPathFlow@5034c75a]" name="crticalPathFlowUsingNewAddress" duration-ms="127501" started-at="2019-07-24T12:28:18Z" finished-at="2019-07-24T12:30:25Z">
+        <test-method status="PASS" signature="crticalPathFlowUsingNewAddress(java.lang.String)[pri:0, instance:testcase.CriticalPathFlow@5034c75a]" name="crticalPathFlowUsingNewAddress" duration-ms="105166" started-at="2019-07-25T17:20:27Z" finished-at="2019-07-25T17:22:12Z">
           <params>
             <param index="0">
               <value>
@@ -875,16 +743,16 @@ Session ID: 01ee4be7149cf421082b4940746e4cff
               <![CDATA[Total Products found 84]]>
             </line>
             <line>
-              <![CDATA[Clicked on product ID229928]]>
+              <![CDATA[Clicked on product ID272474]]>
             </line>
             <line>
               <![CDATA[to get the product prize]]>
             </line>
             <line>
-              <![CDATA[Added product with 229928to cart]]>
+              <![CDATA[Added product with 272474to cart]]>
             </line>
             <line>
-              <![CDATA[Redirecting to cart page with price27.99]]>
+              <![CDATA[Redirecting to cart page with price289.99]]>
             </line>
             <line>
               <![CDATA[to get the actual cart price]]>
@@ -895,27 +763,9 @@ Session ID: 01ee4be7149cf421082b4940746e4cff
             <line>
               <![CDATA[Login as a user]]>
             </line>
-            <line>
-              <![CDATA[Input new shipping address]]>
-            </line>
-            <line>
-              <![CDATA[Redirecting to payment page]]>
-            </line>
-            <line>
-              <![CDATA[Apply promocode]]>
-            </line>
-            <line>
-              <![CDATA[choose donation]]>
-            </line>
-            <line>
-              <![CDATA[Give card details]]>
-            </line>
-            <line>
-              <![CDATA[Redirection to confirmation page]]>
-            </line>
           </reporter-output>
         </test-method> <!-- crticalPathFlowUsingNewAddress -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.CriticalPathFlow@5034c75a]" name="tearDown" is-config="true" duration-ms="670" started-at="2019-07-24T12:30:25Z" finished-at="2019-07-24T12:30:26Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.CriticalPathFlow@5034c75a]" name="tearDown" is-config="true" duration-ms="756" started-at="2019-07-25T17:22:12Z" finished-at="2019-07-25T17:22:13Z">
           <params>
             <param index="0">
               <value>
@@ -926,13 +776,13 @@ Session ID: 01ee4be7149cf421082b4940746e4cff
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:testcase.CriticalPathFlow@5034c75a]" name="endTest" is-config="true" duration-ms="1" started-at="2019-07-24T12:30:26Z" finished-at="2019-07-24T12:30:26Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testcase.CriticalPathFlow@5034c75a]" name="endTest" is-config="true" duration-ms="1" started-at="2019-07-25T17:22:13Z" finished-at="2019-07-25T17:22:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
       </class> <!-- testcase.CriticalPathFlow -->
       <class name="testcase.SignUpLogin">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.SignUpLogin@2a5ca609]" name="setUp" is-config="true" duration-ms="4139" started-at="2019-07-24T12:24:59Z" finished-at="2019-07-24T12:25:03Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.SignUpLogin@2a5ca609]" name="setUp" is-config="true" duration-ms="4993" started-at="2019-07-25T17:17:18Z" finished-at="2019-07-25T17:17:23Z">
           <params>
             <param index="0">
               <value>
@@ -948,7 +798,7 @@ Session ID: 01ee4be7149cf421082b4940746e4cff
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LoginNovica()[pri:0, instance:testcase.SignUpLogin@2a5ca609]" name="LoginNovica" duration-ms="59953" started-at="2019-07-24T12:25:03Z" finished-at="2019-07-24T12:26:03Z">
+        <test-method status="PASS" signature="LoginNovica()[pri:0, instance:testcase.SignUpLogin@2a5ca609]" name="LoginNovica" duration-ms="55533" started-at="2019-07-25T17:17:23Z" finished-at="2019-07-25T17:18:18Z">
           <reporter-output>
             <line>
               <![CDATA[Redirecting to home page]]>
@@ -961,7 +811,7 @@ Session ID: 01ee4be7149cf421082b4940746e4cff
             </line>
           </reporter-output>
         </test-method> <!-- LoginNovica -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.SignUpLogin@2a5ca609]" name="tearDown" is-config="true" duration-ms="681" started-at="2019-07-24T12:26:03Z" finished-at="2019-07-24T12:26:03Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.SignUpLogin@2a5ca609]" name="tearDown" is-config="true" duration-ms="685" started-at="2019-07-25T17:18:18Z" finished-at="2019-07-25T17:18:19Z">
           <params>
             <param index="0">
               <value>
@@ -972,7 +822,7 @@ Session ID: 01ee4be7149cf421082b4940746e4cff
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.SignUpLogin@2a5ca609]" name="setUp" is-config="true" duration-ms="3514" started-at="2019-07-24T12:26:03Z" finished-at="2019-07-24T12:26:07Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.SignUpLogin@2a5ca609]" name="setUp" is-config="true" duration-ms="3957" started-at="2019-07-25T17:18:19Z" finished-at="2019-07-25T17:18:23Z">
           <params>
             <param index="0">
               <value>
@@ -988,7 +838,7 @@ Session ID: 01ee4be7149cf421082b4940746e4cff
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="userSignup()[pri:0, instance:testcase.SignUpLogin@2a5ca609]" name="userSignup" duration-ms="67151" started-at="2019-07-24T12:26:07Z" finished-at="2019-07-24T12:27:14Z">
+        <test-method status="PASS" signature="userSignup()[pri:0, instance:testcase.SignUpLogin@2a5ca609]" name="userSignup" duration-ms="63032" started-at="2019-07-25T17:18:23Z" finished-at="2019-07-25T17:19:26Z">
           <reporter-output>
             <line>
               <![CDATA[Redirecting to home page]]>
@@ -1001,7 +851,7 @@ Session ID: 01ee4be7149cf421082b4940746e4cff
             </line>
           </reporter-output>
         </test-method> <!-- userSignup -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.SignUpLogin@2a5ca609]" name="tearDown" is-config="true" duration-ms="670" started-at="2019-07-24T12:27:14Z" finished-at="2019-07-24T12:27:15Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.SignUpLogin@2a5ca609]" name="tearDown" is-config="true" duration-ms="668" started-at="2019-07-25T17:19:26Z" finished-at="2019-07-25T17:19:26Z">
           <params>
             <param index="0">
               <value>
@@ -1012,7 +862,7 @@ Session ID: 01ee4be7149cf421082b4940746e4cff
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.SignUpLogin@2a5ca609]" name="setUp" is-config="true" duration-ms="3564" started-at="2019-07-24T12:27:15Z" finished-at="2019-07-24T12:27:18Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.SignUpLogin@2a5ca609]" name="setUp" is-config="true" duration-ms="3407" started-at="2019-07-25T17:19:26Z" finished-at="2019-07-25T17:19:30Z">
           <params>
             <param index="0">
               <value>
@@ -1028,7 +878,7 @@ Session ID: 01ee4be7149cf421082b4940746e4cff
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="forgetPassword()[pri:0, instance:testcase.SignUpLogin@2a5ca609]" name="forgetPassword" duration-ms="55270" started-at="2019-07-24T12:27:18Z" finished-at="2019-07-24T12:28:13Z">
+        <test-method status="PASS" signature="forgetPassword()[pri:0, instance:testcase.SignUpLogin@2a5ca609]" name="forgetPassword" duration-ms="52923" started-at="2019-07-25T17:19:30Z" finished-at="2019-07-25T17:20:23Z">
           <reporter-output>
             <line>
               <![CDATA[Redirecting to home page]]>
@@ -1041,7 +891,7 @@ Session ID: 01ee4be7149cf421082b4940746e4cff
             </line>
           </reporter-output>
         </test-method> <!-- forgetPassword -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.SignUpLogin@2a5ca609]" name="tearDown" is-config="true" duration-ms="715" started-at="2019-07-24T12:28:13Z" finished-at="2019-07-24T12:28:14Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.SignUpLogin@2a5ca609]" name="tearDown" is-config="true" duration-ms="644" started-at="2019-07-25T17:20:23Z" finished-at="2019-07-25T17:20:23Z">
           <params>
             <param index="0">
               <value>
@@ -1052,7 +902,7 @@ Session ID: 01ee4be7149cf421082b4940746e4cff
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:testcase.SignUpLogin@2a5ca609]" name="endTest" is-config="true" duration-ms="1" started-at="2019-07-24T12:28:14Z" finished-at="2019-07-24T12:28:14Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testcase.SignUpLogin@2a5ca609]" name="endTest" is-config="true" duration-ms="1" started-at="2019-07-25T17:20:23Z" finished-at="2019-07-25T17:20:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->

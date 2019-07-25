@@ -82,19 +82,8 @@ public class CriticalPathFlow extends BaseTest {
 		Reporter.log("check put the product");
 		sign.EntersignInDet();
 		Reporter.log("Login as a user");
-		ship.addShippingAddress();
-		Reporter.log("Input new shipping address");
-		ship.continueButton1();
-		ship.topContinueBtnShipOptPage();
-		Reporter.log("Redirecting to payment page");
-		payment.applyPromoCode("PROMOCODE15");
-		Reporter.log("Apply promocode");
-		payment.chooseDonation(5);
-		Reporter.log("choose donation");
-		payment.cardPayment();
-		Reporter.log("Give card details");
-		payment.clickContinueButton();
-		Reporter.log("Redirection to confirmation page");
+		payment.paymentPageFunctionalities();
+
 	}
 	
 	

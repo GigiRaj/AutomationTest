@@ -183,21 +183,21 @@ public class Wishlist extends BaseTest {
 		cat.clickcheckout();
 		System.out.println("checkout the item");
 		sign.EntersignInDet();
-		
+		payment.paymentPageFunctionalities();
 		
 
-		shipAddr.newAddress();
-		System.out.println("click on new address");
-		shipAddr.createShipAddress();		
-		shipAddr.continueButton1();
-		System.out.println("success creating shipping address");
-		shipAddr.topContinueBtnShipOptPage();		
-		System.out.println("go to payment options");
-		payment.applyPromoCode("QWERTY");
-		payment.chooseDonation(5);
-		payment.cardPayment();
-		payment.newBillingAddr();
-		payment.bottomContinueButton();
+//		shipAddr.newAddress();
+//		System.out.println("click on new address");
+//		shipAddr.createShipAddress();		
+//		shipAddr.continueButton1();
+//		System.out.println("success creating shipping address");
+//		shipAddr.topContinueBtnShipOptPage();		
+//		System.out.println("go to payment options");
+//		payment.applyPromoCode("QWERTY");
+//		payment.chooseDonation(5);
+//		payment.cardPayment();
+//		payment.newBillingAddr();
+//		payment.bottomContinueButton();
 
 	} 
 	
@@ -267,15 +267,16 @@ public class Wishlist extends BaseTest {
 		cat.clickcheckout();
 		System.out.println("checkout the item");
 		sign.EntersignInDet();
-		shipAddr.sameAddress(1);
-		System.out.println("use same shipping address");	
-		shipAddr.topContinueBtnShipOptPage();		
-		System.out.println("go to payment options");
-		payment.applyPromoCode("QWERTY");
-		payment.chooseDonation(5);
-		payment.cardPayment();
-		payment.sameShippingAddr();
-		payment.bottomContinueButton();
+		payment.paymentPageFunctionalities();
+//		shipAddr.sameAddress(1);
+//		System.out.println("use same shipping address");	
+//		shipAddr.topContinueBtnShipOptPage();		
+//		System.out.println("go to payment options");
+//		payment.applyPromoCode("QWERTY");
+//		payment.chooseDonation(5);
+//		payment.cardPayment();
+//		payment.sameShippingAddr();
+//		payment.bottomContinueButton();
 		
 	} 
 	

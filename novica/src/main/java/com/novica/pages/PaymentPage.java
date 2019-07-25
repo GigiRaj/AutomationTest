@@ -3,6 +3,7 @@ package com.novica.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import com.novica.base.BasePageObject;
+import com.novica.pages.ShippingAddressPage;
 
 public class PaymentPage extends BasePageObject {
 	
@@ -100,6 +101,31 @@ public class PaymentPage extends BasePageObject {
 		scrollToBottom();
 		By addBillingAddressButton= By.id("addresstype-selector-3");
 		click(addBillingAddressButton);		
+	}
+	
+	public void paymentPageFunctionalities() throws Exception{
+		
+		ShippingAddressPage shipAddr= new ShippingAddressPage(driver);
+		
+		By paymentButton= By.xpath("//*[@id='progress-payment']/a[1]");
+		if(driver.findElements(paymentButton).size()!=0)
+		{
+			System.out.println("test");
+			applyPromoCode("QWERTY");
+			chooseDonation(5);
+			cardPayment();
+			clickContinueButton();
+			
+		}
+		
+		else
+		{
+			
+			
+			System.out.println("no payment page");
+			shipAddr.shippingAddressPageFunctionalities();
+		}
+			
 	}
 	
 	

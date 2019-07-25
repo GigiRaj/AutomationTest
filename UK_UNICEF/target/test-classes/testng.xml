@@ -6,7 +6,7 @@
  <classes>
  
 
-   <class name="testcases.Wishlist"/>
+   <class name="testcases.CrticalPathFlow"/>
    
 
  </classes>

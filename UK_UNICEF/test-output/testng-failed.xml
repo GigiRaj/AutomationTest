@@ -5,13 +5,12 @@
   <test name="Cart-CH(failed)">
     <parameter name="browser" value="1"/>
     <classes>
-      <class name="testcases.Wishlist">
+      <class name="testcases.CrticalPathFlow">
         <methods>
-          <include name="WishlisttocartUsingGuest"/>
-          <include name="WishlisttocartCheckOut"/>
           <include name="setUp"/>
+          <include name="typeandsearch" invocation-numbers="0"/>
         </methods>
-      </class> <!-- testcases.Wishlist -->
+      </class> <!-- testcases.CrticalPathFlow -->
     </classes>
   </test> <!-- Cart-CH(failed) -->
 </suite> <!-- Failed suite [Suite] -->

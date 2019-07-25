@@ -13,6 +13,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
 import com.novica.base.BasePageObject;
+import com.novica.pages.PaymentPage;
 
 public class ShippingAddressPage extends BasePageObject {
 	
@@ -147,6 +148,34 @@ public class ShippingAddressPage extends BasePageObject {
 		click(makeDefaultAddress);
 //		click(checkShipAddress);
 		System.out.println("click continue button");
+	}
+	
+	public void shippingAddressPageFunctionalities() throws Exception{
+		
+		PaymentPage payment=new PaymentPage(driver);
+		By recipientFirstName= By.id("firstName"); 
+		
+		if(driver.findElements(recipientFirstName).size() == 0){
+			
+			
+			sameAddress();
+			topContinueBtnShipOptPage();
+			Thread.sleep(5000);
+			payment.paymentPageFunctionalities();
+			
+		
+		}
+		
+		else
+		{
+			
+			addShippingAddress();
+			continueButton1();
+			topContinueBtnShipOptPage();
+			Thread.sleep(5000);
+			payment.paymentPageFunctionalities();
+			
+		}
 	}
 	
 

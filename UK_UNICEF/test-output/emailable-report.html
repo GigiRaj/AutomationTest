@@ -31,37 +31,45 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Cart-CH</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">270.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Cart-CH</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">158.1 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
 <tr><th colspan="4">Cart-CH &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="2">testcases.Wishlist</td><td><a href="#m1"><b>WishlisttocartCheckOut</b>  </a></td><td class="numi">1</td><td>1563275764003</td><td class="numi">105442</td></tr><tr class="failedodd"><td><a href="#m2"><b>WishlisttocartUsingGuest</b>  </a></td><td class="numi">1</td><td>1563275662779</td><td class="numi">97792</td></tr>
+<tr class="failedodd"><td rowspan="1">testcases.CrticalPathFlow</td><td><a href="#m1"><b>typeandsearch</b>  </a></td><td class="numi">1</td><td>1564047377277</td><td class="numi">96074</td></tr>
 <tr><th colspan="4">Cart-CH &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">testcases.Wishlist</td><td><a href="#m3"><b>wishlistProduct</b>  </a></td><td class="numi">1</td><td>1563275603397</td><td class="numi">54014</td></tr>
+<tr class="passedodd"><td rowspan="1">testcases.CrticalPathFlow</td><td><a href="#m2"><b>removeAddress</b>  </a></td><td class="numi">1</td><td>1564047476973</td><td class="numi">53038</td></tr>
 </table>
 <h1>Cart-CH</h1>
-<h2 id="m1">testcases.Wishlist:WishlisttocartUsingGuest</h2>
-<div style="padding-left:3em">
+<h2 id="m1">testcases.CrticalPathFlow:typeandsearch</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>1</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
 <h3>Test Messages</h3>
-Searched forBracelets<br/>
-Waiting for Category page to Load<br/>
-Total Products found 84<br/>
-Clicked on product ID50097<br/>
-Total Products found 34<br/>
-add item to bag from wishlist page<br/>
+Searched forrings<br/>
+Waiting for C3 to load<br/>
+Total Products found84<br/>
+Clicked on product ID44106<br/>
+Added product with 44106to cart<br/>
+added product to bag<br/>
+checked product price and actual price are equal<br/>
+clicked on checkout button<br/>
+give username and password<br/>
+lading shipping page<br/>
 <h3>Failure</h3>
-<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;shippingAddressForm&apos;]/div[2]/div[2]/a&quot;}
-  (Session info: chrome=75.0.3770.100)
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;aa&apos;]/div/div[1]/div[3]/div/label[1]&quot;}
+  (Session info: chrome=75.0.3770.142)
   (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;DESKTOP-NBJ195T&apos;, ip: &apos;192.168.1.82&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\Gigi\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60146}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
-Session ID: 792c0fd55a068dd9f2d57fb31a7fb00f
-*** Element info: {Using=xpath, value=//*[@id=&apos;shippingAddressForm&apos;]/div[2]/div[2]/a}</p>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\Gigi\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52549}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.142, webStorageEnabled: true}
+Session ID: 80a91bc80ecae30129190e1b3cb647fe
+*** Element info: {Using=xpath, value=//*[@id=&apos;aa&apos;]/div/div[1]/div[3]/div/label[1]}</p>
 sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 <br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 <br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -79,70 +87,12 @@ sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 <br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 <br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 <br/>at com.unicefuk.base.BasePageObject.click(BasePageObject.java:49)
-<br/>at com.unicefuk.pages.ShippingAddressPage.createAddress(ShippingAddressPage.java:103)
-<br/>at testcases.Wishlist.WishlisttocartUsingGuest(Wishlist.java:179)
+<br/>at com.unicefuk.pages.ShippingAddressPage.manualAddress(ShippingAddressPage.java:80)
+<br/>at testcases.CrticalPathFlow.typeandsearch(CrticalPathFlow.java:82)
 <br/>25 lines not shown
-</div>
+</td></tr>
+</table>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">testcases.Wishlist:WishlisttocartCheckOut</h2>
-<div style="padding-left:3em">
-<h3>Test Messages</h3>
-Searched forBracelets<br/>
-Waiting for Category page to Load<br/>
-Total Products found 84<br/>
-Clicked on product ID41984<br/>
-Total Products found 35<br/>
-add item to bag from wishlist page<br/>
-<h3>Failure</h3>
-<p>Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id=&apos;addressBook&apos;]/div[1]/form/button (tried for 10 second(s) with 500 milliseconds interval)</p>
-org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-<br/>at com.unicefuk.base.BasePageObject.waitFor(BasePageObject.java:167)
-<br/>at com.unicefuk.base.BasePageObject.waitForClickabilityOf(BasePageObject.java:153)
-<br/>at com.unicefuk.pages.ShippingAddressPage.sameAddress(ShippingAddressPage.java:95)
-<br/>at testcases.Wishlist.WishlisttocartCheckOut(Wishlist.java:109)
-<br/>25 lines not shown
-<p>Caused by no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;addressBook&apos;]/div[1]/form/button&quot;}
-  (Session info: chrome=75.0.3770.100)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-NBJ195T&apos;, ip: &apos;192.168.1.82&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\Gigi\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:60366}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.100, webStorageEnabled: true}
-Session ID: 201e87726cbdb3fda159fe35ca77a47d
-*** Element info: {Using=xpath, value=//*[@id=&apos;addressBook&apos;]/div[1]/form/button}</p>
-sun.reflect.GeneratedConstructorAccessor13.newInstance(Unknown Source)
-<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
-<br/>at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-<br/>at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-<br/>at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-<br/>at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-<br/>at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-<br/>at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-<br/>at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
-<br/>at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
-<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-<br/>at com.unicefuk.base.BasePageObject.waitFor(BasePageObject.java:167)
-<br/>at com.unicefuk.base.BasePageObject.waitForClickabilityOf(BasePageObject.java:153)
-<br/>at com.unicefuk.pages.ShippingAddressPage.sameAddress(ShippingAddressPage.java:95)
-<br/>at testcases.Wishlist.WishlisttocartCheckOut(Wishlist.java:109)
-<br/>25 lines not shown
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m3">testcases.Wishlist:wishlistProduct</h2>
-<div style="padding-left:3em">
-Total Products found 33<br/>
-</div>
+<h2 id="m2">testcases.CrticalPathFlow:removeAddress</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>
