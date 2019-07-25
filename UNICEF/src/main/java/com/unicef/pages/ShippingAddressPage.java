@@ -22,6 +22,7 @@ public class ShippingAddressPage extends BasePageObject {
 		// TODO Auto-generated constructor stub
 	}
 	
+	PaymentPage payment=new PaymentPage(driver);
 	
 	private By editAddButton= By.className("btn-small");
 	private By newAddButton= By.className("btn-top");
@@ -142,30 +143,6 @@ public class ShippingAddressPage extends BasePageObject {
 		type(city,"california");
 		select(country,1);
 		select(state,5); 
-//		WebElement element=driver.findElement(country);
-//		Select se=new Select(element);
-//		
-//		List<WebElement> allOptions=se.getOptions();
-//		int size=allOptions.size();
-//		for(int i=0;i<size;i++)
-//		{
-////			if(allOptions.get(i).getText().equalsIgnoreCase(se.selectByVisibleText("USA"));
-//			if(i==1)
-//			{
-//				System.out.println("testtstydhs");
-//				System.out.println(allOptions.get(i).getText());				
-//				scrollToBottom();
-				
-//			}
-//			else if(i==0||i==2){
-//				
-//				System.out.println(allOptions.get(i).getText());
-//				se.selectByIndex(i);
-//				scrollToBottom();
-//				type(province,"test province");
-//			}
-//		}
-
 		type(zipcode,"789456231");
 		type(phoneNo,"5548669584");
 		click(checkPhone);
@@ -173,6 +150,60 @@ public class ShippingAddressPage extends BasePageObject {
 //		click(makeDefaultAddress);
 //		click(checkShipAddress);
 		System.out.println("click continue button");
+	}
+	
+	public void testConditions() throws Exception{
+		
+		By paymentButton= By.xpath("//*[@id='progress-payment']/a[1]");
+		if(driver.findElements(paymentButton).size()!=0)
+		{
+			System.out.println("test");
+			payment.applyPromoCode("QWERTY");
+			payment.chooseDonation(5);
+			payment.cardPayment();
+			payment.newBillingAddr();
+			payment.bottomContinueButton();
+			
+		}
+		
+		else
+		{
+			
+			
+			System.out.println("no payment page");
+			testshipaddress();
+		}
+			
+	}
+	
+	public void testshipaddress() throws Exception{
+		
+		
+		By recipientFirstName= By.id("firstName"); 
+		
+		if(driver.findElements(recipientFirstName).size() == 0){
+			
+			System.out.println("no");
+			sameAddress(1);
+			payment.bottomContinueButton();
+			System.out.println("rrr");
+			Thread.sleep(5000);
+			testConditions();
+			System.out.println("yyy");
+		
+		}
+		
+		else
+		{
+			System.out.println("yes");
+			createShipAddress();
+			continueButton1();
+			payment.bottomContinueButton();
+			System.out.println("rrr");
+			Thread.sleep(5000);
+			testConditions();
+			System.out.println("yyy");
+		}
 	}
 	
 

@@ -116,10 +116,11 @@ public class Wishlist extends BaseTest {
 		Reporter.log("check out the product");
 		sign.EntersignInDet();
 		Reporter.log("enter user sign in details");
-		payment.clickShippingTab();
-		Reporter.log("redirecting to shipping page");
-		payment.clickSameAddess();
-		Reporter.log("chose smae shipping address");
+		shipAddr.addShippingAddress();
+		Reporter.log("Input new shipping address");
+		shipAddr.continueButton1();
+		shipAddr.topContinueBtnShipOptPage();
+		Reporter.log("Redirecting to payment page");
 		Thread.sleep(3000);
 		payment.applyPromoCode("PROMOCODE15");
 		Reporter.log("apply promocode");

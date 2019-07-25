@@ -1,79 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
-    <line>
-      <![CDATA[Loading Homepage <br>]]>
-    </line>
-    <line>
-      <![CDATA[Searched forBlue<br>]]>
-    </line>
-    <line>
-      <![CDATA[Waiting for C3 to load <br>]]>
-    </line>
-    <line>
-      <![CDATA[Total Products found85<br>]]>
-    </line>
-    <line>
-      <![CDATA[Clicked on product ID23149<br>]]>
-    </line>
-    <line>
-      <![CDATA[waiting item detail page to load <br>]]>
-    </line>
-    <line>
-      <![CDATA[checked productid and product detail page id are same <br>]]>
-    </line>
-    <line>
-      <![CDATA[get the product prize$19.99<br>]]>
-    </line>
-    <line>
-      <![CDATA[Added product with 23149to cart <br>]]>
-    </line>
-    <line>
-      <![CDATA[Redirecting to cart page with price$19.99<br>]]>
-    </line>
-    <line>
-      <![CDATA[redirecting to cart page <br>]]>
-    </line>
-    <line>
-      <![CDATA[Uncheck the donation <br>]]>
-    </line>
-    <line>
-      <![CDATA[check product prize and actual cart prize are same <br>]]>
-    </line>
-    <line>
-      <![CDATA[clicked on checkout button <br>]]>
-    </line>
-    <line>
-      <![CDATA[enter user details <br>]]>
-    </line>
-    <line>
-      <![CDATA[create a new shipping address <br>]]>
-    </line>
-    <line>
-      <![CDATA[go to payment options <br>]]>
-    </line>
-    <line>
-      <![CDATA[apply promocode <br>]]>
-    </line>
-    <line>
-      <![CDATA[add donation <br>]]>
-    </line>
-    <line>
-      <![CDATA[give card details for payment <br>]]>
-    </line>
-    <line>
-      <![CDATA[select same shipping address as billing address <br>]]>
-    </line>
-    <line>
-      <![CDATA[redirecting to confirmation page <br>]]>
-    </line>
   </reporter-output>
-  <suite name="Automation" duration-ms="98734" started-at="2019-07-17T07:29:38Z" finished-at="2019-07-17T07:31:17Z">
+  <suite name="Automation" duration-ms="90390" started-at="2019-07-25T06:35:45Z" finished-at="2019-07-25T06:37:16Z">
     <groups>
     </groups>
-    <test name="Cart-CH" duration-ms="98734" started-at="2019-07-17T07:29:38Z" finished-at="2019-07-17T07:31:17Z">
+    <test name="Cart-CH" duration-ms="90390" started-at="2019-07-25T06:35:45Z" finished-at="2019-07-25T06:37:16Z">
       <class name="testcase.CriticalPathFlow">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.CriticalPathFlow@56f4468b]" name="setUp" is-config="true" duration-ms="3915" started-at="2019-07-17T12:59:38Z" finished-at="2019-07-17T12:59:42Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.CriticalPathFlow@5dfcfece]" name="setUp" is-config="true" duration-ms="4279" started-at="2019-07-25T12:05:45Z" finished-at="2019-07-25T12:05:50Z">
           <params>
             <param index="0">
               <value>
@@ -89,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="typeandsearch(java.lang.String)[pri:0, instance:testcase.CriticalPathFlow@56f4468b]" name="typeandsearch" duration-ms="94085" started-at="2019-07-17T12:59:42Z" finished-at="2019-07-17T13:01:16Z">
+        <test-method status="PASS" signature="typeandsearch(java.lang.String)[pri:0, instance:testcase.CriticalPathFlow@5dfcfece]" name="typeandsearch" duration-ms="86088" started-at="2019-07-25T12:05:50Z" finished-at="2019-07-25T12:07:16Z">
           <params>
             <param index="0">
               <value>
@@ -98,89 +32,8 @@
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[Loading Homepage <br>]]>
-            </line>
-            <line>
-              <![CDATA[Searched forBlue<br>]]>
-            </line>
-            <line>
-              <![CDATA[Waiting for C3 to load <br>]]>
-            </line>
-            <line>
-              <![CDATA[Total Products found85<br>]]>
-            </line>
-            <line>
-              <![CDATA[Clicked on product ID23149<br>]]>
-            </line>
-            <line>
-              <![CDATA[waiting item detail page to load <br>]]>
-            </line>
-            <line>
-              <![CDATA[checked productid and product detail page id are same <br>]]>
-            </line>
-            <line>
-              <![CDATA[get the product prize$19.99<br>]]>
-            </line>
-            <line>
-              <![CDATA[Added product with 23149to cart <br>]]>
-            </line>
-            <line>
-              <![CDATA[Redirecting to cart page with price$19.99<br>]]>
-            </line>
-            <line>
-              <![CDATA[redirecting to cart page <br>]]>
-            </line>
-            <line>
-              <![CDATA[Uncheck the donation <br>]]>
-            </line>
-            <line>
-              <![CDATA[check product prize and actual cart prize are same <br>]]>
-            </line>
-            <line>
-              <![CDATA[clicked on checkout button <br>]]>
-            </line>
-            <line>
-              <![CDATA[enter user details <br>]]>
-            </line>
-            <line>
-              <![CDATA[create a new shipping address <br>]]>
-            </line>
-            <line>
-              <![CDATA[go to payment options <br>]]>
-            </line>
-            <line>
-              <![CDATA[apply promocode <br>]]>
-            </line>
-            <line>
-              <![CDATA[add donation <br>]]>
-            </line>
-            <line>
-              <![CDATA[give card details for payment <br>]]>
-            </line>
-            <line>
-              <![CDATA[select same shipping address as billing address <br>]]>
-            </line>
-            <line>
-              <![CDATA[redirecting to confirmation page <br>]]>
-            </line>
           </reporter-output>
         </test-method> <!-- typeandsearch -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.CriticalPathFlow@56f4468b]" name="tearDown" is-config="true" duration-ms="714" started-at="2019-07-17T13:01:16Z" finished-at="2019-07-17T13:01:17Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=typeandsearch status=SUCCESS method=CriticalPathFlow.typeandsearch(java.lang.String)[pri:0, instance:testcase.CriticalPathFlow@56f4468b] output=Loading Homepage <br>]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:testcase.CriticalPathFlow@56f4468b]" name="endTest" is-config="true" duration-ms="1" started-at="2019-07-17T13:01:17Z" finished-at="2019-07-17T13:01:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
       </class> <!-- testcase.CriticalPathFlow -->
     </test> <!-- Cart-CH -->
   </suite> <!-- Automation -->

@@ -77,7 +77,7 @@ public class Cart extends BasePageObject{
 			ItemDetailPage itdetail = new ItemDetailPage(driver);
 			WebPageUtility wpu = new WebPageUtility();
 			
-			String Key = "bracelets";
+			String Key = "oil paintings";
 			homePage.typeAndSubmitKeyword(Key);
 			Reporter.log("Searched for"+ Key);
 			c3.waitForC3toLoad();

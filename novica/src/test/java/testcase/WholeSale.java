@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 
 import com.novica.base.BaseTest;
 import com.novica.base.WebPageUtility;
+import com.novica.pages.AddressBookPage;
 import com.novica.pages.C3category;
 import com.novica.pages.Cart;
 import com.novica.pages.HomePage;
@@ -79,10 +80,10 @@ public class WholeSale extends BaseTest{
 		Reporter.log("check put the product");
 		sign.EntersignInDet();
 		Reporter.log("Login as a user");
-		ship.addShippingAddress();
-		Reporter.log("Input new shipping address");
-		ship.continueButton1();
-		ship.bottomContinueBtnShipOptPage();
+//		ship.addShippingAddress();
+//		Reporter.log("Input new shipping address");
+//		ship.continueButton1();
+//		ship.bottomContinueBtnShipOptPage();
 		Reporter.log("Redirecting to payment page");
 		payment.applyPromoCode("PROMOCODE15");
 		Reporter.log("Apply promocode");
@@ -92,6 +93,28 @@ public class WholeSale extends BaseTest{
 		Reporter.log("Give card details");
 		payment.clickContinueButton();
 		Reporter.log("Redirection to confirmation page");
+	}
+	
+
+	/* to remove address from address book*/
+	@Test(priority=1)
+	public void removeAddress2() throws Exception {
+		
+		HomePage homePage = new HomePage(driver);
+		ShippingAddressPage ship=new ShippingAddressPage(driver);
+		homePage.openHomePage();
+		SignIn sign = new SignIn(driver);
+		AddressBookPage add= new AddressBookPage(driver);
+		
+		homePage.openHomePage();
+		sign.clickHeaderSignIn();
+		sign.waitForSignIntoload();
+		Reporter.log("Redirecting to sig in page");
+		sign.Login();
+		Reporter.log("log in as user by providing email and password");
+		homePage.headeraccount();
+		add.clickAddressBook();
+		add.removeAddress(1);		
 	}
 	
 }

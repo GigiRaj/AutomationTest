@@ -90,7 +90,7 @@ public class AddressBook  extends BaseTest {
 	
 	/* to remove address from address book*/
 	@Test(priority=1)
-	public void removeAddress() throws Exception {
+	public void removeAddress1() throws Exception {
 		
 		HomePage homePage = new HomePage(driver);
 		ShippingAddressPage ship=new ShippingAddressPage(driver);
