@@ -1,13 +1,1396 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="1" total="23" passed="22">
   <reporter-output>
+    <line>
+      <![CDATA[Redirecting to home page <br>]]>
+    </line>
+    <line>
+      <![CDATA[Searched for the products chains <br>]]>
+    </line>
+    <line>
+      <![CDATA[Redirecting to home page <br>]]>
+    </line>
+    <line>
+      <![CDATA[clicked on IG Header Menu <br>]]>
+    </line>
+    <line>
+      <![CDATA[clicked on Card Gifts Header Menu <br>]]>
+    </line>
+    <line>
+      <![CDATA[clicked on Gift Finder Header Menu <br>]]>
+    </line>
+    <line>
+      <![CDATA[clicked on Jewelry Header Menu <br>]]>
+    </line>
+    <line>
+      <![CDATA[clicked on Accessories Header Menu <br>]]>
+    </line>
+    <line>
+      <![CDATA[clicked on Home Decor Header Menu <br>]]>
+    </line>
+    <line>
+      <![CDATA[clicked on New Header Menu <br>]]>
+    </line>
+    <line>
+      <![CDATA[clicked on Home Header Menu <br>]]>
+    </line>
+    <line>
+      <![CDATA[clicked on Donate Header Menu <br>]]>
+    </line>
+    <line>
+      <![CDATA[clicked on About Us Header Menu <br>]]>
+    </line>
+    <line>
+      <![CDATA[clicked on Catalog Header Menu <br>]]>
+    </line>
+    <line>
+      <![CDATA[clicked on Login Header Menu <br>]]>
+    </line>
+    <line>
+      <![CDATA[clicked on Help Header Menu <br>]]>
+    </line>
+    <line>
+      <![CDATA[clicked on Ship To Header Menu <br>]]>
+    </line>
+    <line>
+      <![CDATA[Loading Homepage <br>]]>
+    </line>
+    <line>
+      <![CDATA[Searched forBlue<br>]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for C3 to load <br>]]>
+    </line>
+    <line>
+      <![CDATA[Total Products found85<br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on product ID162048<br>]]>
+    </line>
+    <line>
+      <![CDATA[waiting item detail page to load <br>]]>
+    </line>
+    <line>
+      <![CDATA[checked productid and product detail page id are same <br>]]>
+    </line>
+    <line>
+      <![CDATA[get the product prize$44.99<br>]]>
+    </line>
+    <line>
+      <![CDATA[Added product with 162048to cart <br>]]>
+    </line>
+    <line>
+      <![CDATA[Redirecting to cart page with price$44.99<br>]]>
+    </line>
+    <line>
+      <![CDATA[redirecting to cart page <br>]]>
+    </line>
+    <line>
+      <![CDATA[Uncheck the donation <br>]]>
+    </line>
+    <line>
+      <![CDATA[check product prize and actual cart prize are same <br>]]>
+    </line>
+    <line>
+      <![CDATA[clicked on checkout button <br>]]>
+    </line>
+    <line>
+      <![CDATA[Loading Homepage]]>
+    </line>
+    <line>
+      <![CDATA[Searched forBlue]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for C3 to load]]>
+    </line>
+    <line>
+      <![CDATA[Total Products found85]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on product ID24025]]>
+    </line>
+    <line>
+      <![CDATA[Uncheck the donation]]>
+    </line>
+    <line>
+      <![CDATA[Loading Homepage]]>
+    </line>
+    <line>
+      <![CDATA[Searched forBlue]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for C3 to load]]>
+    </line>
+    <line>
+      <![CDATA[Total Products found85]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on product ID486930]]>
+    </line>
+    <line>
+      <![CDATA[Uncheck the donation]]>
+    </line>
+    <line>
+      <![CDATA[Loading Homepage]]>
+    </line>
+    <line>
+      <![CDATA[Searched forBlue]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for C3 to load]]>
+    </line>
+    <line>
+      <![CDATA[Total Products found85]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on product ID486930]]>
+    </line>
+    <line>
+      <![CDATA[Uncheck the donation]]>
+    </line>
+    <line>
+      <![CDATA[Redirecting to home page <br>]]>
+    </line>
+    <line>
+      <![CDATA[clicked on IG header menu <br>]]>
+    </line>
+    <line>
+      <![CDATA[Select Education related IG gifts <br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked first product in the list <br>]]>
+    </line>
+    <line>
+      <![CDATA[added product to the cart <br>]]>
+    </line>
+    <line>
+      <![CDATA[created the card for product <br>]]>
+    </line>
+    <line>
+      <![CDATA[selected printed card <br>]]>
+    </line>
+    <line>
+      <![CDATA[Redirecting to home page <br>]]>
+    </line>
+    <line>
+      <![CDATA[clicked on IG header menu <br>]]>
+    </line>
+    <line>
+      <![CDATA[Select Education related IG gifts <br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked first product in the list <br>]]>
+    </line>
+    <line>
+      <![CDATA[added product to the cart <br>]]>
+    </line>
+    <line>
+      <![CDATA[created the card for product <br>]]>
+    </line>
+    <line>
+      <![CDATA[selected printed card <br>]]>
+    </line>
+    <line>
+      <![CDATA[selected first image fr card <br>]]>
+    </line>
+    <line>
+      <![CDATA[entered the card message <br>]]>
+    </line>
+    <line>
+      <![CDATA[added card to Bag <br>]]>
+    </line>
+    <line>
+      <![CDATA[Redirecting to home page <br>]]>
+    </line>
+    <line>
+      <![CDATA[clicked on IG header menu <br>]]>
+    </line>
+    <line>
+      <![CDATA[Select Education related IG gifts <br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked first product in the list <br>]]>
+    </line>
+    <line>
+      <![CDATA[added product to the cart <br>]]>
+    </line>
+    <line>
+      <![CDATA[created the card for product <br>]]>
+    </line>
+    <line>
+      <![CDATA[selected Egreeting card <br>]]>
+    </line>
+    <line>
+      <![CDATA[selected first image fr card <br>]]>
+    </line>
+    <line>
+      <![CDATA[entered the card message <br>]]>
+    </line>
+    <line>
+      <![CDATA[entered sender details <br>]]>
+    </line>
+    <line>
+      <![CDATA[added card to Bag <br>]]>
+    </line>
+    <line>
+      <![CDATA[Redirecting to home page <br>]]>
+    </line>
+    <line>
+      <![CDATA[clicked on IG header menu <br>]]>
+    </line>
+    <line>
+      <![CDATA[Select Education related IG gifts <br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked first product in the list <br>]]>
+    </line>
+    <line>
+      <![CDATA[added product to the cart <br>]]>
+    </line>
+    <line>
+      <![CDATA[created the card for product <br>]]>
+    </line>
+    <line>
+      <![CDATA[selected No card option <br>]]>
+    </line>
+    <line>
+      <![CDATA[Redirecting to home page <br>]]>
+    </line>
+    <line>
+      <![CDATA[clicked on IG header menu <br>]]>
+    </line>
+    <line>
+      <![CDATA[Select Education related IG gifts <br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked first product in the list <br>]]>
+    </line>
+    <line>
+      <![CDATA[added product to the cart <br>]]>
+    </line>
+    <line>
+      <![CDATA[created the card for product <br>]]>
+    </line>
+    <line>
+      <![CDATA[selected Egreeting card <br>]]>
+    </line>
+    <line>
+      <![CDATA[selected first image fr card <br>]]>
+    </line>
+    <line>
+      <![CDATA[entered the card message <br>]]>
+    </line>
+    <line>
+      <![CDATA[entered sender details <br>]]>
+    </line>
+    <line>
+      <![CDATA[added card to Bag <br>]]>
+    </line>
+    <line>
+      <![CDATA[checkout the item <br>]]>
+    </line>
+    <line>
+      <![CDATA[check out as guest credentials <br>]]>
+    </line>
+    <line>
+      <![CDATA[go to payment options <br>]]>
+    </line>
+    <line>
+      <![CDATA[go to payment options <br>]]>
+    </line>
+    <line>
+      <![CDATA[choose payment <br>]]>
+    </line>
+    <line>
+      <![CDATA[give details of card payment <br>]]>
+    </line>
+    <line>
+      <![CDATA[give billing address <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on continue button ]]>
+    </line>
+    <line>
+      <![CDATA[Redirecting to home page <br>]]>
+    </line>
+    <line>
+      <![CDATA[clicked on IG header menu <br>]]>
+    </line>
+    <line>
+      <![CDATA[Select Education related IG gifts <br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked first product in the list <br>]]>
+    </line>
+    <line>
+      <![CDATA[added product to the cart <br>]]>
+    </line>
+    <line>
+      <![CDATA[created the card for product <br>]]>
+    </line>
+    <line>
+      <![CDATA[selected Egreeting card <br>]]>
+    </line>
+    <line>
+      <![CDATA[selected first image fr card <br>]]>
+    </line>
   </reporter-output>
-  <suite name="Automation" duration-ms="108180" started-at="2019-07-25T09:29:24Z" finished-at="2019-07-25T09:31:12Z">
+  <suite name="Automation" duration-ms="1506518" started-at="2019-08-02T07:01:09Z" finished-at="2019-08-02T07:26:16Z">
     <groups>
     </groups>
-    <test name="Cart-CH" duration-ms="108180" started-at="2019-07-25T09:29:24Z" finished-at="2019-07-25T09:31:12Z">
+    <test name="Cart-CH" duration-ms="1506518" started-at="2019-08-02T07:01:09Z" finished-at="2019-08-02T07:26:16Z">
+      <class name="testcase.InspiredGifts">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.InspiredGifts@1753acfe]" name="setUp" is-config="true" duration-ms="3478" started-at="2019-08-02T12:48:52Z" finished-at="2019-08-02T12:48:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.InspiredGifts.IGcreateCardPrintedCard() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="IGcreateCardPrintedCard()[pri:0, instance:testcase.InspiredGifts@1753acfe]" name="IGcreateCardPrintedCard" duration-ms="52935" started-at="2019-08-02T12:48:55Z" finished-at="2019-08-02T12:49:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Redirecting to home page <br>]]>
+            </line>
+            <line>
+              <![CDATA[clicked on IG header menu <br>]]>
+            </line>
+            <line>
+              <![CDATA[Select Education related IG gifts <br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked first product in the list <br>]]>
+            </line>
+            <line>
+              <![CDATA[added product to the cart <br>]]>
+            </line>
+            <line>
+              <![CDATA[created the card for product <br>]]>
+            </line>
+            <line>
+              <![CDATA[selected printed card <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- IGcreateCardPrintedCard -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.InspiredGifts@1753acfe]" name="tearDown" is-config="true" duration-ms="682" started-at="2019-08-02T12:49:48Z" finished-at="2019-08-02T12:49:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=IGcreateCardPrintedCard status=SUCCESS method=InspiredGifts.IGcreateCardPrintedCard()[pri:0, instance:testcase.InspiredGifts@1753acfe] output=Redirecting to home page <br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.InspiredGifts@1753acfe]" name="setUp" is-config="true" duration-ms="3506" started-at="2019-08-02T12:49:49Z" finished-at="2019-08-02T12:49:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.InspiredGifts.IGcreateCardPrintAtHomeCard() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="IGcreateCardPrintAtHomeCard()[pri:0, instance:testcase.InspiredGifts@1753acfe]" name="IGcreateCardPrintAtHomeCard" duration-ms="61500" started-at="2019-08-02T12:49:52Z" finished-at="2019-08-02T12:50:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Redirecting to home page <br>]]>
+            </line>
+            <line>
+              <![CDATA[clicked on IG header menu <br>]]>
+            </line>
+            <line>
+              <![CDATA[Select Education related IG gifts <br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked first product in the list <br>]]>
+            </line>
+            <line>
+              <![CDATA[added product to the cart <br>]]>
+            </line>
+            <line>
+              <![CDATA[created the card for product <br>]]>
+            </line>
+            <line>
+              <![CDATA[selected printed card <br>]]>
+            </line>
+            <line>
+              <![CDATA[selected first image fr card <br>]]>
+            </line>
+            <line>
+              <![CDATA[entered the card message <br>]]>
+            </line>
+            <line>
+              <![CDATA[added card to Bag <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- IGcreateCardPrintAtHomeCard -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.InspiredGifts@1753acfe]" name="tearDown" is-config="true" duration-ms="663" started-at="2019-08-02T12:50:54Z" finished-at="2019-08-02T12:50:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=IGcreateCardPrintAtHomeCard status=SUCCESS method=InspiredGifts.IGcreateCardPrintAtHomeCard()[pri:0, instance:testcase.InspiredGifts@1753acfe] output=Redirecting to home page <br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.InspiredGifts@1753acfe]" name="setUp" is-config="true" duration-ms="3578" started-at="2019-08-02T12:50:54Z" finished-at="2019-08-02T12:50:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.InspiredGifts.IGcreateCardEGreeting() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="IGcreateCardEGreeting()[pri:0, instance:testcase.InspiredGifts@1753acfe]" name="IGcreateCardEGreeting" duration-ms="66466" started-at="2019-08-02T12:50:58Z" finished-at="2019-08-02T12:52:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Redirecting to home page <br>]]>
+            </line>
+            <line>
+              <![CDATA[clicked on IG header menu <br>]]>
+            </line>
+            <line>
+              <![CDATA[Select Education related IG gifts <br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked first product in the list <br>]]>
+            </line>
+            <line>
+              <![CDATA[added product to the cart <br>]]>
+            </line>
+            <line>
+              <![CDATA[created the card for product <br>]]>
+            </line>
+            <line>
+              <![CDATA[selected Egreeting card <br>]]>
+            </line>
+            <line>
+              <![CDATA[selected first image fr card <br>]]>
+            </line>
+            <line>
+              <![CDATA[entered the card message <br>]]>
+            </line>
+            <line>
+              <![CDATA[entered sender details <br>]]>
+            </line>
+            <line>
+              <![CDATA[added card to Bag <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- IGcreateCardEGreeting -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.InspiredGifts@1753acfe]" name="tearDown" is-config="true" duration-ms="702" started-at="2019-08-02T12:52:04Z" finished-at="2019-08-02T12:52:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=IGcreateCardEGreeting status=SUCCESS method=InspiredGifts.IGcreateCardEGreeting()[pri:0, instance:testcase.InspiredGifts@1753acfe] output=Redirecting to home page <br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.InspiredGifts@1753acfe]" name="setUp" is-config="true" duration-ms="3383" started-at="2019-08-02T12:52:05Z" finished-at="2019-08-02T12:52:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.InspiredGifts.IGcreateCardNoCard() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="IGcreateCardNoCard()[pri:0, instance:testcase.InspiredGifts@1753acfe]" name="IGcreateCardNoCard" duration-ms="53100" started-at="2019-08-02T12:52:09Z" finished-at="2019-08-02T12:53:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Redirecting to home page <br>]]>
+            </line>
+            <line>
+              <![CDATA[clicked on IG header menu <br>]]>
+            </line>
+            <line>
+              <![CDATA[Select Education related IG gifts <br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked first product in the list <br>]]>
+            </line>
+            <line>
+              <![CDATA[added product to the cart <br>]]>
+            </line>
+            <line>
+              <![CDATA[created the card for product <br>]]>
+            </line>
+            <line>
+              <![CDATA[selected No card option <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- IGcreateCardNoCard -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.InspiredGifts@1753acfe]" name="tearDown" is-config="true" duration-ms="871" started-at="2019-08-02T12:53:02Z" finished-at="2019-08-02T12:53:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=IGcreateCardNoCard status=SUCCESS method=InspiredGifts.IGcreateCardNoCard()[pri:0, instance:testcase.InspiredGifts@1753acfe] output=Redirecting to home page <br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.InspiredGifts@1753acfe]" name="setUp" is-config="true" duration-ms="3462" started-at="2019-08-02T12:53:02Z" finished-at="2019-08-02T12:53:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.InspiredGifts.guestCheckOutIGgift() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="guestCheckOutIGgift()[pri:0, instance:testcase.InspiredGifts@1753acfe]" name="guestCheckOutIGgift" duration-ms="93410" started-at="2019-08-02T12:53:06Z" finished-at="2019-08-02T12:54:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Redirecting to home page <br>]]>
+            </line>
+            <line>
+              <![CDATA[clicked on IG header menu <br>]]>
+            </line>
+            <line>
+              <![CDATA[Select Education related IG gifts <br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked first product in the list <br>]]>
+            </line>
+            <line>
+              <![CDATA[added product to the cart <br>]]>
+            </line>
+            <line>
+              <![CDATA[created the card for product <br>]]>
+            </line>
+            <line>
+              <![CDATA[selected Egreeting card <br>]]>
+            </line>
+            <line>
+              <![CDATA[selected first image fr card <br>]]>
+            </line>
+            <line>
+              <![CDATA[entered the card message <br>]]>
+            </line>
+            <line>
+              <![CDATA[entered sender details <br>]]>
+            </line>
+            <line>
+              <![CDATA[added card to Bag <br>]]>
+            </line>
+            <line>
+              <![CDATA[checkout the item <br>]]>
+            </line>
+            <line>
+              <![CDATA[check out as guest credentials <br>]]>
+            </line>
+            <line>
+              <![CDATA[go to payment options <br>]]>
+            </line>
+            <line>
+              <![CDATA[go to payment options <br>]]>
+            </line>
+            <line>
+              <![CDATA[choose payment <br>]]>
+            </line>
+            <line>
+              <![CDATA[give details of card payment <br>]]>
+            </line>
+            <line>
+              <![CDATA[give billing address <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on continue button ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- guestCheckOutIGgift -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.InspiredGifts@1753acfe]" name="tearDown" is-config="true" duration-ms="713" started-at="2019-08-02T12:54:39Z" finished-at="2019-08-02T12:54:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=guestCheckOutIGgift status=SUCCESS method=InspiredGifts.guestCheckOutIGgift()[pri:0, instance:testcase.InspiredGifts@1753acfe] output=Redirecting to home page <br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.InspiredGifts@1753acfe]" name="setUp" is-config="true" duration-ms="3524" started-at="2019-08-02T12:54:40Z" finished-at="2019-08-02T12:54:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.InspiredGifts.expressCheckOutIGgift() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="expressCheckOutIGgift()[pri:0, instance:testcase.InspiredGifts@1753acfe]" name="expressCheckOutIGgift" duration-ms="91704" started-at="2019-08-02T12:54:44Z" finished-at="2019-08-02T12:56:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Redirecting to home page <br>]]>
+            </line>
+            <line>
+              <![CDATA[clicked on IG header menu <br>]]>
+            </line>
+            <line>
+              <![CDATA[Select Education related IG gifts <br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked first product in the list <br>]]>
+            </line>
+            <line>
+              <![CDATA[added product to the cart <br>]]>
+            </line>
+            <line>
+              <![CDATA[created the card for product <br>]]>
+            </line>
+            <line>
+              <![CDATA[selected Egreeting card <br>]]>
+            </line>
+            <line>
+              <![CDATA[selected first image fr card <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- expressCheckOutIGgift -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.InspiredGifts@1753acfe]" name="tearDown" is-config="true" duration-ms="693" started-at="2019-08-02T12:56:15Z" finished-at="2019-08-02T12:56:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=expressCheckOutIGgift status=SUCCESS method=InspiredGifts.expressCheckOutIGgift()[pri:0, instance:testcase.InspiredGifts@1753acfe] output=Redirecting to home page <br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testcase.InspiredGifts@1753acfe]" name="endTest" is-config="true" duration-ms="0" started-at="2019-08-02T12:56:16Z" finished-at="2019-08-02T12:56:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- testcase.InspiredGifts -->
+      <class name="testcase.Wishlist">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.Wishlist@548a9f61]" name="setUp" is-config="true" duration-ms="3664" started-at="2019-08-02T12:36:43Z" finished-at="2019-08-02T12:36:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.Wishlist.wishlistProduct() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="wishlistProduct()[pri:0, instance:testcase.Wishlist@548a9f61]" name="wishlistProduct" duration-ms="34710" started-at="2019-08-02T12:36:47Z" finished-at="2019-08-02T12:37:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishlistProduct -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.Wishlist@548a9f61]" name="tearDown" is-config="true" duration-ms="637" started-at="2019-08-02T12:37:21Z" finished-at="2019-08-02T12:37:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=wishlistProduct status=SUCCESS method=Wishlist.wishlistProduct()[pri:0, instance:testcase.Wishlist@548a9f61] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.Wishlist@548a9f61]" name="setUp" is-config="true" duration-ms="3467" started-at="2019-08-02T12:37:22Z" finished-at="2019-08-02T12:37:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.Wishlist.WishlisttocartUsingGuest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="WishlisttocartUsingGuest()[pri:0, instance:testcase.Wishlist@548a9f61]" name="WishlisttocartUsingGuest" duration-ms="120925" started-at="2019-08-02T12:37:25Z" finished-at="2019-08-02T12:39:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Loading Homepage]]>
+            </line>
+            <line>
+              <![CDATA[Searched forBlue]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for C3 to load]]>
+            </line>
+            <line>
+              <![CDATA[Total Products found85]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on product ID24025]]>
+            </line>
+            <line>
+              <![CDATA[Uncheck the donation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- WishlisttocartUsingGuest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.Wishlist@548a9f61]" name="tearDown" is-config="true" duration-ms="673" started-at="2019-08-02T12:39:26Z" finished-at="2019-08-02T12:39:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WishlisttocartUsingGuest status=SUCCESS method=Wishlist.WishlisttocartUsingGuest()[pri:0, instance:testcase.Wishlist@548a9f61] output=Loading Homepage]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.Wishlist@548a9f61]" name="setUp" is-config="true" duration-ms="3721" started-at="2019-08-02T12:39:27Z" finished-at="2019-08-02T12:39:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.Wishlist.WishlisttocartDiffShipAddress() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="WishlisttocartDiffShipAddress()[pri:0, instance:testcase.Wishlist@548a9f61]" name="WishlisttocartDiffShipAddress" duration-ms="138155" started-at="2019-08-02T12:39:31Z" finished-at="2019-08-02T12:41:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Loading Homepage]]>
+            </line>
+            <line>
+              <![CDATA[Searched forBlue]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for C3 to load]]>
+            </line>
+            <line>
+              <![CDATA[Total Products found85]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on product ID486930]]>
+            </line>
+            <line>
+              <![CDATA[Uncheck the donation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- WishlisttocartDiffShipAddress -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.Wishlist@548a9f61]" name="tearDown" is-config="true" duration-ms="657" started-at="2019-08-02T12:41:49Z" finished-at="2019-08-02T12:41:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WishlisttocartDiffShipAddress status=SUCCESS method=Wishlist.WishlisttocartDiffShipAddress()[pri:0, instance:testcase.Wishlist@548a9f61] output=Loading Homepage]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.Wishlist@548a9f61]" name="setUp" is-config="true" duration-ms="3553" started-at="2019-08-02T12:41:50Z" finished-at="2019-08-02T12:41:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.Wishlist.WishlisttocartUsingExpress() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="WishlisttocartUsingExpress()[pri:0, instance:testcase.Wishlist@548a9f61]" name="WishlisttocartUsingExpress" duration-ms="128386" started-at="2019-08-02T12:41:53Z" finished-at="2019-08-02T12:44:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Loading Homepage]]>
+            </line>
+            <line>
+              <![CDATA[Searched forBlue]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for C3 to load]]>
+            </line>
+            <line>
+              <![CDATA[Total Products found85]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on product ID486930]]>
+            </line>
+            <line>
+              <![CDATA[Uncheck the donation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- WishlisttocartUsingExpress -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.Wishlist@548a9f61]" name="tearDown" is-config="true" duration-ms="665" started-at="2019-08-02T12:44:01Z" finished-at="2019-08-02T12:44:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WishlisttocartUsingExpress status=SUCCESS method=Wishlist.WishlisttocartUsingExpress()[pri:0, instance:testcase.Wishlist@548a9f61] output=Loading Homepage]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.Wishlist@548a9f61]" name="setUp" is-config="true" duration-ms="3921" started-at="2019-08-02T12:44:02Z" finished-at="2019-08-02T12:44:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.Wishlist.removeWishlist() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="removeWishlist()[pri:0, instance:testcase.Wishlist@548a9f61]" name="removeWishlist" duration-ms="35868" started-at="2019-08-02T12:44:06Z" finished-at="2019-08-02T12:44:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeWishlist -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.Wishlist@548a9f61]" name="tearDown" is-config="true" duration-ms="642" started-at="2019-08-02T12:44:42Z" finished-at="2019-08-02T12:44:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeWishlist status=SUCCESS method=Wishlist.removeWishlist()[pri:0, instance:testcase.Wishlist@548a9f61] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.Wishlist@548a9f61]" name="setUp" is-config="true" duration-ms="3480" started-at="2019-08-02T12:44:43Z" finished-at="2019-08-02T12:44:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.Wishlist.viewProductWishlist() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="viewProductWishlist()[pri:0, instance:testcase.Wishlist@548a9f61]" name="viewProductWishlist" duration-ms="27268" started-at="2019-08-02T12:44:46Z" finished-at="2019-08-02T12:45:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewProductWishlist -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.Wishlist@548a9f61]" name="tearDown" is-config="true" duration-ms="638" started-at="2019-08-02T12:45:13Z" finished-at="2019-08-02T12:45:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=viewProductWishlist status=SUCCESS method=Wishlist.viewProductWishlist()[pri:0, instance:testcase.Wishlist@548a9f61] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.Wishlist@548a9f61]" name="setUp" is-config="true" duration-ms="3435" started-at="2019-08-02T12:45:14Z" finished-at="2019-08-02T12:45:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.Wishlist.shareWishlist() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="shareWishlist()[pri:0, instance:testcase.Wishlist@548a9f61]" name="shareWishlist" duration-ms="33243" started-at="2019-08-02T12:45:17Z" finished-at="2019-08-02T12:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shareWishlist -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.Wishlist@548a9f61]" name="tearDown" is-config="true" duration-ms="651" started-at="2019-08-02T12:45:51Z" finished-at="2019-08-02T12:45:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=shareWishlist status=SUCCESS method=Wishlist.shareWishlist()[pri:0, instance:testcase.Wishlist@548a9f61] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.Wishlist@548a9f61]" name="setUp" is-config="true" duration-ms="3370" started-at="2019-08-02T12:45:51Z" finished-at="2019-08-02T12:45:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.Wishlist.fbShareWishlist() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="fbShareWishlist()[pri:0, instance:testcase.Wishlist@548a9f61]" name="fbShareWishlist" duration-ms="32033" started-at="2019-08-02T12:45:55Z" finished-at="2019-08-02T12:46:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fbShareWishlist -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.Wishlist@548a9f61]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-08-02T12:46:27Z" finished-at="2019-08-02T12:46:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fbShareWishlist status=SUCCESS method=Wishlist.fbShareWishlist()[pri:0, instance:testcase.Wishlist@548a9f61] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.Wishlist@548a9f61]" name="setUp" is-config="true" duration-ms="3526" started-at="2019-08-02T12:46:27Z" finished-at="2019-08-02T12:46:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.Wishlist.twitterShareWishlist() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="twitterShareWishlist()[pri:0, instance:testcase.Wishlist@548a9f61]" name="twitterShareWishlist" duration-ms="34265" started-at="2019-08-02T12:46:30Z" finished-at="2019-08-02T12:47:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twitterShareWishlist -->
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.Wishlist@548a9f61]" name="setUp" is-config="true" duration-ms="3530" started-at="2019-08-02T12:47:04Z" finished-at="2019-08-02T12:47:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.Wishlist.createWishlist() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.Wishlist@548a9f61]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-08-02T12:47:04Z" finished-at="2019-08-02T12:47:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=twitterShareWishlist status=SUCCESS method=Wishlist.twitterShareWishlist()[pri:0, instance:testcase.Wishlist@548a9f61] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="createWishlist()[pri:0, instance:testcase.Wishlist@548a9f61]" name="createWishlist" duration-ms="66944" started-at="2019-08-02T12:47:08Z" finished-at="2019-08-02T12:48:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWishlist -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.Wishlist@548a9f61]" name="tearDown" is-config="true" duration-ms="658" started-at="2019-08-02T12:48:15Z" finished-at="2019-08-02T12:48:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createWishlist status=SUCCESS method=Wishlist.createWishlist()[pri:0, instance:testcase.Wishlist@548a9f61] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.Wishlist@548a9f61]" name="setUp" is-config="true" duration-ms="3497" started-at="2019-08-02T12:48:16Z" finished-at="2019-08-02T12:48:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.Wishlist.removeAddressFromAddressBook() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="removeAddressFromAddressBook()[pri:0, instance:testcase.Wishlist@548a9f61]" name="removeAddressFromAddressBook" duration-ms="31835" started-at="2019-08-02T12:48:19Z" finished-at="2019-08-02T12:48:51Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='shop']/div[3]/div[2]/div[3]/p/a[2]"}
+  (Session info: chrome=76.0.3809.87)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.87, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55009}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 94063f93b98b4ac0a331c8ed1e6b807b
+*** Element info: {Using=xpath, value=//*[@id='shop']/div[3]/div[2]/div[3]/p/a[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='shop']/div[3]/div[2]/div[3]/p/a[2]"}
+  (Session info: chrome=76.0.3809.87)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.82', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.87, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55009}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 94063f93b98b4ac0a331c8ed1e6b807b
+*** Element info: {Using=xpath, value=//*[@id='shop']/div[3]/div[2]/div[3]/p/a[2]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.unicef.base.BasePageObject.click(BasePageObject.java:52)
+	at com.unicef.pages.PersonalWishlist.removeAddress(PersonalWishlist.java:297)
+	at testcase.Wishlist.removeAddressFromAddressBook(Wishlist.java:417)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeAddressFromAddressBook -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.Wishlist@548a9f61]" name="tearDown" is-config="true" duration-ms="640" started-at="2019-08-02T12:48:51Z" finished-at="2019-08-02T12:48:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeAddressFromAddressBook status=FAILURE method=Wishlist.removeAddressFromAddressBook()[pri:0, instance:testcase.Wishlist@548a9f61] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testcase.Wishlist@548a9f61]" name="endTest" is-config="true" duration-ms="1" started-at="2019-08-02T12:48:52Z" finished-at="2019-08-02T12:48:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- testcase.Wishlist -->
+      <class name="testcase.Homepage">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.Homepage@4f933fd1]" name="setUp" is-config="true" duration-ms="4293" started-at="2019-08-02T12:31:09Z" finished-at="2019-08-02T12:31:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.Homepage.searchProduct() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchProduct()[pri:0, instance:testcase.Homepage@4f933fd1]" name="searchProduct" duration-ms="33291" started-at="2019-08-02T12:31:14Z" finished-at="2019-08-02T12:31:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Redirecting to home page <br>]]>
+            </line>
+            <line>
+              <![CDATA[Searched for the products chains <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.Homepage@4f933fd1]" name="tearDown" is-config="true" duration-ms="674" started-at="2019-08-02T12:31:47Z" finished-at="2019-08-02T12:31:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchProduct status=SUCCESS method=Homepage.searchProduct()[pri:0, instance:testcase.Homepage@4f933fd1] output=Redirecting to home page <br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.Homepage@4f933fd1]" name="setUp" is-config="true" duration-ms="3683" started-at="2019-08-02T12:31:48Z" finished-at="2019-08-02T12:31:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.Homepage.headerMenu() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="headerMenu()[pri:0, instance:testcase.Homepage@4f933fd1]" name="headerMenu" duration-ms="83564" started-at="2019-08-02T12:31:51Z" finished-at="2019-08-02T12:33:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Redirecting to home page <br>]]>
+            </line>
+            <line>
+              <![CDATA[clicked on IG Header Menu <br>]]>
+            </line>
+            <line>
+              <![CDATA[clicked on Card Gifts Header Menu <br>]]>
+            </line>
+            <line>
+              <![CDATA[clicked on Gift Finder Header Menu <br>]]>
+            </line>
+            <line>
+              <![CDATA[clicked on Jewelry Header Menu <br>]]>
+            </line>
+            <line>
+              <![CDATA[clicked on Accessories Header Menu <br>]]>
+            </line>
+            <line>
+              <![CDATA[clicked on Home Decor Header Menu <br>]]>
+            </line>
+            <line>
+              <![CDATA[clicked on New Header Menu <br>]]>
+            </line>
+            <line>
+              <![CDATA[clicked on Home Header Menu <br>]]>
+            </line>
+            <line>
+              <![CDATA[clicked on Donate Header Menu <br>]]>
+            </line>
+            <line>
+              <![CDATA[clicked on About Us Header Menu <br>]]>
+            </line>
+            <line>
+              <![CDATA[clicked on Catalog Header Menu <br>]]>
+            </line>
+            <line>
+              <![CDATA[clicked on Login Header Menu <br>]]>
+            </line>
+            <line>
+              <![CDATA[clicked on Help Header Menu <br>]]>
+            </line>
+            <line>
+              <![CDATA[clicked on Ship To Header Menu <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- headerMenu -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.Homepage@4f933fd1]" name="tearDown" is-config="true" duration-ms="723" started-at="2019-08-02T12:33:15Z" finished-at="2019-08-02T12:33:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=headerMenu status=SUCCESS method=Homepage.headerMenu()[pri:0, instance:testcase.Homepage@4f933fd1] output=Redirecting to home page <br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testcase.Homepage@4f933fd1]" name="endTest" is-config="true" duration-ms="0" started-at="2019-08-02T12:33:16Z" finished-at="2019-08-02T12:33:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- testcase.Homepage -->
+      <class name="testcase.CriticalPathFlow">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.CriticalPathFlow@d2cc05a]" name="setUp" is-config="true" duration-ms="3508" started-at="2019-08-02T12:35:00Z" finished-at="2019-08-02T12:35:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.CriticalPathFlow.typeandsearch(java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="typeandsearch(java.lang.String)[pri:0, instance:testcase.CriticalPathFlow@d2cc05a]" name="typeandsearch" duration-ms="98337" started-at="2019-08-02T12:35:04Z" finished-at="2019-08-02T12:36:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Loading Homepage <br>]]>
+            </line>
+            <line>
+              <![CDATA[Searched forBlue<br>]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for C3 to load <br>]]>
+            </line>
+            <line>
+              <![CDATA[Total Products found85<br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on product ID162048<br>]]>
+            </line>
+            <line>
+              <![CDATA[waiting item detail page to load <br>]]>
+            </line>
+            <line>
+              <![CDATA[checked productid and product detail page id are same <br>]]>
+            </line>
+            <line>
+              <![CDATA[get the product prize$44.99<br>]]>
+            </line>
+            <line>
+              <![CDATA[Added product with 162048to cart <br>]]>
+            </line>
+            <line>
+              <![CDATA[Redirecting to cart page with price$44.99<br>]]>
+            </line>
+            <line>
+              <![CDATA[redirecting to cart page <br>]]>
+            </line>
+            <line>
+              <![CDATA[Uncheck the donation <br>]]>
+            </line>
+            <line>
+              <![CDATA[check product prize and actual cart prize are same <br>]]>
+            </line>
+            <line>
+              <![CDATA[clicked on checkout button <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- typeandsearch -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.CriticalPathFlow@d2cc05a]" name="tearDown" is-config="true" duration-ms="683" started-at="2019-08-02T12:36:42Z" finished-at="2019-08-02T12:36:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=typeandsearch status=SUCCESS method=CriticalPathFlow.typeandsearch(java.lang.String)[pri:0, instance:testcase.CriticalPathFlow@d2cc05a] output=Loading Homepage <br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testcase.CriticalPathFlow@d2cc05a]" name="endTest" is-config="true" duration-ms="0" started-at="2019-08-02T12:36:43Z" finished-at="2019-08-02T12:36:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- testcase.CriticalPathFlow -->
       <class name="testcase.SignUpLogin">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.SignUpLogin@5dfcfece]" name="setUp" is-config="true" duration-ms="4732" started-at="2019-07-25T14:59:24Z" finished-at="2019-07-25T14:59:29Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.SignUpLogin@2ef5e5e3]" name="setUp" is-config="true" duration-ms="3503" started-at="2019-08-02T12:33:16Z" finished-at="2019-08-02T12:33:19Z">
           <params>
             <param index="0">
               <value>
@@ -23,11 +1406,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LoginUnicefUS()[pri:0, instance:testcase.SignUpLogin@5dfcfece]" name="LoginUnicefUS" duration-ms="26286" started-at="2019-07-25T14:59:29Z" finished-at="2019-07-25T14:59:55Z">
+        <test-method status="PASS" signature="LoginUnicefUS()[pri:0, instance:testcase.SignUpLogin@2ef5e5e3]" name="LoginUnicefUS" duration-ms="28155" started-at="2019-08-02T12:33:19Z" finished-at="2019-08-02T12:33:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginUnicefUS -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.SignUpLogin@5dfcfece]" name="setUp" is-config="true" duration-ms="3550" started-at="2019-07-25T14:59:55Z" finished-at="2019-07-25T14:59:59Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.SignUpLogin@2ef5e5e3]" name="tearDown" is-config="true" duration-ms="707" started-at="2019-08-02T12:33:47Z" finished-at="2019-08-02T12:33:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginUnicefUS status=SUCCESS method=SignUpLogin.LoginUnicefUS()[pri:0, instance:testcase.SignUpLogin@2ef5e5e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.SignUpLogin@2ef5e5e3]" name="setUp" is-config="true" duration-ms="3668" started-at="2019-08-02T12:33:48Z" finished-at="2019-08-02T12:33:52Z">
           <params>
             <param index="0">
               <value>
@@ -43,11 +1437,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="forgetPassword()[pri:0, instance:testcase.SignUpLogin@5dfcfece]" name="forgetPassword" duration-ms="32082" started-at="2019-07-25T14:59:59Z" finished-at="2019-07-25T15:00:31Z">
+        <test-method status="PASS" signature="forgetPassword()[pri:0, instance:testcase.SignUpLogin@2ef5e5e3]" name="forgetPassword" duration-ms="31127" started-at="2019-08-02T12:33:52Z" finished-at="2019-08-02T12:34:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgetPassword -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.SignUpLogin@5dfcfece]" name="setUp" is-config="true" duration-ms="3554" started-at="2019-07-25T15:00:31Z" finished-at="2019-07-25T15:00:34Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.SignUpLogin@2ef5e5e3]" name="tearDown" is-config="true" duration-ms="667" started-at="2019-08-02T12:34:23Z" finished-at="2019-08-02T12:34:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=forgetPassword status=SUCCESS method=SignUpLogin.forgetPassword()[pri:0, instance:testcase.SignUpLogin@2ef5e5e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.SignUpLogin@2ef5e5e3]" name="setUp" is-config="true" duration-ms="3627" started-at="2019-08-02T12:34:24Z" finished-at="2019-08-02T12:34:27Z">
           <params>
             <param index="0">
               <value>
@@ -63,10 +1468,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="userSignup()[pri:0, instance:testcase.SignUpLogin@5dfcfece]" name="userSignup" duration-ms="37958" started-at="2019-07-25T15:00:34Z" finished-at="2019-07-25T15:01:12Z">
+        <test-method status="PASS" signature="userSignup()[pri:0, instance:testcase.SignUpLogin@2ef5e5e3]" name="userSignup" duration-ms="32569" started-at="2019-08-02T12:34:27Z" finished-at="2019-08-02T12:35:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userSignup -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.SignUpLogin@2ef5e5e3]" name="tearDown" is-config="true" duration-ms="668" started-at="2019-08-02T12:35:00Z" finished-at="2019-08-02T12:35:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userSignup status=SUCCESS method=SignUpLogin.userSignup()[pri:0, instance:testcase.SignUpLogin@2ef5e5e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testcase.SignUpLogin@2ef5e5e3]" name="endTest" is-config="true" duration-ms="0" started-at="2019-08-02T12:35:00Z" finished-at="2019-08-02T12:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
       </class> <!-- testcase.SignUpLogin -->
     </test> <!-- Cart-CH -->
   </suite> <!-- Automation -->

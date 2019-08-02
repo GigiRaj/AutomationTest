@@ -5,12 +5,12 @@
   <test name="Cart-CH(failed)">
     <parameter name="browser" value="1"/>
     <classes>
-      <class name="testcases.CrticalPathFlow">
+      <class name="testcases.InspiredGifts">
         <methods>
+          <include name="IGcreateCardPrintedCard"/>
           <include name="setUp"/>
-          <include name="typeandsearch" invocation-numbers="0"/>
         </methods>
-      </class> <!-- testcases.CrticalPathFlow -->
+      </class> <!-- testcases.InspiredGifts -->
     </classes>
   </test> <!-- Cart-CH(failed) -->
 </suite> <!-- Failed suite [Suite] -->

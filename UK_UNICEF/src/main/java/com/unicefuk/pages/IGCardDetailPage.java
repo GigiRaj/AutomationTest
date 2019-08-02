@@ -26,7 +26,7 @@ public class IGCardDetailPage extends BasePageObject {
 	private By recepientNameTextField= By.id("recipientname");
 	private By messageTextField= By.id("messagebody");
 	private By fromNameTextField= By.id("messagesignoff"); 
-	private By saveAndContinueButton= By.xpath("//*[@id='carddetail-recipient']/div[6]/div/a");
+	private By saveAndContinueButton= By.xpath("//*[@id='carddetail-recipient']/div[5]/div/a"); 
 	private By chooseTitleDropDownField= By.id("salutation");
 	private By firstNameTextField= By.id("firstname");
 	private By surNameTextField= By.id("lastname");

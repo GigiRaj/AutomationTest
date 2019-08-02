@@ -45,7 +45,7 @@ public class CriticalPathFlow extends BaseTest {
 		homePage.openHomePage();
 		Reporter.log("Loading Homepage");
 		//Thread.sleep(60000);
-		String Key = "Blue";
+		String Key = "red";
 		homePage.typeAndSubmitKeyword(Key);
 		Reporter.log("Searched for"+ Key);
 		c3.waitForC3toLoad();
@@ -63,6 +63,7 @@ public class CriticalPathFlow extends BaseTest {
 	   c3.clickProductPlateRandom(gennum);
 	    
 		itdetail.waitForItemDetailLoad();
+		Thread.sleep(5000);
 //		String productdetid= itdetail.getProductID();
 	  //  assertEquals(productid, productdetid);
 		String productPrice = itdetail.getProductPrice();
@@ -86,7 +87,7 @@ public class CriticalPathFlow extends BaseTest {
 
 	}
 	
-	
+
 	
 	
 	

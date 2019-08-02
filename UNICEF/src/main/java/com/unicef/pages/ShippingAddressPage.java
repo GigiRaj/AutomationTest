@@ -160,25 +160,19 @@ public class ShippingAddressPage extends BasePageObject {
 		By recipientFirstName= By.id("firstName"); 
 		
 		if(driver.findElements(recipientFirstName).size() == 0){
-			
-			
+		
 			sameAddress(1);
 			payment.bottomContinueButton();
 			Thread.sleep(5000);
 			payment.paymentPageFunctionalities();
-			
-		
-		}
-		
+		}		
 		else
 		{
-			
 			createShipAddress();
 			continueButton1();
 			payment.bottomContinueButton();
 			Thread.sleep(5000);
 			payment.paymentPageFunctionalities();
-			
 		}
 	}
 	

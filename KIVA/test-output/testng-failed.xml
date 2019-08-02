@@ -8,7 +8,7 @@
       <class name="testcases.CrticalPathFlow">
         <methods>
           <include name="setUp"/>
-          <include name="typeandsearch" invocation-numbers="0"/>
+          <include name="typeandsearch"/>
         </methods>
       </class> <!-- testcases.CrticalPathFlow -->
     </classes>

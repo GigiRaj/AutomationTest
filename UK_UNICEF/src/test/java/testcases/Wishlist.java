@@ -106,14 +106,15 @@ public class Wishlist extends BaseTest {
 
 		cat.clickcheckout();
 	    shipAddr.waitForShippingPageToload();
-	    shipAddr.sameAddress(1);
-	    Thread.sleep(3000);
-	    shipAddr.dispatchShipping();
-	    pay.chooseDonation(3);
-	    pay.applyPromoCode("saduysg");
-	    pay.sameShippAddress();
-	    pay.cardPayment();
-	    pay.saveAndContinue();
+	    pay.paymentFunctionality();
+//	    shipAddr.sameAddress(1);
+//	    Thread.sleep(3000);
+//	    shipAddr.dispatchShipping();
+//	    pay.chooseDonation(3);
+//	    pay.applyPromoCode("saduysg");
+//	    pay.sameShippAddress();
+//	    pay.cardPayment();
+//	    pay.saveAndContinue();
 
 	}
 	
@@ -176,14 +177,15 @@ public class Wishlist extends BaseTest {
 
 		cat.clickcheckout();
 	    shipAddr.waitForShippingPageToload();
-	    shipAddr.createAddress();
-	    Thread.sleep(3000);
-	    shipAddr.dispatchShipping();
-	    pay.chooseDonation(3);
-	    pay.applyPromoCode("saduysg");
-	    pay.sameShippAddress();
-	    pay.cardPayment();
-	    pay.saveAndContinue();
+	    pay.paymentFunctionality();
+//	    shipAddr.createAddress();
+//	    Thread.sleep(3000);
+//	    shipAddr.dispatchShipping();
+//	    pay.chooseDonation(3);
+//	    pay.applyPromoCode("saduysg");
+//	    pay.sameShippAddress();
+//	    pay.cardPayment();
+//	    pay.saveAndContinue();
 	}
 	
 }

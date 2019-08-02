@@ -69,12 +69,31 @@ public class HomePage extends BasePageObject {
 			scrollToBottom();
 			scrollToBottom();
 			scrollToBottom();
+			scrollToBottom();
+			scrollToBottom();
+			scrollToBottom();
+			By bottomBanner= By.xpath("//*[@id='bottom_mobile']");
+			By closeIcon= By.xpath("//*[@id='bottom_mobile']/p/span[3]");
 			By wholeSaleButton= By.xpath("//*[@id='footer-links']/div/div[1]/ul/li[3]/a");
-			explicitWait(wholeSaleButton);
-			click(wholeSaleButton);
+			if(driver.findElements(bottomBanner).size() == 0)
+			{
+				scrollToBottom();
+				scrollToBottom();
+				Thread.sleep(5000);
+				click(wholeSaleButton);
+				
+			}
+			else
+			{
+				
+				Thread.sleep(5000);
+				click(closeIcon);
+				scrollToBottom();
+				scrollToBottom();
+				Thread.sleep(5000);
+				click(wholeSaleButton);
+	
+			}
+			
 		}
-		
-		
-		
-		
 	}

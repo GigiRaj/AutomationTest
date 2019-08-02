@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Cart-CH</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>9/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Jul 25 17:17:18 IST 2019</td>
+<td>Started on:</td><td>Fri Aug 02 12:10:09 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>1057 seconds (1057806 ms)</td>
+<tr><td>Total time:</td><td>279 seconds (279278 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,101 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='testcase.Wishlist.removeWishlist()'><b>removeWishlist</b><br>Test class: testcase.Wishlist<br/>
-<a href="#Output-395257482" onClick='toggleBox("Output-395257482", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-395257482" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-395257482">
-Redirecting to home page<br/>
-click on the header wishlist button<br/>
-Redirecting to sig in page<br/>
-</div>
-</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;button type=&quot;submit&quot; class=&quot;btn btn-block btn-primary&quot; tabindex=&quot;4&quot;&gt;...&lt;/button&gt; is not clickable at point (463, 568). Other element would receive the click: &lt;div id=&quot;mt-ltbx-content&quot; style=&quot;width: 900px; height: 600px; overflow: hidden;&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=75.0.3770.142)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-NBJ195T&apos;, ip: &apos;192.168.1.82&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\Gigi\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52917}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.142, webStorageEnabled: true}
-Session ID: a032c2aa4141be2e94876af8a9a94599
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at com.novica.base.BasePageObject.click(BasePageObject.java:44)
-	at com.novica.pages.SignIn.Login(SignIn.java:55)
-	at testcase.Wishlist.removeWishlist(Wishlist.java:139)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace395257482", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace395257482'><pre>org.openqa.selenium.WebDriverException: unknown error: Element &lt;button type=&quot;submit&quot; class=&quot;btn btn-block btn-primary&quot; tabindex=&quot;4&quot;&gt;...&lt;/button&gt; is not clickable at point (463, 568). Other element would receive the click: &lt;div id=&quot;mt-ltbx-content&quot; style=&quot;width: 900px; height: 600px; overflow: hidden;&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=75.0.3770.142)
-  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-NBJ195T&apos;, ip: &apos;192.168.1.82&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\Gigi\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52917}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 75.0.3770.142, webStorageEnabled: true}
-Session ID: a032c2aa4141be2e94876af8a9a94599
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at com.novica.base.BasePageObject.click(BasePageObject.java:44)
-	at com.novica.pages.SignIn.Login(SignIn.java:55)
-	at testcase.Wishlist.removeWishlist(Wishlist.java:139)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div></td>
-<td>43</td>
-<td>testcase.Wishlist@20e2cbe0</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -170,180 +75,34 @@ Session ID: a032c2aa4141be2e94876af8a9a94599
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcase.SignUpLogin.LoginNovica()'><b>LoginNovica</b><br>Test class: testcase.SignUpLogin<br/>
-<a href="#Output-1094523823" onClick='toggleBox("Output-1094523823", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1094523823" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1094523823">
-Redirecting to home page<br/>
-Redirecting to sig in page<br/>
-log in as user by providing email and password<br/>
-</div>
-</td>
-<td></td>
-<td>55</td>
-<td>testcase.SignUpLogin@2a5ca609</td></tr>
-<tr>
-<td title='testcase.Wishlist.WishlisttocartUsingExpress()'><b>WishlisttocartUsingExpress</b><br>Test class: testcase.Wishlist<br/>
-<a href="#Output-1688851596" onClick='toggleBox("Output-1688851596", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1688851596" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1688851596">
-Redirecting to home page<br/>
-Searching forBags<br/>
-Waiting for Category page to Load<br/>
-Total Products found 84<br/>
-Clicked on product ID226282<br/>
-Waiting for Item Detail page to Load<br/>
-add product to wishlist<br/>
-Redirecting to sig in page<br/>
-log in as user by providing email and password<br/>
-choose personal wishlist<br/>
-click on wishlist button on header<br/>
-Total Products found 10<br/>
-add item to bag from wishlist page<br/>
-redirecting to cart page<br/>
-check out the product<br/>
-</div>
-</td>
-<td></td>
-<td>177</td>
-<td>testcase.Wishlist@20e2cbe0</td></tr>
-<tr>
-<td title='testcase.CriticalPathFlow.crticalPathFlowUsingNewAddress()'><b>crticalPathFlowUsingNewAddress</b><br>Test class: testcase.CriticalPathFlow<br>Parameters: 1<br/>
-<a href="#Output-1424108509" onClick='toggleBox("Output-1424108509", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1424108509" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1424108509">
-Loading Homepage<br/>
-Searched forBlue<br/>
-Waiting for C3 to load<br/>
-Total Products found 84<br/>
-Clicked on product ID272474<br/>
-to get the product prize<br/>
-Added product with 272474to cart<br/>
-Redirecting to cart page with price289.99<br/>
-to get the actual cart price<br/>
-check put the product<br/>
-Login as a user<br/>
-</div>
-</td>
-<td></td>
-<td>105</td>
-<td>testcase.CriticalPathFlow@5034c75a</td></tr>
-<tr>
 <td title='testcase.WholeSale.crticalPathFlowUsingNewAddress()'><b>crticalPathFlowUsingNewAddress</b><br>Test class: testcase.WholeSale<br>Parameters: 1<br/>
-<a href="#Output-386478079" onClick='toggleBox("Output-386478079", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-589273327" onClick='toggleBox("Output-589273327", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-386478079" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-386478079">
+<a href="#Output-589273327" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-589273327">
 Loading Homepage<br/>
 Searched forrings<br/>
 Waiting for C3 to load<br/>
 Total Products found 84<br/>
-Clicked on product ID295964<br/>
-Added product with 295964to cart<br/>
+Clicked on product ID331076<br/>
+Added product with 331076to cart<br/>
 Searched foroil paintings<br/>
 Waiting for C3 to load<br/>
 Total Products found 84<br/>
-Clicked on product ID167216<br/>
-Added product with 167216to cart<br/>
+Clicked on product ID115590<br/>
+Added product with 115590to cart<br/>
 Searched foroil paintings<br/>
 Waiting for C3 to load<br/>
 Total Products found 84<br/>
-Clicked on product ID144818<br/>
-Added product with 144818to cart<br/>
-Searched foroil paintings<br/>
-Waiting for C3 to load<br/>
-Total Products found 84<br/>
-Clicked on product ID254666<br/>
-Added product with 254666to cart<br/>
+Clicked on product ID191922<br/>
+Added product with 191922to cart<br/>
 check put the product<br/>
 Login as a user<br/>
 </div>
 </td>
 <td></td>
-<td>263</td>
-<td>testcase.WholeSale@68be2bc2</td></tr>
-<tr>
-<td title='testcase.AddressBook.crticalPathSameAddress()'><b>crticalPathSameAddress</b><br>Test class: testcase.AddressBook<br>Parameters: 1<br/>
-<a href="#Output-2115640742" onClick='toggleBox("Output-2115640742", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2115640742" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2115640742">
-Loading Homepage<br/>
-Searched forRed<br/>
-Waiting for C3 to load<br/>
-Total Products found 84<br/>
-Clicked on product ID221903<br/>
-Get the product price<br/>
-Added product with 221903to cart<br/>
-Redirecting to cart page with price79.99<br/>
-to get the actual cart price<br/>
-check out the product<br/>
-</div>
-</td>
-<td></td>
-<td>108</td>
-<td>testcase.AddressBook@7c16905e</td></tr>
-<tr>
-<td title='testcase.SignUpLogin.forgetPassword()'><b>forgetPassword</b><br>Test class: testcase.SignUpLogin<br/>
-<a href="#Output-2059461664" onClick='toggleBox("Output-2059461664", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2059461664" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2059461664">
-Redirecting to home page<br/>
-Redirecting to sig in page<br/>
-to perform forgot password function<br/>
-</div>
-</td>
-<td></td>
-<td>52</td>
-<td>testcase.SignUpLogin@2a5ca609</td></tr>
-<tr>
-<td title='testcase.AddressBook.removeAddress1()'><b>removeAddress1</b><br>Test class: testcase.AddressBook<br/>
-<a href="#Output-973692608" onClick='toggleBox("Output-973692608", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-973692608" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-973692608">
-Redirecting to sig in page<br/>
-log in as user by providing email and password<br/>
-</div>
-</td>
-<td></td>
-<td>67</td>
-<td>testcase.AddressBook@7c16905e</td></tr>
-<tr>
-<td title='testcase.SignUpLogin.userSignup()'><b>userSignup</b><br>Test class: testcase.SignUpLogin<br/>
-<a href="#Output-1332757905" onClick='toggleBox("Output-1332757905", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1332757905" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1332757905">
-Redirecting to home page<br/>
-Redirecting to sig in page<br/>
-Sign up as new user<br/>
-</div>
-</td>
-<td></td>
-<td>63</td>
-<td>testcase.SignUpLogin@2a5ca609</td></tr>
-<tr>
-<td title='testcase.Wishlist.wishlistProduct()'><b>wishlistProduct</b><br>Test class: testcase.Wishlist<br/>
-<a href="#Output-1486954672" onClick='toggleBox("Output-1486954672", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1486954672" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1486954672">
-Redirecting to home page<br/>
-click on the header wishlist button<br/>
-Redirecting to sig in page<br/>
-log in as user by providing email and password<br/>
-Total Products found 9<br/>
-click on random product in the wishlist itemlist<br/>
-</div>
-</td>
-<td></td>
-<td>75</td>
-<td>testcase.Wishlist@20e2cbe0</td></tr>
+<td>274</td>
+<td>testcase.WholeSale@2ef5e5e3</td></tr>
 </table><p>
 </body>
 </html>

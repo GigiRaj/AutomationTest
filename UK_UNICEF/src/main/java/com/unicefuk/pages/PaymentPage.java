@@ -109,6 +109,31 @@ public class PaymentPage extends BasePageObject {
 		type(companyNameTextField,"test company");
 		scrollToBottom();
 	}
+	
+	/* payment functionalities */
+	public void paymentFunctionality() throws Exception{
+		
+		ShippingAddressPage shipAddr= new ShippingAddressPage(driver);
+		By paymentTab= By.xpath("//*[@id='progress-payment']/a");
+		if(driver.findElements(paymentTab).size()!=0)
+		{
+			chooseDonation(3);
+		    applyPromoCode("saduysg");
+		    billingAddress();
+
+		    
+//		    pay.sameShippAddress();
+		    cardPayment();
+		    saveAndContinue();
+		}
+		
+		else
+		{
+			
+			System.out.println("no payment page");
+			shipAddr.shippingFunctionality();
+		}
+	}
 
 	
 }

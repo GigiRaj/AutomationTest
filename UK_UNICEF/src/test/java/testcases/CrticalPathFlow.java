@@ -76,39 +76,24 @@ public class CrticalPathFlow extends BaseTest{
 		cat.clickcheckout();
 		Reporter.log("clicked on checkout button");
 	    sign.EntersignInDet();
-	    Reporter.log("give username and password");
-	    shipAddr.waitForShippingPageToload();
-	    Reporter.log("lading shipping page");
-	    shipAddr.manualAddress();
-	    Reporter.log("give manual address");
-	    shipAddr.dispatchShipping();
-	    pay.chooseDonation(3);
-	    pay.applyPromoCode("saduysg");
-	    pay.billingAddress();
-
-	    
-//	    pay.sameShippAddress();
-	    pay.cardPayment();
-	    pay.saveAndContinue();
+	    pay.paymentFunctionality();
+//	    Reporter.log("give username and password");
+//	    shipAddr.waitForShippingPageToload();
+//	    Reporter.log("lading shipping page");
+//	    shipAddr.manualAddress();
+//	    Reporter.log("give manual address");
+//	    shipAddr.dispatchShipping();
+//	    pay.chooseDonation(3);
+//	    pay.applyPromoCode("saduysg");
+//	    pay.billingAddress();
+//
+//	    
+////	    pay.sameShippAddress();
+//	    pay.cardPayment();
+//	    pay.saveAndContinue();
 	}
 	
-	/* test case for remove address from address book */
-	@Test(priority=1)
-	public void removeAddress() throws Exception {
-		
-		HomePage homePage = new HomePage(driver);
-		SignIn sign = new SignIn(driver);
-		ShippingAddressPage shipAddr= new ShippingAddressPage(driver);
-		
-		homePage.openHomePage();
-		homePage.clickAcceptCookie();
-		sign.clickSignin();
-		sign.directLogin();
-		shipAddr.addressBookMenu();
-		shipAddr.RemoveAddressBook(2);
-		shipAddr.RemoveAddressBook(1);
-		
-	}
+
 
 
 

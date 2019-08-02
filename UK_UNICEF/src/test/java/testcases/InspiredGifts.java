@@ -149,11 +149,12 @@ public class InspiredGifts extends BaseTest {
 	IGCard.clickContinueToBag();
 	cat.clickcheckout();
     sign.EntersignInDet();
-    pay.chooseDonation(3);
-    pay.applyPromoCode("saduysg");
-    pay.billingAddress();
-    pay.cardPayment();
-    pay.saveAndContinue();
+    pay.paymentFunctionality();
+//    pay.chooseDonation(3);
+//    pay.applyPromoCode("saduysg");
+//    pay.billingAddress();
+//    pay.cardPayment();
+//    pay.saveAndContinue();
 		
 	}
 
@@ -192,7 +193,7 @@ public class InspiredGifts extends BaseTest {
 	}
 	
 	/* test case for remove address from address book */
-	@Test(priority=1)
+	@Test(priority=5)
 	public void removeAddress() throws Exception {
 		
 		HomePage homePage = new HomePage(driver);
@@ -204,7 +205,6 @@ public class InspiredGifts extends BaseTest {
 		sign.clickSignin();
 		sign.directLogin();
 		shipAddr.addressBookMenu();
-		shipAddr.RemoveAddressBook(2);
 		shipAddr.RemoveAddressBook(1);
 		
 	}

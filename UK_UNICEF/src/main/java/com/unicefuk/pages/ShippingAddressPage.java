@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import com.unicefuk.pages.PaymentPage;
 import com.unicefuk.base.BasePageObject;
 
 public class ShippingAddressPage extends BasePageObject {
@@ -129,5 +130,32 @@ public class ShippingAddressPage extends BasePageObject {
 		click(okDeleteButton);
 		
 	}
+	
+	/* to do shipping functionality */
+	public void shippingFunctionality() throws Exception{
+		
+		PaymentPage pay= new PaymentPage(driver);
+		By recipientFirstName= By.id("firstName"); 
+		
+		if(driver.findElements(recipientFirstName).size() == 0){
+			
+			createAddress();
+			sameAddress(1);
+			dispatchShipping();
+			Thread.sleep(5000);
+			pay.paymentFunctionality();
+			
+		}		
+		else
+		{
+			
+			waitForShippingPageToload();
+			manualAddress();
+			dispatchShipping();
+			Thread.sleep(5000);
+			pay.paymentFunctionality();
+		}
+	}
+	
 
 }

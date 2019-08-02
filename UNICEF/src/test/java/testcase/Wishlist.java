@@ -414,9 +414,8 @@ public class Wishlist extends BaseTest {
 		homePage.openHomePage();
 		sign.headerLoginButton();
 		sign.Login();
-		perWish.removeAddress(3);
-		Thread.sleep(3000);
-		perWish.removeAddress(2);
+		perWish.removeAddress(1);
+		
 		
 	}
 	
