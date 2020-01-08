@@ -14,7 +14,7 @@ public class ShippingPage extends BasePageObject {
 	By giftMessageTextBox= By.id("giftmessage");
 	By saveaAndContinueButton= By.id("submitShippingOptions2");
 	By giftForMeOption= By.xpath("//*[@id='giftindicator']/div[2]/label");
-	By dedicateDonationOption= By.xpath("//*[@id='donorselect']/div[1]/label");
+	By dedicateDonationOption= By.xpath("//*[@id='donorselect']/div[1]/label/span[1]");
 	
 	
 	public void waitForShippingPagetoload() throws Exception{
@@ -28,6 +28,7 @@ public class ShippingPage extends BasePageObject {
 	public void GiftforSomeone() throws Exception{
 		
 		explicitWait(giftForSomeoneSelectBox);
+		
 		click(giftForSomeoneSelectBox);
 		scrollToBottom();
 		explicitWait(chooseDonationSelectBox);
