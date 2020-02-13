@@ -28,7 +28,10 @@ public class SignIn extends BasePageObject {
 	private static By postcodeTextField= By.id("postcode-lookup");
 	private static By lookUpAddressButton= By.id("addrfinderbtn");
 	private static By createAccountButton= By.className("createAccountSubmit");
-	
+	private static By addressTextField= By.id("addrLine1");
+	private static By townCityTextField= By.id("city");
+	private static By countryTextField= By.id("stateproreg");
+	private static By zipCodeTextField= By.id("zipCode");
 	
 	public SignIn(WebDriver driver) {
 		super(driver);
@@ -116,7 +119,7 @@ public class SignIn extends BasePageObject {
 			String random= getRandomString();
 			String email="test" +random + "@gmail.com";
 			type(firstNameTextField,"gigi");
-			type(lastNameTextField,"test"+random);
+			type(lastNameTextField,"testuser");
 			type(emaillTextField,email);
 			scrollToBottom();
 			type(verifyEmailTextField,email);
@@ -125,10 +128,19 @@ public class SignIn extends BasePageObject {
 			type(phoneTextField,"23568956231");
 			type(postcodeTextField,"9028");
 			click(lookUpAddressButton);
+			Thread.sleep(5000);
+			find(addressTextField).clear();
+			type(addressTextField,"2716 Ocean  Park Blvd Suite 1030");
 			scrollToBottom();
+			find(townCityTextField).clear();
+			type(townCityTextField,"testcity");
+			find(countryTextField).clear();
+			type(countryTextField,"testcountry");
+			find(zipCodeTextField).clear();
+			type(zipCodeTextField,"90405");
+			scrollToTop();		
 			click(createAccountButton);
-			scrollToTop();
-			
+
 		}
 
 }

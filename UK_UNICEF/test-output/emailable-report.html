@@ -31,51 +31,347 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Cart-CH</td><td class="numi">14</td><td class="numi">14</td><td class="numi">0</td><td class="numi">0</td><td class="numi">1,074.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Cart-CH</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi_attn">10</td><td class="numi">1,074.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Cart-CH &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="5">testcases.InspiredGifts</td><td><a href="#m1"><b>IGcreateCardNoCard</b>  </a></td><td class="numi">1</td><td>1578467652269</td><td class="numi">29271</td></tr><tr class="failedodd"><td><a href="#m2"><b>IGcreateCardPrintedCard</b>  </a></td><td class="numi">1</td><td>1578467158772</td><td class="numi">31971</td></tr><tr class="failedodd"><td><a href="#m3"><b>IGcreateEGreetingCard</b>  </a></td><td class="numi">1</td><td>1578467399264</td><td class="numi">242775</td></tr><tr class="failedodd"><td><a href="#m4"><b>IGcreatePrintedAtHomeCard</b>  </a></td><td class="numi">1</td><td>1578467200756</td><td class="numi">188509</td></tr><tr class="failedodd"><td><a href="#m5"><b>RemoveIGGift</b>  </a></td><td class="numi">1</td><td>1578467691487</td><td class="numi">29884</td></tr>
+<tr class="failedeven"><td rowspan="2">testcases.Wishlist</td><td><a href="#m6"><b>WishlisttocartCheckOut</b>  </a></td><td class="numi">1</td><td>1578467979163</td><td class="numi">76353</td></tr><tr class="failedeven"><td><a href="#m7"><b>WishlisttocartUsingGuest</b>  </a></td><td class="numi">1</td><td>1578467886689</td><td class="numi">82300</td></tr>
+<tr class="failedodd"><td rowspan="2">testcases.InspiredGifts</td><td><a href="#m8"><b>checkOutIGGift</b>  </a></td><td class="numi">1</td><td>1578467731629</td><td class="numi">30183</td></tr><tr class="failedodd"><td><a href="#m9"><b>removeAddress</b>  </a></td><td class="numi">1</td><td>1578467771965</td><td class="numi">47045</td></tr>
+<tr class="failedeven"><td rowspan="1">testcases.Wishlist</td><td><a href="#m10"><b>wishlistProduct</b>  </a></td><td class="numi">1</td><td>1578467829032</td><td class="numi">47608</td></tr>
 <tr><th colspan="4">Cart-CH &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="4">testcases.InspiredGifts</td><td><a href="#m1"><b>IGcreateCardNoCard</b>  </a></td><td class="numi">1</td><td>1564732000747</td><td class="numi">40506</td></tr><tr class="passedodd"><td><a href="#m2"><b>IGcreateCardPrintedCard</b>  </a></td><td class="numi">1</td><td>1564731793101</td><td class="numi">77755</td></tr><tr class="passedodd"><td><a href="#m3"><b>IGcreateEGreetingCard</b>  </a></td><td class="numi">1</td><td>1564731932819</td><td class="numi">63777</td></tr><tr class="passedodd"><td><a href="#m4"><b>IGcreatePrintedAtHomeCard</b>  </a></td><td class="numi">1</td><td>1564731874984</td><td class="numi">53709</td></tr>
-<tr class="passedeven"><td rowspan="1">testcases.SignInSignUp</td><td><a href="#m5"><b>LoginUnicefUS</b>  </a></td><td class="numi">1</td><td>1564731228097</td><td class="numi">36146</td></tr>
-<tr class="passedodd"><td rowspan="1">testcases.InspiredGifts</td><td><a href="#m6"><b>RemoveIGGift</b>  </a></td><td class="numi">1</td><td>1564732045292</td><td class="numi">67183</td></tr>
-<tr class="passedeven"><td rowspan="2">testcases.Wishlist</td><td><a href="#m7"><b>WishlisttocartCheckOut</b>  </a></td><td class="numi">1</td><td>1564731657163</td><td class="numi">131661</td></tr><tr class="passedeven"><td><a href="#m8"><b>WishlisttocartUsingGuest</b>  </a></td><td class="numi">1</td><td>1564731523470</td><td class="numi">129228</td></tr>
-<tr class="passedodd"><td rowspan="1">testcases.InspiredGifts</td><td><a href="#m9"><b>checkOutIGGift</b>  </a></td><td class="numi">1</td><td>1564732116628</td><td class="numi">128010</td></tr>
-<tr class="passedeven"><td rowspan="1">testcases.SignInSignUp</td><td><a href="#m10"><b>forgetPassword</b>  </a></td><td class="numi">1</td><td>1564731268396</td><td class="numi">34320</td></tr>
-<tr class="passedodd"><td rowspan="1">testcases.InspiredGifts</td><td><a href="#m11"><b>removeAddress</b>  </a></td><td class="numi">1</td><td>1564732248709</td><td class="numi">49344</td></tr>
-<tr class="passedeven"><td rowspan="1">testcases.SignInSignUp</td><td><a href="#m12"><b>signup</b>  </a></td><td class="numi">1</td><td>1564731307000</td><td class="numi">40087</td></tr>
-<tr class="passedodd"><td rowspan="1">testcases.CrticalPathFlow</td><td><a href="#m13"><b>typeandsearch</b>  </a></td><td class="numi">1</td><td>1564731351319</td><td class="numi">119173</td></tr>
-<tr class="passedeven"><td rowspan="1">testcases.Wishlist</td><td><a href="#m14"><b>wishlistProduct</b>  </a></td><td class="numi">1</td><td>1564731474926</td><td class="numi">44392</td></tr>
+<tr class="passedodd"><td rowspan="1">testcases.CrticalPathFlow</td><td><a href="#m11"><b>typeandsearch</b>  </a></td><td class="numi">1</td><td>1578466994390</td><td class="numi">154142</td></tr>
 </table>
 <h1>Cart-CH</h1>
-<h2 id="m1">testcases.Wishlist:WishlisttocartUsingGuest</h2>
+<h2 id="m1">testcases.Wishlist:wishlistProduct</h2>
 <div style="padding-left:3em">
+<h3>Test Messages</h3>
+Total Products found 1<br/>
+<h3>Failure</h3>
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;shop&apos;]/div[1]/div/div[1]/div[2]/div/div[2]/div[1]/div/div/div/div&quot;}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-NBJ195T&apos;, ip: &apos;192.168.1.22&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54210}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 282d7eae1ee02fd4998e8a62d4ce6261
+*** Element info: {Using=xpath, value=//*[@id=&apos;shop&apos;]/div[1]/div/div[1]/div[2]/div/div[2]/div[1]/div/div/div/div}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at com.unicefuk.base.BasePageObject.click(BasePageObject.java:49)
+<br/>at com.unicefuk.pages.PersonalWishlist.clickWishlistProductRandom(PersonalWishlist.java:50)
+<br/>at testcases.Wishlist.wishlistProduct(Wishlist.java:46)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">testcases.InspiredGifts:IGcreatePrintedAtHomeCard</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&apos;IG-allGifts-list&apos;]/div/ul/li[2]/div/a&quot;}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-NBJ195T&apos;, ip: &apos;192.168.1.22&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51476}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a7d66836df8f1050a5ff6861cd1b0369
+*** Element info: {Using=xpath, value=//*[@class=&apos;IG-allGifts-list&apos;]/div/ul/li[2]/div/a}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at com.unicefuk.base.BasePageObject.click(BasePageObject.java:49)
+<br/>at com.unicefuk.pages.IGgiftPage.chooseIGGifts(IGgiftPage.java:47)
+<br/>at testcases.InspiredGifts.IGcreatePrintedAtHomeCard(InspiredGifts.java:63)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">testcases.InspiredGifts:IGcreateEGreetingCard</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&apos;IG-allGifts-list&apos;]/div/ul/li[2]/div/a&quot;}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-NBJ195T&apos;, ip: &apos;192.168.1.22&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51914}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b149e3fa38f1ce917b0478e0ca061325
+*** Element info: {Using=xpath, value=//*[@class=&apos;IG-allGifts-list&apos;]/div/ul/li[2]/div/a}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at com.unicefuk.base.BasePageObject.click(BasePageObject.java:49)
+<br/>at com.unicefuk.pages.IGgiftPage.chooseIGGifts(IGgiftPage.java:47)
+<br/>at testcases.InspiredGifts.IGcreateEGreetingCard(InspiredGifts.java:88)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">testcases.InspiredGifts:checkOutIGGift</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&apos;IG-allGifts-list&apos;]/div/ul/li[2]/div/a&quot;}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-NBJ195T&apos;, ip: &apos;192.168.1.22&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53267}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: daed2b45786fcd3bd0d2da0545ddd2b2
+*** Element info: {Using=xpath, value=//*[@class=&apos;IG-allGifts-list&apos;]/div/ul/li[2]/div/a}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at com.unicefuk.base.BasePageObject.click(BasePageObject.java:49)
+<br/>at com.unicefuk.pages.IGgiftPage.chooseIGGifts(IGgiftPage.java:47)
+<br/>at testcases.InspiredGifts.checkOutIGGift(InspiredGifts.java:139)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">testcases.Wishlist:WishlisttocartCheckOut</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
 Searched forBracelets<br/>
 Waiting for Category page to Load<br/>
 Total Products found 84<br/>
-Clicked on product ID43282<br/>
-Total Products found 45<br/>
-add item to bag from wishlist page<br/>
+Clicked on product ID52175<br/>
+Total Products found 1<br/>
+<h3>Failure</h3>
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;shop&apos;]/div[1]/div/div[1]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/button&quot;}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-NBJ195T&apos;, ip: &apos;192.168.1.22&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55391}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5a6ad1d84324f48955fa3f2dfc00c774
+*** Element info: {Using=xpath, value=//*[@id=&apos;shop&apos;]/div[1]/div/div[1]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/button}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at com.unicefuk.base.BasePageObject.click(BasePageObject.java:49)
+<br/>at com.unicefuk.pages.PersonalWishlist.WishlistAddtoBag(PersonalWishlist.java:65)
+<br/>at testcases.Wishlist.WishlisttocartCheckOut(Wishlist.java:102)
+<br/>25 lines not shown
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">testcases.SignInSignUp:LoginUnicefUS</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m3">testcases.InspiredGifts:IGcreatePrintedAtHomeCard</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m4">testcases.InspiredGifts:IGcreateCardPrintedCard</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m5">testcases.InspiredGifts:removeAddress</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m6">testcases.SignInSignUp:forgetPassword</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m7">testcases.InspiredGifts:IGcreateCardNoCard</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m8">testcases.Wishlist:wishlistProduct</h2>
+<h2 id="m6">testcases.InspiredGifts:removeAddress</h2>
 <div style="padding-left:3em">
-Total Products found 44<br/>
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;shop&apos;]/div[1]/div/div[1]/div[2]/div/div[1]/div[1]/a[2]&quot;}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-NBJ195T&apos;, ip: &apos;192.168.1.22&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53713}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4de0f50c74cf89e6f6eb7c4e959cab36
+*** Element info: {Using=xpath, value=//*[@id=&apos;shop&apos;]/div[1]/div/div[1]/div[2]/div/div[1]/div[1]/a[2]}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at com.unicefuk.base.BasePageObject.click(BasePageObject.java:49)
+<br/>at com.unicefuk.pages.ShippingAddressPage.RemoveAddressBook(ShippingAddressPage.java:125)
+<br/>at testcases.InspiredGifts.removeAddress(InspiredGifts.java:208)
+<br/>25 lines not shown
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m9">testcases.CrticalPathFlow:typeandsearch</h2>
+<h2 id="m7">testcases.InspiredGifts:IGcreateCardPrintedCard</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&apos;IG-allGifts-list&apos;]/div/ul/li[2]/div/a&quot;}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-NBJ195T&apos;, ip: &apos;192.168.1.22&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51116}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1f61025764dd18af26f2e53d99adbd4d
+*** Element info: {Using=xpath, value=//*[@class=&apos;IG-allGifts-list&apos;]/div/ul/li[2]/div/a}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at com.unicefuk.base.BasePageObject.click(BasePageObject.java:49)
+<br/>at com.unicefuk.pages.IGgiftPage.chooseIGGifts(IGgiftPage.java:47)
+<br/>at testcases.InspiredGifts.IGcreateCardPrintedCard(InspiredGifts.java:37)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">testcases.InspiredGifts:RemoveIGGift</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&apos;IG-allGifts-list&apos;]/div/ul/li[2]/div/a&quot;}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-NBJ195T&apos;, ip: &apos;192.168.1.22&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: aea875122240a00288971681263fc86a
+*** Element info: {Using=xpath, value=//*[@class=&apos;IG-allGifts-list&apos;]/div/ul/li[2]/div/a}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at com.unicefuk.base.BasePageObject.click(BasePageObject.java:49)
+<br/>at com.unicefuk.pages.IGgiftPage.chooseIGGifts(IGgiftPage.java:47)
+<br/>at testcases.InspiredGifts.RemoveIGGift(InspiredGifts.java:179)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">testcases.Wishlist:WishlisttocartUsingGuest</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+Searched forBracelets<br/>
+Waiting for Category page to Load<br/>
+Total Products found 84<br/>
+Clicked on product ID34670<br/>
+Total Products found 1<br/>
+<h3>Failure</h3>
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;shop&apos;]/div[1]/div/div[1]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/button&quot;}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-NBJ195T&apos;, ip: &apos;192.168.1.22&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54603}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 383945eeecc139577908a37bb10de8fb
+*** Element info: {Using=xpath, value=//*[@id=&apos;shop&apos;]/div[1]/div/div[1]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/button}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at com.unicefuk.base.BasePageObject.click(BasePageObject.java:49)
+<br/>at com.unicefuk.pages.PersonalWishlist.WishlistAddtoBag(PersonalWishlist.java:65)
+<br/>at testcases.Wishlist.WishlisttocartUsingGuest(Wishlist.java:173)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">testcases.InspiredGifts:IGcreateCardNoCard</h2>
+<div style="padding-left:3em">
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&apos;IG-allGifts-list&apos;]/div/ul/li[2]/div/a&quot;}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-NBJ195T&apos;, ip: &apos;192.168.1.22&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52498}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3a26716fa621339fe3b3575beb0e0101
+*** Element info: {Using=xpath, value=//*[@class=&apos;IG-allGifts-list&apos;]/div/ul/li[2]/div/a}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at com.unicefuk.base.BasePageObject.click(BasePageObject.java:49)
+<br/>at com.unicefuk.pages.IGgiftPage.chooseIGGifts(IGgiftPage.java:47)
+<br/>at testcases.InspiredGifts.IGcreateCardNoCard(InspiredGifts.java:114)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">testcases.CrticalPathFlow:typeandsearch</h2>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr class="param"><th>Parameter #1</th></tr>
 <tr class="param stripe"><td>1</td>
@@ -84,30 +380,12 @@ Total Products found 44<br/>
 Searched forrings<br/>
 Waiting for C3 to load<br/>
 Total Products found84<br/>
-Clicked on product ID44224<br/>
-Added product with 44224to cart<br/>
+Clicked on product ID52591<br/>
+Added product with 52591to cart<br/>
 added product to bag<br/>
 checked product price and actual price are equal<br/>
 clicked on checkout button<br/>
 </td></tr>
 </table>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m10">testcases.Wishlist:WishlisttocartCheckOut</h2>
-<div style="padding-left:3em">
-Searched forBracelets<br/>
-Waiting for Category page to Load<br/>
-Total Products found 84<br/>
-Clicked on product ID44270<br/>
-Total Products found 46<br/>
-add item to bag from wishlist page<br/>
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m11">testcases.InspiredGifts:checkOutIGGift</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m12">testcases.InspiredGifts:RemoveIGGift</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m13">testcases.InspiredGifts:IGcreateEGreetingCard</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m14">testcases.SignInSignUp:signup</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

@@ -40,10 +40,15 @@ public class Wishlist extends BaseTest {
 		PersonalWishlist perWish= new PersonalWishlist(driver);
 		
 		homePage.openHomePage();
+		Reporter.log("Redirecting to home page <br>");
 		perWish.wishlistMenu();
+		Reporter.log("click on header wishlist link <br>");
 		sign.waitForSignIntoload();
+		Reporter.log("wait for sign in page to load <br>");
 		sign.Login();
+		Reporter.log("Enter signin details <br>");
 		perWish.clickWishlistProductRandom(1);
+		Reporter.log("click on product in wishlist <br>");
 		
 	} 
 	
@@ -62,62 +67,81 @@ public class Wishlist extends BaseTest {
 		PaymentPage payment=new PaymentPage(driver);
 		
 		homePage.openHomePage();
-		Reporter.log("Loading Homepage");
+		Reporter.log("Loading Homepage <br>");
 		//Thread.sleep(60000);
 		String Key = "Blue";
 		homePage.typeAndSubmitKeyword(Key);
-		Reporter.log("Searched for"+ Key);
+		Reporter.log("Searched for"+ Key + "<br>");
 		
 		c3.waitForC3toLoad();
 		Reporter.log("Waiting for C3 to load");
 		int productcount = c3.getproductCount();
-		Reporter.log("Total Products found"+ productcount);
+		Reporter.log("Total Products found"+ productcount + "<br>");
 		System.out.println("Total Products found "+ productcount);
 		int gennum = wpu.getRandomNumberInts(1, productcount);
 		System.out.println(gennum);
+		Reporter.log("generate random product number <br>");
 		
 	    String productid = c3.getProductID(gennum);
 	    Reporter.log("Clicked on product ID"+ productid);
-	    System.out.println("Clicked on product ID"+ productid);
+	    System.out.println("Clicked on product ID"+ productid + "<br>");
 	    c3.clickProductPlateRandom(gennum);
+	    Reporter.log("click on random product <br>");
 	    
 		itdetail.waitForItemDetailLoad();
+		Reporter.log("wait for item detail  page to load <br>");
 		String productdetid= itdetail.getProductID();
+		Reporter.log("get product id <br>");
 		System.out.println(productid);
+		Reporter.log("get product detail id <br>");
 		System.out.println(productdetid);
 	    assertEquals(productid, productdetid);
 		String productPrice = itdetail.getProductPrice();
 		System.out.println(productPrice);
+		Reporter.log("get product price" + productPrice +  "<br>");
 		itdetail.clickAddToWishlistButton();
-		
+		Reporter.log("click on add to wishlist button <br>");
 		sign.waitForSignIntoload();
+		Reporter.log("wait for sign in page to Load <br>");
 		sign.Login();
+		Reporter.log("enter the sign in details <br>");
 		perWish.chooseWishlist(1);
+		Reporter.log("choose a product from wishlist item <br>");
 //		perWish.switchWindow();
 		
 		perWish.wishlistMenu();
-		 
+		Reporter.log("click on each wishlist item <br>"); 
 		perWish.WishlistAddtoBag(1);
-		
+		Reporter.log("click on add to bag button <br>");
 		Thread.sleep(5000);
 		itdetail.Gotocart();
+		Reporter.log("go to cart page <br>");
 		driver.findElement(By.id("hasdonation")).click();
 		Reporter.log("Uncheck the donation");
 
 		perWish.scrollToBottom();
 		Thread.sleep(5000);
 		cat.clickcheckout();
+		Reporter.log("check out the item <br>");
 		System.out.println("checkout the item");
-		sign.guestChekOut();	
+		sign.guestChekOut();
+		Reporter.log("enter guest checkout details <br>");
 		shipAddr.continueButton1();
+		Reporter.log("go to shipping page <br>");
 		System.out.println("success creating shipping address");
-		shipAddr.topContinueBtnShipOptPage();		
+		shipAddr.topContinueBtnShipOptPage();
+		Reporter.log("go to payment options <br>");
 		System.out.println("go to payment options");
 		payment.applyPromoCode("QWERTY");
+		Reporter.log("give the promocode <br>");
 		payment.chooseDonation(5);
+		Reporter.log("choose donation amount <br>");
 		payment.cardPayment();
+		Reporter.log("give the card details <br>");
 		payment.sameShippingAddr();
+		Reporter.log("click on same shipping address option <br>");
 		payment.bottomContinueButton();
+		Reporter.log("click on confirm order button <br>");
 
 	}
 	
@@ -136,55 +160,66 @@ public class Wishlist extends BaseTest {
 		PaymentPage payment=new PaymentPage(driver);
 		
 		homePage.openHomePage();
-		Reporter.log("Loading Homepage");
+		Reporter.log("Loading Homepage <br>");
 		//Thread.sleep(60000);
 		String Key = "Blue";
 		homePage.typeAndSubmitKeyword(Key);
-		Reporter.log("Searched for"+ Key);
+		Reporter.log("Searched for"+ Key + "<br>");
 		
 		c3.waitForC3toLoad();
-		Reporter.log("Waiting for C3 to load");
+		Reporter.log("Waiting for Category page to load <br>");
 		int productcount = c3.getproductCount();
-		Reporter.log("Total Products found"+ productcount);
+		Reporter.log("Total Products found"+ productcount + "<br>");
 		System.out.println("Total Products found "+ productcount);
 		int gennum = wpu.getRandomNumberInts(1, productcount);
 		System.out.println(gennum);
+		Reporter.log("generate random product number <br>");
 		
 	    String productid = c3.getProductID(gennum);
-	    Reporter.log("Clicked on product ID"+ productid);
+	    Reporter.log("Clicked on product ID"+ productid + "<br>");
 	    System.out.println("Clicked on product ID"+ productid);
 	    c3.clickProductPlateRandom(gennum);
-	    
+	    Reporter.log("click on random product <br>");
 		itdetail.waitForItemDetailLoad();
+		Reporter.log("wait for item detail page to load <br>");
 		String productdetid= itdetail.getProductID();
+		Reporter.log("get product id <br>");
 		System.out.println(productid);
+		Reporter.log("get product detail id <br>");
 		System.out.println(productdetid);
 	    assertEquals(productid, productdetid);
 		String productPrice = itdetail.getProductPrice();
+		Reporter.log("get product price <br>");
 		System.out.println(productPrice);
 		itdetail.clickAddToWishlistButton();
-		
+		Reporter.log("click on Add to wishlist button <br>");
 		sign.waitForSignIntoload();
+		Reporter.log("wait for sign in page to load <br>");
 		sign.Login();
+		Reporter.log("give login details <br>");
 		perWish.chooseWishlist(1);
+		Reporter.log("choose wishlisted item <br>");
 //		perWish.switchWindow();
 		
 		perWish.wishlistMenu();
-		 
+		Reporter.log("click on wishlist menu <br>");
 		perWish.WishlistAddtoBag(2);
-		
+		Reporter.log(" add to bag from wishlist page <br>");
 		Thread.sleep(5000);
 		itdetail.Gotocart();
+		Reporter.log("go to cart page <br>");
 		driver.findElement(By.id("hasdonation")).click();
 		Reporter.log("Uncheck the donation");
 
 		perWish.scrollToBottom();
 		Thread.sleep(5000);
 		cat.clickcheckout();
+		Reporter.log("checkout the product <br>");
 		System.out.println("checkout the item");
 		sign.EntersignInDet();
+		Reporter.log("enter sign in details <br>");
 		payment.paymentPageFunctionalities();
-		
+		Reporter.log("enter payment functionalities <br>");
 
 //		shipAddr.newAddress();
 //		System.out.println("click on new address");

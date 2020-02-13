@@ -2,7 +2,6 @@ package com.kiva.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
 import com.kiva.base.BasePageObject;
 import com.kiva.pages.ItemDetailPage;
 

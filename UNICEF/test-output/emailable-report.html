@@ -31,31 +31,171 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Cart-CH</td><td class="numi">22</td><td class="numi">22</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">1,506.5 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Cart-CH</td><td class="numi">13</td><td class="numi">13</td><td class="numi">0</td><td class="numi_attn">7</td><td class="numi">1,631.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
 <tr><th colspan="4">Cart-CH &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="1">testcase.Wishlist</td><td><a href="#m1"><b>removeAddressFromAddressBook</b>  </a></td><td class="numi">1</td><td>1564730299629</td><td class="numi">31835</td></tr>
+<tr class="failedodd"><td rowspan="1">testcase.Homepage</td><td><a href="#m1"><b>headerMenu</b>  </a></td><td class="numi">1</td><td>1578547067072</td><td class="numi">42788</td></tr>
+<tr class="failedeven"><td rowspan="1">testcase.CriticalPathFlow</td><td><a href="#m2"><b>typeandsearch</b>  </a></td><td class="numi">1</td><td>1578547119888</td><td class="numi">80910</td></tr>
+<tr class="failedodd"><td rowspan="3">testcase.Wishlist</td><td><a href="#m3"><b>WishlisttocartUsingGuest</b>  </a></td><td class="numi">1</td><td>1578547261900</td><td class="numi">73064</td></tr><tr class="failedodd"><td><a href="#m4"><b>WishlisttocartDiffShipAddress</b>  </a></td><td class="numi">1</td><td>1578547344974</td><td class="numi">25465</td></tr><tr class="failedodd"><td><a href="#m5"><b>WishlisttocartUsingExpress</b>  </a></td><td class="numi">1</td><td>1578547380540</td><td class="numi">112745</td></tr>
+<tr class="failedeven"><td rowspan="2">testcase.InspiredGifts</td><td><a href="#m6"><b>guestCheckOutIGgift</b>  </a></td><td class="numi">1</td><td>1578548203818</td><td class="numi">92563</td></tr><tr class="failedeven"><td><a href="#m7"><b>expressCheckOutIGgift</b>  </a></td><td class="numi">1</td><td>1578548306422</td><td class="numi">345626</td></tr>
 <tr><th colspan="4">Cart-CH &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="2">testcase.Homepage</td><td><a href="#m2"><b>searchProduct</b>  </a></td><td class="numi">1</td><td>1564729274270</td><td class="numi">33291</td></tr><tr class="passedodd"><td><a href="#m3"><b>headerMenu</b>  </a></td><td class="numi">1</td><td>1564729311919</td><td class="numi">83564</td></tr>
-<tr class="passedeven"><td rowspan="3">testcase.SignUpLogin</td><td><a href="#m4"><b>LoginUnicefUS</b>  </a></td><td class="numi">1</td><td>1564729399711</td><td class="numi">28155</td></tr><tr class="passedeven"><td><a href="#m5"><b>forgetPassword</b>  </a></td><td class="numi">1</td><td>1564729432244</td><td class="numi">31127</td></tr><tr class="passedeven"><td><a href="#m6"><b>userSignup</b>  </a></td><td class="numi">1</td><td>1564729467668</td><td class="numi">32569</td></tr>
-<tr class="passedodd"><td rowspan="1">testcase.CriticalPathFlow</td><td><a href="#m7"><b>typeandsearch</b>  </a></td><td class="numi">1</td><td>1564729504414</td><td class="numi">98337</td></tr>
-<tr class="passedeven"><td rowspan="10">testcase.Wishlist</td><td><a href="#m8"><b>wishlistProduct</b>  </a></td><td class="numi">1</td><td>1564729607099</td><td class="numi">34710</td></tr><tr class="passedeven"><td><a href="#m9"><b>WishlisttocartUsingGuest</b>  </a></td><td class="numi">1</td><td>1564729645914</td><td class="numi">120925</td></tr><tr class="passedeven"><td><a href="#m10"><b>WishlisttocartDiffShipAddress</b>  </a></td><td class="numi">1</td><td>1564729771234</td><td class="numi">138155</td></tr><tr class="passedeven"><td><a href="#m11"><b>WishlisttocartUsingExpress</b>  </a></td><td class="numi">1</td><td>1564729913600</td><td class="numi">128386</td></tr><tr class="passedeven"><td><a href="#m12"><b>removeWishlist</b>  </a></td><td class="numi">1</td><td>1564730046573</td><td class="numi">35868</td></tr><tr class="passedeven"><td><a href="#m13"><b>viewProductWishlist</b>  </a></td><td class="numi">1</td><td>1564730086564</td><td class="numi">27268</td></tr><tr class="passedeven"><td><a href="#m14"><b>shareWishlist</b>  </a></td><td class="numi">1</td><td>1564730117907</td><td class="numi">33243</td></tr><tr class="passedeven"><td><a href="#m15"><b>fbShareWishlist</b>  </a></td><td class="numi">1</td><td>1564730155173</td><td class="numi">32033</td></tr><tr class="passedeven"><td><a href="#m16"><b>twitterShareWishlist</b>  </a></td><td class="numi">1</td><td>1564730190734</td><td class="numi">34265</td></tr><tr class="passedeven"><td><a href="#m17"><b>createWishlist</b>  </a></td><td class="numi">1</td><td>1564730228529</td><td class="numi">66944</td></tr>
-<tr class="passedodd"><td rowspan="6">testcase.InspiredGifts</td><td><a href="#m18"><b>IGcreateCardPrintedCard</b>  </a></td><td class="numi">1</td><td>1564730335586</td><td class="numi">52935</td></tr><tr class="passedodd"><td><a href="#m19"><b>IGcreateCardPrintAtHomeCard</b>  </a></td><td class="numi">1</td><td>1564730392710</td><td class="numi">61500</td></tr><tr class="passedodd"><td><a href="#m20"><b>IGcreateCardEGreeting</b>  </a></td><td class="numi">1</td><td>1564730458453</td><td class="numi">66466</td></tr><tr class="passedodd"><td><a href="#m21"><b>IGcreateCardNoCard</b>  </a></td><td class="numi">1</td><td>1564730529005</td><td class="numi">53100</td></tr><tr class="passedodd"><td><a href="#m22"><b>guestCheckOutIGgift</b>  </a></td><td class="numi">1</td><td>1564730586438</td><td class="numi">93410</td></tr><tr class="passedodd"><td><a href="#m23"><b>expressCheckOutIGgift</b>  </a></td><td class="numi">1</td><td>1564730684086</td><td class="numi">91704</td></tr>
+<tr class="passedodd"><td rowspan="1">testcase.Homepage</td><td><a href="#m8"><b>searchProduct</b>  </a></td><td class="numi">1</td><td>1578547032550</td><td class="numi">24423</td></tr>
+<tr class="passedeven"><td rowspan="8">testcase.Wishlist</td><td><a href="#m9"><b>wishlistProduct</b>  </a></td><td class="numi">1</td><td>1578547210887</td><td class="numi">40745</td></tr><tr class="passedeven"><td><a href="#m10"><b>removeWishlist</b>  </a></td><td class="numi">1</td><td>1578547503559</td><td class="numi">46143</td></tr><tr class="passedeven"><td><a href="#m11"><b>viewProductWishlist</b>  </a></td><td class="numi">1</td><td>1578547559673</td><td class="numi">34333</td></tr><tr class="passedeven"><td><a href="#m12"><b>shareWishlist</b>  </a></td><td class="numi">1</td><td>1578547603967</td><td class="numi">52106</td></tr><tr class="passedeven"><td><a href="#m13"><b>fbShareWishlist</b>  </a></td><td class="numi">1</td><td>1578547666512</td><td class="numi">38088</td></tr><tr class="passedeven"><td><a href="#m14"><b>twitterShareWishlist</b>  </a></td><td class="numi">1</td><td>1578547714238</td><td class="numi">40953</td></tr><tr class="passedeven"><td><a href="#m15"><b>createWishlist</b>  </a></td><td class="numi">1</td><td>1578547764645</td><td class="numi">80349</td></tr><tr class="passedeven"><td><a href="#m16"><b>removeAddressFromAddressBook</b>  </a></td><td class="numi">1</td><td>1578547855081</td><td class="numi">49385</td></tr>
+<tr class="passedodd"><td rowspan="4">testcase.InspiredGifts</td><td><a href="#m17"><b>IGcreateCardPrintedCard</b>  </a></td><td class="numi">1</td><td>1578547914588</td><td class="numi">57572</td></tr><tr class="passedodd"><td><a href="#m18"><b>IGcreateCardPrintAtHomeCard</b>  </a></td><td class="numi">1</td><td>1578547982213</td><td class="numi">65425</td></tr><tr class="passedodd"><td><a href="#m19"><b>IGcreateCardEGreeting</b>  </a></td><td class="numi">1</td><td>1578548057718</td><td class="numi">66587</td></tr><tr class="passedodd"><td><a href="#m20"><b>IGcreateCardNoCard</b>  </a></td><td class="numi">1</td><td>1578548134263</td><td class="numi">59547</td></tr>
 </table>
 <h1>Cart-CH</h1>
-<h2 id="m1">testcase.Wishlist:removeAddressFromAddressBook</h2>
-<div style="padding-left:3em">
-<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;shop&apos;]/div[3]/div[2]/div[3]/p/a[2]&quot;}
-  (Session info: chrome=76.0.3809.87)
+<h2 id="m1">testcase.CriticalPathFlow:typeandsearch</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>1</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+<h3>Test Messages</h3>
+Loading Homepage <br><br/>
+Searched forBlue<br><br/>
+Waiting for C3 to load <br><br/>
+Total Products found85<br><br/>
+Clicked on product ID486824<br><br/>
+waiting item detail page to load <br><br/>
+checked productid and product detail page id are same <br><br/>
+get the product prize$107.99<br><br/>
+Added product with 486824to cart <br><br/>
+Redirecting to cart page with price$107.99<br><br/>
+redirecting to cart page <br><br/>
+Uncheck the donation <br><br/>
+check product prize and actual cart prize are same <br><br/>
+clicked on checkout button <br><br/>
+enter the sign in details <br><br/>
+<h3>Failure</h3>
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#card_number&quot;}
+  (Session info: chrome=79.0.3945.88)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-NBJ195T&apos;, ip: &apos;192.168.1.82&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+System info: host: &apos;DESKTOP-NBJ195T&apos;, ip: &apos;192.168.1.22&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.87, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55009}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 94063f93b98b4ac0a331c8ed1e6b807b
-*** Element info: {Using=xpath, value=//*[@id=&apos;shop&apos;]/div[3]/div[2]/div[3]/p/a[2]}</p>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61358}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e68b2e1db99db17085fb02b50438ce88
+*** Element info: {Using=id, value=card_number}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+<br/>at org.openqa.selenium.By$ById.findElement(By.java:188)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at com.unicef.base.BasePageObject.type(BasePageObject.java:47)
+<br/>at com.unicef.pages.PaymentPage.cardPayment(PaymentPage.java:70)
+<br/>at com.unicef.pages.PaymentPage.paymentPageFunctionalities(PaymentPage.java:128)
+<br/>at testcase.CriticalPathFlow.typeandsearch(CriticalPathFlow.java:91)
+<br/>25 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">testcase.Wishlist:WishlisttocartUsingExpress</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+Loading Homepage<br/>
+Searched forBlue<br/>
+Waiting for C3 to load<br/>
+Total Products found85<br/>
+Clicked on product ID16028<br/>
+Uncheck the donation<br/>
+<h3>Failure</h3>
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#card_number&quot;}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-NBJ195T&apos;, ip: &apos;192.168.1.22&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61962}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d8eb427cc98cbc65ab694bd01f71caf4
+*** Element info: {Using=id, value=card_number}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+<br/>at org.openqa.selenium.By$ById.findElement(By.java:188)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at com.unicef.base.BasePageObject.type(BasePageObject.java:47)
+<br/>at com.unicef.pages.PaymentPage.cardPayment(PaymentPage.java:70)
+<br/>at com.unicef.pages.PaymentPage.paymentPageFunctionalities(PaymentPage.java:128)
+<br/>at testcase.Wishlist.WishlisttocartUsingExpress(Wishlist.java:305)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">testcase.Homepage:headerMenu</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+Redirecting to home page <br><br/>
+clicked on IG Header Menu <br><br/>
+clicked on Card Gifts Header Menu <br><br/>
+clicked on Gift Finder Header Menu <br><br/>
+clicked on Jewelry Header Menu <br><br/>
+<h3>Failure</h3>
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#accessories&quot;}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-NBJ195T&apos;, ip: &apos;192.168.1.22&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61282}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4dbfeb4f789350f02df2e895c2311717
+*** Element info: {Using=id, value=accessories}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+<br/>at org.openqa.selenium.By$ById.findElement(By.java:188)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at com.unicef.base.BasePageObject.click(BasePageObject.java:52)
+<br/>at com.unicef.pages.HomePage.clickAccessoriesHeaderMenu(HomePage.java:109)
+<br/>at testcase.Homepage.headerMenu(Homepage.java:36)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">testcase.Wishlist:WishlisttocartDiffShipAddress</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+Loading Homepage <br><br/>
+Searched forBlue<br><br/>
+Waiting for Category page to load <br><br/>
+Total Products found85<br><br/>
+generate random product number <br><br/>
+<h3>Failure</h3>
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@id=&apos;product-list&apos;]/div[85]/div/p[1]/a[1]&quot;}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-NBJ195T&apos;, ip: &apos;192.168.1.22&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61873}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b7a3f6c7d7387dec5fbecbf77c60b7ed
+*** Element info: {Using=xpath, value=//div[@id=&apos;product-list&apos;]/div[85]/div/p[1]/a[1]}</p>
 sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 <br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 <br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -70,165 +210,14 @@ sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 <br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 <br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 <br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-<br/>at com.unicef.base.BasePageObject.click(BasePageObject.java:52)
-<br/>at com.unicef.pages.PersonalWishlist.removeAddress(PersonalWishlist.java:297)
-<br/>at testcase.Wishlist.removeAddressFromAddressBook(Wishlist.java:417)
+<br/>at com.unicef.pages.C3category.getProductID(C3category.java:36)
+<br/>at testcase.Wishlist.WishlisttocartDiffShipAddress(Wishlist.java:178)
 <br/>25 lines not shown
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">testcase.Wishlist:wishlistProduct</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m3">testcase.Wishlist:createWishlist</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m4">testcase.InspiredGifts:IGcreateCardPrintAtHomeCard</h2>
+<h2 id="m5">testcase.InspiredGifts:guestCheckOutIGgift</h2>
 <div style="padding-left:3em">
-Redirecting to home page <br><br/>
-clicked on IG header menu <br><br/>
-Select Education related IG gifts <br><br/>
-Clicked first product in the list <br><br/>
-added product to the cart <br><br/>
-created the card for product <br><br/>
-selected printed card <br><br/>
-selected first image fr card <br><br/>
-entered the card message <br><br/>
-added card to Bag <br><br/>
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m5">testcase.CriticalPathFlow:typeandsearch</h2>
-<table cellspacing="0" cellpadding="0" class="result">
-<tr class="param"><th>Parameter #1</th></tr>
-<tr class="param stripe"><td>1</td>
-</tr>
-<tr><td style="padding-left:3em" colspan="1">
-Loading Homepage <br><br/>
-Searched forBlue<br><br/>
-Waiting for C3 to load <br><br/>
-Total Products found85<br><br/>
-Clicked on product ID162048<br><br/>
-waiting item detail page to load <br><br/>
-checked productid and product detail page id are same <br><br/>
-get the product prize$44.99<br><br/>
-Added product with 162048to cart <br><br/>
-Redirecting to cart page with price$44.99<br><br/>
-redirecting to cart page <br><br/>
-Uncheck the donation <br><br/>
-check product prize and actual cart prize are same <br><br/>
-clicked on checkout button <br><br/>
-</td></tr>
-</table>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m6">testcase.Wishlist:shareWishlist</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m7">testcase.Wishlist:twitterShareWishlist</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m8">testcase.Homepage:searchProduct</h2>
-<div style="padding-left:3em">
-Redirecting to home page <br><br/>
-Searched for the products chains <br><br/>
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m9">testcase.Wishlist:WishlisttocartUsingExpress</h2>
-<div style="padding-left:3em">
-Loading Homepage<br/>
-Searched forBlue<br/>
-Waiting for C3 to load<br/>
-Total Products found85<br/>
-Clicked on product ID486930<br/>
-Uncheck the donation<br/>
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m10">testcase.Wishlist:removeWishlist</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m11">testcase.InspiredGifts:IGcreateCardEGreeting</h2>
-<div style="padding-left:3em">
-Redirecting to home page <br><br/>
-clicked on IG header menu <br><br/>
-Select Education related IG gifts <br><br/>
-Clicked first product in the list <br><br/>
-added product to the cart <br><br/>
-created the card for product <br><br/>
-selected Egreeting card <br><br/>
-selected first image fr card <br><br/>
-entered the card message <br><br/>
-entered sender details <br><br/>
-added card to Bag <br><br/>
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m12">testcase.SignUpLogin:LoginUnicefUS</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m13">testcase.Homepage:headerMenu</h2>
-<div style="padding-left:3em">
-Redirecting to home page <br><br/>
-clicked on IG Header Menu <br><br/>
-clicked on Card Gifts Header Menu <br><br/>
-clicked on Gift Finder Header Menu <br><br/>
-clicked on Jewelry Header Menu <br><br/>
-clicked on Accessories Header Menu <br><br/>
-clicked on Home Decor Header Menu <br><br/>
-clicked on New Header Menu <br><br/>
-clicked on Home Header Menu <br><br/>
-clicked on Donate Header Menu <br><br/>
-clicked on About Us Header Menu <br><br/>
-clicked on Catalog Header Menu <br><br/>
-clicked on Login Header Menu <br><br/>
-clicked on Help Header Menu <br><br/>
-clicked on Ship To Header Menu <br><br/>
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m14">testcase.InspiredGifts:IGcreateCardNoCard</h2>
-<div style="padding-left:3em">
-Redirecting to home page <br><br/>
-clicked on IG header menu <br><br/>
-Select Education related IG gifts <br><br/>
-Clicked first product in the list <br><br/>
-added product to the cart <br><br/>
-created the card for product <br><br/>
-selected No card option <br><br/>
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m15">testcase.Wishlist:fbShareWishlist</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m16">testcase.InspiredGifts:expressCheckOutIGgift</h2>
-<div style="padding-left:3em">
-Redirecting to home page <br><br/>
-clicked on IG header menu <br><br/>
-Select Education related IG gifts <br><br/>
-Clicked first product in the list <br><br/>
-added product to the cart <br><br/>
-created the card for product <br><br/>
-selected Egreeting card <br><br/>
-selected first image fr card <br><br/>
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m17">testcase.InspiredGifts:IGcreateCardPrintedCard</h2>
-<div style="padding-left:3em">
-Redirecting to home page <br><br/>
-clicked on IG header menu <br><br/>
-Select Education related IG gifts <br><br/>
-Clicked first product in the list <br><br/>
-added product to the cart <br><br/>
-created the card for product <br><br/>
-selected printed card <br><br/>
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m18">testcase.SignUpLogin:userSignup</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m19">testcase.Wishlist:WishlisttocartDiffShipAddress</h2>
-<div style="padding-left:3em">
-Loading Homepage<br/>
-Searched forBlue<br/>
-Waiting for C3 to load<br/>
-Total Products found85<br/>
-Clicked on product ID486930<br/>
-Uncheck the donation<br/>
-</div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m20">testcase.Wishlist:viewProductWishlist</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m21">testcase.SignUpLogin:forgetPassword</h2>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m22">testcase.InspiredGifts:guestCheckOutIGgift</h2>
-<div style="padding-left:3em">
+<h3>Test Messages</h3>
 Redirecting to home page <br><br/>
 clicked on IG header menu <br><br/>
 Select Education related IG gifts <br><br/>
@@ -245,19 +234,205 @@ check out as guest credentials <br><br/>
 go to payment options <br><br/>
 go to payment options <br><br/>
 choose payment <br><br/>
-give details of card payment <br><br/>
-give billing address <br><br/>
-click on continue button <br/>
+<h3>Failure</h3>
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#card_number&quot;}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-NBJ195T&apos;, ip: &apos;192.168.1.22&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63402}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 114010680a53d95322a7b13566b72932
+*** Element info: {Using=id, value=card_number}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+<br/>at org.openqa.selenium.By$ById.findElement(By.java:188)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at com.unicef.base.BasePageObject.type(BasePageObject.java:47)
+<br/>at com.unicef.pages.PaymentPage.cardPayment(PaymentPage.java:70)
+<br/>at testcase.InspiredGifts.guestCheckOutIGgift(InspiredGifts.java:191)
+<br/>25 lines not shown
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m23">testcase.Wishlist:WishlisttocartUsingGuest</h2>
+<h2 id="m6">testcase.Wishlist:WishlisttocartUsingGuest</h2>
 <div style="padding-left:3em">
-Loading Homepage<br/>
-Searched forBlue<br/>
+<h3>Test Messages</h3>
+Loading Homepage <br><br/>
+Searched forBlue<br><br/>
 Waiting for C3 to load<br/>
-Total Products found85<br/>
-Clicked on product ID24025<br/>
-Uncheck the donation<br/>
+Total Products found85<br><br/>
+generate random product number <br><br/>
+Clicked on product ID486930<br/>
+click on random product <br><br/>
+wait for item detail  page to load <br><br/>
+get product id <br><br/>
+get product detail id <br><br/>
+get product price$44.99<br><br/>
+click on add to wishlist button <br><br/>
+wait for sign in page to Load <br><br/>
+enter the sign in details <br><br/>
+choose a product from wishlist item <br><br/>
+click on each wishlist item <br><br/>
+<h3>Failure</h3>
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;shop&apos;]/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]&quot;}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-NBJ195T&apos;, ip: &apos;192.168.1.22&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61760}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4163c36fd6d42e003feaa8de25942c0a
+*** Element info: {Using=xpath, value=//*[@id=&apos;shop&apos;]/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at com.unicef.base.BasePageObject.click(BasePageObject.java:52)
+<br/>at com.unicef.pages.PersonalWishlist.WishlistAddtoBag(PersonalWishlist.java:112)
+<br/>at testcase.Wishlist.WishlisttocartUsingGuest(Wishlist.java:114)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">testcase.InspiredGifts:expressCheckOutIGgift</h2>
+<div style="padding-left:3em">
+<h3>Test Messages</h3>
+Redirecting to home page <br><br/>
+clicked on IG header menu <br><br/>
+Select Education related IG gifts <br><br/>
+Clicked first product in the list <br><br/>
+added product to the cart <br><br/>
+created the card for product <br><br/>
+selected Egreeting card <br><br/>
+selected first image fr card <br><br/>
+<h3>Failure</h3>
+<p>no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#card_number&quot;}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-NBJ195T&apos;, ip: &apos;192.168.1.22&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:63541}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f5d58c97115d4544a763b532878c742a
+*** Element info: {Using=id, value=card_number}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+<br/>at org.openqa.selenium.By$ById.findElement(By.java:188)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+<br/>at com.unicef.base.BasePageObject.type(BasePageObject.java:47)
+<br/>at com.unicef.pages.PaymentPage.cardPayment(PaymentPage.java:70)
+<br/>at com.unicef.pages.PaymentPage.paymentPageFunctionalities(PaymentPage.java:128)
+<br/>at testcase.InspiredGifts.expressCheckOutIGgift(InspiredGifts.java:238)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">testcase.Wishlist:shareWishlist</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">testcase.Wishlist:removeWishlist</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">testcase.Wishlist:fbShareWishlist</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">testcase.InspiredGifts:IGcreateCardPrintedCard</h2>
+<div style="padding-left:3em">
+Redirecting to home page <br><br/>
+clicked on IG header menu <br><br/>
+Select Education related IG gifts <br><br/>
+Clicked first product in the list <br><br/>
+added product to the cart <br><br/>
+created the card for product <br><br/>
+selected printed card <br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">testcase.Wishlist:wishlistProduct</h2>
+<div style="padding-left:3em">
+Redirecting to home page <br><br/>
+click on header wishlist link <br><br/>
+wait for sign in page to load <br><br/>
+Enter signin details <br><br/>
+click on product in wishlist <br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">testcase.Wishlist:removeAddressFromAddressBook</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">testcase.Wishlist:viewProductWishlist</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">testcase.Wishlist:twitterShareWishlist</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">testcase.Homepage:searchProduct</h2>
+<div style="padding-left:3em">
+Redirecting to home page <br><br/>
+Searched for the products chains <br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">testcase.InspiredGifts:IGcreateCardEGreeting</h2>
+<div style="padding-left:3em">
+Redirecting to home page <br><br/>
+clicked on IG header menu <br><br/>
+Select Education related IG gifts <br><br/>
+Clicked first product in the list <br><br/>
+added product to the cart <br><br/>
+created the card for product <br><br/>
+selected Egreeting card <br><br/>
+selected first image fr card <br><br/>
+entered the card message <br><br/>
+entered sender details <br><br/>
+added card to Bag <br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">testcase.InspiredGifts:IGcreateCardNoCard</h2>
+<div style="padding-left:3em">
+Redirecting to home page <br><br/>
+clicked on IG header menu <br><br/>
+Select Education related IG gifts <br><br/>
+Clicked first product in the list <br><br/>
+added product to the cart <br><br/>
+created the card for product <br><br/>
+selected No card option <br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">testcase.Wishlist:createWishlist</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">testcase.InspiredGifts:IGcreateCardPrintAtHomeCard</h2>
+<div style="padding-left:3em">
+Redirecting to home page <br><br/>
+clicked on IG header menu <br><br/>
+Select Education related IG gifts <br><br/>
+Clicked first product in the list <br><br/>
+added product to the cart <br><br/>
+created the card for product <br><br/>
+selected printed card <br><br/>
+selected first image fr card <br><br/>
+entered the card message <br><br/>
+added card to Bag <br><br/>
 </div>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

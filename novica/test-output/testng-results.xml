@@ -1,23 +1,515 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="10" passed="10">
   <reporter-output>
+    <line>
+      <![CDATA[Loading Homepage <br>]]>
+    </line>
+    <line>
+      <![CDATA[Searched forblue<br>]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for C3 to load <br>]]>
+    </line>
+    <line>
+      <![CDATA[Total Products found 84<br>]]>
+    </line>
+    <line>
+      <![CDATA[get the random product number <br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on product ID241122<br>]]>
+    </line>
+    <line>
+      <![CDATA[to get the product prize <br>]]>
+    </line>
+    <line>
+      <![CDATA[Added product with 241122to cart<br>]]>
+    </line>
+    <line>
+      <![CDATA[Redirecting to cart page with price69.99<br>]]>
+    </line>
+    <line>
+      <![CDATA[to get the actual cart price <br>]]>
+    </line>
+    <line>
+      <![CDATA[check put the product <br>]]>
+    </line>
+    <line>
+      <![CDATA[Login as a user <br>]]>
+    </line>
+    <line>
+      <![CDATA[redirect to shipment page if the payment button is not active <br>]]>
+    </line>
+    <line>
+      <![CDATA[redirect to add shipping address page if receipient first name is not active <br>]]>
+    </line>
+    <line>
+      <![CDATA[type firstname <br>]]>
+    </line>
+    <line>
+      <![CDATA[type lastname <br>]]>
+    </line>
+    <line>
+      <![CDATA[type addressline 1 <br>]]>
+    </line>
+    <line>
+      <![CDATA[type addressline2 <br>]]>
+    </line>
+    <line>
+      <![CDATA[type cityname <br>]]>
+    </line>
+    <line>
+      <![CDATA[select the country USA <br>]]>
+    </line>
+    <line>
+      <![CDATA[type zipcode <br>]]>
+    </line>
+    <line>
+      <![CDATA[type phone number <br>]]>
+    </line>
+    <line>
+      <![CDATA[check the default phone box <br>]]>
+    </line>
+    <line>
+      <![CDATA[type company name <br>]]>
+    </line>
+    <line>
+      <![CDATA[check default address box <br>]]>
+    </line>
+    <line>
+      <![CDATA[add new shipping address <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on bottom continue button <br>]]>
+    </line>
+    <line>
+      <![CDATA[redirect to gift wrap page <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on top continue shipping button <br>]]>
+    </line>
+    <line>
+      <![CDATA[redirect to payment page <br>]]>
+    </line>
+    <line>
+      <![CDATA[redirect to payment page if the payment button is active <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on apply promocode button <br>]]>
+    </line>
+    <line>
+      <![CDATA[apply promocode <br>]]>
+    </line>
+    <line>
+      <![CDATA[select donation from select box <br>]]>
+    </line>
+    <line>
+      <![CDATA[choose donation <br>]]>
+    </line>
+    <line>
+      <![CDATA[go to card payment section <br>]]>
+    </line>
+    <line>
+      <![CDATA[give card number <br>]]>
+    </line>
+    <line>
+      <![CDATA[give card name <br>]]>
+    </line>
+    <line>
+      <![CDATA[select card expiration month <br>]]>
+    </line>
+    <line>
+      <![CDATA[select card expiration year <br>]]>
+    </line>
+    <line>
+      <![CDATA[give card cvc code <br>]]>
+    </line>
+    <line>
+      <![CDATA[check on debit check box <br>]]>
+    </line>
+    <line>
+      <![CDATA[choose cardpayment <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on select address button <br>]]>
+    </line>
+    <line>
+      <![CDATA[choose different address <br>]]>
+    </line>
+    <line>
+      <![CDATA[choose billing address <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on continue button <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on confirm order button <br>]]>
+    </line>
+    <line>
+      <![CDATA[do the payment functionalities <br>]]>
+    </line>
+    <line>
+      <![CDATA[redirect to shipment page <br>]]>
+    </line>
+    <line>
+      <![CDATA[Loading Homepage <br>]]>
+    </line>
+    <line>
+      <![CDATA[Searched forRed<br>]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for C3 to load <br>]]>
+    </line>
+    <line>
+      <![CDATA[Total Products found 84<br>]]>
+    </line>
+    <line>
+      <![CDATA[get the random product number <br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on product ID223503<br>]]>
+    </line>
+    <line>
+      <![CDATA[Get the product price <br>]]>
+    </line>
+    <line>
+      <![CDATA[Added product with 223503to cart<br>]]>
+    </line>
+    <line>
+      <![CDATA[Redirecting to cart page with price35.99<br>]]>
+    </line>
+    <line>
+      <![CDATA[to get the actual cart price <br>]]>
+    </line>
+    <line>
+      <![CDATA[check out the product <br>]]>
+    </line>
+    <line>
+      <![CDATA[redirect to payment page if the payment button is active <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on apply promocode button <br>]]>
+    </line>
+    <line>
+      <![CDATA[apply promocode <br>]]>
+    </line>
+    <line>
+      <![CDATA[select donation from select box <br>]]>
+    </line>
+    <line>
+      <![CDATA[choose donation <br>]]>
+    </line>
+    <line>
+      <![CDATA[go to card payment section <br>]]>
+    </line>
+    <line>
+      <![CDATA[give card number <br>]]>
+    </line>
+    <line>
+      <![CDATA[give card name <br>]]>
+    </line>
+    <line>
+      <![CDATA[select card expiration month <br>]]>
+    </line>
+    <line>
+      <![CDATA[select card expiration year <br>]]>
+    </line>
+    <line>
+      <![CDATA[give card cvc code <br>]]>
+    </line>
+    <line>
+      <![CDATA[check on debit check box <br>]]>
+    </line>
+    <line>
+      <![CDATA[choose cardpayment <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on select address button <br>]]>
+    </line>
+    <line>
+      <![CDATA[choose different address <br>]]>
+    </line>
+    <line>
+      <![CDATA[choose billing address <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on continue button <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on confirm order button <br>]]>
+    </line>
+    <line>
+      <![CDATA[redirect to payment functionalities <br>]]>
+    </line>
+    <line>
+      <![CDATA[Loading Homepage <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on header sign in button <br>]]>
+    </line>
+    <line>
+      <![CDATA[wait for sign in page to load <br>]]>
+    </line>
+    <line>
+      <![CDATA[log in as user by providing email and password]]>
+    </line>
+    <line>
+      <![CDATA[click on account button on header <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on address book button <br>]]>
+    </line>
+    <line>
+      <![CDATA[emove each address by clicking on remove address button <br>]]>
+    </line>
+    <line>
+      <![CDATA[Redirecting to home page <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on the header wishlist button <br>]]>
+    </line>
+    <line>
+      <![CDATA[Redirecting to sig in page <br>]]>
+    </line>
+    <line>
+      <![CDATA[log in as user by providing email and password <br>]]>
+    </line>
+    <line>
+      <![CDATA[Total Products found 7<br>]]>
+    </line>
+    <line>
+      <![CDATA[get random product number <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on random product in the wishlist itemlist <br>]]>
+    </line>
+    <line>
+      <![CDATA[Redirecting to home page <br>]]>
+    </line>
+    <line>
+      <![CDATA[Searching for Bags<br>]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for Category page to Load <br>]]>
+    </line>
+    <line>
+      <![CDATA[Total Products found 84<br>]]>
+    </line>
+    <line>
+      <![CDATA[get the random product number <br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on product ID125547<br>]]>
+    </line>
+    <line>
+      <![CDATA[click on random product <br>]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for Item Detail page to Load <br>]]>
+    </line>
+    <line>
+      <![CDATA[add product to wishlist <br>]]>
+    </line>
+    <line>
+      <![CDATA[Redirecting to sig in page <br>]]>
+    </line>
+    <line>
+      <![CDATA[log in as user by providing email and password <br>]]>
+    </line>
+    <line>
+      <![CDATA[choose personal wishlist <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on wishlist button on header <br>]]>
+    </line>
+    <line>
+      <![CDATA[Total Products found 8<br>]]>
+    </line>
+    <line>
+      <![CDATA[add item to bag from wishlist page <br>]]>
+    </line>
+    <line>
+      <![CDATA[redirecting to cart page <br>]]>
+    </line>
+    <line>
+      <![CDATA[check out the product <br>]]>
+    </line>
+    <line>
+      <![CDATA[enter sign in details <br>]]>
+    </line>
+    <line>
+      <![CDATA[redirect to shipment page if the payment button is not active <br>]]>
+    </line>
+    <line>
+      <![CDATA[redirect to add shipping address page if receipient first name is not active <br>]]>
+    </line>
+    <line>
+      <![CDATA[type firstname <br>]]>
+    </line>
+    <line>
+      <![CDATA[type lastname <br>]]>
+    </line>
+    <line>
+      <![CDATA[type addressline 1 <br>]]>
+    </line>
+    <line>
+      <![CDATA[type addressline2 <br>]]>
+    </line>
+    <line>
+      <![CDATA[type cityname <br>]]>
+    </line>
+    <line>
+      <![CDATA[select the country USA <br>]]>
+    </line>
+    <line>
+      <![CDATA[type zipcode <br>]]>
+    </line>
+    <line>
+      <![CDATA[type phone number <br>]]>
+    </line>
+    <line>
+      <![CDATA[check the default phone box <br>]]>
+    </line>
+    <line>
+      <![CDATA[type company name <br>]]>
+    </line>
+    <line>
+      <![CDATA[check default address box <br>]]>
+    </line>
+    <line>
+      <![CDATA[add new shipping address <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on bottom continue button <br>]]>
+    </line>
+    <line>
+      <![CDATA[redirect to gift wrap page <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on top continue shipping button <br>]]>
+    </line>
+    <line>
+      <![CDATA[redirect to payment page <br>]]>
+    </line>
+    <line>
+      <![CDATA[redirect to payment page if the payment button is active <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on apply promocode button <br>]]>
+    </line>
+    <line>
+      <![CDATA[apply promocode <br>]]>
+    </line>
+    <line>
+      <![CDATA[select donation from select box <br>]]>
+    </line>
+    <line>
+      <![CDATA[choose donation <br>]]>
+    </line>
+    <line>
+      <![CDATA[go to card payment section <br>]]>
+    </line>
+    <line>
+      <![CDATA[give card number <br>]]>
+    </line>
+    <line>
+      <![CDATA[give card name <br>]]>
+    </line>
+    <line>
+      <![CDATA[select card expiration month <br>]]>
+    </line>
+    <line>
+      <![CDATA[select card expiration year <br>]]>
+    </line>
+    <line>
+      <![CDATA[give card cvc code <br>]]>
+    </line>
+    <line>
+      <![CDATA[check on debit check box <br>]]>
+    </line>
+    <line>
+      <![CDATA[choose cardpayment <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on select address button <br>]]>
+    </line>
+    <line>
+      <![CDATA[choose different address <br>]]>
+    </line>
+    <line>
+      <![CDATA[choose billing address <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on continue button <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on confirm order button <br>]]>
+    </line>
+    <line>
+      <![CDATA[do the payment functionalities <br>]]>
+    </line>
+    <line>
+      <![CDATA[redirect to shipment page <br>]]>
+    </line>
+    <line>
+      <![CDATA[redirect to payment page <br>]]>
+    </line>
+    <line>
+      <![CDATA[Redirecting to home page <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on the header wishlist button <br>]]>
+    </line>
+    <line>
+      <![CDATA[Redirecting to sig in page <br>]]>
+    </line>
+    <line>
+      <![CDATA[log in as user by providing email and password <br>]]>
+    </line>
+    <line>
+      <![CDATA[remove 2nd product from the wishlist page <br>]]>
+    </line>
     <line>
       <![CDATA[Loading Homepage]]>
     </line>
     <line>
-      <![CDATA[Searched forrings]]>
+      <![CDATA[click on whole sale menu button on footer <br>]]>
     </line>
     <line>
-      <![CDATA[Waiting for C3 to load]]>
+      <![CDATA[click on whole sale sign in button <br>]]>
     </line>
     <line>
-      <![CDATA[Total Products found 84]]>
+      <![CDATA[give whole sale sign in details <br>]]>
     </line>
     <line>
-      <![CDATA[Clicked on product ID331076]]>
+      <![CDATA[search for an item <br>]]>
     </line>
     <line>
-      <![CDATA[Added product with 331076to cart]]>
+      <![CDATA[Searched forpaintings<br>]]>
+    </line>
+    <line>
+      <![CDATA[Waiting for C3 to load <br>]]>
+    </line>
+    <line>
+      <![CDATA[Total Products found 84<br>]]>
+    </line>
+    <line>
+      <![CDATA[get the random product number <br>]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on product ID264143<br>]]>
+    </line>
+    <line>
+      <![CDATA[click on random product <br>]]>
+    </line>
+    <line>
+      <![CDATA[wait for item detail page to load <br>]]>
+    </line>
+    <line>
+      <![CDATA[Added product with 264143to cart<br>]]>
+    </line>
+    <line>
+      <![CDATA[redirect to cart page <br>]]>
     </line>
     <line>
       <![CDATA[Searched foroil paintings]]>
@@ -29,39 +521,117 @@
       <![CDATA[Total Products found 84]]>
     </line>
     <line>
-      <![CDATA[Clicked on product ID115590]]>
+      <![CDATA[Clicked on product ID246389]]>
     </line>
     <line>
-      <![CDATA[Added product with 115590to cart]]>
+      <![CDATA[Added product with 246389to cart]]>
     </line>
     <line>
-      <![CDATA[Searched foroil paintings]]>
+      <![CDATA[click on keep shopping button <br>]]>
     </line>
     <line>
-      <![CDATA[Waiting for C3 to load]]>
+      <![CDATA[Login as a user <br>]]>
     </line>
     <line>
-      <![CDATA[Total Products found 84]]>
+      <![CDATA[redirect to payment page if the payment button is active <br>]]>
     </line>
     <line>
-      <![CDATA[Clicked on product ID191922]]>
+      <![CDATA[click on apply promocode button <br>]]>
     </line>
     <line>
-      <![CDATA[Added product with 191922to cart]]>
+      <![CDATA[apply promocode <br>]]>
     </line>
     <line>
-      <![CDATA[check put the product]]>
+      <![CDATA[select donation from select box <br>]]>
     </line>
     <line>
-      <![CDATA[Login as a user]]>
+      <![CDATA[choose donation <br>]]>
+    </line>
+    <line>
+      <![CDATA[go to card payment section <br>]]>
+    </line>
+    <line>
+      <![CDATA[give card number <br>]]>
+    </line>
+    <line>
+      <![CDATA[give card name <br>]]>
+    </line>
+    <line>
+      <![CDATA[select card expiration month <br>]]>
+    </line>
+    <line>
+      <![CDATA[select card expiration year <br>]]>
+    </line>
+    <line>
+      <![CDATA[give card cvc code <br>]]>
+    </line>
+    <line>
+      <![CDATA[check on debit check box <br>]]>
+    </line>
+    <line>
+      <![CDATA[choose cardpayment <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on select address button <br>]]>
+    </line>
+    <line>
+      <![CDATA[choose different address <br>]]>
+    </line>
+    <line>
+      <![CDATA[choose billing address <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on continue button <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on confirm order button <br>]]>
+    </line>
+    <line>
+      <![CDATA[give all the payment details <br>]]>
+    </line>
+    <line>
+      <![CDATA[Redirecting to home page <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on header sign in button <br>]]>
+    </line>
+    <line>
+      <![CDATA[Redirecting to sign in page <br>]]>
+    </line>
+    <line>
+      <![CDATA[log in as user by providing email and password <br>]]>
+    </line>
+    <line>
+      <![CDATA[Redirecting to home page <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on header sign in button <br>]]>
+    </line>
+    <line>
+      <![CDATA[Redirecting to sign in page <br>]]>
+    </line>
+    <line>
+      <![CDATA[Sign up as new user <br>]]>
+    </line>
+    <line>
+      <![CDATA[Redirecting to home page <br>]]>
+    </line>
+    <line>
+      <![CDATA[click on header sign in button <br>]]>
+    </line>
+    <line>
+      <![CDATA[Redirecting to sign in page <br>]]>
+    </line>
+    <line>
+      <![CDATA[to perform forgot password function <br>]]>
     </line>
   </reporter-output>
-  <suite name="novica" duration-ms="279278" started-at="2019-08-02T06:40:09Z" finished-at="2019-08-02T06:44:48Z">
+  <suite name="novica" duration-ms="1259321" started-at="2020-01-09T04:50:54Z" finished-at="2020-01-09T05:11:53Z">
     <groups>
     </groups>
-    <test name="Cart-CH" duration-ms="279278" started-at="2019-08-02T06:40:09Z" finished-at="2019-08-02T06:44:48Z">
-      <class name="testcase.WholeSale">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.WholeSale@2ef5e5e3]" name="setUp" is-config="true" duration-ms="4040" started-at="2019-08-02T12:10:09Z" finished-at="2019-08-02T12:10:13Z">
+    <test name="Cart-CH" duration-ms="1259321" started-at="2020-01-09T04:50:54Z" finished-at="2020-01-09T05:11:53Z">
+      <class name="testcase.Wishlist">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.Wishlist@7c16905e]" name="setUp" is-config="true" duration-ms="9368" started-at="2020-01-09T10:27:17Z" finished-at="2020-01-09T10:27:26Z">
           <params>
             <param index="0">
               <value>
@@ -70,14 +640,506 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[public void testcase.WholeSale.crticalPathFlowUsingNewAddress(java.lang.String) throws java.lang.Exception]]>
+                <![CDATA[public void testcase.Wishlist.wishlistProduct() throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="crticalPathFlowUsingNewAddress(java.lang.String)[pri:0, instance:testcase.WholeSale@2ef5e5e3]" name="crticalPathFlowUsingNewAddress" duration-ms="274492" started-at="2019-08-02T12:10:13Z" finished-at="2019-08-02T12:14:48Z">
+        <test-method status="PASS" signature="wishlistProduct()[pri:0, instance:testcase.Wishlist@7c16905e]" name="wishlistProduct" duration-ms="81469" started-at="2020-01-09T10:27:26Z" finished-at="2020-01-09T10:28:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Redirecting to home page <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on the header wishlist button <br>]]>
+            </line>
+            <line>
+              <![CDATA[Redirecting to sig in page <br>]]>
+            </line>
+            <line>
+              <![CDATA[log in as user by providing email and password <br>]]>
+            </line>
+            <line>
+              <![CDATA[Total Products found 7<br>]]>
+            </line>
+            <line>
+              <![CDATA[get random product number <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on random product in the wishlist itemlist <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- wishlistProduct -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.Wishlist@7c16905e]" name="tearDown" is-config="true" duration-ms="694" started-at="2020-01-09T10:28:47Z" finished-at="2020-01-09T10:28:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=wishlistProduct status=SUCCESS method=Wishlist.wishlistProduct()[pri:0, instance:testcase.Wishlist@7c16905e] output=Redirecting to home page <br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.Wishlist@7c16905e]" name="setUp" is-config="true" duration-ms="9331" started-at="2020-01-09T10:28:48Z" finished-at="2020-01-09T10:28:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.Wishlist.WishlisttocartUsingExpress() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="WishlisttocartUsingExpress()[pri:0, instance:testcase.Wishlist@7c16905e]" name="WishlisttocartUsingExpress" duration-ms="197502" started-at="2020-01-09T10:28:58Z" finished-at="2020-01-09T10:32:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Redirecting to home page <br>]]>
+            </line>
+            <line>
+              <![CDATA[Searching for Bags<br>]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for Category page to Load <br>]]>
+            </line>
+            <line>
+              <![CDATA[Total Products found 84<br>]]>
+            </line>
+            <line>
+              <![CDATA[get the random product number <br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on product ID125547<br>]]>
+            </line>
+            <line>
+              <![CDATA[click on random product <br>]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for Item Detail page to Load <br>]]>
+            </line>
+            <line>
+              <![CDATA[add product to wishlist <br>]]>
+            </line>
+            <line>
+              <![CDATA[Redirecting to sig in page <br>]]>
+            </line>
+            <line>
+              <![CDATA[log in as user by providing email and password <br>]]>
+            </line>
+            <line>
+              <![CDATA[choose personal wishlist <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on wishlist button on header <br>]]>
+            </line>
+            <line>
+              <![CDATA[Total Products found 8<br>]]>
+            </line>
+            <line>
+              <![CDATA[add item to bag from wishlist page <br>]]>
+            </line>
+            <line>
+              <![CDATA[redirecting to cart page <br>]]>
+            </line>
+            <line>
+              <![CDATA[check out the product <br>]]>
+            </line>
+            <line>
+              <![CDATA[enter sign in details <br>]]>
+            </line>
+            <line>
+              <![CDATA[redirect to shipment page if the payment button is not active <br>]]>
+            </line>
+            <line>
+              <![CDATA[redirect to add shipping address page if receipient first name is not active <br>]]>
+            </line>
+            <line>
+              <![CDATA[type firstname <br>]]>
+            </line>
+            <line>
+              <![CDATA[type lastname <br>]]>
+            </line>
+            <line>
+              <![CDATA[type addressline 1 <br>]]>
+            </line>
+            <line>
+              <![CDATA[type addressline2 <br>]]>
+            </line>
+            <line>
+              <![CDATA[type cityname <br>]]>
+            </line>
+            <line>
+              <![CDATA[select the country USA <br>]]>
+            </line>
+            <line>
+              <![CDATA[type zipcode <br>]]>
+            </line>
+            <line>
+              <![CDATA[type phone number <br>]]>
+            </line>
+            <line>
+              <![CDATA[check the default phone box <br>]]>
+            </line>
+            <line>
+              <![CDATA[type company name <br>]]>
+            </line>
+            <line>
+              <![CDATA[check default address box <br>]]>
+            </line>
+            <line>
+              <![CDATA[add new shipping address <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on bottom continue button <br>]]>
+            </line>
+            <line>
+              <![CDATA[redirect to gift wrap page <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on top continue shipping button <br>]]>
+            </line>
+            <line>
+              <![CDATA[redirect to payment page <br>]]>
+            </line>
+            <line>
+              <![CDATA[redirect to payment page if the payment button is active <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on apply promocode button <br>]]>
+            </line>
+            <line>
+              <![CDATA[apply promocode <br>]]>
+            </line>
+            <line>
+              <![CDATA[select donation from select box <br>]]>
+            </line>
+            <line>
+              <![CDATA[choose donation <br>]]>
+            </line>
+            <line>
+              <![CDATA[go to card payment section <br>]]>
+            </line>
+            <line>
+              <![CDATA[give card number <br>]]>
+            </line>
+            <line>
+              <![CDATA[give card name <br>]]>
+            </line>
+            <line>
+              <![CDATA[select card expiration month <br>]]>
+            </line>
+            <line>
+              <![CDATA[select card expiration year <br>]]>
+            </line>
+            <line>
+              <![CDATA[give card cvc code <br>]]>
+            </line>
+            <line>
+              <![CDATA[check on debit check box <br>]]>
+            </line>
+            <line>
+              <![CDATA[choose cardpayment <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on select address button <br>]]>
+            </line>
+            <line>
+              <![CDATA[choose different address <br>]]>
+            </line>
+            <line>
+              <![CDATA[choose billing address <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on continue button <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on confirm order button <br>]]>
+            </line>
+            <line>
+              <![CDATA[do the payment functionalities <br>]]>
+            </line>
+            <line>
+              <![CDATA[redirect to shipment page <br>]]>
+            </line>
+            <line>
+              <![CDATA[redirect to payment page <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- WishlisttocartUsingExpress -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.Wishlist@7c16905e]" name="tearDown" is-config="true" duration-ms="676" started-at="2020-01-09T10:32:15Z" finished-at="2020-01-09T10:32:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=WishlisttocartUsingExpress status=SUCCESS method=Wishlist.WishlisttocartUsingExpress()[pri:0, instance:testcase.Wishlist@7c16905e] output=Redirecting to home page <br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.Wishlist@7c16905e]" name="setUp" is-config="true" duration-ms="9498" started-at="2020-01-09T10:32:16Z" finished-at="2020-01-09T10:32:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.Wishlist.removeWishlist() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="removeWishlist()[pri:0, instance:testcase.Wishlist@7c16905e]" name="removeWishlist" duration-ms="62280" started-at="2020-01-09T10:32:25Z" finished-at="2020-01-09T10:33:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Redirecting to home page <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on the header wishlist button <br>]]>
+            </line>
+            <line>
+              <![CDATA[Redirecting to sig in page <br>]]>
+            </line>
+            <line>
+              <![CDATA[log in as user by providing email and password <br>]]>
+            </line>
+            <line>
+              <![CDATA[remove 2nd product from the wishlist page <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- removeWishlist -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.Wishlist@7c16905e]" name="tearDown" is-config="true" duration-ms="659" started-at="2020-01-09T10:33:27Z" finished-at="2020-01-09T10:33:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeWishlist status=SUCCESS method=Wishlist.removeWishlist()[pri:0, instance:testcase.Wishlist@7c16905e] output=Redirecting to home page <br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testcase.Wishlist@7c16905e]" name="endTest" is-config="true" duration-ms="1" started-at="2020-01-09T10:33:28Z" finished-at="2020-01-09T10:33:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- testcase.Wishlist -->
+      <class name="testcase.AddressBook">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.AddressBook@5034c75a]" name="setUp" is-config="true" duration-ms="9478" started-at="2020-01-09T10:23:34Z" finished-at="2020-01-09T10:23:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.AddressBook.crticalPathSameAddress(java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="crticalPathSameAddress(java.lang.String)[pri:0, instance:testcase.AddressBook@5034c75a]" name="crticalPathSameAddress" duration-ms="120829" started-at="2020-01-09T10:23:44Z" finished-at="2020-01-09T10:25:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Loading Homepage <br>]]>
+            </line>
+            <line>
+              <![CDATA[Searched forRed<br>]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for C3 to load <br>]]>
+            </line>
+            <line>
+              <![CDATA[Total Products found 84<br>]]>
+            </line>
+            <line>
+              <![CDATA[get the random product number <br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on product ID223503<br>]]>
+            </line>
+            <line>
+              <![CDATA[Get the product price <br>]]>
+            </line>
+            <line>
+              <![CDATA[Added product with 223503to cart<br>]]>
+            </line>
+            <line>
+              <![CDATA[Redirecting to cart page with price35.99<br>]]>
+            </line>
+            <line>
+              <![CDATA[to get the actual cart price <br>]]>
+            </line>
+            <line>
+              <![CDATA[check out the product <br>]]>
+            </line>
+            <line>
+              <![CDATA[redirect to payment page if the payment button is active <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on apply promocode button <br>]]>
+            </line>
+            <line>
+              <![CDATA[apply promocode <br>]]>
+            </line>
+            <line>
+              <![CDATA[select donation from select box <br>]]>
+            </line>
+            <line>
+              <![CDATA[choose donation <br>]]>
+            </line>
+            <line>
+              <![CDATA[go to card payment section <br>]]>
+            </line>
+            <line>
+              <![CDATA[give card number <br>]]>
+            </line>
+            <line>
+              <![CDATA[give card name <br>]]>
+            </line>
+            <line>
+              <![CDATA[select card expiration month <br>]]>
+            </line>
+            <line>
+              <![CDATA[select card expiration year <br>]]>
+            </line>
+            <line>
+              <![CDATA[give card cvc code <br>]]>
+            </line>
+            <line>
+              <![CDATA[check on debit check box <br>]]>
+            </line>
+            <line>
+              <![CDATA[choose cardpayment <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on select address button <br>]]>
+            </line>
+            <line>
+              <![CDATA[choose different address <br>]]>
+            </line>
+            <line>
+              <![CDATA[choose billing address <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on continue button <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on confirm order button <br>]]>
+            </line>
+            <line>
+              <![CDATA[redirect to payment functionalities <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- crticalPathSameAddress -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.AddressBook@5034c75a]" name="tearDown" is-config="true" duration-ms="689" started-at="2020-01-09T10:25:44Z" finished-at="2020-01-09T10:25:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=crticalPathSameAddress status=SUCCESS method=AddressBook.crticalPathSameAddress(java.lang.String)[pri:0, instance:testcase.AddressBook@5034c75a] output=Loading Homepage <br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.AddressBook@5034c75a]" name="setUp" is-config="true" duration-ms="9521" started-at="2020-01-09T10:25:45Z" finished-at="2020-01-09T10:25:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.AddressBook.removeAddress1() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="removeAddress1()[pri:0, instance:testcase.AddressBook@5034c75a]" name="removeAddress1" duration-ms="81431" started-at="2020-01-09T10:25:55Z" finished-at="2020-01-09T10:27:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Loading Homepage <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on header sign in button <br>]]>
+            </line>
+            <line>
+              <![CDATA[wait for sign in page to load <br>]]>
+            </line>
+            <line>
+              <![CDATA[log in as user by providing email and password]]>
+            </line>
+            <line>
+              <![CDATA[click on account button on header <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on address book button <br>]]>
+            </line>
+            <line>
+              <![CDATA[emove each address by clicking on remove address button <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- removeAddress1 -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.AddressBook@5034c75a]" name="tearDown" is-config="true" duration-ms="643" started-at="2020-01-09T10:27:16Z" finished-at="2020-01-09T10:27:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeAddress1 status=SUCCESS method=AddressBook.removeAddress1()[pri:0, instance:testcase.AddressBook@5034c75a] output=Loading Homepage <br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testcase.AddressBook@5034c75a]" name="endTest" is-config="true" duration-ms="0" started-at="2020-01-09T10:27:17Z" finished-at="2020-01-09T10:27:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- testcase.AddressBook -->
+      <class name="testcase.WholeSale">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.WholeSale@20e2cbe0]" name="setUp" is-config="true" duration-ms="9647" started-at="2020-01-09T10:33:28Z" finished-at="2020-01-09T10:33:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.WholeSale.crticalPathFlowWholeSale(java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="crticalPathFlowWholeSale(java.lang.String)[pri:0, instance:testcase.WholeSale@20e2cbe0]" name="crticalPathFlowWholeSale" duration-ms="284504" started-at="2020-01-09T10:33:38Z" finished-at="2020-01-09T10:38:22Z">
           <params>
             <param index="0">
               <value>
@@ -90,19 +1152,43 @@
               <![CDATA[Loading Homepage]]>
             </line>
             <line>
-              <![CDATA[Searched forrings]]>
+              <![CDATA[click on whole sale menu button on footer <br>]]>
             </line>
             <line>
-              <![CDATA[Waiting for C3 to load]]>
+              <![CDATA[click on whole sale sign in button <br>]]>
             </line>
             <line>
-              <![CDATA[Total Products found 84]]>
+              <![CDATA[give whole sale sign in details <br>]]>
             </line>
             <line>
-              <![CDATA[Clicked on product ID331076]]>
+              <![CDATA[search for an item <br>]]>
             </line>
             <line>
-              <![CDATA[Added product with 331076to cart]]>
+              <![CDATA[Searched forpaintings<br>]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for C3 to load <br>]]>
+            </line>
+            <line>
+              <![CDATA[Total Products found 84<br>]]>
+            </line>
+            <line>
+              <![CDATA[get the random product number <br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on product ID264143<br>]]>
+            </line>
+            <line>
+              <![CDATA[click on random product <br>]]>
+            </line>
+            <line>
+              <![CDATA[wait for item detail page to load <br>]]>
+            </line>
+            <line>
+              <![CDATA[Added product with 264143to cart<br>]]>
+            </line>
+            <line>
+              <![CDATA[redirect to cart page <br>]]>
             </line>
             <line>
               <![CDATA[Searched foroil paintings]]>
@@ -114,50 +1200,421 @@
               <![CDATA[Total Products found 84]]>
             </line>
             <line>
-              <![CDATA[Clicked on product ID115590]]>
+              <![CDATA[Clicked on product ID246389]]>
             </line>
             <line>
-              <![CDATA[Added product with 115590to cart]]>
+              <![CDATA[Added product with 246389to cart]]>
             </line>
             <line>
-              <![CDATA[Searched foroil paintings]]>
+              <![CDATA[click on keep shopping button <br>]]>
             </line>
             <line>
-              <![CDATA[Waiting for C3 to load]]>
+              <![CDATA[Login as a user <br>]]>
             </line>
             <line>
-              <![CDATA[Total Products found 84]]>
+              <![CDATA[redirect to payment page if the payment button is active <br>]]>
             </line>
             <line>
-              <![CDATA[Clicked on product ID191922]]>
+              <![CDATA[click on apply promocode button <br>]]>
             </line>
             <line>
-              <![CDATA[Added product with 191922to cart]]>
+              <![CDATA[apply promocode <br>]]>
             </line>
             <line>
-              <![CDATA[check put the product]]>
+              <![CDATA[select donation from select box <br>]]>
             </line>
             <line>
-              <![CDATA[Login as a user]]>
+              <![CDATA[choose donation <br>]]>
+            </line>
+            <line>
+              <![CDATA[go to card payment section <br>]]>
+            </line>
+            <line>
+              <![CDATA[give card number <br>]]>
+            </line>
+            <line>
+              <![CDATA[give card name <br>]]>
+            </line>
+            <line>
+              <![CDATA[select card expiration month <br>]]>
+            </line>
+            <line>
+              <![CDATA[select card expiration year <br>]]>
+            </line>
+            <line>
+              <![CDATA[give card cvc code <br>]]>
+            </line>
+            <line>
+              <![CDATA[check on debit check box <br>]]>
+            </line>
+            <line>
+              <![CDATA[choose cardpayment <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on select address button <br>]]>
+            </line>
+            <line>
+              <![CDATA[choose different address <br>]]>
+            </line>
+            <line>
+              <![CDATA[choose billing address <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on continue button <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on confirm order button <br>]]>
+            </line>
+            <line>
+              <![CDATA[give all the payment details <br>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- crticalPathFlowUsingNewAddress -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.WholeSale@2ef5e5e3]" name="tearDown" is-config="true" duration-ms="731" started-at="2019-08-02T12:14:48Z" finished-at="2019-08-02T12:14:48Z">
+        </test-method> <!-- crticalPathFlowWholeSale -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.WholeSale@20e2cbe0]" name="tearDown" is-config="true" duration-ms="981" started-at="2020-01-09T10:38:22Z" finished-at="2020-01-09T10:38:23Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=crticalPathFlowUsingNewAddress status=SUCCESS method=WholeSale.crticalPathFlowUsingNewAddress(java.lang.String)[pri:0, instance:testcase.WholeSale@2ef5e5e3] output=Loading Homepage]]]>
+                <![CDATA[[TestResult name=crticalPathFlowWholeSale status=SUCCESS method=WholeSale.crticalPathFlowWholeSale(java.lang.String)[pri:0, instance:testcase.WholeSale@20e2cbe0] output=Loading Homepage]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:testcase.WholeSale@2ef5e5e3]" name="endTest" is-config="true" duration-ms="0" started-at="2019-08-02T12:14:48Z" finished-at="2019-08-02T12:14:48Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testcase.WholeSale@20e2cbe0]" name="endTest" is-config="true" duration-ms="0" started-at="2020-01-09T10:38:23Z" finished-at="2020-01-09T10:38:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
       </class> <!-- testcase.WholeSale -->
+      <class name="testcase.CriticalPathFlow">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.CriticalPathFlow@2a5ca609]" name="setUp" is-config="true" duration-ms="10323" started-at="2020-01-09T10:20:54Z" finished-at="2020-01-09T10:21:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.CriticalPathFlow.crticalPathFlowUsingNewAddress(java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="crticalPathFlowUsingNewAddress(java.lang.String)[pri:0, instance:testcase.CriticalPathFlow@2a5ca609]" name="crticalPathFlowUsingNewAddress" duration-ms="149053" started-at="2020-01-09T10:21:04Z" finished-at="2020-01-09T10:23:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Loading Homepage <br>]]>
+            </line>
+            <line>
+              <![CDATA[Searched forblue<br>]]>
+            </line>
+            <line>
+              <![CDATA[Waiting for C3 to load <br>]]>
+            </line>
+            <line>
+              <![CDATA[Total Products found 84<br>]]>
+            </line>
+            <line>
+              <![CDATA[get the random product number <br>]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on product ID241122<br>]]>
+            </line>
+            <line>
+              <![CDATA[to get the product prize <br>]]>
+            </line>
+            <line>
+              <![CDATA[Added product with 241122to cart<br>]]>
+            </line>
+            <line>
+              <![CDATA[Redirecting to cart page with price69.99<br>]]>
+            </line>
+            <line>
+              <![CDATA[to get the actual cart price <br>]]>
+            </line>
+            <line>
+              <![CDATA[check put the product <br>]]>
+            </line>
+            <line>
+              <![CDATA[Login as a user <br>]]>
+            </line>
+            <line>
+              <![CDATA[redirect to shipment page if the payment button is not active <br>]]>
+            </line>
+            <line>
+              <![CDATA[redirect to add shipping address page if receipient first name is not active <br>]]>
+            </line>
+            <line>
+              <![CDATA[type firstname <br>]]>
+            </line>
+            <line>
+              <![CDATA[type lastname <br>]]>
+            </line>
+            <line>
+              <![CDATA[type addressline 1 <br>]]>
+            </line>
+            <line>
+              <![CDATA[type addressline2 <br>]]>
+            </line>
+            <line>
+              <![CDATA[type cityname <br>]]>
+            </line>
+            <line>
+              <![CDATA[select the country USA <br>]]>
+            </line>
+            <line>
+              <![CDATA[type zipcode <br>]]>
+            </line>
+            <line>
+              <![CDATA[type phone number <br>]]>
+            </line>
+            <line>
+              <![CDATA[check the default phone box <br>]]>
+            </line>
+            <line>
+              <![CDATA[type company name <br>]]>
+            </line>
+            <line>
+              <![CDATA[check default address box <br>]]>
+            </line>
+            <line>
+              <![CDATA[add new shipping address <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on bottom continue button <br>]]>
+            </line>
+            <line>
+              <![CDATA[redirect to gift wrap page <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on top continue shipping button <br>]]>
+            </line>
+            <line>
+              <![CDATA[redirect to payment page <br>]]>
+            </line>
+            <line>
+              <![CDATA[redirect to payment page if the payment button is active <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on apply promocode button <br>]]>
+            </line>
+            <line>
+              <![CDATA[apply promocode <br>]]>
+            </line>
+            <line>
+              <![CDATA[select donation from select box <br>]]>
+            </line>
+            <line>
+              <![CDATA[choose donation <br>]]>
+            </line>
+            <line>
+              <![CDATA[go to card payment section <br>]]>
+            </line>
+            <line>
+              <![CDATA[give card number <br>]]>
+            </line>
+            <line>
+              <![CDATA[give card name <br>]]>
+            </line>
+            <line>
+              <![CDATA[select card expiration month <br>]]>
+            </line>
+            <line>
+              <![CDATA[select card expiration year <br>]]>
+            </line>
+            <line>
+              <![CDATA[give card cvc code <br>]]>
+            </line>
+            <line>
+              <![CDATA[check on debit check box <br>]]>
+            </line>
+            <line>
+              <![CDATA[choose cardpayment <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on select address button <br>]]>
+            </line>
+            <line>
+              <![CDATA[choose different address <br>]]>
+            </line>
+            <line>
+              <![CDATA[choose billing address <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on continue button <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on confirm order button <br>]]>
+            </line>
+            <line>
+              <![CDATA[do the payment functionalities <br>]]>
+            </line>
+            <line>
+              <![CDATA[redirect to shipment page <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- crticalPathFlowUsingNewAddress -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.CriticalPathFlow@2a5ca609]" name="tearDown" is-config="true" duration-ms="794" started-at="2020-01-09T10:23:33Z" finished-at="2020-01-09T10:23:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=crticalPathFlowUsingNewAddress status=SUCCESS method=CriticalPathFlow.crticalPathFlowUsingNewAddress(java.lang.String)[pri:0, instance:testcase.CriticalPathFlow@2a5ca609] output=Loading Homepage <br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testcase.CriticalPathFlow@2a5ca609]" name="endTest" is-config="true" duration-ms="0" started-at="2020-01-09T10:23:34Z" finished-at="2020-01-09T10:23:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- testcase.CriticalPathFlow -->
+      <class name="testcase.SignUpLogin">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.SignUpLogin@68be2bc2]" name="setUp" is-config="true" duration-ms="9593" started-at="2020-01-09T10:38:23Z" finished-at="2020-01-09T10:38:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.SignUpLogin.LoginNovica() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="LoginNovica()[pri:0, instance:testcase.SignUpLogin@68be2bc2]" name="LoginNovica" duration-ms="52628" started-at="2020-01-09T10:38:33Z" finished-at="2020-01-09T10:39:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Redirecting to home page <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on header sign in button <br>]]>
+            </line>
+            <line>
+              <![CDATA[Redirecting to sign in page <br>]]>
+            </line>
+            <line>
+              <![CDATA[log in as user by providing email and password <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginNovica -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.SignUpLogin@68be2bc2]" name="tearDown" is-config="true" duration-ms="748" started-at="2020-01-09T10:39:25Z" finished-at="2020-01-09T10:39:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginNovica status=SUCCESS method=SignUpLogin.LoginNovica()[pri:0, instance:testcase.SignUpLogin@68be2bc2] output=Redirecting to home page <br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.SignUpLogin@68be2bc2]" name="setUp" is-config="true" duration-ms="9267" started-at="2020-01-09T10:39:26Z" finished-at="2020-01-09T10:39:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.SignUpLogin.userSignup() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="userSignup()[pri:0, instance:testcase.SignUpLogin@68be2bc2]" name="userSignup" duration-ms="70073" started-at="2020-01-09T10:39:35Z" finished-at="2020-01-09T10:40:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Redirecting to home page <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on header sign in button <br>]]>
+            </line>
+            <line>
+              <![CDATA[Redirecting to sign in page <br>]]>
+            </line>
+            <line>
+              <![CDATA[Sign up as new user <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userSignup -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.SignUpLogin@68be2bc2]" name="tearDown" is-config="true" duration-ms="715" started-at="2020-01-09T10:40:46Z" finished-at="2020-01-09T10:40:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userSignup status=SUCCESS method=SignUpLogin.userSignup()[pri:0, instance:testcase.SignUpLogin@68be2bc2] output=Redirecting to home page <br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcase.SignUpLogin@68be2bc2]" name="setUp" is-config="true" duration-ms="9499" started-at="2020-01-09T10:40:46Z" finished-at="2020-01-09T10:40:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void testcase.SignUpLogin.forgetPassword() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="forgetPassword()[pri:0, instance:testcase.SignUpLogin@68be2bc2]" name="forgetPassword" duration-ms="56742" started-at="2020-01-09T10:40:56Z" finished-at="2020-01-09T10:41:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Redirecting to home page <br>]]>
+            </line>
+            <line>
+              <![CDATA[click on header sign in button <br>]]>
+            </line>
+            <line>
+              <![CDATA[Redirecting to sign in page <br>]]>
+            </line>
+            <line>
+              <![CDATA[to perform forgot password function <br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- forgetPassword -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcase.SignUpLogin@68be2bc2]" name="tearDown" is-config="true" duration-ms="649" started-at="2020-01-09T10:41:53Z" finished-at="2020-01-09T10:41:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=forgetPassword status=SUCCESS method=SignUpLogin.forgetPassword()[pri:0, instance:testcase.SignUpLogin@68be2bc2] output=Redirecting to home page <br>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testcase.SignUpLogin@68be2bc2]" name="endTest" is-config="true" duration-ms="1" started-at="2020-01-09T10:41:53Z" finished-at="2020-01-09T10:41:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- testcase.SignUpLogin -->
     </test> <!-- Cart-CH -->
   </suite> <!-- novica -->
 </testng-results>

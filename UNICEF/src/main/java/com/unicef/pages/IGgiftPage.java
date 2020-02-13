@@ -71,6 +71,7 @@ public class IGgiftPage extends BasePageObject {
 	public void addIGtocart() throws Exception{
 		
 		waitForClickabilityOf(IGAddToCartButtonField, 10);
+		Thread.sleep(3000);
 		click(IGAddToCartButtonField);
 		scrollToBottom();
 		

@@ -23,7 +23,7 @@ public class WholeSale extends BaseTest{
 	
 	/* critical path using create new shipping address */
 	@Test(priority=0)
-	public void crticalPathFlowUsingNewAddress(String keyword) throws Exception {
+	public void crticalPathFlowWholeSale(String keyword) throws Exception {
 		
 		WebPageUtility wpu = new WebPageUtility();
 		C3category c3 = new C3category(driver);
@@ -37,35 +37,42 @@ public class WholeSale extends BaseTest{
 		homePage.openHomePage();
 		Reporter.log("Loading Homepage");
 		homePage.clickWholeSaleMenu();
+		Reporter.log("click on whole sale menu button on footer <br>");
 		sign.clickWholeSaleLogin();
+		Reporter.log("click on whole sale sign in button <br>");
 		sign.WholeSaleLogin();
-		String Key = "rings";
+		Reporter.log("give whole sale sign in details <br>");
+		String Key = "paintings";
+		Reporter.log("search for an item <br>");
 		homePage.typeAndSubmitKeyword(Key);
-		Reporter.log("Searched for"+ Key);
+		Reporter.log("Searched for"+ Key + "<br>");
 		c3.waitForC3toLoad();
-		Reporter.log("Waiting for C3 to load");
+		Reporter.log("Waiting for C3 to load <br>");
 		int productcount = c3.getproductCount();
-		Reporter.log("Total Products found "+ productcount);
+		Reporter.log("Total Products found "+ productcount + "<br>");
 		System.out.println("Total Products found "+ productcount);
 		int gennum = wpu.getRandomNumberInts(1, productcount);
+		Reporter.log("get the random product number <br>");
 		System.out.println(gennum);
 		
 		
 	   String productid = c3.getProductID(gennum);
-	   Reporter.log("Clicked on product ID"+ productid); 
+	   Reporter.log("Clicked on product ID"+ productid + "<br>"); 
 	   System.out.println("Clicked on product ID"+ productid);
 	   c3.clickProductPlateRandom(gennum);
-	    
+	   Reporter.log("click on random product <br>");
 		itdetail.waitForItemDetailLoad();
+		Reporter.log("wait for item detail page to load <br>");
 //		String productdetid= itdetail.getProductID();
 	  //  assertEquals(productid, productdetid);
 //		String productPrice = itdetail.getProductPrice();
 //		Reporter.log("to get the product prize");
 //		System.out.println(productPrice);
 		itdetail.clickAddToCartButton();
-		Reporter.log("Added product with "+ productid + "to cart");
+		Reporter.log("Added product with "+ productid + "to cart" + "<br>");
 		
 		itdetail.Gotocart();
+		Reporter.log("redirect to cart page <br>");
 //		Reporter.log("Redirecting to cart page with price" + productPrice);
 		Thread.sleep(10000);
 //		String actualcartprice = cat.getTotalCartPrice();
@@ -77,14 +84,15 @@ public class WholeSale extends BaseTest{
 //		cat.clickcheckout();
 		cat.clickKeepShopping();
 		System.out.println("keepshopping");
-		Reporter.log("check put the product");
+		Reporter.log("click on keep shopping button <br>");
 		sign.EntersignInDet();
-		Reporter.log("Login as a user");
+		Reporter.log("Login as a user <br>");
 //		ship.addShippingAddress();
 //		Reporter.log("Input new shipping address");
 //		ship.continueButton1();
 //		ship.bottomContinueBtnShipOptPage();
 		payment.paymentPageFunctionalities();
+		Reporter.log("give all the payment details <br>");
 	}
 	
 

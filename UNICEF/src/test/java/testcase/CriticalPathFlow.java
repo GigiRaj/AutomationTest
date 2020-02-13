@@ -87,7 +87,9 @@ public class CriticalPathFlow extends BaseTest {
 		cat.clickcheckout();
 		Reporter.log("clicked on checkout button <br>");
 		sign.EntersignInDet();
+		Reporter.log("enter the sign in details <br>");
 		payment.paymentPageFunctionalities();
+		Reporter.log("go to the payment page functionalities <br>");
 		
 	}
 	

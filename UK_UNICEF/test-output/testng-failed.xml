@@ -5,12 +5,37 @@
   <test name="Cart-CH(failed)">
     <parameter name="browser" value="1"/>
     <classes>
+      <class name="testcases.Wishlist">
+        <methods>
+          <include name="WishlisttocartUsingGuest"/>
+          <include name="WishlisttocartCheckOut"/>
+          <include name="wishlistProduct"/>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.Wishlist -->
       <class name="testcases.InspiredGifts">
         <methods>
+          <include name="RemoveIGGift"/>
           <include name="IGcreateCardPrintedCard"/>
+          <include name="IGcreateEGreetingCard"/>
+          <include name="IGcreatePrintedAtHomeCard"/>
+          <include name="removeAddress"/>
+          <include name="checkOutIGGift"/>
           <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="IGcreateCardNoCard"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- testcases.InspiredGifts -->
+      <class name="testcases.CrticalPathFlow">
+        <methods>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.CrticalPathFlow -->
     </classes>
   </test> <!-- Cart-CH(failed) -->
 </suite> <!-- Failed suite [Suite] -->

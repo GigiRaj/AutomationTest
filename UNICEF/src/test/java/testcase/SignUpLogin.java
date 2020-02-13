@@ -33,8 +33,11 @@ public class SignUpLogin extends BaseTest {
 
 		
 		homePage.openHomePage();
+		Reporter.log("Redirecting to home page <br>");
 		sign.headerLoginButton();
+		Reporter.log("clicked on Login header menu <br>");
 		sign.Login();
+		Reporter.log("Enter sign in details <br>");
 	}
 	
 	/* test case for Forget password functionality during sign in */
@@ -47,8 +50,11 @@ public class SignUpLogin extends BaseTest {
 		SignIn sign = new SignIn(driver);
 		
 		homePage.openHomePage();
+		Reporter.log("Redirecting to home page <br>");
 		sign.headerLoginButton();
+		Reporter.log("clicked on Login header menu <br>");
 		sign.passwordForget();
+		Reporter.log("click on forget password link <br>");
 	}
 	 
 	/* test case for signup */
@@ -59,8 +65,11 @@ public class SignUpLogin extends BaseTest {
 		SignIn sign = new SignIn(driver);
 
 		homePage.openHomePage();
+		Reporter.log("Redirecting to home page <br>");
 		sign.headerLoginButton();
+		Reporter.log("clicked on Login header menu <br>");
 		sign.signup();
+		Reporter.log("signup as new user <br>");
 	}
 
 }

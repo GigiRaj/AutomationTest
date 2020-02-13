@@ -12,13 +12,13 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.kiva.base.BaseTest;
-import com.kiva.base.ShippingPage;
 import com.kiva.pages.CartPage;
 import com.kiva.pages.CategoryPage;
 import com.kiva.pages.DeliveryAddressPage;
 import com.kiva.pages.HomePage;
 import com.kiva.pages.ItemDetailPage;
 import com.kiva.pages.PaymentPage;
+import com.kiva.pages.ShippingPage;
 import com.kiva.base.WebPageUtility;
 
 public class CrticalPathFlow extends BaseTest {
@@ -73,7 +73,7 @@ public class CrticalPathFlow extends BaseTest {
 		pay.chooseDonation();
 //		pay.sameShipAddress();
 		pay.createBillingAddress();
-		pay.clickPaypal();
+		pay.clickPaypal();   
 		 	
 	}
 

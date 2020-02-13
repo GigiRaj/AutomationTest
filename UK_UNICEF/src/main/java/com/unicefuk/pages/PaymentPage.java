@@ -1,4 +1,4 @@
-package com.unicefuk.pages;
+	package com.unicefuk.pages;
 
 import java.util.Iterator;
 import java.util.Set;
@@ -35,6 +35,10 @@ public class PaymentPage extends BasePageObject {
 	private static By lookUpAddressButton= By.id("addrfinderbtn");
 	private static By flatNameTextField= By.id("addrLine2");
 	private static By companyNameTextField= By.id("addrLine3");
+	private static By addressTextField= By.id("addrLine1");
+	private static By townCityTextField= By.id("city");
+	private static By countryTextField= By.id("stateproreg");
+	private static By zipCodeTextField= By.id("zipCode");
 	 
 	
 	
@@ -100,13 +104,19 @@ public class PaymentPage extends BasePageObject {
 		type(firstNameTextField,"jiji");
 		type(surNameTextField,"test");
 		type(phoneTextField,"12345678912");
-		
-		scrollToBottom();
 		type(postCodeTextField,"9028");
+		scrollToBottom();
 		click(lookUpAddressButton);
 		Thread.sleep(5000);
-		type(flatNameTextField,"test flat address");
-		type(companyNameTextField,"test company");
+		find(addressTextField).clear();
+		type(addressTextField,"2716 Ocean  Park Blvd Suite 1030");
+		scrollToBottom();
+		find(townCityTextField).clear();
+		type(townCityTextField,"testcity");
+		find(countryTextField).clear();
+		type(countryTextField,"testcountry");
+		find(zipCodeTextField).clear();
+		type(zipCodeTextField,"90405");
 		scrollToBottom();
 	}
 	

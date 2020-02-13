@@ -41,7 +41,10 @@ public class IGCardDetailPage extends BasePageObject {
 	private By printAtHomeEditCardButton= By.xpath("//*[@id='carddetail']/div[2]/div/div[2]/div[1]/button");
 	private By printAtHomeContinueToBagButton= By.xpath("//*[@id='carddetail']/div[2]/div/div[2]/div[2]/a");
 	private By printAtHomeSaveButton= By.xpath("//*[@id='carddetail-recipient']/div[5]/div/a");
-	
+	private static By addressTextField= By.id("addrLine1");
+	private static By townCityTextField= By.id("city");
+	private static By countryTextField= By.id("stateproreg");
+	private static By zipCodeTextField= By.id("zipCode");
 
 	
 	/* to wait for load card page */
@@ -199,8 +202,15 @@ public class IGCardDetailPage extends BasePageObject {
 		type(postCodeTextField,"9028");
 		click(lookUpAddressButton);
 		Thread.sleep(5000);
-		type(flatNameTextField,"test flat address");
-		type(companyNameTextField,"test company");
+		find(addressTextField).clear();
+		type(addressTextField,"2716 Ocean  Park Blvd Suite 1030");
+		scrollToBottom();
+		find(townCityTextField).clear();
+		type(townCityTextField,"testcity");
+		find(countryTextField).clear();
+		type(countryTextField,"testcountry");
+		find(zipCodeTextField).clear();
+		type(zipCodeTextField,"90405");
 		scrollToBottom();
 		click(saveAndContinueTwoButton);
 	}

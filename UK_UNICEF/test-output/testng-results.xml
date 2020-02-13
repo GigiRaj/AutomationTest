@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="14" passed="14">
+<testng-results skipped="0" failed="10" total="11" passed="1">
   <reporter-output>
     <line>
       <![CDATA[Searched forrings]]>
@@ -11,10 +11,10 @@
       <![CDATA[Total Products found84]]>
     </line>
     <line>
-      <![CDATA[Clicked on product ID44224]]>
+      <![CDATA[Clicked on product ID52591]]>
     </line>
     <line>
-      <![CDATA[Added product with 44224to cart]]>
+      <![CDATA[Added product with 52591to cart]]>
     </line>
     <line>
       <![CDATA[added product to bag]]>
@@ -26,7 +26,7 @@
       <![CDATA[clicked on checkout button]]>
     </line>
     <line>
-      <![CDATA[Total Products found 44]]>
+      <![CDATA[Total Products found 1]]>
     </line>
     <line>
       <![CDATA[Searched forBracelets]]>
@@ -38,13 +38,10 @@
       <![CDATA[Total Products found 84]]>
     </line>
     <line>
-      <![CDATA[Clicked on product ID43282]]>
+      <![CDATA[Clicked on product ID34670]]>
     </line>
     <line>
-      <![CDATA[Total Products found 45]]>
-    </line>
-    <line>
-      <![CDATA[add item to bag from wishlist page]]>
+      <![CDATA[Total Products found 1]]>
     </line>
     <line>
       <![CDATA[Searched forBracelets]]>
@@ -56,21 +53,18 @@
       <![CDATA[Total Products found 84]]>
     </line>
     <line>
-      <![CDATA[Clicked on product ID44270]]>
+      <![CDATA[Clicked on product ID52175]]>
     </line>
     <line>
-      <![CDATA[Total Products found 46]]>
-    </line>
-    <line>
-      <![CDATA[add item to bag from wishlist page]]>
+      <![CDATA[Total Products found 1]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="1074813" started-at="2019-08-02T07:33:43Z" finished-at="2019-08-02T07:51:38Z">
+  <suite name="Suite" duration-ms="1073963" started-at="2020-01-08T07:03:02Z" finished-at="2020-01-08T07:20:56Z">
     <groups>
     </groups>
-    <test name="Cart-CH" duration-ms="1074813" started-at="2019-08-02T07:33:43Z" finished-at="2019-08-02T07:51:38Z">
+    <test name="Cart-CH" duration-ms="1073963" started-at="2020-01-08T07:03:02Z" finished-at="2020-01-08T07:20:56Z">
       <class name="testcases.Wishlist">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.Wishlist@6d00a15d]" name="setUp" is-config="true" duration-ms="3766" started-at="2019-08-02T13:07:51Z" finished-at="2019-08-02T13:07:54Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.Wishlist@2ef5e5e3]" name="setUp" is-config="true" duration-ms="9362" started-at="2020-01-08T12:46:59Z" finished-at="2020-01-08T12:47:09Z">
           <params>
             <param index="0">
               <value>
@@ -86,25 +80,91 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="wishlistProduct()[pri:0, instance:testcases.Wishlist@6d00a15d]" name="wishlistProduct" duration-ms="44392" started-at="2019-08-02T13:07:54Z" finished-at="2019-08-02T13:08:39Z">
+        <test-method status="FAIL" signature="wishlistProduct()[pri:0, instance:testcases.Wishlist@2ef5e5e3]" name="wishlistProduct" duration-ms="47608" started-at="2020-01-08T12:47:09Z" finished-at="2020-01-08T12:47:56Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='shop']/div[1]/div/div[1]/div[2]/div/div[2]/div[1]/div/div/div/div"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54210}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 282d7eae1ee02fd4998e8a62d4ce6261
+*** Element info: {Using=xpath, value=//*[@id='shop']/div[1]/div/div[1]/div[2]/div/div[2]/div[1]/div/div/div/div}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='shop']/div[1]/div/div[1]/div[2]/div/div[2]/div[1]/div/div/div/div"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54210}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 282d7eae1ee02fd4998e8a62d4ce6261
+*** Element info: {Using=xpath, value=//*[@id='shop']/div[1]/div/div[1]/div[2]/div/div[2]/div[1]/div/div/div/div}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.unicefuk.base.BasePageObject.click(BasePageObject.java:49)
+	at com.unicefuk.pages.PersonalWishlist.clickWishlistProductRandom(PersonalWishlist.java:50)
+	at testcases.Wishlist.wishlistProduct(Wishlist.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
             <line>
-              <![CDATA[Total Products found 44]]>
+              <![CDATA[Total Products found 1]]>
             </line>
           </reporter-output>
         </test-method> <!-- wishlistProduct -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.Wishlist@6d00a15d]" name="tearDown" is-config="true" duration-ms="691" started-at="2019-08-02T13:08:39Z" finished-at="2019-08-02T13:08:40Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.Wishlist@2ef5e5e3]" name="tearDown" is-config="true" duration-ms="690" started-at="2020-01-08T12:47:56Z" finished-at="2020-01-08T12:47:57Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=wishlistProduct status=SUCCESS method=Wishlist.wishlistProduct()[pri:0, instance:testcases.Wishlist@6d00a15d] output=Total Products found 44]]]>
+                <![CDATA[[TestResult name=wishlistProduct status=FAILURE method=Wishlist.wishlistProduct()[pri:0, instance:testcases.Wishlist@2ef5e5e3] output=Total Products found 1]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.Wishlist@6d00a15d]" name="setUp" is-config="true" duration-ms="3458" started-at="2019-08-02T13:08:40Z" finished-at="2019-08-02T13:08:43Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.Wishlist@2ef5e5e3]" name="setUp" is-config="true" duration-ms="9356" started-at="2020-01-08T12:47:57Z" finished-at="2020-01-08T12:48:06Z">
           <params>
             <param index="0">
               <value>
@@ -120,7 +180,73 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="WishlisttocartUsingGuest()[pri:0, instance:testcases.Wishlist@6d00a15d]" name="WishlisttocartUsingGuest" duration-ms="129228" started-at="2019-08-02T13:08:43Z" finished-at="2019-08-02T13:10:52Z">
+        <test-method status="FAIL" signature="WishlisttocartUsingGuest()[pri:0, instance:testcases.Wishlist@2ef5e5e3]" name="WishlisttocartUsingGuest" duration-ms="82300" started-at="2020-01-08T12:48:06Z" finished-at="2020-01-08T12:49:28Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='shop']/div[1]/div/div[1]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/button"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54603}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 383945eeecc139577908a37bb10de8fb
+*** Element info: {Using=xpath, value=//*[@id='shop']/div[1]/div/div[1]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/button}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='shop']/div[1]/div/div[1]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/button"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54603}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 383945eeecc139577908a37bb10de8fb
+*** Element info: {Using=xpath, value=//*[@id='shop']/div[1]/div/div[1]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/button}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.unicefuk.base.BasePageObject.click(BasePageObject.java:49)
+	at com.unicefuk.pages.PersonalWishlist.WishlistAddtoBag(PersonalWishlist.java:65)
+	at testcases.Wishlist.WishlisttocartUsingGuest(Wishlist.java:173)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
             <line>
               <![CDATA[Searched forBracelets]]>
@@ -132,28 +258,25 @@
               <![CDATA[Total Products found 84]]>
             </line>
             <line>
-              <![CDATA[Clicked on product ID43282]]>
+              <![CDATA[Clicked on product ID34670]]>
             </line>
             <line>
-              <![CDATA[Total Products found 45]]>
-            </line>
-            <line>
-              <![CDATA[add item to bag from wishlist page]]>
+              <![CDATA[Total Products found 1]]>
             </line>
           </reporter-output>
         </test-method> <!-- WishlisttocartUsingGuest -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.Wishlist@6d00a15d]" name="tearDown" is-config="true" duration-ms="646" started-at="2019-08-02T13:10:52Z" finished-at="2019-08-02T13:10:53Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.Wishlist@2ef5e5e3]" name="tearDown" is-config="true" duration-ms="696" started-at="2020-01-08T12:49:28Z" finished-at="2020-01-08T12:49:29Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=WishlisttocartUsingGuest status=SUCCESS method=Wishlist.WishlisttocartUsingGuest()[pri:0, instance:testcases.Wishlist@6d00a15d] output=Searched forBracelets]]]>
+                <![CDATA[[TestResult name=WishlisttocartUsingGuest status=FAILURE method=Wishlist.WishlisttocartUsingGuest()[pri:0, instance:testcases.Wishlist@2ef5e5e3] output=Searched forBracelets]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.Wishlist@6d00a15d]" name="setUp" is-config="true" duration-ms="3816" started-at="2019-08-02T13:10:53Z" finished-at="2019-08-02T13:10:57Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.Wishlist@2ef5e5e3]" name="setUp" is-config="true" duration-ms="9475" started-at="2020-01-08T12:49:29Z" finished-at="2020-01-08T12:49:39Z">
           <params>
             <param index="0">
               <value>
@@ -169,7 +292,73 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="WishlisttocartCheckOut()[pri:0, instance:testcases.Wishlist@6d00a15d]" name="WishlisttocartCheckOut" duration-ms="131661" started-at="2019-08-02T13:10:57Z" finished-at="2019-08-02T13:13:08Z">
+        <test-method status="FAIL" signature="WishlisttocartCheckOut()[pri:0, instance:testcases.Wishlist@2ef5e5e3]" name="WishlisttocartCheckOut" duration-ms="76353" started-at="2020-01-08T12:49:39Z" finished-at="2020-01-08T12:50:55Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='shop']/div[1]/div/div[1]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/button"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55391}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5a6ad1d84324f48955fa3f2dfc00c774
+*** Element info: {Using=xpath, value=//*[@id='shop']/div[1]/div/div[1]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/button}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='shop']/div[1]/div/div[1]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/button"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:55391}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5a6ad1d84324f48955fa3f2dfc00c774
+*** Element info: {Using=xpath, value=//*[@id='shop']/div[1]/div/div[1]/div[2]/div/div[2]/div[1]/div[2]/div[2]/div/button}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.unicefuk.base.BasePageObject.click(BasePageObject.java:49)
+	at com.unicefuk.pages.PersonalWishlist.WishlistAddtoBag(PersonalWishlist.java:65)
+	at testcases.Wishlist.WishlisttocartCheckOut(Wishlist.java:102)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
             <line>
               <![CDATA[Searched forBracelets]]>
@@ -181,133 +370,31 @@
               <![CDATA[Total Products found 84]]>
             </line>
             <line>
-              <![CDATA[Clicked on product ID44270]]>
+              <![CDATA[Clicked on product ID52175]]>
             </line>
             <line>
-              <![CDATA[Total Products found 46]]>
-            </line>
-            <line>
-              <![CDATA[add item to bag from wishlist page]]>
+              <![CDATA[Total Products found 1]]>
             </line>
           </reporter-output>
         </test-method> <!-- WishlisttocartCheckOut -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.Wishlist@6d00a15d]" name="tearDown" is-config="true" duration-ms="656" started-at="2019-08-02T13:13:08Z" finished-at="2019-08-02T13:13:09Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.Wishlist@2ef5e5e3]" name="tearDown" is-config="true" duration-ms="703" started-at="2020-01-08T12:50:55Z" finished-at="2020-01-08T12:50:56Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=WishlisttocartCheckOut status=SUCCESS method=Wishlist.WishlisttocartCheckOut()[pri:0, instance:testcases.Wishlist@6d00a15d] output=Searched forBracelets]]]>
+                <![CDATA[[TestResult name=WishlisttocartCheckOut status=FAILURE method=Wishlist.WishlisttocartCheckOut()[pri:0, instance:testcases.Wishlist@2ef5e5e3] output=Searched forBracelets]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:testcases.Wishlist@6d00a15d]" name="endTest" is-config="true" duration-ms="0" started-at="2019-08-02T13:13:09Z" finished-at="2019-08-02T13:13:09Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testcases.Wishlist@2ef5e5e3]" name="endTest" is-config="true" duration-ms="0" started-at="2020-01-08T12:50:56Z" finished-at="2020-01-08T12:50:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
       </class> <!-- testcases.Wishlist -->
-      <class name="testcases.SignInSignUp">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.SignInSignUp@1753acfe]" name="setUp" is-config="true" duration-ms="4184" started-at="2019-08-02T13:03:43Z" finished-at="2019-08-02T13:03:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testcases.SignInSignUp.LoginUnicefUS() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="LoginUnicefUS()[pri:0, instance:testcases.SignInSignUp@1753acfe]" name="LoginUnicefUS" duration-ms="36146" started-at="2019-08-02T13:03:48Z" finished-at="2019-08-02T13:04:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginUnicefUS -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.SignInSignUp@1753acfe]" name="tearDown" is-config="true" duration-ms="636" started-at="2019-08-02T13:04:24Z" finished-at="2019-08-02T13:04:24Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=LoginUnicefUS status=SUCCESS method=SignInSignUp.LoginUnicefUS()[pri:0, instance:testcases.SignInSignUp@1753acfe] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.SignInSignUp@1753acfe]" name="setUp" is-config="true" duration-ms="3514" started-at="2019-08-02T13:04:24Z" finished-at="2019-08-02T13:04:28Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testcases.SignInSignUp.forgetPassword() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="forgetPassword()[pri:0, instance:testcases.SignInSignUp@1753acfe]" name="forgetPassword" duration-ms="34320" started-at="2019-08-02T13:04:28Z" finished-at="2019-08-02T13:05:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- forgetPassword -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.SignInSignUp@1753acfe]" name="tearDown" is-config="true" duration-ms="676" started-at="2019-08-02T13:05:02Z" finished-at="2019-08-02T13:05:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=forgetPassword status=SUCCESS method=SignInSignUp.forgetPassword()[pri:0, instance:testcases.SignInSignUp@1753acfe] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.SignInSignUp@1753acfe]" name="setUp" is-config="true" duration-ms="3606" started-at="2019-08-02T13:05:03Z" finished-at="2019-08-02T13:05:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[public void testcases.SignInSignUp.signup() throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="signup()[pri:0, instance:testcases.SignInSignUp@1753acfe]" name="signup" duration-ms="40087" started-at="2019-08-02T13:05:07Z" finished-at="2019-08-02T13:05:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signup -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.SignInSignUp@1753acfe]" name="tearDown" is-config="true" duration-ms="666" started-at="2019-08-02T13:05:47Z" finished-at="2019-08-02T13:05:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=signup status=SUCCESS method=SignInSignUp.signup()[pri:0, instance:testcases.SignInSignUp@1753acfe] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:testcases.SignInSignUp@1753acfe]" name="endTest" is-config="true" duration-ms="1" started-at="2019-08-02T13:05:47Z" finished-at="2019-08-02T13:05:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endTest -->
-      </class> <!-- testcases.SignInSignUp -->
       <class name="testcases.CrticalPathFlow">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.CrticalPathFlow@7c16905e]" name="setUp" is-config="true" duration-ms="3555" started-at="2019-08-02T13:05:47Z" finished-at="2019-08-02T13:05:51Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.CrticalPathFlow@d2cc05a]" name="setUp" is-config="true" duration-ms="12116" started-at="2020-01-08T12:33:02Z" finished-at="2020-01-08T12:33:14Z">
           <params>
             <param index="0">
               <value>
@@ -323,7 +410,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="typeandsearch(java.lang.String)[pri:0, instance:testcases.CrticalPathFlow@7c16905e]" name="typeandsearch" duration-ms="119173" started-at="2019-08-02T13:05:51Z" finished-at="2019-08-02T13:07:50Z">
+        <test-method status="PASS" signature="typeandsearch(java.lang.String)[pri:0, instance:testcases.CrticalPathFlow@d2cc05a]" name="typeandsearch" duration-ms="154142" started-at="2020-01-08T12:33:14Z" finished-at="2020-01-08T12:35:48Z">
           <params>
             <param index="0">
               <value>
@@ -342,10 +429,10 @@
               <![CDATA[Total Products found84]]>
             </line>
             <line>
-              <![CDATA[Clicked on product ID44224]]>
+              <![CDATA[Clicked on product ID52591]]>
             </line>
             <line>
-              <![CDATA[Added product with 44224to cart]]>
+              <![CDATA[Added product with 52591to cart]]>
             </line>
             <line>
               <![CDATA[added product to bag]]>
@@ -358,24 +445,24 @@
             </line>
           </reporter-output>
         </test-method> <!-- typeandsearch -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.CrticalPathFlow@7c16905e]" name="tearDown" is-config="true" duration-ms="665" started-at="2019-08-02T13:07:50Z" finished-at="2019-08-02T13:07:51Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.CrticalPathFlow@d2cc05a]" name="tearDown" is-config="true" duration-ms="744" started-at="2020-01-08T12:35:48Z" finished-at="2020-01-08T12:35:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=typeandsearch status=SUCCESS method=CrticalPathFlow.typeandsearch(java.lang.String)[pri:0, instance:testcases.CrticalPathFlow@7c16905e] output=Searched forrings]]]>
+                <![CDATA[[TestResult name=typeandsearch status=SUCCESS method=CrticalPathFlow.typeandsearch(java.lang.String)[pri:0, instance:testcases.CrticalPathFlow@d2cc05a] output=Searched forrings]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:testcases.CrticalPathFlow@7c16905e]" name="endTest" is-config="true" duration-ms="1" started-at="2019-08-02T13:07:51Z" finished-at="2019-08-02T13:07:51Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testcases.CrticalPathFlow@d2cc05a]" name="endTest" is-config="true" duration-ms="0" started-at="2020-01-08T12:35:49Z" finished-at="2020-01-08T12:35:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
       </class> <!-- testcases.CrticalPathFlow -->
       <class name="testcases.InspiredGifts">
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="setUp" is-config="true" duration-ms="3620" started-at="2019-08-02T13:13:09Z" finished-at="2019-08-02T13:13:13Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="setUp" is-config="true" duration-ms="9489" started-at="2020-01-08T12:35:49Z" finished-at="2020-01-08T12:35:58Z">
           <params>
             <param index="0">
               <value>
@@ -391,22 +478,88 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="IGcreateCardPrintedCard()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="IGcreateCardPrintedCard" duration-ms="77755" started-at="2019-08-02T13:13:13Z" finished-at="2019-08-02T13:14:30Z">
+        <test-method status="FAIL" signature="IGcreateCardPrintedCard()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="IGcreateCardPrintedCard" duration-ms="31971" started-at="2020-01-08T12:35:58Z" finished-at="2020-01-08T12:36:30Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='IG-allGifts-list']/div/ul/li[2]/div/a"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51116}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1f61025764dd18af26f2e53d99adbd4d
+*** Element info: {Using=xpath, value=//*[@class='IG-allGifts-list']/div/ul/li[2]/div/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='IG-allGifts-list']/div/ul/li[2]/div/a"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51116}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1f61025764dd18af26f2e53d99adbd4d
+*** Element info: {Using=xpath, value=//*[@class='IG-allGifts-list']/div/ul/li[2]/div/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.unicefuk.base.BasePageObject.click(BasePageObject.java:49)
+	at com.unicefuk.pages.IGgiftPage.chooseIGGifts(IGgiftPage.java:47)
+	at testcases.InspiredGifts.IGcreateCardPrintedCard(InspiredGifts.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- IGcreateCardPrintedCard -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="tearDown" is-config="true" duration-ms="647" started-at="2019-08-02T13:14:30Z" finished-at="2019-08-02T13:14:31Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="tearDown" is-config="true" duration-ms="657" started-at="2020-01-08T12:36:30Z" finished-at="2020-01-08T12:36:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=IGcreateCardPrintedCard status=SUCCESS method=InspiredGifts.IGcreateCardPrintedCard()[pri:0, instance:testcases.InspiredGifts@548a9f61] output={null}]]]>
+                <![CDATA[[TestResult name=IGcreateCardPrintedCard status=FAILURE method=InspiredGifts.IGcreateCardPrintedCard()[pri:0, instance:testcases.InspiredGifts@548a9f61] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="setUp" is-config="true" duration-ms="3480" started-at="2019-08-02T13:14:31Z" finished-at="2019-08-02T13:14:34Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="setUp" is-config="true" duration-ms="9353" started-at="2020-01-08T12:36:31Z" finished-at="2020-01-08T12:36:40Z">
           <params>
             <param index="0">
               <value>
@@ -422,22 +575,88 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="IGcreatePrintedAtHomeCard()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="IGcreatePrintedAtHomeCard" duration-ms="53709" started-at="2019-08-02T13:14:34Z" finished-at="2019-08-02T13:15:28Z">
+        <test-method status="FAIL" signature="IGcreatePrintedAtHomeCard()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="IGcreatePrintedAtHomeCard" duration-ms="188509" started-at="2020-01-08T12:36:40Z" finished-at="2020-01-08T12:39:49Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='IG-allGifts-list']/div/ul/li[2]/div/a"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51476}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a7d66836df8f1050a5ff6861cd1b0369
+*** Element info: {Using=xpath, value=//*[@class='IG-allGifts-list']/div/ul/li[2]/div/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='IG-allGifts-list']/div/ul/li[2]/div/a"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51476}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a7d66836df8f1050a5ff6861cd1b0369
+*** Element info: {Using=xpath, value=//*[@class='IG-allGifts-list']/div/ul/li[2]/div/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.unicefuk.base.BasePageObject.click(BasePageObject.java:49)
+	at com.unicefuk.pages.IGgiftPage.chooseIGGifts(IGgiftPage.java:47)
+	at testcases.InspiredGifts.IGcreatePrintedAtHomeCard(InspiredGifts.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- IGcreatePrintedAtHomeCard -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="tearDown" is-config="true" duration-ms="706" started-at="2019-08-02T13:15:28Z" finished-at="2019-08-02T13:15:29Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="tearDown" is-config="true" duration-ms="636" started-at="2020-01-08T12:39:49Z" finished-at="2020-01-08T12:39:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=IGcreatePrintedAtHomeCard status=SUCCESS method=InspiredGifts.IGcreatePrintedAtHomeCard()[pri:0, instance:testcases.InspiredGifts@548a9f61] output={null}]]]>
+                <![CDATA[[TestResult name=IGcreatePrintedAtHomeCard status=FAILURE method=InspiredGifts.IGcreatePrintedAtHomeCard()[pri:0, instance:testcases.InspiredGifts@548a9f61] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="setUp" is-config="true" duration-ms="3419" started-at="2019-08-02T13:15:29Z" finished-at="2019-08-02T13:15:32Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="setUp" is-config="true" duration-ms="9360" started-at="2020-01-08T12:39:49Z" finished-at="2020-01-08T12:39:59Z">
           <params>
             <param index="0">
               <value>
@@ -453,22 +672,88 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="IGcreateEGreetingCard()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="IGcreateEGreetingCard" duration-ms="63777" started-at="2019-08-02T13:15:32Z" finished-at="2019-08-02T13:16:36Z">
+        <test-method status="FAIL" signature="IGcreateEGreetingCard()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="IGcreateEGreetingCard" duration-ms="242775" started-at="2020-01-08T12:39:59Z" finished-at="2020-01-08T12:44:02Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='IG-allGifts-list']/div/ul/li[2]/div/a"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51914}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b149e3fa38f1ce917b0478e0ca061325
+*** Element info: {Using=xpath, value=//*[@class='IG-allGifts-list']/div/ul/li[2]/div/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='IG-allGifts-list']/div/ul/li[2]/div/a"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51914}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b149e3fa38f1ce917b0478e0ca061325
+*** Element info: {Using=xpath, value=//*[@class='IG-allGifts-list']/div/ul/li[2]/div/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.unicefuk.base.BasePageObject.click(BasePageObject.java:49)
+	at com.unicefuk.pages.IGgiftPage.chooseIGGifts(IGgiftPage.java:47)
+	at testcases.InspiredGifts.IGcreateEGreetingCard(InspiredGifts.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- IGcreateEGreetingCard -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="tearDown" is-config="true" duration-ms="659" started-at="2019-08-02T13:16:36Z" finished-at="2019-08-02T13:16:37Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="tearDown" is-config="true" duration-ms="710" started-at="2020-01-08T12:44:02Z" finished-at="2020-01-08T12:44:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=IGcreateEGreetingCard status=SUCCESS method=InspiredGifts.IGcreateEGreetingCard()[pri:0, instance:testcases.InspiredGifts@548a9f61] output={null}]]]>
+                <![CDATA[[TestResult name=IGcreateEGreetingCard status=FAILURE method=InspiredGifts.IGcreateEGreetingCard()[pri:0, instance:testcases.InspiredGifts@548a9f61] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="setUp" is-config="true" duration-ms="3491" started-at="2019-08-02T13:16:37Z" finished-at="2019-08-02T13:16:40Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="setUp" is-config="true" duration-ms="9518" started-at="2020-01-08T12:44:02Z" finished-at="2020-01-08T12:44:12Z">
           <params>
             <param index="0">
               <value>
@@ -484,22 +769,88 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="IGcreateCardNoCard()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="IGcreateCardNoCard" duration-ms="40506" started-at="2019-08-02T13:16:40Z" finished-at="2019-08-02T13:17:21Z">
+        <test-method status="FAIL" signature="IGcreateCardNoCard()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="IGcreateCardNoCard" duration-ms="29271" started-at="2020-01-08T12:44:12Z" finished-at="2020-01-08T12:44:41Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='IG-allGifts-list']/div/ul/li[2]/div/a"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52498}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3a26716fa621339fe3b3575beb0e0101
+*** Element info: {Using=xpath, value=//*[@class='IG-allGifts-list']/div/ul/li[2]/div/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='IG-allGifts-list']/div/ul/li[2]/div/a"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52498}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3a26716fa621339fe3b3575beb0e0101
+*** Element info: {Using=xpath, value=//*[@class='IG-allGifts-list']/div/ul/li[2]/div/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.unicefuk.base.BasePageObject.click(BasePageObject.java:49)
+	at com.unicefuk.pages.IGgiftPage.chooseIGGifts(IGgiftPage.java:47)
+	at testcases.InspiredGifts.IGcreateCardNoCard(InspiredGifts.java:114)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- IGcreateCardNoCard -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="tearDown" is-config="true" duration-ms="616" started-at="2019-08-02T13:17:21Z" finished-at="2019-08-02T13:17:21Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="tearDown" is-config="true" duration-ms="647" started-at="2020-01-08T12:44:41Z" finished-at="2020-01-08T12:44:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=IGcreateCardNoCard status=SUCCESS method=InspiredGifts.IGcreateCardNoCard()[pri:0, instance:testcases.InspiredGifts@548a9f61] output={null}]]]>
+                <![CDATA[[TestResult name=IGcreateCardNoCard status=FAILURE method=InspiredGifts.IGcreateCardNoCard()[pri:0, instance:testcases.InspiredGifts@548a9f61] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="setUp" is-config="true" duration-ms="3422" started-at="2019-08-02T13:17:21Z" finished-at="2019-08-02T13:17:25Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="setUp" is-config="true" duration-ms="9294" started-at="2020-01-08T12:44:42Z" finished-at="2020-01-08T12:44:51Z">
           <params>
             <param index="0">
               <value>
@@ -515,22 +866,88 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="RemoveIGGift()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="RemoveIGGift" duration-ms="67183" started-at="2019-08-02T13:17:25Z" finished-at="2019-08-02T13:18:32Z">
+        <test-method status="FAIL" signature="RemoveIGGift()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="RemoveIGGift" duration-ms="29884" started-at="2020-01-08T12:44:51Z" finished-at="2020-01-08T12:45:21Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='IG-allGifts-list']/div/ul/li[2]/div/a"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: aea875122240a00288971681263fc86a
+*** Element info: {Using=xpath, value=//*[@class='IG-allGifts-list']/div/ul/li[2]/div/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='IG-allGifts-list']/div/ul/li[2]/div/a"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:52883}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: aea875122240a00288971681263fc86a
+*** Element info: {Using=xpath, value=//*[@class='IG-allGifts-list']/div/ul/li[2]/div/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.unicefuk.base.BasePageObject.click(BasePageObject.java:49)
+	at com.unicefuk.pages.IGgiftPage.chooseIGGifts(IGgiftPage.java:47)
+	at testcases.InspiredGifts.RemoveIGGift(InspiredGifts.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RemoveIGGift -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="tearDown" is-config="true" duration-ms="643" started-at="2019-08-02T13:18:32Z" finished-at="2019-08-02T13:18:33Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="tearDown" is-config="true" duration-ms="662" started-at="2020-01-08T12:45:21Z" finished-at="2020-01-08T12:45:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=RemoveIGGift status=SUCCESS method=InspiredGifts.RemoveIGGift()[pri:0, instance:testcases.InspiredGifts@548a9f61] output={null}]]]>
+                <![CDATA[[TestResult name=RemoveIGGift status=FAILURE method=InspiredGifts.RemoveIGGift()[pri:0, instance:testcases.InspiredGifts@548a9f61] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="setUp" is-config="true" duration-ms="3509" started-at="2019-08-02T13:18:33Z" finished-at="2019-08-02T13:18:36Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="setUp" is-config="true" duration-ms="9593" started-at="2020-01-08T12:45:22Z" finished-at="2020-01-08T12:45:31Z">
           <params>
             <param index="0">
               <value>
@@ -546,22 +963,88 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="checkOutIGGift()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="checkOutIGGift" duration-ms="128010" started-at="2019-08-02T13:18:36Z" finished-at="2019-08-02T13:20:44Z">
+        <test-method status="FAIL" signature="checkOutIGGift()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="checkOutIGGift" duration-ms="30183" started-at="2020-01-08T12:45:31Z" finished-at="2020-01-08T12:46:01Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='IG-allGifts-list']/div/ul/li[2]/div/a"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53267}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: daed2b45786fcd3bd0d2da0545ddd2b2
+*** Element info: {Using=xpath, value=//*[@class='IG-allGifts-list']/div/ul/li[2]/div/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='IG-allGifts-list']/div/ul/li[2]/div/a"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53267}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: daed2b45786fcd3bd0d2da0545ddd2b2
+*** Element info: {Using=xpath, value=//*[@class='IG-allGifts-list']/div/ul/li[2]/div/a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.unicefuk.base.BasePageObject.click(BasePageObject.java:49)
+	at com.unicefuk.pages.IGgiftPage.chooseIGGifts(IGgiftPage.java:47)
+	at testcases.InspiredGifts.checkOutIGGift(InspiredGifts.java:139)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkOutIGGift -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="tearDown" is-config="true" duration-ms="676" started-at="2019-08-02T13:20:44Z" finished-at="2019-08-02T13:20:45Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="tearDown" is-config="true" duration-ms="702" started-at="2020-01-08T12:46:01Z" finished-at="2020-01-08T12:46:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkOutIGGift status=SUCCESS method=InspiredGifts.checkOutIGGift()[pri:0, instance:testcases.InspiredGifts@548a9f61] output={null}]]]>
+                <![CDATA[[TestResult name=checkOutIGGift status=FAILURE method=InspiredGifts.checkOutIGGift()[pri:0, instance:testcases.InspiredGifts@548a9f61] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="setUp" is-config="true" duration-ms="3393" started-at="2019-08-02T13:20:45Z" finished-at="2019-08-02T13:20:48Z">
+        <test-method status="PASS" signature="setUp(java.lang.Integer, java.lang.reflect.Method)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="setUp" is-config="true" duration-ms="9450" started-at="2020-01-08T12:46:02Z" finished-at="2020-01-08T12:46:11Z">
           <params>
             <param index="0">
               <value>
@@ -577,22 +1060,88 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="removeAddress()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="removeAddress" duration-ms="49344" started-at="2019-08-02T13:20:48Z" finished-at="2019-08-02T13:21:38Z">
+        <test-method status="FAIL" signature="removeAddress()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="removeAddress" duration-ms="47045" started-at="2020-01-08T12:46:11Z" finished-at="2020-01-08T12:46:59Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='shop']/div[1]/div/div[1]/div[2]/div/div[1]/div[1]/a[2]"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53713}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4de0f50c74cf89e6f6eb7c4e959cab36
+*** Element info: {Using=xpath, value=//*[@id='shop']/div[1]/div/div[1]/div[2]/div/div[1]/div[1]/a[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='shop']/div[1]/div/div[1]/div[2]/div/div[1]/div[1]/a[2]"}
+  (Session info: chrome=79.0.3945.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-NBJ195T', ip: '192.168.1.22', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.88, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\Gigi\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53713}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4de0f50c74cf89e6f6eb7c4e959cab36
+*** Element info: {Using=xpath, value=//*[@id='shop']/div[1]/div/div[1]/div[2]/div/div[1]/div[1]/a[2]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.unicefuk.base.BasePageObject.click(BasePageObject.java:49)
+	at com.unicefuk.pages.ShippingAddressPage.RemoveAddressBook(ShippingAddressPage.java:125)
+	at testcases.InspiredGifts.removeAddress(InspiredGifts.java:208)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeAddress -->
-        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="tearDown" is-config="true" duration-ms="659" started-at="2019-08-02T13:21:38Z" finished-at="2019-08-02T13:21:38Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="tearDown" is-config="true" duration-ms="657" started-at="2020-01-08T12:46:59Z" finished-at="2020-01-08T12:46:59Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=removeAddress status=SUCCESS method=InspiredGifts.removeAddress()[pri:0, instance:testcases.InspiredGifts@548a9f61] output={null}]]]>
+                <![CDATA[[TestResult name=removeAddress status=FAILURE method=InspiredGifts.removeAddress()[pri:0, instance:testcases.InspiredGifts@548a9f61] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="endTest" is-config="true" duration-ms="0" started-at="2019-08-02T13:21:38Z" finished-at="2019-08-02T13:21:38Z">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testcases.InspiredGifts@548a9f61]" name="endTest" is-config="true" duration-ms="1" started-at="2020-01-08T12:46:59Z" finished-at="2020-01-08T12:46:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->

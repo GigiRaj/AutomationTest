@@ -5,10 +5,10 @@
  <parameter name="browser" value="1"/>
  <classes>
  
-	<class name="testcases.SignInSignUp"/>
-	<class name="testcases.CrticalPathFlow"/>
-	<class name="testcases.Wishlist"/>
-	<class name="testcases.InspiredGifts"/>
+<class name="testcases.CrticalPathFlow"/>
+<class name="testcases.InspiredGifts"/>
+<class name="testcases.Wishlist"/>
+
    
  </classes>
   </test> <!-- Test -->

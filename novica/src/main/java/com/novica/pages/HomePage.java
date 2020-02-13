@@ -72,6 +72,11 @@ public class HomePage extends BasePageObject {
 			scrollToBottom();
 			scrollToBottom();
 			scrollToBottom();
+			scrollToBottom();
+			scrollToBottom();
+			scrollToBottom();
+			scrollToBottom();
+			scrollToBottom();
 			By bottomBanner= By.xpath("//*[@id='bottom_mobile']");
 			By closeIcon= By.xpath("//*[@id='bottom_mobile']/p/span[3]");
 			By wholeSaleButton= By.xpath("//*[@id='footer-links']/div/div[1]/ul/li[3]/a");

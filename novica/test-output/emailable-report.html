@@ -31,38 +31,278 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Cart-CH</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">279.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Cart-CH</td><td class="numi">10</td><td class="numi">10</td><td class="numi">0</td><td class="numi">0</td><td class="numi">1,259.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
 <tr><th colspan="4">Cart-CH &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">testcase.WholeSale</td><td><a href="#m1"><b>crticalPathFlowUsingNewAddress</b>  </a></td><td class="numi">1</td><td>1564728013628</td><td class="numi">274492</td></tr>
+<tr class="passedodd"><td rowspan="1">testcase.CriticalPathFlow</td><td><a href="#m1"><b>crticalPathFlowUsingNewAddress</b>  </a></td><td class="numi">1</td><td>1578545464694</td><td class="numi">149053</td></tr>
+<tr class="passedeven"><td rowspan="2">testcase.AddressBook</td><td><a href="#m2"><b>crticalPathSameAddress</b>  </a></td><td class="numi">1</td><td>1578545624023</td><td class="numi">120829</td></tr><tr class="passedeven"><td><a href="#m3"><b>removeAddress1</b>  </a></td><td class="numi">1</td><td>1578545755065</td><td class="numi">81431</td></tr>
+<tr class="passedodd"><td rowspan="3">testcase.Wishlist</td><td><a href="#m4"><b>wishlistProduct</b>  </a></td><td class="numi">1</td><td>1578545846509</td><td class="numi">81469</td></tr><tr class="passedodd"><td><a href="#m5"><b>WishlisttocartUsingExpress</b>  </a></td><td class="numi">1</td><td>1578545938005</td><td class="numi">197502</td></tr><tr class="passedodd"><td><a href="#m6"><b>removeWishlist</b>  </a></td><td class="numi">1</td><td>1578546145683</td><td class="numi">62280</td></tr>
+<tr class="passedeven"><td rowspan="1">testcase.WholeSale</td><td><a href="#m7"><b>crticalPathFlowWholeSale</b>  </a></td><td class="numi">1</td><td>1578546218271</td><td class="numi">284504</td></tr>
+<tr class="passedodd"><td rowspan="3">testcase.SignUpLogin</td><td><a href="#m8"><b>LoginNovica</b>  </a></td><td class="numi">1</td><td>1578546513351</td><td class="numi">52628</td></tr><tr class="passedodd"><td><a href="#m9"><b>userSignup</b>  </a></td><td class="numi">1</td><td>1578546575995</td><td class="numi">70073</td></tr><tr class="passedodd"><td><a href="#m10"><b>forgetPassword</b>  </a></td><td class="numi">1</td><td>1578546656283</td><td class="numi">56742</td></tr>
 </table>
 <h1>Cart-CH</h1>
-<h2 id="m1">testcase.WholeSale:crticalPathFlowUsingNewAddress</h2>
+<h2 id="m1">testcase.Wishlist:removeWishlist</h2>
+<div style="padding-left:3em">
+Redirecting to home page <br><br/>
+click on the header wishlist button <br><br/>
+Redirecting to sig in page <br><br/>
+log in as user by providing email and password <br><br/>
+remove 2nd product from the wishlist page <br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">testcase.SignUpLogin:forgetPassword</h2>
+<div style="padding-left:3em">
+Redirecting to home page <br><br/>
+click on header sign in button <br><br/>
+Redirecting to sign in page <br><br/>
+to perform forgot password function <br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">testcase.CriticalPathFlow:crticalPathFlowUsingNewAddress</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>1</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+Loading Homepage <br><br/>
+Searched forblue<br><br/>
+Waiting for C3 to load <br><br/>
+Total Products found 84<br><br/>
+get the random product number <br><br/>
+Clicked on product ID241122<br><br/>
+to get the product prize <br><br/>
+Added product with 241122to cart<br><br/>
+Redirecting to cart page with price69.99<br><br/>
+to get the actual cart price <br><br/>
+check put the product <br><br/>
+Login as a user <br><br/>
+redirect to shipment page if the payment button is not active <br><br/>
+redirect to add shipping address page if receipient first name is not active <br><br/>
+type firstname <br><br/>
+type lastname <br><br/>
+type addressline 1 <br><br/>
+type addressline2 <br><br/>
+type cityname <br><br/>
+select the country USA <br><br/>
+type zipcode <br><br/>
+type phone number <br><br/>
+check the default phone box <br><br/>
+type company name <br><br/>
+check default address box <br><br/>
+add new shipping address <br><br/>
+click on bottom continue button <br><br/>
+redirect to gift wrap page <br><br/>
+click on top continue shipping button <br><br/>
+redirect to payment page <br><br/>
+redirect to payment page if the payment button is active <br><br/>
+click on apply promocode button <br><br/>
+apply promocode <br><br/>
+select donation from select box <br><br/>
+choose donation <br><br/>
+go to card payment section <br><br/>
+give card number <br><br/>
+give card name <br><br/>
+select card expiration month <br><br/>
+select card expiration year <br><br/>
+give card cvc code <br><br/>
+check on debit check box <br><br/>
+choose cardpayment <br><br/>
+click on select address button <br><br/>
+choose different address <br><br/>
+choose billing address <br><br/>
+click on continue button <br><br/>
+click on confirm order button <br><br/>
+do the payment functionalities <br><br/>
+redirect to shipment page <br><br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">testcase.WholeSale:crticalPathFlowWholeSale</h2>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr class="param"><th>Parameter #1</th></tr>
 <tr class="param stripe"><td>1</td>
 </tr>
 <tr><td style="padding-left:3em" colspan="1">
 Loading Homepage<br/>
-Searched forrings<br/>
-Waiting for C3 to load<br/>
-Total Products found 84<br/>
-Clicked on product ID331076<br/>
-Added product with 331076to cart<br/>
+click on whole sale menu button on footer <br><br/>
+click on whole sale sign in button <br><br/>
+give whole sale sign in details <br><br/>
+search for an item <br><br/>
+Searched forpaintings<br><br/>
+Waiting for C3 to load <br><br/>
+Total Products found 84<br><br/>
+get the random product number <br><br/>
+Clicked on product ID264143<br><br/>
+click on random product <br><br/>
+wait for item detail page to load <br><br/>
+Added product with 264143to cart<br><br/>
+redirect to cart page <br><br/>
 Searched foroil paintings<br/>
 Waiting for C3 to load<br/>
 Total Products found 84<br/>
-Clicked on product ID115590<br/>
-Added product with 115590to cart<br/>
-Searched foroil paintings<br/>
-Waiting for C3 to load<br/>
-Total Products found 84<br/>
-Clicked on product ID191922<br/>
-Added product with 191922to cart<br/>
-check put the product<br/>
-Login as a user<br/>
+Clicked on product ID246389<br/>
+Added product with 246389to cart<br/>
+click on keep shopping button <br><br/>
+Login as a user <br><br/>
+redirect to payment page if the payment button is active <br><br/>
+click on apply promocode button <br><br/>
+apply promocode <br><br/>
+select donation from select box <br><br/>
+choose donation <br><br/>
+go to card payment section <br><br/>
+give card number <br><br/>
+give card name <br><br/>
+select card expiration month <br><br/>
+select card expiration year <br><br/>
+give card cvc code <br><br/>
+check on debit check box <br><br/>
+choose cardpayment <br><br/>
+click on select address button <br><br/>
+choose different address <br><br/>
+choose billing address <br><br/>
+click on continue button <br><br/>
+click on confirm order button <br><br/>
+give all the payment details <br><br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">testcase.SignUpLogin:LoginNovica</h2>
+<div style="padding-left:3em">
+Redirecting to home page <br><br/>
+click on header sign in button <br><br/>
+Redirecting to sign in page <br><br/>
+log in as user by providing email and password <br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">testcase.Wishlist:wishlistProduct</h2>
+<div style="padding-left:3em">
+Redirecting to home page <br><br/>
+click on the header wishlist button <br><br/>
+Redirecting to sig in page <br><br/>
+log in as user by providing email and password <br><br/>
+Total Products found 7<br><br/>
+get random product number <br><br/>
+click on random product in the wishlist itemlist <br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">testcase.Wishlist:WishlisttocartUsingExpress</h2>
+<div style="padding-left:3em">
+Redirecting to home page <br><br/>
+Searching for Bags<br><br/>
+Waiting for Category page to Load <br><br/>
+Total Products found 84<br><br/>
+get the random product number <br><br/>
+Clicked on product ID125547<br><br/>
+click on random product <br><br/>
+Waiting for Item Detail page to Load <br><br/>
+add product to wishlist <br><br/>
+Redirecting to sig in page <br><br/>
+log in as user by providing email and password <br><br/>
+choose personal wishlist <br><br/>
+click on wishlist button on header <br><br/>
+Total Products found 8<br><br/>
+add item to bag from wishlist page <br><br/>
+redirecting to cart page <br><br/>
+check out the product <br><br/>
+enter sign in details <br><br/>
+redirect to shipment page if the payment button is not active <br><br/>
+redirect to add shipping address page if receipient first name is not active <br><br/>
+type firstname <br><br/>
+type lastname <br><br/>
+type addressline 1 <br><br/>
+type addressline2 <br><br/>
+type cityname <br><br/>
+select the country USA <br><br/>
+type zipcode <br><br/>
+type phone number <br><br/>
+check the default phone box <br><br/>
+type company name <br><br/>
+check default address box <br><br/>
+add new shipping address <br><br/>
+click on bottom continue button <br><br/>
+redirect to gift wrap page <br><br/>
+click on top continue shipping button <br><br/>
+redirect to payment page <br><br/>
+redirect to payment page if the payment button is active <br><br/>
+click on apply promocode button <br><br/>
+apply promocode <br><br/>
+select donation from select box <br><br/>
+choose donation <br><br/>
+go to card payment section <br><br/>
+give card number <br><br/>
+give card name <br><br/>
+select card expiration month <br><br/>
+select card expiration year <br><br/>
+give card cvc code <br><br/>
+check on debit check box <br><br/>
+choose cardpayment <br><br/>
+click on select address button <br><br/>
+choose different address <br><br/>
+choose billing address <br><br/>
+click on continue button <br><br/>
+click on confirm order button <br><br/>
+do the payment functionalities <br><br/>
+redirect to shipment page <br><br/>
+redirect to payment page <br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">testcase.AddressBook:removeAddress1</h2>
+<div style="padding-left:3em">
+Loading Homepage <br><br/>
+click on header sign in button <br><br/>
+wait for sign in page to load <br><br/>
+log in as user by providing email and password<br/>
+click on account button on header <br><br/>
+click on address book button <br><br/>
+emove each address by clicking on remove address button <br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">testcase.SignUpLogin:userSignup</h2>
+<div style="padding-left:3em">
+Redirecting to home page <br><br/>
+click on header sign in button <br><br/>
+Redirecting to sign in page <br><br/>
+Sign up as new user <br><br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">testcase.AddressBook:crticalPathSameAddress</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>1</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="1">
+Loading Homepage <br><br/>
+Searched forRed<br><br/>
+Waiting for C3 to load <br><br/>
+Total Products found 84<br><br/>
+get the random product number <br><br/>
+Clicked on product ID223503<br><br/>
+Get the product price <br><br/>
+Added product with 223503to cart<br><br/>
+Redirecting to cart page with price35.99<br><br/>
+to get the actual cart price <br><br/>
+check out the product <br><br/>
+redirect to payment page if the payment button is active <br><br/>
+click on apply promocode button <br><br/>
+apply promocode <br><br/>
+select donation from select box <br><br/>
+choose donation <br><br/>
+go to card payment section <br><br/>
+give card number <br><br/>
+give card name <br><br/>
+select card expiration month <br><br/>
+select card expiration year <br><br/>
+give card cvc code <br><br/>
+check on debit check box <br><br/>
+choose cardpayment <br><br/>
+click on select address button <br><br/>
+choose different address <br><br/>
+choose billing address <br><br/>
+click on continue button <br><br/>
+click on confirm order button <br><br/>
+redirect to payment functionalities <br><br/>
 </td></tr>
 </table>
 <p class="totop"><a href="#summary">back to summary</a></p>
